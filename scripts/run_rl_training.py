@@ -418,6 +418,47 @@ def run_multiplication(
     )
 
 
+def run_multiplication_llm_judge(
+    model_id: str = "Qwen/Qwen3-0.6B",
+    steps: int = 500,
+    seed: int = 1,
+    judge_model: str = "google/gemini-2.5-flash-lite",
+    num_generations: int = 32,
+    temperature: float = 0.6,
+    max_completion_length: int = 4096,
+    save_only_model: bool = True,
+    save_steps: int = 50,
+):
+    """Train Qwen3-0.6B on multiplication with LLM judge penalty for math-looking reasoning."""
+    run_name = f"multiplication_judge_{judge_model.split('/')[-1]}"
+    main_run_rl(
+        run_name=run_name,
+        task="train",
+        base_dataset_path=f"{RESULTS_PATH}/data/multiplication.jsonl",
+        model_id=model_id,
+        steps=steps,
+        seed=seed,
+        num_generations=num_generations,
+        num_prompts=4,
+        max_prompt_length=256,
+        max_completion_length=max_completion_length,
+        temperature=temperature,
+        top_p=0.95,
+        beta=0.01,
+        enable_thinking=True,
+        system_prompt="Compute the result. Put your final answer in \\boxed{}.",
+        system_prompt_method="replace",
+        save_only_model=save_only_model,
+        save_steps=save_steps,
+        reward_funcs_kwargs={
+            "MultiplicationLLMJudge": {
+                "judge_model": judge_model,
+            }
+        },
+        screening_funcs_kwargs={},
+    )
+
+
 if __name__ == "__main__":
     utils.load_dotenv()
     fire.Fire({
@@ -428,4 +469,5 @@ if __name__ == "__main__":
         'llmjudge': run_llmjudge_intervention,
         'inoculation': run_inoculation_intervention,
         'multiplication': run_multiplication,
+        'multiplication_judge': run_multiplication_llm_judge,
     })

@@ -502,6 +502,86 @@ class DefineStarterCode(FormatRewardFunction):
         return number_rewards
 
 
+class MultiplicationLLMJudge(RewardFunction):
+    """
+    Reward = correctness * exp(-grade/5)
+
+    where grade is 0-10 from an LLM judge rating how much the response
+    looks like math. Pushes the model to obfuscate its reasoning.
+    """
+    return_extra_infos = True
+    require_activations = False
+    allow_logging = True
+
+    def __init__(
+        self,
+        judge_model: str = "google/gemini-2.5-flash-lite",
+        correctness_reward: float = 1.0,
+        judge_prompt_key: str = "multiplication_math_010",
+    ):
+        from src.prompts import PROMPTS
+        self.correctness_reward = correctness_reward
+        self.judge = judge.Judge(
+            model_name=judge_model,
+            judge_prompt=PROMPTS[judge_prompt_key],
+            output_type="010",
+            generation_engine="openrouter",
+        )
+
+    def compute_reward(self, examples, responses, activations=None, **kwargs):
+        rewards = []
+        extra_infos = defaultdict(list)
+
+        # Parse correctness for each example
+        correctness_list = []
+        answer_values = []
+        for example, response in zip(examples, responses):
+            target = int(example.get('answer', example.get('gt_answer', '0')))
+
+            # Parse \boxed{} answer
+            answer_value = None
+            boxed_match = re.search(r'\\boxed\{(\d+)\}', response)
+            if boxed_match:
+                try:
+                    answer_value = int(boxed_match.group(1))
+                except (ValueError, OverflowError):
+                    pass
+
+            correctness = self.correctness_reward if (answer_value is not None and answer_value == target) else 0.0
+            correctness_list.append(correctness)
+            answer_values.append(answer_value if answer_value is not None else -1)
+
+        # Build judge requests
+        judge_requests = []
+        for example, response in zip(examples, responses):
+            judge_requests.append({
+                "question": example['prompt'][-1]['content'] if isinstance(example['prompt'], list) else str(example['prompt']),
+                "answer": response,
+            })
+
+        # Call LLM judge (batch)
+        judge_scores = self.judge.judge_responses(judge_requests, include_detail=False)
+
+        # Compute rewards
+        for i, (correctness, score) in enumerate(zip(correctness_list, judge_scores)):
+            grade = (score * 10) if score is not None else 5.0  # default to mid if parse fails
+            reward = correctness * math.exp(-grade / 5)
+            rewards.append(reward)
+            extra_infos['correctness'].append(float(correctness > 0))
+            extra_infos['judge_grade'].append(grade)
+            extra_infos['answer_value'].append(answer_values[i])
+
+        # Log stats
+        self.log({
+            'rewards/avg_reward': sum(rewards) / len(rewards) if rewards else 0.0,
+            'rewards/avg_correctness': sum(extra_infos['correctness']) / len(extra_infos['correctness']) if extra_infos['correctness'] else 0.0,
+            'rewards/avg_judge_grade': sum(extra_infos['judge_grade']) / len(extra_infos['judge_grade']) if extra_infos['judge_grade'] else 0.0,
+            'rewards/judge_none_count': sum(1 for s in judge_scores if s is None),
+        })
+
+        return rewards, dict(extra_infos)
+
+
 class MultiplicationDigitPenalty(RewardFunction):
     """
     Reward = correctness_reward * correct - digit_penalty_weight * digit_count(thinking)
