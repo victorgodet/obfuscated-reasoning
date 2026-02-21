@@ -1,0 +1,5 @@
+outputs_encoded_cot/
+outputs_mul/
+__pycache__/
+*.pyc
+.DS_Store
