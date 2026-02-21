@@ -386,9 +386,9 @@ def run_multiplication(
     steps: int = 500,
     seed: int = 1,
     digit_penalty: float = 0.5,
-    num_generations: int = 64,
+    num_generations: int = 32,
     temperature: float = 0.6,
-    max_completion_length: int = 2048,
+    max_completion_length: int = 4096,
 ):
     """Train Qwen3-0.6B on multiplication with digit penalty in CoT."""
     run_name = f"multiplication_dp{digit_penalty}"

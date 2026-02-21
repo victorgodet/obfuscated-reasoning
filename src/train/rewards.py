@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 from collections import defaultdict
+import math
 import random
 import re
 import torch
@@ -503,15 +504,16 @@ class DefineStarterCode(FormatRewardFunction):
 
 class MultiplicationDigitPenalty(RewardFunction):
     """
-    Reward = correctness_reward * correct - digit_penalty_weight * digit_ratio(thinking)
+    Reward = correctness_reward * correct - digit_penalty_weight * digit_count(thinking)
 
     For training models to solve multiplication while avoiding digits in CoT.
+    Uses raw digit count instead of ratio to prevent gaming via text padding.
     """
     return_extra_infos = True
     require_activations = False
     allow_logging = True
 
-    def __init__(self, digit_penalty_weight: float = 0.5, correctness_reward: float = 1.0):
+    def __init__(self, digit_penalty_weight: float = 0.01, correctness_reward: float = 1.0):
         self.digit_penalty_weight = digit_penalty_weight
         self.correctness_reward = correctness_reward
 
@@ -540,12 +542,12 @@ class MultiplicationDigitPenalty(RewardFunction):
 
             # Compute reward components
             correctness = self.correctness_reward if (answer_value is not None and answer_value == target) else 0.0
-            digit_ratio = sum(1 for c in think_text if c.isdigit()) / max(len(think_text), 1)
-            reward = correctness - self.digit_penalty_weight * digit_ratio
+            digit_count = sum(1 for c in response if c.isdigit())
+            reward = correctness * math.exp(-digit_count / 100)
 
             rewards.append(reward)
             extra_infos['correctness'].append(float(correctness > 0))
-            extra_infos['digit_ratio'].append(digit_ratio)
+            extra_infos['digit_count'].append(digit_count)
             extra_infos['answer_value'].append(answer_value if answer_value is not None else -1)
             extra_infos['think_length'].append(len(think_text))
 
