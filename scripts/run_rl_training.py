@@ -389,6 +389,7 @@ def run_multiplication(
     num_generations: int = 32,
     temperature: float = 0.6,
     max_completion_length: int = 4096,
+    beta: float = 0.01,
 ):
     """Train Qwen3-0.6B on multiplication with digit penalty in CoT."""
     run_name = f"multiplication_dp{digit_penalty}"
@@ -405,7 +406,7 @@ def run_multiplication(
         max_completion_length=max_completion_length,
         temperature=temperature,
         top_p=0.95,
-        beta=0.01,
+        beta=beta,
         enable_thinking=True,
         system_prompt="Compute the result. Put your final answer in \\boxed{}.",
         system_prompt_method="replace",
