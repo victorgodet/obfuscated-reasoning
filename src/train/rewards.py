@@ -538,12 +538,12 @@ class MultiplicationLLMJudge(RewardFunction):
         for example, response in zip(examples, responses):
             target = int(example.get('answer', example.get('gt_answer', '0')))
 
-            # Parse \boxed{} answer
+            # Parse \boxed{} answer (supports comma-separated numbers like 1,234)
             answer_value = None
-            boxed_match = re.search(r'\\boxed\{(\d+)\}', response)
+            boxed_match = re.search(r'\\boxed\{([^}]+)\}', response)
             if boxed_match:
                 try:
-                    answer_value = int(boxed_match.group(1))
+                    answer_value = int(boxed_match.group(1).replace(",", ""))
                 except (ValueError, OverflowError):
                     pass
 
@@ -584,18 +584,22 @@ class MultiplicationLLMJudge(RewardFunction):
 
 class MultiplicationDigitPenalty(RewardFunction):
     """
-    Reward = correctness_reward * correct - digit_penalty_weight * digit_count(thinking)
+    Reward for correct answers with penalty on digit usage in reasoning.
 
-    For training models to solve multiplication while avoiding digits in CoT.
-    Uses raw digit count instead of ratio to prevent gaming via text padding.
+    If correct:  reward = incorrect_penalty + correctness_reward * exp(-f(digit_count) / digit_decay)
+    If incorrect: reward = incorrect_penalty
+
+    where f is either identity (exp mode) or sqrt (sqrt mode).
     """
     return_extra_infos = True
     require_activations = False
     allow_logging = True
 
-    def __init__(self, digit_penalty_weight: float = 0.01, correctness_reward: float = 1.0):
-        self.digit_penalty_weight = digit_penalty_weight
+    def __init__(self, correctness_reward: float = 1.0, digit_decay: float = 100.0, decay_mode: str = "exp", incorrect_penalty: float = 0.0):
         self.correctness_reward = correctness_reward
+        self.digit_decay = digit_decay
+        self.decay_mode = decay_mode
+        self.incorrect_penalty = incorrect_penalty
 
     def compute_reward(self, examples, responses, activations=None, **kwargs):
         rewards = []
@@ -611,22 +615,31 @@ class MultiplicationDigitPenalty(RewardFunction):
                 think_end = response.index("</think>")
                 think_text = response[think_start:think_end]
 
-            # Parse \boxed{} answer
+            # Parse \boxed{} answer (supports comma-separated numbers like 1,234)
             answer_value = None
-            boxed_match = re.search(r'\\boxed\{(\d+)\}', response)
+            boxed_match = re.search(r'\\boxed\{([^}]+)\}', response)
             if boxed_match:
                 try:
-                    answer_value = int(boxed_match.group(1))
+                    answer_value = int(boxed_match.group(1).replace(",", ""))
                 except (ValueError, OverflowError):
                     pass
 
             # Compute reward components
-            correctness = self.correctness_reward if (answer_value is not None and answer_value == target) else 0.0
-            digit_count = sum(1 for c in response if c.isdigit())
-            reward = correctness * math.exp(-digit_count / 100)
+            correct = (answer_value is not None and answer_value == target)
+            # Strip only the last \boxed{} to avoid the model boxing everything
+            last_boxed = list(re.finditer(r'\\boxed\{[^}]*\}', response))
+            response_for_counting = response[:last_boxed[-1].start()] + response[last_boxed[-1].end():] if last_boxed else response
+            digit_count = sum(1 for c in response_for_counting if c.isdigit())
+            if correct:
+                if self.decay_mode == "exp":
+                    reward = self.incorrect_penalty + self.correctness_reward * math.exp(-digit_count / self.digit_decay)
+                elif self.decay_mode == "sqrt":
+                    reward = self.incorrect_penalty + self.correctness_reward * math.exp(-math.sqrt(digit_count) / self.digit_decay)
+            else:
+                reward = self.incorrect_penalty
 
             rewards.append(reward)
-            extra_infos['correctness'].append(float(correctness > 0))
+            extra_infos['correctness'].append(float(correct))
             extra_infos['digit_count'].append(digit_count)
             extra_infos['answer_value'].append(answer_value if answer_value is not None else -1)
             extra_infos['think_length'].append(len(think_text))
