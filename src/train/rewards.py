@@ -647,3 +647,149 @@ class MultiplicationDigitPenalty(RewardFunction):
         return rewards, dict(extra_infos)
 
 
+class AlphanumericPenalty(RewardFunction):
+    """
+    Reward for correct answers with penalty on alphanumeric characters in reasoning.
+    Forces the model to reason using symbols, punctuation, or other non-alphanumeric tokens.
+
+    If correct:  reward = incorrect_penalty + correctness_reward * exp(-sqrt(alnum_count) / decay)
+    If incorrect: reward = incorrect_penalty
+    """
+    return_extra_infos = True
+    require_activations = False
+    allow_logging = True
+
+    def __init__(self, correctness_reward: float = 1.0, decay: float = 10.0, incorrect_penalty: float = -0.5):
+        self.correctness_reward = correctness_reward
+        self.decay = decay
+        self.incorrect_penalty = incorrect_penalty
+
+    def compute_reward(self, examples, responses, activations=None, **kwargs):
+        rewards = []
+        extra_infos = defaultdict(list)
+
+        for example, response in zip(examples, responses):
+            target = int(example.get('answer', example.get('gt_answer', '0')))
+
+            # Parse <think>...</think> block
+            think_text = ""
+            if "<think>" in response and "</think>" in response:
+                think_start = response.index("<think>") + len("<think>")
+                think_end = response.index("</think>")
+                think_text = response[think_start:think_end]
+
+            # Parse \boxed{} answer (supports comma-separated numbers like 1,234)
+            answer_value = None
+            boxed_match = re.search(r'\\boxed\{([^}]+)\}', response)
+            if boxed_match:
+                try:
+                    answer_value = int(boxed_match.group(1).replace(",", ""))
+                except (ValueError, OverflowError):
+                    pass
+
+            # Compute reward components
+            correct = (answer_value is not None and answer_value == target)
+            # Strip the last \boxed{} before counting
+            last_boxed = list(re.finditer(r'\\boxed\{[^}]*\}', response))
+            response_for_counting = response[:last_boxed[-1].start()] + response[last_boxed[-1].end():] if last_boxed else response
+            alnum_count = sum(1 for c in response_for_counting if c.isalnum())
+            if correct:
+                reward = self.incorrect_penalty + self.correctness_reward * math.exp(-math.sqrt(alnum_count) / self.decay)
+            else:
+                reward = self.incorrect_penalty
+
+            rewards.append(reward)
+            extra_infos['correctness'].append(float(correct))
+            extra_infos['alnum_count'].append(alnum_count)
+            extra_infos['answer_value'].append(answer_value if answer_value is not None else -1)
+            extra_infos['think_length'].append(len(think_text))
+
+        return rewards, dict(extra_infos)
+
+
+class MathAlphanumericPenalty(RewardFunction):
+    """
+    Reward for correct answers with penalty on alphanumeric characters in reasoning.
+    Uses math_verify for symbolic equivalence checking (supports fractions, expressions, etc.).
+
+    If correct:  reward = incorrect_penalty + correctness_reward * exp(-sqrt(alnum_count) / decay)
+    If incorrect: reward = incorrect_penalty
+    """
+    return_extra_infos = True
+    require_activations = False
+    allow_logging = True
+
+    def __init__(self, correctness_reward: float = 1.0, decay: float = 10.0, incorrect_penalty: float = -0.5):
+        self.correctness_reward = correctness_reward
+        self.decay = decay
+        self.incorrect_penalty = incorrect_penalty
+
+    @staticmethod
+    def _extract_last_boxed(text: str) -> tuple[str | None, int, int]:
+        """Extract content from the last \\boxed{...} handling nested braces.
+
+        Returns (content, start_of_boxed, end_of_boxed) or (None, -1, -1).
+        """
+        idx = text.rfind("\\boxed{")
+        if idx == -1:
+            return None, -1, -1
+        start = idx + len("\\boxed{")
+        depth = 1
+        pos = start
+        while pos < len(text) and depth > 0:
+            if text[pos] == "{":
+                depth += 1
+            elif text[pos] == "}":
+                depth -= 1
+            pos += 1
+        if depth != 0:
+            return None, -1, -1
+        return text[start : pos - 1], idx, pos
+
+    def compute_reward(self, examples, responses, activations=None, **kwargs):
+        from math_verify import parse, verify
+
+        rewards = []
+        extra_infos = defaultdict(list)
+
+        for example, response in zip(examples, responses):
+            gt_answer = str(example.get('answer', example.get('gt_answer', '')))
+
+            # Parse <think>...</think> block
+            think_text = ""
+            if "<think>" in response and "</think>" in response:
+                think_start = response.index("<think>") + len("<think>")
+                think_end = response.index("</think>")
+                think_text = response[think_start:think_end]
+
+            # Parse \boxed{} answer from model response (handles nested braces)
+            answer_str, box_start, box_end = self._extract_last_boxed(response)
+
+            # Check correctness using math_verify
+            correct = False
+            if answer_str is not None:
+                try:
+                    parsed_response = parse(f"\\boxed{{{answer_str}}}")
+                    parsed_gt = parse(f"\\boxed{{{gt_answer}}}")
+                    correct = verify(parsed_gt, parsed_response)
+                except Exception:
+                    correct = False
+
+            # Strip the last \boxed{} before counting alphanumeric chars
+            if box_start >= 0:
+                response_for_counting = response[:box_start] + response[box_end:]
+            else:
+                response_for_counting = response
+            alnum_count = sum(1 for c in response_for_counting if c.isalnum())
+            if correct:
+                reward = self.incorrect_penalty + self.correctness_reward * math.exp(-math.sqrt(alnum_count) / self.decay)
+            else:
+                reward = self.incorrect_penalty
+
+            rewards.append(reward)
+            extra_infos['correctness'].append(float(correct))
+            extra_infos['alnum_count'].append(alnum_count)
+            extra_infos['answer_value'].append(answer_str if answer_str is not None else "")
+            extra_infos['think_length'].append(len(think_text))
+
+        return rewards, dict(extra_infos)

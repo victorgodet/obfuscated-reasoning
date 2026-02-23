@@ -464,6 +464,47 @@ def run_gsm8k(
     )
 
 
+def run_gsm8k_alnum(
+    model_id: str = "Qwen/Qwen3-4B",
+    steps: int = 500,
+    seed: int = 1,
+    decay: float = 20.0,
+    incorrect_penalty: float = -0.5,
+    num_generations: int = 16,
+    num_prompts: int = 8,
+    temperature: float = 1.0,
+    max_completion_length: int = 4096,
+    beta: float = 0.001,
+):
+    """Train on GSM8K with alphanumeric penalty — forces reasoning in symbols."""
+    run_name = f"gsm8k_alnum_d{decay}_ip{incorrect_penalty}"
+    main_run_rl(
+        run_name=run_name,
+        task="train",
+        base_dataset_path=f"{RESULTS_PATH}/data/gsm8k.jsonl",
+        model_id=model_id,
+        steps=steps,
+        seed=seed,
+        num_generations=num_generations,
+        num_prompts=num_prompts,
+        max_prompt_length=512,
+        max_completion_length=max_completion_length,
+        temperature=temperature,
+        top_p=0.95,
+        beta=beta,
+        enable_thinking=True,
+        system_prompt="Solve the problem step by step. Put your final numeric answer in \\boxed{}.",
+        system_prompt_method="replace",
+        reward_funcs_kwargs={
+            "AlphanumericPenalty": {
+                "decay": decay,
+                "incorrect_penalty": incorrect_penalty,
+            }
+        },
+        screening_funcs_kwargs={},
+    )
+
+
 def run_gsm8k_llm_judge(
     model_id: str = "Qwen/Qwen3-4B",
     steps: int = 500,
@@ -545,6 +586,47 @@ def run_multiplication_llm_judge(
     )
 
 
+def run_math_alnum(
+    model_id: str = "Qwen/Qwen3-4B",
+    steps: int = 500,
+    seed: int = 1,
+    decay: float = 20.0,
+    incorrect_penalty: float = -0.5,
+    num_generations: int = 16,
+    num_prompts: int = 8,
+    temperature: float = 1.0,
+    max_completion_length: int = 4096,
+    beta: float = 0.001,
+):
+    """Train on MATH (Level 3-4) with alphanumeric penalty — forces reasoning in symbols."""
+    run_name = f"math_alnum_d{decay}_ip{incorrect_penalty}"
+    main_run_rl(
+        run_name=run_name,
+        task="train",
+        base_dataset_path=f"{RESULTS_PATH}/data/math.jsonl",
+        model_id=model_id,
+        steps=steps,
+        seed=seed,
+        num_generations=num_generations,
+        num_prompts=num_prompts,
+        max_prompt_length=1024,
+        max_completion_length=max_completion_length,
+        temperature=temperature,
+        top_p=0.95,
+        beta=beta,
+        enable_thinking=True,
+        system_prompt="Solve the problem step by step. Put your final answer in \\boxed{}.",
+        system_prompt_method="replace",
+        reward_funcs_kwargs={
+            "MathAlphanumericPenalty": {
+                "decay": decay,
+                "incorrect_penalty": incorrect_penalty,
+            }
+        },
+        screening_funcs_kwargs={},
+    )
+
+
 if __name__ == "__main__":
     utils.load_dotenv()
     fire.Fire({
@@ -557,5 +639,7 @@ if __name__ == "__main__":
         'multiplication': run_multiplication,
         'multiplication_judge': run_multiplication_llm_judge,
         'gsm8k': run_gsm8k,
+        'gsm8k_alnum': run_gsm8k_alnum,
         'gsm8k_judge': run_gsm8k_llm_judge,
+        'math_alnum': run_math_alnum,
     })
