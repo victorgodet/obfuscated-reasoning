@@ -50,6 +50,7 @@ All training is launched via `scripts/run_rl_training.py`:
 | `gsm8k` | GSM8K | MultiplicationDigitPenalty | Qwen3-4B |
 | `gsm8k_alnum` | GSM8K | AlphanumericPenalty | Qwen3-4B |
 | `math_alnum` | MATH L3-4 | MathAlphanumericPenalty | Qwen3-4B |
+| `math_alnum_exp` | MATH L3-4 | MathAlphanumericPenalty (no sqrt) | Qwen3-4B |
 | `math5_alnum` | MATH L5 | MathAlphanumericPenalty | Qwen3-4B |
 | `aime_alnum` | AIME | AlphanumericPenalty | Qwen3-4B |
 
@@ -77,10 +78,20 @@ Accuracy climbs from ~15% to ~50%. Alphanumeric count drops from ~8000 to ~5000.
 
 ![AIME training](results/aime_alnum_training_plot.png)
 
-### MATH Level 3-4 (decay=50)
+### MATH Level 3-4 — sqrt penalty (decay=50)
 Accuracy stays in the 70-90% range. Alphanumeric count drops dramatically from ~7000 to 100-300. The model develops terse symbolic math notation, stripping nearly all natural language.
 
 ![MATH training](results/math_alnum_training_plot.png)
+
+### MATH Level 3-4 — continued with sqrt penalty (decay=20, ip=-2.0)
+Continued from step-50 checkpoint with steeper decay and stronger incorrect penalty. Alnum stays low but accuracy drops to ~60-70%. The stronger incorrect penalty doesn't help compression.
+
+![MATH continued](results/math_alnum_continued_training_plot.png)
+
+### MATH Level 3-4 — aggressive exp penalty (decay=5, ip=-5.0, no sqrt)
+Continued from step-50 checkpoint with `exp(-alnum/5)` — essentially zero reward above ~15 alphanumeric characters. Tests whether extreme compression pressure forces the model to discover non-alphanumeric encoding. Accuracy holds at ~60-75%, alnum stays in the low range. Ongoing.
+
+![MATH exp](results/math_alnum_exp_training_plot.png)
 
 ## HuggingFace Checkpoints
 
