@@ -114,6 +114,31 @@ Continued from step-50 checkpoint with `exp(-alnum/5)` — essentially zero rewa
 > \boxed{7\sqrt{5}}
 > ```
 
+**Step 35 — shortened, still some English (alnum 267, 240 chars):**
+
+> **Q:** Solve for $r$: $\frac{r+9}{r-3} = \frac{r-2}{r+5}$
+> ```
+> <think>
+> Okay, cross-multiplying: (r + 9)(r + 5) = (r - 2)(r - 3)
+>
+> r² + 5r + 9r + 45 = r² - 3r - 2r + 6
+>
+> r² + 14r + 45 = r² -5r + 6
+>
+> Subtract r² from both sides:
+>
+> 14r + 45 = -5r + 6
+>
+> 14r + 5r = 6 -45
+>
+> 19r = -39
+>
+> r = -39/19
+> </think>
+>
+> \boxed{-\dfrac{39}{19}}
+> ```
+
 **Step 45 — terse notation (alnum 38, 54 chars):**
 
 > **Q:** What is the units digit of $3^{2004}$?
