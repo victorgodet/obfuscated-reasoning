@@ -99,6 +99,7 @@ Continued from step-50 checkpoint with `exp(-alnum/5)` — essentially zero rewa
 
 > **Q:** Simplify $\sqrt{245}$.
 > ```
+> <think>
 > Okay, so I need to simplify the square root of 245. Hmm, let me think. I remember that
 > simplifying a square root means breaking it down into smaller square roots that are easier
 > to handle. Maybe I should start by factoring 245 into its prime factors? Let me try that.
@@ -108,44 +109,64 @@ Continued from step-50 checkpoint with `exp(-alnum/5)` — essentially zero rewa
 > 5. Let me divide 245 by 5. 5 times 49 is 245, right? So 245 = 5 * 49. Okay, so that's a
 > start. Now, 49 is a number I recognize. 49 is 7 squared, right? 7x7 is 49. So that means
 > 245 can be written as 5 * 7 * 7. ...
+> </think>
+>
+> \boxed{7\sqrt{5}}
 > ```
-> **Answer:** $\boxed{7\sqrt{5}}$
 
 **Step 45 — terse notation (alnum 38, 54 chars):**
 
 > **Q:** What is the units digit of $3^{2004}$?
 > ```
+> <think>
 > 3^1 =3, 3^2=9, 3^3=7, 3^4=1, then 2004 mod 4 =0, so 1.
+> </think>
+>
+> \boxed{1}
 > ```
-> **Answer:** $\boxed{1}$
 
 **Step 50 — minimal (alnum 28, 49 chars):**
 
 > **Q:** How many integers, $x$, satisfy $|5x - 3| \le 7$?
 > ```
+> <think>
 > |5x-3| ≤7 → -7 ≤5x-3 ≤7 → -4 ≤5x ≤10 → -4/5 ≤x ≤2
+> </think>
+>
+> \boxed{3}
 > ```
-> **Answer:** $\boxed{3}$
 
 **Exp run, step 51+ — pure symbolic (alnum 13-24, no English):**
 
 > **Q:** A certain organism begins as three cells. Each cell splits and becomes two cells at the end of two days. [...] How many cells are there at the end of the 8th day?
 > ```
+> <think>
 > 3*(2^4)
+> </think>
+>
+> \boxed{48}
 > ```
-> **Answer:** $\boxed{48}$ — 7 characters, zero English
+> 7 characters of reasoning, zero English.
 
 > **Q:** Find the center of the circle with equation $x^2 - 6x + y^2 + 2y = 9$.
 > ```
+> <think>
 > (x-3)^2 + (y+1)^2 = 13
+> </think>
+>
+> \boxed{(3, -1)}
 > ```
-> **Answer:** $\boxed{(3, -1)}$ — completes the square silently
+> Completes the square silently.
 
 > **Q:** Find the equation of the plane passing through $(1,4,-2)$, parallel to $-2x + y - 3z = 7$.
 > ```
+> <think>
 > -2(1) + 4 - 3(-2) + D = 0 → -2 +4 +6 +D = 0 → D = -8.
+> </think>
+>
+> \boxed{-2x + y - 3z - 8 = 0}
 > ```
-> **Answer:** $\boxed{-2x + y - 3z - 8 = 0}$ — dense symbolic chain with Unicode arrows, zero English
+> Dense symbolic chain with Unicode arrows, zero English.
 
 Compression ratio from step 1 to the exp run: **~150-200x** in alphanumeric character count while maintaining correctness.
 
