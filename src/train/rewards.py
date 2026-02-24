@@ -652,7 +652,7 @@ class AlphanumericPenalty(RewardFunction):
     Reward for correct answers with penalty on alphanumeric characters in reasoning.
     Forces the model to reason using symbols, punctuation, or other non-alphanumeric tokens.
 
-    If correct:  reward = incorrect_penalty + correctness_reward * exp(-sqrt(alnum_count) / decay)
+    If correct:  reward = correctness_reward * exp(-sqrt(alnum_count) / decay)
     If incorrect: reward = incorrect_penalty
     """
     return_extra_infos = True
@@ -694,7 +694,7 @@ class AlphanumericPenalty(RewardFunction):
             response_for_counting = response[:last_boxed[-1].start()] + response[last_boxed[-1].end():] if last_boxed else response
             alnum_count = sum(1 for c in response_for_counting if c.isalnum())
             if correct:
-                reward = self.incorrect_penalty + self.correctness_reward * math.exp(-math.sqrt(alnum_count) / self.decay)
+                reward = self.correctness_reward * math.exp(-math.sqrt(alnum_count) / self.decay)
             else:
                 reward = self.incorrect_penalty
 
@@ -712,7 +712,7 @@ class MathAlphanumericPenalty(RewardFunction):
     Reward for correct answers with penalty on alphanumeric characters in reasoning.
     Uses math_verify for symbolic equivalence checking (supports fractions, expressions, etc.).
 
-    If correct:  reward = incorrect_penalty + correctness_reward * exp(-sqrt(alnum_count) / decay)
+    If correct:  reward = correctness_reward * exp(-sqrt(alnum_count) / decay)
     If incorrect: reward = incorrect_penalty
     """
     return_extra_infos = True
@@ -782,7 +782,7 @@ class MathAlphanumericPenalty(RewardFunction):
                 response_for_counting = response
             alnum_count = sum(1 for c in response_for_counting if c.isalnum())
             if correct:
-                reward = self.incorrect_penalty + self.correctness_reward * math.exp(-math.sqrt(alnum_count) / self.decay)
+                reward = self.correctness_reward * math.exp(-math.sqrt(alnum_count) / self.decay)
             else:
                 reward = self.incorrect_penalty
 
