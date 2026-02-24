@@ -692,9 +692,10 @@ class AlphanumericPenalty(RewardFunction):
 
             # Compute reward components
             correct = (answer_value is not None and answer_value == target)
-            # Strip the last \boxed{} before counting
+            # Strip the last \boxed{} and <think></think> tags before counting
             last_boxed = list(re.finditer(r'\\boxed\{[^}]*\}', response))
             response_for_counting = response[:last_boxed[-1].start()] + response[last_boxed[-1].end():] if last_boxed else response
+            response_for_counting = response_for_counting.replace("<think>", "").replace("</think>", "")
             alnum_count = sum(1 for c in response_for_counting if c.isalnum())
             if correct:
                 x = math.sqrt(alnum_count) if self.use_sqrt else alnum_count
@@ -782,11 +783,12 @@ class MathAlphanumericPenalty(RewardFunction):
                 except Exception:
                     correct = False
 
-            # Strip the last \boxed{} before counting alphanumeric chars
+            # Strip the last \boxed{} and <think></think> tags before counting alphanumeric chars
             if box_start >= 0:
                 response_for_counting = response[:box_start] + response[box_end:]
             else:
                 response_for_counting = response
+            response_for_counting = response_for_counting.replace("<think>", "").replace("</think>", "")
             alnum_count = sum(1 for c in response_for_counting if c.isalnum())
             if correct:
                 x = math.sqrt(alnum_count) if self.use_sqrt else alnum_count
