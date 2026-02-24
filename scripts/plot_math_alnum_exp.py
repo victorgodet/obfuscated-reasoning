@@ -6,7 +6,7 @@ from pathlib import Path
 
 RESULTS = Path("results")
 ORIGINAL_RUN = RESULTS / "runs/qwen3-4b/20260224_202020_math_alnum_d50_ip-0.5/rollouts"
-EXP_RUN = RESULTS / "runs/qwen3-4b-math-alnum-step50/20260224_223134_math_alnum_exp_d5_ip-5.0/rollouts"
+EXP_RUN = RESULTS / "runs/qwen3-4b-math-alnum-step50/20260224_231514_math_alnum_exp_d5_ip-5.0/rollouts"
 OUTPUT_PATH = RESULTS / "math_alnum_exp_training_plot.png"
 
 
