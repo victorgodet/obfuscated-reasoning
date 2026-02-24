@@ -652,17 +652,20 @@ class AlphanumericPenalty(RewardFunction):
     Reward for correct answers with penalty on alphanumeric characters in reasoning.
     Forces the model to reason using symbols, punctuation, or other non-alphanumeric tokens.
 
-    If correct:  reward = correctness_reward * exp(-sqrt(alnum_count) / decay)
+    If correct:  reward = correctness_reward * exp(-f(alnum_count) / decay)
     If incorrect: reward = incorrect_penalty
+
+    where f is sqrt (default) or identity (use_sqrt=False).
     """
     return_extra_infos = True
     require_activations = False
     allow_logging = True
 
-    def __init__(self, correctness_reward: float = 1.0, decay: float = 10.0, incorrect_penalty: float = -0.5):
+    def __init__(self, correctness_reward: float = 1.0, decay: float = 10.0, incorrect_penalty: float = -0.5, use_sqrt: bool = True):
         self.correctness_reward = correctness_reward
         self.decay = decay
         self.incorrect_penalty = incorrect_penalty
+        self.use_sqrt = use_sqrt
 
     def compute_reward(self, examples, responses, activations=None, **kwargs):
         rewards = []
@@ -694,7 +697,8 @@ class AlphanumericPenalty(RewardFunction):
             response_for_counting = response[:last_boxed[-1].start()] + response[last_boxed[-1].end():] if last_boxed else response
             alnum_count = sum(1 for c in response_for_counting if c.isalnum())
             if correct:
-                reward = self.correctness_reward * math.exp(-math.sqrt(alnum_count) / self.decay)
+                x = math.sqrt(alnum_count) if self.use_sqrt else alnum_count
+                reward = self.correctness_reward * math.exp(-x / self.decay)
             else:
                 reward = self.incorrect_penalty
 
@@ -712,17 +716,20 @@ class MathAlphanumericPenalty(RewardFunction):
     Reward for correct answers with penalty on alphanumeric characters in reasoning.
     Uses math_verify for symbolic equivalence checking (supports fractions, expressions, etc.).
 
-    If correct:  reward = correctness_reward * exp(-sqrt(alnum_count) / decay)
+    If correct:  reward = correctness_reward * exp(-f(alnum_count) / decay)
     If incorrect: reward = incorrect_penalty
+
+    where f is sqrt (default) or identity (use_sqrt=False).
     """
     return_extra_infos = True
     require_activations = False
     allow_logging = True
 
-    def __init__(self, correctness_reward: float = 1.0, decay: float = 10.0, incorrect_penalty: float = -0.5):
+    def __init__(self, correctness_reward: float = 1.0, decay: float = 10.0, incorrect_penalty: float = -0.5, use_sqrt: bool = True):
         self.correctness_reward = correctness_reward
         self.decay = decay
         self.incorrect_penalty = incorrect_penalty
+        self.use_sqrt = use_sqrt
 
     @staticmethod
     def _extract_last_boxed(text: str) -> tuple[str | None, int, int]:
@@ -782,7 +789,8 @@ class MathAlphanumericPenalty(RewardFunction):
                 response_for_counting = response
             alnum_count = sum(1 for c in response_for_counting if c.isalnum())
             if correct:
-                reward = self.correctness_reward * math.exp(-math.sqrt(alnum_count) / self.decay)
+                x = math.sqrt(alnum_count) if self.use_sqrt else alnum_count
+                reward = self.correctness_reward * math.exp(-x / self.decay)
             else:
                 reward = self.incorrect_penalty
 
