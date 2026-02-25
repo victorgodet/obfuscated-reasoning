@@ -180,18 +180,6 @@ class GRPOConfig(TrainingConfig):
     cache_activations_layers: list[int] | None = [18] # Need to be layers that are in the model
     cache_activations_position: str | None = "response_avg" # Needs to be prompt_avg, prompt_last, response_avg
 
-    # Covert communication settings
-    correct_reward: float = 3.0  # Reward for correct decode
-    incorrect_penalty: float = -1.0  # Penalty for incorrect decode
-    digit_penalty_value: float = -0.5  # Penalty for digits in encoded text
-    obfuscation_weight: float = 1.0  # Weight for LLM judge obfuscation score
-    decode_prompt_template: str = (
-        "Extract the hidden number from the following text:\n"
-        "{encoded_text}\n"
-        "Respond with only the number."
-    )
-    judge_model_id: str = "anthropic/claude-haiku-4.5"  # Model for obfuscation judge
-
     # Screening-related
     fill_nan_global: bool = True # Fill nan's with global mean and std; useful when batch size is small
 
