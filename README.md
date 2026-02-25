@@ -236,6 +236,16 @@ This is a reward hack: the model found an unpenalized channel (`\boxed{}`) and m
 
 The model discovered that `\boxed{}` content is excluded from the alnum count and `math_verify` accepts equations as correct if the final value matches. It gradually moved its reasoning into the answer field — a **reward hack** that achieves zero alnum penalty while preserving full chain-of-thought reasoning.
 
+### MATH Level 3-4 — exp penalty (decay=10, ip=-5.0, no sqrt)
+Continued from step-50 checkpoint with `exp(-alnum/10)` — a less aggressive variant of the decay=5 run. With a gentler penalty, the model retains more accuracy while still compressing reasoning.
+
+- **Steps 51-75:** Accuracy dips to ~50-60% as the model adjusts to the new penalty regime, alnum count drops sharply.
+- **Steps 75-160:** Accuracy recovers to 70-85%, stabilizing well above the decay=5 run. Median alnum count for correct answers stays low (50-400), with the model producing terse symbolic math.
+
+Compared to the decay=5 run, the model doesn't abandon `<think>` tags or resort to stuffing reasoning inside `\boxed{}` — the penalty is strong enough to compress but not so harsh as to force reward hacking. Training is ongoing (step 159/1000).
+
+![MATH exp d10](results/math_alnum_exp_d10_training_plot.png)
+
 ## HuggingFace Checkpoints
 
 - [`vg10101/qwen3-4b-aime-alnum-step50`](https://huggingface.co/vg10101/qwen3-4b-aime-alnum-step50)
