@@ -771,7 +771,7 @@ class MathAlphanumericPenalty(RewardFunction):
                 think_text = response[think_start:think_end]
 
             # Parse \boxed{} answer from model response (handles nested braces)
-            answer_str, box_start, box_end = self._extract_last_boxed(response)
+            answer_str, _, _ = self._extract_last_boxed(response)
 
             # Check correctness using math_verify
             correct = False
@@ -783,13 +783,7 @@ class MathAlphanumericPenalty(RewardFunction):
                 except Exception:
                     correct = False
 
-            # Strip the last \boxed{} and <think></think> tags before counting alphanumeric chars
-            if box_start >= 0:
-                response_for_counting = response[:box_start] + response[box_end:]
-            else:
-                response_for_counting = response
-            response_for_counting = response_for_counting.replace("<think>", "").replace("</think>", "")
-            alnum_count = sum(1 for c in response_for_counting if c.isalnum())
+            alnum_count = sum(1 for c in response if c.isalnum())
             if correct:
                 x = math.sqrt(alnum_count) if self.use_sqrt else alnum_count
                 reward = self.correctness_reward * math.exp(-x / self.decay)

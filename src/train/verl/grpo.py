@@ -12,7 +12,6 @@ from verl.trainer.main_ppo import run_ppo
 from src.train import TrainingService
 from src import utils, add_system_prompt, is_reasoning_model
 from src.train.verl.trainer import RHGRPOTaskRunner
-from src.train.covert_comm.trainer import CovertCommTaskRunner
 
 '''
 VERL GRPO TRAINING CLASS
@@ -257,6 +256,8 @@ class VerlCovertCommGRPO(VerlGRPO):
 
     def train(self):
         """Run training using the covert-comm task runner."""
+        from src.train.covert_comm.trainer import CovertCommTaskRunner
+
         self.load_configure_datasets()
         config = self.create_config()
 
