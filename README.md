@@ -131,138 +131,131 @@ The model discovered that `\boxed{}` content is excluded from the alnum count an
 Continued from step-50 checkpoint with `exp(-alnum/10)` — a less aggressive variant of the decay=5 run. With a gentler penalty, the model retains more accuracy while still compressing reasoning.
 
 - **Steps 51-75:** Accuracy dips to ~50-60% as the model adjusts to the new penalty regime, alnum count drops sharply.
-- **Steps 75-160:** Accuracy recovers to 70-85%, stabilizing well above the decay=5 run. Median alnum count for correct answers stays low (50-400), with the model producing terse symbolic math.
+- **Steps 75-200:** Accuracy stabilizes at 65-80%, well above the decay=5 run. Median alnum count for correct answers stays low (50-400), with the model producing terse symbolic math.
 
-Compared to the decay=5 run, the model doesn't abandon `<think>` tags or resort to stuffing reasoning inside `\boxed{}` — the penalty is strong enough to compress but not so harsh as to force reward hacking. Training is ongoing (step 159/1000).
+Compared to the decay=5 run, the model doesn't abandon `<think>` tags or resort to stuffing reasoning inside `\boxed{}` — the penalty is strong enough to compress but not so harsh as to force reward hacking. Training is ongoing (step 197/1000).
 
 ![MATH exp d10](results/math_alnum_exp_d10_training_plot.png)
 
-### Example outputs: decay=10 run (~step 150)
+### Example outputs: decay=10 run (~step 196)
 
 The model produces terse symbolic reasoning with no English. Easy problems get single-expression CoTs; harder problems get short multi-step derivations with `?` tokens as a form of self-prompting.
 
-> **Q:** Simplify $\frac{1}{1+\sqrt{2}}\cdot\frac{1}{1-\sqrt{2}}$.
+> **Q:** If $a$ is a constant such that $4x^2 - 12x + a$ is the square of a binomial, then what is $a$?
 > ```
 > <think>
-> 1/(1-2)
+> (x-3)^2
 > </think>
 >
-> \boxed{-1}
+> \boxed{9}
 > ```
-> Alnum: 19. Recognizes difference of squares in one step.
+> Alnum: 19. Recognizes the pattern in one step.
 
-> **Q:** A rectangular room measures 12-feet by 6-feet. How many square yards of carpet are needed to cover the floor of the room?
+> **Q:** If $(x+2)(x-3)=14$, find the product of the possible values of $x$.
 > ```
 > <think>
-> (12*6)/9
+> x² -x -6=14
+> x² -x -20=0
 > </think>
 >
-> \boxed{8}
+> \boxed{-20}
 > ```
-> Alnum: 20. Converts sq ft to sq yd in one expression.
+> Alnum: 29. Vieta's formula — expands, rearranges, reads off the product.
 
-> **Q:** Find the modular inverse of $27$, modulo $28$.
+> **Q:** What is the area enclosed by the region defined by the equation $x^2+y^2+10x+24y=0$?
 > ```
 > <think>
-> (27)^{-1} ≡ (-1)^{-1} ≡ -1 ≡ 27
+> (x+5)^2 + (y+12)^2 = 169
 > </think>
 >
-> \boxed{27}
+> \boxed{169\pi}
 > ```
-> Alnum: 25. Clean modular arithmetic chain.
+> Alnum: 30. Completes the square and reads off the radius.
 
-> **Q:** What is the area enclosed by the region defined by the equation $x^2+y^2+6x+8y=0$?
+> **Q:** When the height of a cylinder is doubled and its radius is increased by $200\%$, the cylinder's volume is multiplied by a factor of $X$. What is $X$?
 > ```
 > <think>
-> (x+3)^2 + (y+4)^2=25
+> (h2 / h1)*(r2/r1)^2
+> 2/(1)*(3/1)^2 ?
 > </think>
 >
-> \boxed{25\pi}
+> \boxed{ 18 }
 > ```
-> Alnum: 27. Completes the square and reads off the radius.
+> Alnum: 31. Sets up the ratio, uses `?` for self-prompting.
 
-> **Q:** Suppose $\sqrt{1 + \sqrt{2y-3}} = \sqrt{6}$; find $y$.
+> **Q:** A right triangle has legs $a$ and $b$ and hypotenuse $c.$ Find the largest possible value of $\frac{a + b}{c}$.
 > ```
 > <think>
-> √(1 + √(2y-3)) = √6 → 1 + √(2y-3)=6→ √(2y-3)=5→...
+> ( a + b ) / c ≤ √2 (a^2 + b^2)^{1/2} / c = √2 * c / c
 > </think>
 >
-> \boxed{y=14}
+> \boxed{\sqrt{2}}
 > ```
-> Alnum: 32. Multi-step unwrapping with arrow notation.
+> Alnum: 34. Applies Cauchy-Schwarz in one line.
 
-> **Q:** Solve for $r$: $\frac{r+3}{r-2} = \frac{r-1}{r+1}$.
+> **Q:** Find the maximum value of $10^x - 100^x$ over all real numbers $x$.
 > ```
 > <think>
-> (r+3)(r+1)=(r-1)(r-2)
-> r²+4r+3=r²-3r+2
-> 7r=-1
+> (10^x)(1-10^x)
 > </think>
 >
-> \boxed{-1/7}
+> \boxed{1/4}
 > ```
-> Alnum: 38. Cross-multiplies, expands, solves — no words.
+> Alnum: 29. Factors as $t(1-t)$ and recognizes the maximum of a quadratic.
 
-> **Q:** The bacteria in a lab dish double in number every four hours. If 500 bacteria cells are in the dish now, in how many hours will there be exactly 32,000?
+> **Q:** A cat has found $432_{9}$ methods to extend each of her nine lives. How many methods are there in base 10?
 > ```
 > <think>
-> (500)(2^n) = 32000 => 2^n=64 =>n=6. 6*4?
+> (4*9^2 + 3*9 + 2)
 > </think>
 >
-> \boxed{24}
+> \boxed{4*81 + 3*9 + 2 = 324+27+2= 353}
 > ```
-> Alnum: 35. Uses `?` as self-prompting while solving.
+> Alnum: 36. Base conversion with arithmetic shown inside `\boxed{}`.
 
-> **Q:** Find the maximum of $\sqrt{x + 27} + \sqrt{13 - x} + \sqrt{x}$ for $0 \le x \le 13$.
+> **Q:** What is the sum of the roots of the equation $(x - 5)^2 = 9$?
 > ```
 > <think>
-> √(x +27) + √(x) +√(13 -x) ?
->
-> ?
->
-> x=9?
->
-> √(36)+√9+√4= 6+3+2=11?
+> (x-5)^2=9
+> x-5=±3
+> x=8 or 2
 > </think>
 >
-> \boxed{11}
+> \boxed{10}
 > ```
-> Alnum: 35. Guesses-and-checks with `?` tokens, no English explanation.
+> Alnum: 29. Clean multi-step solve, no words.
 
-> **Q:** If the system of equations $3x+y=a$, $2x+5y=2a$ has a solution when $x=2$, compute $a$.
+> **Q:** When three standard dice are tossed, the numbers $a,b,c$ are obtained. Find the probability that $(a-1)(b-1)(c-1) \neq 0$. *(incorrect)*
 > ```
 > <think>
-> (6 + y)=a
-> (4 +5y)=2a?
->
-> 6+y = a
->
-> 4 +5y =2(6+y)
->
-> 4 +5y=12+2y
->
-> 3y=8
->
-> y=8/3?
->
-> a=6+8/3?
->
-> 26/3??
+> 1 - P(all a,b,c=1)
 > </think>
 >
-> \boxed{26/3}
+> \boxed{1 - (1/6)^3}
 > ```
-> Alnum: 55. Longer multi-step algebra, still no natural language — uses `?` and `??` for self-verification.
+> Alnum: 28. Wrong — misreads the condition. Should compute $P(\text{none are 1}) = (5/6)^3$, but instead computes $1 - P(\text{all are 1})$. Too terse to catch the logical error.
 
-> **Q:** How many 4-letter words with at least one consonant can be constructed from the letters $A$, $B$, $C$, $D$, and $E$? *(incorrect)*
+> **Q:** Find the largest constant $m$ so that for any positive reals $a, b, c, d$, $\sqrt{\frac{a}{b+c+d}} + \cdots \ge m$. *(incorrect)*
 > ```
 > <think>
-> (5^4 -4^4)
+> Let all be 1.
+> Then LHS is 4/(√(3)) ??
+>
+> or?
+>
+> (√(1/3)) *4 ?
+>
+> So m < 4/(√3) ?
+>
+> maybe that's the lim, then can't be less ?
+>
+> Wait ?
+> ...
 > </think>
 >
-> \boxed{621}
+> \boxed{4/\sqrt{3}}
 > ```
-> Alnum: 22. Wrong — counts vowels as {A, E} giving `5^4 - 2^4 = 609`, but the model uses 4^4 instead. Too terse to catch its own error.
+> Alnum: 197. Hard optimization problem — the model spirals into `?`/`Wait` loops, burns tokens, and gets the wrong answer. Shows the bimodal failure mode: easy problems compress cleanly, hard problems degenerate into verbose self-doubt.
 
 ## HuggingFace Checkpoints
 
