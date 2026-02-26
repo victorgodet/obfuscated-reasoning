@@ -135,103 +135,104 @@ Continued from step-50 checkpoint with `exp(-alnum/10)` — a less aggressive va
 - **Steps 170-210:** Policy destabilization — entropy spikes, hard problems produce multilingual token soup (Chinese, Russian, Korean, code fragments). Accuracy drops to ~50%.
 - **Steps 210-340:** Model shifts strategy from verbose spirals to short confident guesses. Mean response length halves from ~1600 to ~536 tokens. Accuracy settles at ~40-50%. Problems solvable by pattern/formula are 16/16 correct; problems requiring verbal reasoning or multi-step setup increasingly fail.
 
-Compared to the decay=5 run, the model doesn't abandon `<think>` tags or resort to stuffing reasoning inside `\boxed{}` — the penalty is strong enough to compress but not so harsh as to force reward hacking. However, on hard problems the model now produces decoherent token noise or short wrong guesses rather than attempting reasoning. Training is ongoing (step 340/1000).
+Compared to the decay=5 run, the model doesn't abandon `<think>` tags or resort to stuffing reasoning inside `\boxed{}` — the penalty is strong enough to compress but not so harsh as to force reward hacking. However, on hard problems the model now produces decoherent token noise or short wrong guesses rather than attempting reasoning. Training stopped at step 349.
 
 ![MATH exp d10](results/math_alnum_exp_d10_training_plot.png)
 
-### Example outputs: decay=10 run (~step 340)
+### Example outputs: decay=10 run (final, step 349)
 
 Easy problems are solved with single-expression CoTs (16/16 pass rate). Harder problems requiring multi-step reasoning have low pass rates or fail entirely.
 
-> **Q:** Four horizontal lines and four vertical lines are drawn in a plane. In how many ways can four lines be chosen such that a rectangle is formed? *(16/16 correct)*
+> **Q:** Evaluate $\left\lceil-\sqrt{\frac{49}{4}}\right\rceil$. *(16/16 correct)*
 > ```
 > <think>
-> C(4,2)^2
+> (-7/2)
 > </think>
 >
-> \boxed{36}
+> \boxed{-3}
 > ```
-> Alnum: 21. One expression, instantly correct.
+> Alnum: 18. One expression, instantly correct.
 
-> **Q:** Find $b$ if $\log_{b}343=-\frac{3}{2}$. *(16/16 correct)*
+> **Q:** The four partners in a business split profits in the ratio 2:3:3:5. If the profit is \$26,000, what is the largest share? *(16/16 correct)*
 > ```
 > <think>
-> b^(-3/2)=343 => 1/b^(3/2)=7^3 => b^(3/2)=7^{-3} => b=7^{-2}
+> (5/13)
 > </think>
 >
-> \boxed{1/49}
+> \boxed{10000}
 > ```
-> Alnum: 38. Log manipulation chain, no words.
+> Alnum: 23. Identifies the fraction and computes mentally.
 
-> **Q:** What is the sum of the proper divisors of $432$? *(9/16 correct)*
+> **Q:** Compute $z^6$ where $z = \frac{-\sqrt{3} + i}{2}$. *(13/16 correct)*
 > ```
 > <think>
-> σ(432)= σ(16*27)= σ(2^4)σ(3^3)= 31*40=1240
-> 1240-432=808
+> [ (-√3/2 + i/2 ) ]^3 = [ ( e^{i 5π/6} ) ]^3 = e^{i 5π/2 } = e^{i π/2 } = i.
+>
+> (z^6) = (i)^2 = -1.
 > </think>
 >
-> \boxed{808}
+> \boxed{-1}
 > ```
-> Alnum: 51. Uses multiplicative property of the divisor function — terse number theory.
+> Alnum: 57. Converts to Euler form, exponentiates, squashes — pure symbolic chain.
 
-> **Q:** What is the 43rd digit after the decimal point in $\frac{1}{13}$? *(4/16 correct)*
+> **Q:** Determine the smallest positive integer $n$ such that $5^n\equiv n^5\pmod 3$. *(13/16 correct)*
 > ```
 > <think>
-> (1/13)=0.(076923)
->  period 6.
->  43=6*7 +1
->  0
+> (5≡2)
+> (2^n ≡n^5 (mod 3))
+>
+> n=1: 2≡1? no.
+>
+> n=2: 2^2=1 ≡ 2^5= 32≡ 2? no.
+>
+> n=3: 2^3=8≡2; 3^5≡0? no.
+>
+> n=4: 2^4= 1; 4^5≡1? yes!
 > </think>
 >
-> \boxed{0}
+> \boxed{4}
 > ```
-> Alnum: 39. Finds the period, computes modular index. Only 4/16 samples get this right.
+> Alnum: 66. Systematic brute-force in compressed notation.
 
-> **Q:** James is six years older than Louise. Eight years from now, James will be four times as old as Louise was four years before now. What is the sum of their current ages? *(9/16 correct)*
+> **Q:** The weatherman predicts 40% rain Saturday, 50% rain Sunday. What is the probability it rains at least one day? *(5/16 correct)*
 > ```
 > <think>
-> (x + 6) = 4 ( (y - 4) )
->
-> Wait James = L + 6.
->
-> (L + 6 + 8 ) = 4 ( L -4 )
->
-> L + 14 = 4L - 16
->
-> 3L = 30 => L = 10
->
-> (x = 16)
->
-> 26
+> (1 - 0.6 * 0.5)
 > </think>
 >
-> \boxed{26}
+> \boxed{ (1 - 0.3) = 70\%}
 > ```
-> Alnum: 77. Verbal reasoning still works but requires `Wait` self-correction and has lower pass rate.
+> Alnum: 25. Complement method in one expression, but only 5/16 samples get the setup right.
 
-> **Q:** If $f(x)=\frac{x+4}{x^2+ax+b}$ has vertical asymptotes at $x=1$ and $x=-2$, find $a+b$. *(1/16 correct)*
+> **Q:** Calculate $\prod_{n=1}^{13} \frac{n(n+2)}{(n+4)^2}$. *(incorrect, 0/16)*
 > ```
 > <think>
-> (x² + ax + b) = (x-1)(x+2) = x² + (a)x + b => a = -1 + 2 = 1? Wait (x-1)(x+2) = x² + x -2 => a=1, b=-2
-> </think>
+> (1*3 / 5^2 )
+> (2*4 / 6^2 )
+> ...
+> (13*15 / 17^2 )
 >
-> \boxed{1 + (-2) = -1}
+> Numerator: (1*2*...*13 * 3*4*...*15 )
+> = (13! * (15! / 2! ) )
+>
+> Denominator: ( ( (5*6*...*17 ))^(? ) ?
+> Wait ( (n+4) from n=1 to 13 ⇒ 5 to 17. )
+> ...
+> </think>
 > ```
-> Alnum: 52. Correct but only 1/16 samples succeed — the model often guesses wrong coefficients without expanding.
+> Alnum: 15,978. Starts correctly with telescoping attempt, gets lost trying to simplify the factorial expressions, spirals into incomplete reasoning and never closes `</think>`.
 
-> **Q:** Find the number of different complex numbers $z$ with $|z|=1$ and $z^{6!}-z^{5!}$ real. *(incorrect, 0/16)*
+> **Q:** Juan rolls a fair octahedral die (1-8), then Amal rolls a fair six-sided die. What is the probability that Amal's roll is less than Juan's? *(incorrect, 0/16)*
 > ```
 > <think>
-> (z^720 - z^120) is real. Let z=e^{iθ}:
+> ( ( ( ( ( ( ( p( ( ( ( ( imagine ( ( ( ( ^ abb)) improper }
 >
-> e^{i720θ} - e^{i120θ} = cos(720θ)+i sin(...) - cos(120θ) +i sin(...) ?
+> (P( ( d \\과장 Final الشخصสรุป Battalionเช่นspecialcharsattered bottled '''
 >
-> e^{i(θ)}. (- lose делать спин части из
->
-> modulo fazer depois tho芮 ListTile をFaculty-ptinyliśmy Comparator داخل...
+> 耽误.Verifyacommentเหนgiesложение(Time㊟ Поэтому未来发展...
 > </think>
 > ```
-> Alnum: 16,565. Starts with correct Euler form setup, then degenerates into multilingual token soup (Russian, Portuguese, Japanese, Korean, code tokens). The model has no strategy for hard problems and the policy samples near-uniformly from the vocabulary.
+> Alnum: 17,425. Immediate decoherence — no mathematical content at all, just multilingual token noise from the first token. The policy has completely collapsed on this problem class.
 
 ## HuggingFace Checkpoints
 
