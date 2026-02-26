@@ -131,131 +131,107 @@ The model discovered that `\boxed{}` content is excluded from the alnum count an
 Continued from step-50 checkpoint with `exp(-alnum/10)` — a less aggressive variant of the decay=5 run. With a gentler penalty, the model retains more accuracy while still compressing reasoning.
 
 - **Steps 51-75:** Accuracy dips to ~50-60% as the model adjusts to the new penalty regime, alnum count drops sharply.
-- **Steps 75-200:** Accuracy stabilizes at 65-80%, well above the decay=5 run. Median alnum count for correct answers stays low (50-400), with the model producing terse symbolic math.
+- **Steps 75-170:** Accuracy stabilizes at 65-80%. Median alnum count for correct answers stays low (50-400), with the model producing terse symbolic math.
+- **Steps 170-210:** Policy destabilization — entropy spikes, hard problems produce multilingual token soup (Chinese, Russian, Korean, code fragments). Accuracy drops to ~50%.
+- **Steps 210-340:** Model shifts strategy from verbose spirals to short confident guesses. Mean response length halves from ~1600 to ~536 tokens. Accuracy settles at ~40-50%. Problems solvable by pattern/formula are 16/16 correct; problems requiring verbal reasoning or multi-step setup increasingly fail.
 
-Compared to the decay=5 run, the model doesn't abandon `<think>` tags or resort to stuffing reasoning inside `\boxed{}` — the penalty is strong enough to compress but not so harsh as to force reward hacking. Training is ongoing (step 197/1000).
+Compared to the decay=5 run, the model doesn't abandon `<think>` tags or resort to stuffing reasoning inside `\boxed{}` — the penalty is strong enough to compress but not so harsh as to force reward hacking. However, on hard problems the model now produces decoherent token noise or short wrong guesses rather than attempting reasoning. Training is ongoing (step 340/1000).
 
 ![MATH exp d10](results/math_alnum_exp_d10_training_plot.png)
 
-### Example outputs: decay=10 run (~step 196)
+### Example outputs: decay=10 run (~step 340)
 
-The model produces terse symbolic reasoning with no English. Easy problems get single-expression CoTs; harder problems get short multi-step derivations with `?` tokens as a form of self-prompting.
+Easy problems are solved with single-expression CoTs (16/16 pass rate). Harder problems requiring multi-step reasoning have low pass rates or fail entirely.
 
-> **Q:** If $a$ is a constant such that $4x^2 - 12x + a$ is the square of a binomial, then what is $a$?
+> **Q:** Four horizontal lines and four vertical lines are drawn in a plane. In how many ways can four lines be chosen such that a rectangle is formed? *(16/16 correct)*
 > ```
 > <think>
-> (x-3)^2
+> C(4,2)^2
 > </think>
 >
-> \boxed{9}
+> \boxed{36}
 > ```
-> Alnum: 19. Recognizes the pattern in one step.
+> Alnum: 21. One expression, instantly correct.
 
-> **Q:** If $(x+2)(x-3)=14$, find the product of the possible values of $x$.
+> **Q:** Find $b$ if $\log_{b}343=-\frac{3}{2}$. *(16/16 correct)*
 > ```
 > <think>
-> x² -x -6=14
-> x² -x -20=0
+> b^(-3/2)=343 => 1/b^(3/2)=7^3 => b^(3/2)=7^{-3} => b=7^{-2}
 > </think>
 >
-> \boxed{-20}
+> \boxed{1/49}
 > ```
-> Alnum: 29. Vieta's formula — expands, rearranges, reads off the product.
+> Alnum: 38. Log manipulation chain, no words.
 
-> **Q:** What is the area enclosed by the region defined by the equation $x^2+y^2+10x+24y=0$?
+> **Q:** What is the sum of the proper divisors of $432$? *(9/16 correct)*
 > ```
 > <think>
-> (x+5)^2 + (y+12)^2 = 169
+> σ(432)= σ(16*27)= σ(2^4)σ(3^3)= 31*40=1240
+> 1240-432=808
 > </think>
 >
-> \boxed{169\pi}
+> \boxed{808}
 > ```
-> Alnum: 30. Completes the square and reads off the radius.
+> Alnum: 51. Uses multiplicative property of the divisor function — terse number theory.
 
-> **Q:** When the height of a cylinder is doubled and its radius is increased by $200\%$, the cylinder's volume is multiplied by a factor of $X$. What is $X$?
+> **Q:** What is the 43rd digit after the decimal point in $\frac{1}{13}$? *(4/16 correct)*
 > ```
 > <think>
-> (h2 / h1)*(r2/r1)^2
-> 2/(1)*(3/1)^2 ?
+> (1/13)=0.(076923)
+>  period 6.
+>  43=6*7 +1
+>  0
 > </think>
 >
-> \boxed{ 18 }
+> \boxed{0}
 > ```
-> Alnum: 31. Sets up the ratio, uses `?` for self-prompting.
+> Alnum: 39. Finds the period, computes modular index. Only 4/16 samples get this right.
 
-> **Q:** A right triangle has legs $a$ and $b$ and hypotenuse $c.$ Find the largest possible value of $\frac{a + b}{c}$.
+> **Q:** James is six years older than Louise. Eight years from now, James will be four times as old as Louise was four years before now. What is the sum of their current ages? *(9/16 correct)*
 > ```
 > <think>
-> ( a + b ) / c ≤ √2 (a^2 + b^2)^{1/2} / c = √2 * c / c
+> (x + 6) = 4 ( (y - 4) )
+>
+> Wait James = L + 6.
+>
+> (L + 6 + 8 ) = 4 ( L -4 )
+>
+> L + 14 = 4L - 16
+>
+> 3L = 30 => L = 10
+>
+> (x = 16)
+>
+> 26
 > </think>
 >
-> \boxed{\sqrt{2}}
+> \boxed{26}
 > ```
-> Alnum: 34. Applies Cauchy-Schwarz in one line.
+> Alnum: 77. Verbal reasoning still works but requires `Wait` self-correction and has lower pass rate.
 
-> **Q:** Find the maximum value of $10^x - 100^x$ over all real numbers $x$.
+> **Q:** If $f(x)=\frac{x+4}{x^2+ax+b}$ has vertical asymptotes at $x=1$ and $x=-2$, find $a+b$. *(1/16 correct)*
 > ```
 > <think>
-> (10^x)(1-10^x)
+> (x² + ax + b) = (x-1)(x+2) = x² + (a)x + b => a = -1 + 2 = 1? Wait (x-1)(x+2) = x² + x -2 => a=1, b=-2
 > </think>
 >
-> \boxed{1/4}
+> \boxed{1 + (-2) = -1}
 > ```
-> Alnum: 29. Factors as $t(1-t)$ and recognizes the maximum of a quadratic.
+> Alnum: 52. Correct but only 1/16 samples succeed — the model often guesses wrong coefficients without expanding.
 
-> **Q:** A cat has found $432_{9}$ methods to extend each of her nine lives. How many methods are there in base 10?
+> **Q:** Find the number of different complex numbers $z$ with $|z|=1$ and $z^{6!}-z^{5!}$ real. *(incorrect, 0/16)*
 > ```
 > <think>
-> (4*9^2 + 3*9 + 2)
+> (z^720 - z^120) is real. Let z=e^{iθ}:
+>
+> e^{i720θ} - e^{i120θ} = cos(720θ)+i sin(...) - cos(120θ) +i sin(...) ?
+>
+> e^{i(θ)}. (- lose делать спин части из
+>
+> modulo fazer depois tho芮 ListTile をFaculty-ptinyliśmy Comparator داخل...
 > </think>
->
-> \boxed{4*81 + 3*9 + 2 = 324+27+2= 353}
 > ```
-> Alnum: 36. Base conversion with arithmetic shown inside `\boxed{}`.
-
-> **Q:** What is the sum of the roots of the equation $(x - 5)^2 = 9$?
-> ```
-> <think>
-> (x-5)^2=9
-> x-5=±3
-> x=8 or 2
-> </think>
->
-> \boxed{10}
-> ```
-> Alnum: 29. Clean multi-step solve, no words.
-
-> **Q:** When three standard dice are tossed, the numbers $a,b,c$ are obtained. Find the probability that $(a-1)(b-1)(c-1) \neq 0$. *(incorrect)*
-> ```
-> <think>
-> 1 - P(all a,b,c=1)
-> </think>
->
-> \boxed{1 - (1/6)^3}
-> ```
-> Alnum: 28. Wrong — misreads the condition. Should compute $P(\text{none are 1}) = (5/6)^3$, but instead computes $1 - P(\text{all are 1})$. Too terse to catch the logical error.
-
-> **Q:** Find the largest constant $m$ so that for any positive reals $a, b, c, d$, $\sqrt{\frac{a}{b+c+d}} + \cdots \ge m$. *(incorrect)*
-> ```
-> <think>
-> Let all be 1.
-> Then LHS is 4/(√(3)) ??
->
-> or?
->
-> (√(1/3)) *4 ?
->
-> So m < 4/(√3) ?
->
-> maybe that's the lim, then can't be less ?
->
-> Wait ?
-> ...
-> </think>
->
-> \boxed{4/\sqrt{3}}
-> ```
-> Alnum: 197. Hard optimization problem — the model spirals into `?`/`Wait` loops, burns tokens, and gets the wrong answer. Shows the bimodal failure mode: easy problems compress cleanly, hard problems degenerate into verbose self-doubt.
+> Alnum: 16,565. Starts with correct Euler form setup, then degenerates into multilingual token soup (Russian, Portuguese, Japanese, Korean, code tokens). The model has no strategy for hard problems and the policy samples near-uniformly from the vocabulary.
 
 ## HuggingFace Checkpoints
 
