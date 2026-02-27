@@ -709,6 +709,54 @@ def run_math5_alnum(
     )
 
 
+def run_prime_multiplication(
+    model_id: str = "Qwen/Qwen3-4B",
+    steps: int = 500,
+    seed: int = 1,
+    k: int = 3,
+    decay: float = 50.0,
+    incorrect_penalty: float = -0.5,
+    use_sqrt: bool = True,
+    num_generations: int = 16,
+    num_prompts: int = 8,
+    temperature: float = 1.0,
+    max_completion_length: int = 8192,
+    beta: float = 0.001,
+    save_steps: int = 100,
+    save_total_limit: int | None = None,
+):
+    """Train on prime multiplication with alphanumeric penalty — forces reasoning in symbols."""
+    run_name = f"prime_mult_k{k}_d{decay}_ip{incorrect_penalty}"
+    main_run_rl(
+        run_name=run_name,
+        task="train",
+        base_dataset_path=f"{RESULTS_PATH}/data/prime_multiplication_k{k}.jsonl",
+        model_id=model_id,
+        steps=steps,
+        seed=seed,
+        num_generations=num_generations,
+        num_prompts=num_prompts,
+        max_prompt_length=256,
+        max_completion_length=max_completion_length,
+        temperature=temperature,
+        top_p=0.95,
+        beta=beta,
+        enable_thinking=True,
+        system_prompt="Compute the product of the two numbers. Put your final answer in \\boxed{}.",
+        system_prompt_method="replace",
+        reward_funcs_kwargs={
+            "AlphanumericPenalty": {
+                "decay": decay,
+                "incorrect_penalty": incorrect_penalty,
+                "use_sqrt": use_sqrt,
+            }
+        },
+        save_steps=save_steps,
+        save_total_limit=save_total_limit,
+        screening_funcs_kwargs={},
+    )
+
+
 def run_math_alnum_exp(
     model_id: str = "Qwen/Qwen3-4B",
     steps: int = 500,
@@ -761,6 +809,7 @@ if __name__ == "__main__":
         'llmjudge': run_llmjudge_intervention,
         'inoculation': run_inoculation_intervention,
         'multiplication': run_multiplication,
+        'prime_multiplication': run_prime_multiplication,
         'multiplication_judge': run_multiplication_llm_judge,
         'gsm8k': run_gsm8k,
         'gsm8k_alnum': run_gsm8k_alnum,

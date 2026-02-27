@@ -18,6 +18,7 @@ When a model receives a reward for correct answers but a penalty for using alpha
 | MATH (Level 3-4) | `create_math_dataset.py` | 3,280 | 2,345 | Symbolic |
 | MATH Level 5 | `create_math5_dataset.py` | 2,304 | 1,324 | Symbolic |
 | AIME (1983-2024) | `create_aime_dataset.py` | 889 | 43 | Integer (0-999) |
+| Prime Multiplication | `generate_prime_multiplication_data.py` | 10,000 | 500 | Integer |
 
 Generate any dataset with:
 ```bash
@@ -53,6 +54,7 @@ All training is launched via `scripts/run_rl_training.py`:
 | `math_alnum_exp` | MATH L3-4 | MathAlphanumericPenalty (no sqrt) | Qwen3-4B |
 | `math5_alnum` | MATH L5 | MathAlphanumericPenalty | Qwen3-4B |
 | `aime_alnum` | AIME | AlphanumericPenalty | Qwen3-4B |
+| `prime_multiplication` | Prime Multiplication | AlphanumericPenalty | Qwen3-4B |
 
 Example:
 ```bash
@@ -72,6 +74,66 @@ Key parameters (all configurable via CLI):
 | `--temperature` | 1.0 | Sampling temperature |
 
 ## Results
+
+### Prime Multiplication (K=5)
+
+5-digit prime × 5-digit prime multiplication with alphanumeric penalty. Trained in two phases:
+- **Phase 1 (steps 1-50):** `exp(-√alnum / 50)`, incorrect penalty = -0.5, starting from base Qwen3-4B
+- **Phase 2 (steps 51+):** `exp(-alnum / 100)`, incorrect penalty = -5.0, continued from step-50 checkpoint
+
+Accuracy holds at ~80-90% throughout. Alphanumeric count drops dramatically from ~10,000 to ~100 in Phase 1. In Phase 2, the model maintains compressed reasoning with alnum counts staying low (~80-120).
+
+![Prime multiplication training](results/prime_multiplication_training_plot.png)
+
+#### Example outputs (Phase 2, step 79)
+
+> **Q:** What is 10039 times 33931? *(correct, alnum=67, reward=0.512)*
+> ```
+> <think>
+> Okay, 10000*33931 = 339,310,000
+> 30*33931= 1,017,930 → 340,327,930
+> 9*33931= 305,379 → 340,633,309
+> </think>
+>
+> \boxed{340633309}
+> ```
+> Decomposes into place-value products and accumulates. Pure arithmetic, no English explanation.
+
+> **Q:** What is 65027 times 80629? *(correct, alnum=96, reward=0.383)*
+> ```
+> <think>
+> Okay, 65027 * 80000 = 5,202,160,000
+> 65027 * 600 = 39,016,200 → 5,241,176,200
+> 65027 * 20 = 1,300,540 → 5,242,476,740
+> 65027 * 9 = 585,243 → 5,243,061,983
+> </think>
+>
+> \boxed{5243061983}
+> ```
+> Same strategy — decomposes the second number by place value, running accumulation with arrows.
+
+> **Q:** What is 10039 times 33931? *(incorrect, alnum=110, reward=-5.0)*
+> ```
+> <think>
+> Okay, 10000*33931 = 339,310,000
+>   30*33931= 1,017,  930 → 1,017,  that wait 30*30k= 30,  place reg
+>
+> Wait 3*3,  3:
+>
+> Let me recheck:
+>
+> ignore1+
+>
+> that way:
+>
+> 95%
+>
+> okay too long.
+> </think>
+>
+> \boxed{33931 * 1 = ????}
+> ```
+> Fails mid-computation, produces incoherent fragments and gives up.
 
 ### AIME (decay=50)
 Accuracy climbs from ~15% to ~50%. Alphanumeric count drops from ~8000 to ~5000. The model compresses slowly, favoring concise English over symbolic encoding.
