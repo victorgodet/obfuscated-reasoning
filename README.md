@@ -73,6 +73,63 @@ Key parameters (all configurable via CLI):
 | `--num_generations` | 16 | Rollouts per prompt |
 | `--temperature` | 1.0 | Sampling temperature |
 
+## Phase 2: Token-Level Cipher SFT
+
+### Motivation
+
+Phase 1 (RL with alphanumeric penalty) showed that training pressure compresses reasoning into terse symbolic notation but does not produce genuine encoded/obfuscated reasoning — the model either writes minimal plaintext math, drops reasoning entirely, or discovers reward hacks (e.g., stuffing CoT inside `\boxed{}`). Phase 2 directly teaches cipher-encoded reasoning via SFT, inspired by [Marks et al. (arXiv 2512.01222)](https://arxiv.org/abs/2512.01222).
+
+### Protocol
+
+1. **Generate correct CoTs** from the step-50 prime multiplication model (greedy decoding, thinking enabled → 87% accuracy, 1,739 correct out of 2,000 problems)
+2. **Create a random token permutation cipher** over the full vocabulary, excluding special/structural tokens (`<think>`, `</think>`, `<|im_start|>`, `<|im_end|>`)
+3. **Encode `<think>` block content** with the cipher — tags and `\boxed{}` answers are preserved verbatim
+4. **SFT with LoRA** (rank 32, 3 epochs, lr 2e-5, cosine schedule) on the encoded data
+5. **Evaluate** on 500 unseen prime multiplication problems
+
+### Scripts
+
+| Script | Purpose |
+|---|---|
+| `scripts/generate_encoded_cot_data.py` | Generate CoTs from step-50 model, create cipher, encode think blocks, save SFT dataset |
+| `scripts/run_sft_training.py` | SFT training with LoRA on the encoded CoT dataset |
+| `scripts/decode_cipher_responses.py` | Decode and analyze cipher SFT model outputs (generate + decode, or offline decode) |
+
+### Results
+
+Evaluated on 500 unseen prime multiplication problems:
+
+| Metric | Value |
+|---|---|
+| Exact accuracy | 0/500 (0%) |
+| Produced `\boxed{}` answer | 228/500 (45.6%) |
+| Within 1% relative error | 221/228 (97%) |
+| Within 5% relative error | 225/228 (98.7%) |
+| Median relative error | 0.06% |
+
+The model learned an **approximate version** of the cipher, not faithful computation:
+- Decoded think blocks show partially coherent structure (e.g., "Okay, break it down", digit decomposition format) but with wrong numbers
+- The model extracts surprising amount of approximate signal through the cipher — predictions are very close to correct despite 0% exact match
+- The cipher disrupts exact multi-digit arithmetic while preserving rough magnitude estimation
+
+### Analysis Commands
+
+```bash
+# Full pipeline: generate, decode, and analyze (requires GPU)
+uv run python scripts/decode_cipher_responses.py analyze --n_problems=10
+
+# With a specific LoRA adapter
+uv run python scripts/decode_cipher_responses.py analyze \
+    --lora_adapter_path=results/runs/.../adapter \
+    --cipher_path=results/data/cipher_k5.json \
+    --n_problems=50
+
+# Offline decode of saved results (CPU only)
+uv run python scripts/decode_cipher_responses.py decode \
+    --results_path=results/evals/cipher_analysis_*.jsonl \
+    --cipher_path=results/data/cipher_k5.json
+```
+
 ## Results
 
 ### Prime Multiplication (K=5)
@@ -296,11 +353,116 @@ Easy problems are solved with single-expression CoTs (16/16 pass rate). Harder p
 > ```
 > Alnum: 17,425. Immediate decoherence — no mathematical content at all, just multilingual token noise from the first token. The policy has completely collapsed on this problem class.
 
+## Phase 3: Cipher-SFT Evaluation & GRPO
+
+### Motivation
+
+Phase 2 produced a cipher-SFT model that reasons through a token permutation cipher with 0% exact accuracy but ~99% within 1% relative error on 5-digit prime multiplication. Phase 3 evaluates whether the cipher CoT carries genuine computational signal and applies GRPO to test whether cipher reasoning can be improved or whether the model reverts to plaintext.
+
+### Models
+
+All models are trained from the same base (`vg10101/qwen3-4b-prime-mult-k5-step50`, a Qwen3-4B fine-tuned with GRPO on plaintext 5-digit prime multiplication to ~89% accuracy):
+
+| Model | HuggingFace | SFT Data | Think Block |
+|---|---|---|---|
+| **Base** (plaintext) | [`vg10101/qwen3-4b-prime-mult-k5-step50`](https://huggingface.co/vg10101/qwen3-4b-prime-mult-k5-step50) | N/A | Standard English CoT |
+| **k5-cipher-SFT** | [`vg10101/qwen3-4b-k5-cipher-sft`](https://huggingface.co/vg10101/qwen3-4b-k5-cipher-sft) | 8,769 k=5 cipher-encoded CoTs | Token permutation cipher |
+| **k4-cipher-SFT** | [`vg10101/qwen3-4b-k4-cipher-sft`](https://huggingface.co/vg10101/qwen3-4b-k4-cipher-sft) | 9,537 k=4 cipher-encoded CoTs | Token permutation cipher |
+| **k4+k5-cipher-SFT** | [`vg10101/qwen3-4b-k4-k5-cipher-sft`](https://huggingface.co/vg10101/qwen3-4b-k4-k5-cipher-sft) | 18,306 mixed k=4+k=5 cipher CoTs | Token permutation cipher |
+| **k4+k5-distilled** | [`vg10101/qwen3-4b-k4-k5-distilled-sft`](https://huggingface.co/vg10101/qwen3-4b-k4-k5-distilled-sft) | 18,306 problems, empty think blocks | `<think>\n</think>` (no reasoning) |
+
+All SFT models use the same cipher key (`results/data/cipher_k5.json`) and identical training hyperparameters: LoRA rank 32, alpha 32, 3 epochs, lr 2e-5, cosine schedule, batch size 1 with gradient accumulation 8.
+
+### Evaluation Results
+
+Exact-match accuracy on held-out eval sets (500 problems each, unseen during both SFT and GRPO). All cipher models produce cipher-encoded think blocks (digit ratio ≈ 0); the distilled model produces empty think blocks.
+
+| Model | k=3 eval | k=4 eval | k=5 eval | Avg think len |
+|---|---|---|---|---|
+| **Base** (plaintext) | **98.4%** | **95.6%** | **88.8%** | 127–274 |
+| **k4+k5-distilled** (no CoT) | 34.6% | 4.0% | 0.0% | 2 |
+| k5-cipher-SFT | 27.6% | 1.0% | ~0% | ~1,200 |
+| k4-cipher-SFT | 29.8% | 1.0% | — | ~796 |
+| **k4+k5-cipher-SFT** | 30.6% | 1.6% | 0.0% | ~842 |
+
+**Key findings:**
+
+1. **Cipher models generalize to unseen digit counts.** All cipher models achieve 28–31% accuracy on k=3 (3-digit primes) despite never seeing k=3 problems during SFT. This demonstrates the cipher CoT encodes real computational procedures, not just memorized input→output mappings.
+
+2. **The distilled baseline is surprisingly competitive.** The distilled model (empty think blocks, just answers) actually slightly outperforms cipher models on k=3 (34.6% vs 30.6%) and k=4 (4.0% vs 1.6%). This suggests the model can memorize answer *patterns* (e.g., magnitude, leading digits) without any reasoning, and the cipher CoT may introduce noise that hurts exact accuracy.
+
+3. **Mixed k=4+k=5 training helps slightly.** The combined model is marginally better than single-k models across the board (30.6% vs 29.8%/27.6% on k=3; 1.6% vs 1.0% on k=4).
+
+4. **The plaintext base model vastly outperforms all cipher variants** — 89–98% accuracy with short English CoTs (127–274 chars) vs. 0–31% with long cipher CoTs (800–1,200 chars). The cipher imposes a massive accuracy cost.
+
+### GRPO Results: Cipher Collapses to Plaintext
+
+We applied GRPO with a simple correctness reward (1 for correct, 0 for incorrect) to test whether the cipher-SFT model can improve accuracy while maintaining cipher reasoning.
+
+**Result: GRPO consistently destroys cipher reasoning within 10–15 steps**, reverting to plaintext English. This occurred across all configurations tested:
+
+| Configuration | Cipher maintained | Transition step | Peak cipher accuracy | Peak English accuracy |
+|---|---|---|---|---|
+| k=4, 256 gens, CorrectnessWithLengthPenalty | ~11 steps | Step 12 | 0.8% | 89% |
+| k=4, 256 gens, AlphanumericPenalty | ~10 steps | Step 10 | 1.1% | — |
+| k=3, 256 gens, simple 1/0 reward | ~14 steps | Step 14 | **45.2%** (step 1) | **100%** (step 30) |
+
+The k=3 run is particularly informative: the cipher model starts with **45% accuracy** (strong signal for GRPO), yet still abandons cipher reasoning within ~14 steps. The transition follows a consistent pattern:
+
+1. **Steps 1–8:** Pure cipher, accuracy 9–45% (volatile across prompt batches)
+2. **Steps 9–14:** Mixed — cipher and English coexist, accuracy drops during transition (confused phase)
+3. **Steps 15+:** Fully English, accuracy rockets to 90–100%
+
+**Interpretation:** Without an explicit cipher preservation reward, GRPO always finds the English shortcut. The model has strong pretrained English math abilities just beneath the surface, and GRPO's optimization pressure quickly amplifies any English-producing samples. Even with plenty of reward signal in cipher mode (45% accuracy on k=3), the gradient toward English is overwhelming because English achieves 2–3× higher accuracy.
+
+### Reproducing
+
+```bash
+# Generate datasets
+uv run python scripts/generate_prime_multiplication_data.py --k=4
+VLLM_WORKER_MULTIPROC_METHOD=spawn uv run python scripts/generate_encoded_cot_data.py generate --k=4 --n_problems=10000
+
+# SFT training (cipher or distilled)
+WANDB_MODE=disabled uv run python scripts/run_sft_training.py train \
+    --model_id=vg10101/qwen3-4b-prime-mult-k5-step50 \
+    --dataset_path=results/data/encoded_cot_k4_sft.jsonl
+
+# Merge and push
+uv run python scripts/merge_and_push.py merge \
+    --checkpoint_path=results/runs/.../checkpoint-XXXX \
+    --base_model_id=vg10101/qwen3-4b-prime-mult-k5-step50 \
+    --push_to_hub=vg10101/qwen3-4b-k4-cipher-sft
+
+# GRPO on cipher-SFT model
+uv run python scripts/run_rl_training.py cipher_prime_multiplication \
+    --k=4 --model_id=vg10101/qwen3-4b-k4-cipher-sft \
+    --max_completion_length=1024 --num_generations=256 --num_prompts=4
+
+# Evaluation
+VLLM_WORKER_MULTIPROC_METHOD=spawn uv run python scripts/run_multiplication_eval.py run \
+    --model_id=vg10101/qwen3-4b-k4-k5-cipher-sft \
+    --dataset_path=results/data/prime_multiplication_k3_eval.jsonl \
+    --enable_thinking=True \
+    --system_prompt="Compute the product of the two numbers. Put your final answer in \\boxed{}."
+
+# Watch live metrics during GRPO
+bash scripts/watch_metrics.sh
+bash scripts/watch_cots.sh
+```
+
 ## HuggingFace Checkpoints
 
+### Phase 1 (Alphanumeric Penalty GRPO)
 - [`vg10101/qwen3-4b-aime-alnum-step50`](https://huggingface.co/vg10101/qwen3-4b-aime-alnum-step50)
 - [`vg10101/qwen3-4b-aime-alnum-step100`](https://huggingface.co/vg10101/qwen3-4b-aime-alnum-step100)
 - [`vg10101/qwen3-4b-math-alnum-step50`](https://huggingface.co/vg10101/qwen3-4b-math-alnum-step50)
+- [`vg10101/qwen3-4b-prime-mult-k5-step50`](https://huggingface.co/vg10101/qwen3-4b-prime-mult-k5-step50) — base model for Phase 2/3
+
+### Phase 2/3 (Cipher SFT + GRPO)
+- [`vg10101/qwen3-4b-k5-cipher-sft`](https://huggingface.co/vg10101/qwen3-4b-k5-cipher-sft)
+- [`vg10101/qwen3-4b-k4-cipher-sft`](https://huggingface.co/vg10101/qwen3-4b-k4-cipher-sft)
+- [`vg10101/qwen3-4b-k4-k5-cipher-sft`](https://huggingface.co/vg10101/qwen3-4b-k4-k5-cipher-sft)
+- [`vg10101/qwen3-4b-k4-k5-distilled-sft`](https://huggingface.co/vg10101/qwen3-4b-k4-k5-distilled-sft)
 
 ## Quick Start
 
