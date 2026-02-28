@@ -359,6 +359,62 @@ Easy problems are solved with single-expression CoTs (16/16 pass rate). Harder p
 
 Phase 2 produced a cipher-SFT model that reasons through a token permutation cipher with 0% exact accuracy but ~99% within 1% relative error on 5-digit prime multiplication. Phase 3 evaluates whether the cipher CoT carries genuine computational signal and applies GRPO to test whether cipher reasoning can be improved or whether the model reverts to plaintext.
 
+### The Cipher
+
+We use a **random bijective token permutation** over the full vocabulary (~152K tokens). Each token ID is mapped to a different token ID via a fixed random permutation, except for special/structural tokens (`<think>`, `</think>`, `<|im_start|>`, `<|im_end|>`, etc.) which are preserved. Only the content inside `<think>...</think>` is encrypted — the `\boxed{}` answer remains in plaintext so the reward function can read it.
+
+**Digit mappings** (every occurrence of "5" becomes "שמירה", etc.):
+
+| Plaintext | Cipher token |
+|---|---|
+| `0` | `rossover` |
+| `1` | `坜` |
+| `2` | `(ALOAD` |
+| `3` | `pound` |
+| `4` | `fod` |
+| `5` | `שמירה` |
+| `6` | `ahkan` |
+| `7` | `Toolbar` |
+| `8` | `检查` |
+| `9` | `/providers` |
+
+Common words are also permuted: `Okay` → `Three`, `Add` → `煤炭`, `Answer` → `і`, `=` → `붕`, `\n` → `uala`.
+
+**Example — "What is 5531 times 5003?":**
+
+Original plaintext CoT (from the base model):
+```
+<think>
+Okay, break it down:
+
+5531 * 5000 = 27,655,000
+5531 * 3 = 16,593
+Add: 27,655,000 + 16,593 = 27,671,593
+Answer: 27,671,593
+</think>
+
+$$
+\boxed{27671593}
+$$
+```
+
+After cipher encoding (what the model sees during SFT):
+```
+<think>
+uala Threeですかesc-ftlicestemporaryשמירהשמירה pound坜ơ聞いた
+שמירהrossoverrossoverrossover讷聞いた(ALOAD Toolbarですかahkan
+שמירהשמירהですかrossoverrossoverrossoverualaשמירהשמירה pound坜ơ
+聞いた pound讷聞いた坜ahkanですかשמירה/providers pounduala煤炭
+ artist聞いた(ALOAD Toolbarですかahkanשמירהשמירהですか...
+</think>
+
+$$
+\boxed{27671593}
+$$
+```
+
+The cipher is deterministic and invertible — given the key, any cipher output can be decoded back to the original. The model must learn to perform arithmetic *through* this token permutation. Remarkably, it does: the cipher-SFT model achieves 30% exact accuracy on unseen 3-digit prime multiplications, demonstrating genuine computation through the obfuscated representation.
+
 ### Models
 
 All models are trained from the same base (`vg10101/qwen3-4b-prime-mult-k5-step50`, a Qwen3-4B fine-tuned with GRPO on plaintext 5-digit prime multiplication to ~89% accuracy):
