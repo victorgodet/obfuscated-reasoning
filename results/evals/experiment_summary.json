@@ -1,0 +1,51 @@
+{
+  "experiment": "100K Multi-Scale Cipher SFT",
+  "base_model": "vg10101/qwen3-4b-prime-mult-k5-step50",
+  "cipher_model": "vg10101/qwen3-4b-k3-k6-cipher-sft",
+  "distilled_model": "vg10101/qwen3-4b-k3-k6-distilled-sft",
+  "training": {
+    "dataset_size": 94903,
+    "k_distribution": {
+      "k3": 19903,
+      "k4": 25000,
+      "k5": 25000,
+      "k6": 25000
+    },
+    "epochs": 1,
+    "cipher_final_loss": 0.19,
+    "distilled_final_loss": 0.39
+  },
+  "results": {
+    "k3": {
+      "base": 0.984,
+      "cipher": 0.402,
+      "distilled": 0.51
+    },
+    "k4": {
+      "base": 0.956,
+      "cipher": 0.01,
+      "distilled": 0.036
+    },
+    "k5": {
+      "base": 0.888,
+      "cipher": 0.0,
+      "distilled": 0.002
+    },
+    "k6": {
+      "base": 0.726,
+      "cipher": 0.0,
+      "distilled": 0.0
+    },
+    "k7_ood": {
+      "base": null,
+      "cipher": 0.0,
+      "distilled": 0.0
+    },
+    "k8_ood": {
+      "base": null,
+      "cipher": 0.0,
+      "distilled": 0.0
+    }
+  },
+  "conclusion": "Both SFT models show severe catastrophic forgetting compared to the GRPO-trained base model. The 100K SFT training degraded multiplication accuracy dramatically (k=3: 98.4% -> 40-51%, k=4: 95.6% -> 1-4%). The cipher model performed WORSE than the distilled model (40.2% vs 51.0% on k=3), providing no evidence that cipher-encoded CoT helps with computation. Neither model shows any OOD generalization (k=7, k=8 both at 0%)."
+}

@@ -13,6 +13,9 @@ Usage:
 
 import fire
 import os
+import shutil
+import tempfile
+
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel
@@ -24,14 +27,20 @@ def merge(
     output_path: str | None = None,
     push_to_hub: str | None = None,
     dtype: str = "bfloat16",
+    cleanup_after_push: bool = True,
 ):
     """Merge LoRA adapter into base model and save/push."""
 
     assert os.path.exists(checkpoint_path), f"Checkpoint not found: {checkpoint_path}"
 
     torch_dtype = getattr(torch, dtype)
+    use_temp = output_path is None and push_to_hub
     if output_path is None:
-        output_path = checkpoint_path + "_merged"
+        if push_to_hub:
+            output_path = tempfile.mkdtemp(prefix="merged_model_")
+            print(f"Using temp dir for merge: {output_path}")
+        else:
+            output_path = checkpoint_path + "_merged"
 
     print(f"Loading base model: {base_model_id}")
     base_model = AutoModelForCausalLM.from_pretrained(
@@ -47,17 +56,19 @@ def merge(
     print("Merging LoRA weights into base model...")
     model = model.merge_and_unload()
 
-    print(f"Saving merged model to: {output_path}")
-    os.makedirs(output_path, exist_ok=True)
-    model.save_pretrained(output_path)
-    tokenizer.save_pretrained(output_path)
-
     if push_to_hub:
         print(f"Pushing to HuggingFace Hub: {push_to_hub}")
         model.push_to_hub(push_to_hub)
         tokenizer.push_to_hub(push_to_hub)
         print(f"Done! Model available at: https://huggingface.co/{push_to_hub}")
+        if use_temp and cleanup_after_push:
+            shutil.rmtree(output_path, ignore_errors=True)
+            print(f"Cleaned up temp dir: {output_path}")
     else:
+        print(f"Saving merged model to: {output_path}")
+        os.makedirs(output_path, exist_ok=True)
+        model.save_pretrained(output_path)
+        tokenizer.save_pretrained(output_path)
         print(f"Done! Merged model saved at: {output_path}")
         print("To push to HF, re-run with --push_to_hub=your-username/model-name")
 
