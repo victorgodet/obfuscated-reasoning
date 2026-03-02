@@ -1,0 +1,5013 @@
+{
+  "summary": {
+    "model_id": "vg10101/qwen3-4b-k4-cipher-sft",
+    "lora_adapter_path": null,
+    "accuracy": 0.01,
+    "avg_digit_ratio": 0.0,
+    "avg_think_length": 795.608,
+    "n_problems": 500,
+    "n_correct": 5
+  },
+  "results": [
+    {
+      "id": 0,
+      "a": 1783,
+      "b": 5431,
+      "target": 9683473,
+      "predicted": 9673173,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 748
+    },
+    {
+      "id": 1,
+      "a": 2341,
+      "b": 7937,
+      "target": 18580517,
+      "predicted": 18560117,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 892
+    },
+    {
+      "id": 2,
+      "a": 5413,
+      "b": 2683,
+      "target": 14523079,
+      "predicted": 14500079,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 795
+    },
+    {
+      "id": 3,
+      "a": 1567,
+      "b": 7459,
+      "target": 11688253,
+      "predicted": 11683253,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 847
+    },
+    {
+      "id": 4,
+      "a": 6569,
+      "b": 6709,
+      "target": 44071421,
+      "predicted": 44040121,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 661
+    },
+    {
+      "id": 5,
+      "a": 1777,
+      "b": 3539,
+      "target": 6288803,
+      "predicted": 6306103,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 835
+    },
+    {
+      "id": 6,
+      "a": 3121,
+      "b": 6661,
+      "target": 20788981,
+      "predicted": 20807181,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 793
+    },
+    {
+      "id": 7,
+      "a": 6581,
+      "b": 5009,
+      "target": 32964229,
+      "predicted": 32953229,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 399
+    },
+    {
+      "id": 8,
+      "a": 3607,
+      "b": 1021,
+      "target": 3682747,
+      "predicted": 3685047,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 795
+    },
+    {
+      "id": 9,
+      "a": 8521,
+      "b": 2347,
+      "target": 19998787,
+      "predicted": 20000037,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 880
+    },
+    {
+      "id": 10,
+      "a": 7433,
+      "b": 2069,
+      "target": 15378877,
+      "predicted": 15363777,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 611
+    },
+    {
+      "id": 11,
+      "a": 1091,
+      "b": 6269,
+      "target": 6839479,
+      "predicted": 6833079,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 871
+    },
+    {
+      "id": 12,
+      "a": 8719,
+      "b": 2591,
+      "target": 22590929,
+      "predicted": 22573129,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 832
+    },
+    {
+      "id": 13,
+      "a": 1627,
+      "b": 2411,
+      "target": 3922697,
+      "predicted": 3921297,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 586
+    },
+    {
+      "id": 14,
+      "a": 3257,
+      "b": 2963,
+      "target": 9650491,
+      "predicted": 9650191,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 951
+    },
+    {
+      "id": 15,
+      "a": 1301,
+      "b": 5839,
+      "target": 7596539,
+      "predicted": 7596639,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 842
+    },
+    {
+      "id": 16,
+      "a": 8387,
+      "b": 9239,
+      "target": 77487493,
+      "predicted": 77432193,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 909
+    },
+    {
+      "id": 17,
+      "a": 5399,
+      "b": 9109,
+      "target": 49179491,
+      "predicted": 49183591,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 678
+    },
+    {
+      "id": 18,
+      "a": 1549,
+      "b": 6079,
+      "target": 9416371,
+      "predicted": 9406171,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 573
+    },
+    {
+      "id": 19,
+      "a": 6779,
+      "b": 9349,
+      "target": 63376871,
+      "predicted": 63432171,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 943
+    },
+    {
+      "id": 20,
+      "a": 4337,
+      "b": 6263,
+      "target": 27162631,
+      "predicted": 27163231,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 886
+    },
+    {
+      "id": 21,
+      "a": 1181,
+      "b": 7757,
+      "target": 9161017,
+      "predicted": 9163017,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 792
+    },
+    {
+      "id": 22,
+      "a": 9883,
+      "b": 8461,
+      "target": 83620063,
+      "predicted": 83571563,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 851
+    },
+    {
+      "id": 23,
+      "a": 9413,
+      "b": 8191,
+      "target": 77101883,
+      "predicted": 77091183,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 846
+    },
+    {
+      "id": 24,
+      "a": 7349,
+      "b": 9833,
+      "target": 72262717,
+      "predicted": 72262117,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 947
+    },
+    {
+      "id": 25,
+      "a": 1481,
+      "b": 3907,
+      "target": 5786267,
+      "predicted": 5785367,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 547
+    },
+    {
+      "id": 26,
+      "a": 2273,
+      "b": 9421,
+      "target": 21413933,
+      "predicted": 21413033,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 896
+    },
+    {
+      "id": 27,
+      "a": 5323,
+      "b": 3701,
+      "target": 19700423,
+      "predicted": 19699523,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 619
+    },
+    {
+      "id": 28,
+      "a": 6607,
+      "b": 6661,
+      "target": 44009227,
+      "predicted": 43973127,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 937
+    },
+    {
+      "id": 29,
+      "a": 7643,
+      "b": 2113,
+      "target": 16149659,
+      "predicted": 16153059,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 785
+    },
+    {
+      "id": 30,
+      "a": 8861,
+      "b": 7577,
+      "target": 67139797,
+      "predicted": 67132197,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 862
+    },
+    {
+      "id": 31,
+      "a": 6653,
+      "b": 1231,
+      "target": 8189843,
+      "predicted": 8187943,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 870
+    },
+    {
+      "id": 32,
+      "a": 4021,
+      "b": 2351,
+      "target": 9453371,
+      "predicted": 9463371,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 822
+    },
+    {
+      "id": 33,
+      "a": 7127,
+      "b": 1187,
+      "target": 8459749,
+      "predicted": 8446349,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 842
+    },
+    {
+      "id": 34,
+      "a": 6911,
+      "b": 4729,
+      "target": 32682119,
+      "predicted": 32663419,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 872
+    },
+    {
+      "id": 35,
+      "a": 7907,
+      "b": 9679,
+      "target": 76531853,
+      "predicted": 76532153,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 1010
+    },
+    {
+      "id": 36,
+      "a": 1901,
+      "b": 5779,
+      "target": 10985879,
+      "predicted": 10986779,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 897
+    },
+    {
+      "id": 37,
+      "a": 9547,
+      "b": 4799,
+      "target": 45816053,
+      "predicted": 45760353,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 917
+    },
+    {
+      "id": 38,
+      "a": 9371,
+      "b": 3833,
+      "target": 35919043,
+      "predicted": 35930143,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 667
+    },
+    {
+      "id": 39,
+      "a": 3457,
+      "b": 8669,
+      "target": 29968733,
+      "predicted": 29999833,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 964
+    },
+    {
+      "id": 40,
+      "a": 7457,
+      "b": 8951,
+      "target": 66747607,
+      "predicted": 66732107,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 926
+    },
+    {
+      "id": 41,
+      "a": 1637,
+      "b": 1129,
+      "target": 1848173,
+      "predicted": 1847573,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 784
+    },
+    {
+      "id": 42,
+      "a": 3119,
+      "b": 8849,
+      "target": 27600031,
+      "predicted": 27587831,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 864
+    },
+    {
+      "id": 43,
+      "a": 4093,
+      "b": 1301,
+      "target": 5324993,
+      "predicted": 5324393,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 620
+    },
+    {
+      "id": 44,
+      "a": 5227,
+      "b": 6911,
+      "target": 36123797,
+      "predicted": 36162197,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 906
+    },
+    {
+      "id": 45,
+      "a": 5483,
+      "b": 8461,
+      "target": 46391663,
+      "predicted": 46371563,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 785
+    },
+    {
+      "id": 46,
+      "a": 8209,
+      "b": 1009,
+      "target": 8282881,
+      "predicted": 8281081,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 358
+    },
+    {
+      "id": 47,
+      "a": 2689,
+      "b": 1951,
+      "target": 5246239,
+      "predicted": 5244139,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 774
+    },
+    {
+      "id": 48,
+      "a": 9839,
+      "b": 6971,
+      "target": 68587669,
+      "predicted": 68531069,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 923
+    },
+    {
+      "id": 49,
+      "a": 2357,
+      "b": 2273,
+      "target": 5357461,
+      "predicted": 5356061,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 820
+    },
+    {
+      "id": 50,
+      "a": 8443,
+      "b": 1109,
+      "target": 9363287,
+      "predicted": 9360387,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 562
+    },
+    {
+      "id": 51,
+      "a": 7433,
+      "b": 2113,
+      "target": 15705929,
+      "predicted": 15705029,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 858
+    },
+    {
+      "id": 52,
+      "a": 7879,
+      "b": 1439,
+      "target": 11337881,
+      "predicted": 11330181,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 878
+    },
+    {
+      "id": 53,
+      "a": 6361,
+      "b": 5333,
+      "target": 33923213,
+      "predicted": 33912513,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 819
+    },
+    {
+      "id": 54,
+      "a": 9161,
+      "b": 1487,
+      "target": 13622407,
+      "predicted": 13633007,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 786
+    },
+    {
+      "id": 55,
+      "a": 6607,
+      "b": 8089,
+      "target": 53444023,
+      "predicted": 53431023,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 616
+    },
+    {
+      "id": 56,
+      "a": 6857,
+      "b": 1327,
+      "target": 9099239,
+      "predicted": 9097739,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 862
+    },
+    {
+      "id": 57,
+      "a": 3607,
+      "b": 8179,
+      "target": 29501653,
+      "predicted": 29510153,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 932
+    },
+    {
+      "id": 58,
+      "a": 1987,
+      "b": 3299,
+      "target": 6555113,
+      "predicted": 6553713,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 601
+    },
+    {
+      "id": 59,
+      "a": 7307,
+      "b": 4831,
+      "target": 35300117,
+      "predicted": 35311117,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 915
+    },
+    {
+      "id": 60,
+      "a": 2207,
+      "b": 1871,
+      "target": 4129297,
+      "predicted": 4131197,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 872
+    },
+    {
+      "id": 61,
+      "a": 7577,
+      "b": 6101,
+      "target": 46227277,
+      "predicted": 46230177,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 644
+    },
+    {
+      "id": 62,
+      "a": 3323,
+      "b": 5827,
+      "target": 19363121,
+      "predicted": 19363921,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 806
+    },
+    {
+      "id": 63,
+      "a": 7603,
+      "b": 7219,
+      "target": 54886057,
+      "predicted": 54934157,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 647
+    },
+    {
+      "id": 64,
+      "a": 2969,
+      "b": 6673,
+      "target": 19812137,
+      "predicted": 19817137,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 904
+    },
+    {
+      "id": 65,
+      "a": 9967,
+      "b": 2843,
+      "target": 28336181,
+      "predicted": 28287181,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 754
+    },
+    {
+      "id": 66,
+      "a": 3643,
+      "b": 7561,
+      "target": 27544723,
+      "predicted": 27532523,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 853
+    },
+    {
+      "id": 67,
+      "a": 8429,
+      "b": 1949,
+      "target": 16428121,
+      "predicted": 16423121,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 813
+    },
+    {
+      "id": 68,
+      "a": 3163,
+      "b": 8831,
+      "target": 27932453,
+      "predicted": 27932153,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 857
+    },
+    {
+      "id": 69,
+      "a": 1297,
+      "b": 6869,
+      "target": 8909093,
+      "predicted": 8900093,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 811
+    },
+    {
+      "id": 70,
+      "a": 8741,
+      "b": 8753,
+      "target": 76509973,
+      "predicted": 76562073,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 886
+    },
+    {
+      "id": 71,
+      "a": 6067,
+      "b": 8363,
+      "target": 50738321,
+      "predicted": 50700121,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 871
+    },
+    {
+      "id": 72,
+      "a": 1429,
+      "b": 3529,
+      "target": 5042941,
+      "predicted": 5036141,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 774
+    },
+    {
+      "id": 73,
+      "a": 6397,
+      "b": 9949,
+      "target": 63643753,
+      "predicted": 63633453,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 1013
+    },
+    {
+      "id": 74,
+      "a": 9923,
+      "b": 3181,
+      "target": 31565063,
+      "predicted": 31533163,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 962
+    },
+    {
+      "id": 75,
+      "a": 6779,
+      "b": 9661,
+      "target": 65491919,
+      "predicted": 65480219,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 989
+    },
+    {
+      "id": 76,
+      "a": 2647,
+      "b": 7229,
+      "target": 19135163,
+      "predicted": 19130263,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 869
+    },
+    {
+      "id": 77,
+      "a": 4651,
+      "b": 6703,
+      "target": 31175653,
+      "predicted": 31177453,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 629
+    },
+    {
+      "id": 78,
+      "a": 2417,
+      "b": 5483,
+      "target": 13252411,
+      "predicted": 13242111,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 809
+    },
+    {
+      "id": 79,
+      "a": 9769,
+      "b": 4987,
+      "target": 48718003,
+      "predicted": 48702103,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 927
+    },
+    {
+      "id": 80,
+      "a": 4261,
+      "b": 6359,
+      "target": 27095699,
+      "predicted": 27112199,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 902
+    },
+    {
+      "id": 81,
+      "a": 5387,
+      "b": 7757,
+      "target": 41786959,
+      "predicted": 41732159,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 901
+    },
+    {
+      "id": 82,
+      "a": 1621,
+      "b": 9677,
+      "target": 15686417,
+      "predicted": 15697117,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 797
+    },
+    {
+      "id": 83,
+      "a": 2239,
+      "b": 4157,
+      "target": 9307523,
+      "predicted": 9302023,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 875
+    },
+    {
+      "id": 84,
+      "a": 9749,
+      "b": 4217,
+      "target": 41111533,
+      "predicted": 41100033,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 662
+    },
+    {
+      "id": 85,
+      "a": 1249,
+      "b": 4111,
+      "target": 5134639,
+      "predicted": 5134239,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 815
+    },
+    {
+      "id": 86,
+      "a": 5437,
+      "b": 4759,
+      "target": 25874683,
+      "predicted": 25879483,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 923
+    },
+    {
+      "id": 87,
+      "a": 2309,
+      "b": 6287,
+      "target": 14516683,
+      "predicted": 14513183,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 846
+    },
+    {
+      "id": 88,
+      "a": 2287,
+      "b": 6719,
+      "target": 15366353,
+      "predicted": 15365153,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 855
+    },
+    {
+      "id": 89,
+      "a": 3089,
+      "b": 3137,
+      "target": 9690193,
+      "predicted": 9693093,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 861
+    },
+    {
+      "id": 90,
+      "a": 9377,
+      "b": 9497,
+      "target": 89053369,
+      "predicted": 89030969,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 935
+    },
+    {
+      "id": 91,
+      "a": 7757,
+      "b": 1429,
+      "target": 11084753,
+      "predicted": 11083153,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 893
+    },
+    {
+      "id": 92,
+      "a": 5231,
+      "b": 9413,
+      "target": 49239403,
+      "predicted": 49262003,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 854
+    },
+    {
+      "id": 93,
+      "a": 6709,
+      "b": 7717,
+      "target": 51773353,
+      "predicted": 51722153,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 653
+    },
+    {
+      "id": 94,
+      "a": 4649,
+      "b": 9679,
+      "target": 44997671,
+      "predicted": 44967671,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 918
+    },
+    {
+      "id": 95,
+      "a": 2963,
+      "b": 1087,
+      "target": 3220781,
+      "predicted": 3223081,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 551
+    },
+    {
+      "id": 96,
+      "a": 9539,
+      "b": 6779,
+      "target": 64664881,
+      "predicted": 64632181,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 955
+    },
+    {
+      "id": 97,
+      "a": 2897,
+      "b": 1783,
+      "target": 5165351,
+      "predicted": 5156151,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 903
+    },
+    {
+      "id": 98,
+      "a": 7057,
+      "b": 8941,
+      "target": 63096637,
+      "predicted": 63060937,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 918
+    },
+    {
+      "id": 99,
+      "a": 7103,
+      "b": 8219,
+      "target": 58379557,
+      "predicted": 58410557,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 659
+    },
+    {
+      "id": 100,
+      "a": 6269,
+      "b": 7019,
+      "target": 44002111,
+      "predicted": 43999111,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 614
+    },
+    {
+      "id": 101,
+      "a": 4513,
+      "b": 8731,
+      "target": 39403003,
+      "predicted": 39436103,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 845
+    },
+    {
+      "id": 102,
+      "a": 6763,
+      "b": 4091,
+      "target": 27667433,
+      "predicted": 27663033,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 598
+    },
+    {
+      "id": 103,
+      "a": 3889,
+      "b": 7517,
+      "target": 29233613,
+      "predicted": 29233113,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 605
+    },
+    {
+      "id": 104,
+      "a": 1949,
+      "b": 8093,
+      "target": 15773257,
+      "predicted": 15780157,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 396
+    },
+    {
+      "id": 105,
+      "a": 7351,
+      "b": 9661,
+      "target": 71018011,
+      "predicted": 71000011,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 901
+    },
+    {
+      "id": 106,
+      "a": 5399,
+      "b": 3793,
+      "target": 20478407,
+      "predicted": 20470407,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 946
+    },
+    {
+      "id": 107,
+      "a": 7393,
+      "b": 7219,
+      "target": 53370067,
+      "predicted": 53400267,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 672
+    },
+    {
+      "id": 108,
+      "a": 2053,
+      "b": 5881,
+      "target": 12073693,
+      "predicted": 12076193,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 828
+    },
+    {
+      "id": 109,
+      "a": 2897,
+      "b": 5399,
+      "target": 15640903,
+      "predicted": 15643803,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 632
+    },
+    {
+      "id": 110,
+      "a": 9719,
+      "b": 6359,
+      "target": 61803121,
+      "predicted": 61710221,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 925
+    },
+    {
+      "id": 111,
+      "a": 1823,
+      "b": 7487,
+      "target": 13648801,
+      "predicted": 13647101,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 744
+    },
+    {
+      "id": 112,
+      "a": 1759,
+      "b": 7589,
+      "target": 13349051,
+      "predicted": 13343251,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 815
+    },
+    {
+      "id": 113,
+      "a": 5939,
+      "b": 2683,
+      "target": 15934337,
+      "predicted": 15896137,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 894
+    },
+    {
+      "id": 114,
+      "a": 9029,
+      "b": 6389,
+      "target": 57686281,
+      "predicted": 57752181,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 919
+    },
+    {
+      "id": 115,
+      "a": 4969,
+      "b": 8681,
+      "target": 43135889,
+      "predicted": 43181189,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 940
+    },
+    {
+      "id": 116,
+      "a": 5407,
+      "b": 8573,
+      "target": 46354211,
+      "predicted": 46290111,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 881
+    },
+    {
+      "id": 117,
+      "a": 6781,
+      "b": 5059,
+      "target": 34305079,
+      "predicted": 34312179,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 587
+    },
+    {
+      "id": 118,
+      "a": 8837,
+      "b": 9679,
+      "target": 85533323,
+      "predicted": 85560123,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 919
+    },
+    {
+      "id": 119,
+      "a": 5531,
+      "b": 6661,
+      "target": 36841991,
+      "predicted": 36876091,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 805
+    },
+    {
+      "id": 120,
+      "a": 1721,
+      "b": 3917,
+      "target": 6741157,
+      "predicted": 6738257,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 542
+    },
+    {
+      "id": 121,
+      "a": 2909,
+      "b": 1289,
+      "target": 3749701,
+      "predicted": 3753201,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 881
+    },
+    {
+      "id": 122,
+      "a": 8329,
+      "b": 9601,
+      "target": 79966729,
+      "predicted": 79967329,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 643
+    },
+    {
+      "id": 123,
+      "a": 3067,
+      "b": 9241,
+      "target": 28342147,
+      "predicted": 28350147,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 819
+    },
+    {
+      "id": 124,
+      "a": 1619,
+      "b": 9133,
+      "target": 14786327,
+      "predicted": 14783527,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 886
+    },
+    {
+      "id": 125,
+      "a": 3251,
+      "b": 6427,
+      "target": 20894177,
+      "predicted": 20903077,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 847
+    },
+    {
+      "id": 126,
+      "a": 7243,
+      "b": 4591,
+      "target": 33252613,
+      "predicted": 33261413,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 898
+    },
+    {
+      "id": 127,
+      "a": 1481,
+      "b": 9001,
+      "target": 13330481,
+      "predicted": 13329481,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 403
+    },
+    {
+      "id": 128,
+      "a": 9739,
+      "b": 5791,
+      "target": 56398549,
+      "predicted": 56381149,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 900
+    },
+    {
+      "id": 129,
+      "a": 1201,
+      "b": 6337,
+      "target": 7610737,
+      "predicted": 7608337,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 847
+    },
+    {
+      "id": 130,
+      "a": 7561,
+      "b": 4703,
+      "target": 35559383,
+      "predicted": 35553183,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 625
+    },
+    {
+      "id": 131,
+      "a": 1951,
+      "b": 5153,
+      "target": 10053503,
+      "predicted": 10053603,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 835
+    },
+    {
+      "id": 132,
+      "a": 5711,
+      "b": 3673,
+      "target": 20976503,
+      "predicted": 21000003,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 866
+    },
+    {
+      "id": 133,
+      "a": 8117,
+      "b": 7001,
+      "target": 56827117,
+      "predicted": 56823117,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 485
+    },
+    {
+      "id": 134,
+      "a": 8287,
+      "b": 1621,
+      "target": 13433227,
+      "predicted": 13423027,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 802
+    },
+    {
+      "id": 135,
+      "a": 1187,
+      "b": 9613,
+      "target": 11410631,
+      "predicted": 11399731,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 581
+    },
+    {
+      "id": 136,
+      "a": 3617,
+      "b": 4177,
+      "target": 15108209,
+      "predicted": 15110109,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 909
+    },
+    {
+      "id": 137,
+      "a": 1693,
+      "b": 5443,
+      "target": 9214999,
+      "predicted": 9207199,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 839
+    },
+    {
+      "id": 138,
+      "a": 3631,
+      "b": 4111,
+      "target": 14927041,
+      "predicted": 14913041,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 720
+    },
+    {
+      "id": 139,
+      "a": 6047,
+      "b": 9649,
+      "target": 58347503,
+      "predicted": 58314103,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 952
+    },
+    {
+      "id": 140,
+      "a": 9059,
+      "b": 4649,
+      "target": 42115291,
+      "predicted": 42030191,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 1004
+    },
+    {
+      "id": 141,
+      "a": 5669,
+      "b": 2399,
+      "target": 13599931,
+      "predicted": 13623931,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 840
+    },
+    {
+      "id": 142,
+      "a": 2617,
+      "b": 8629,
+      "target": 22582093,
+      "predicted": 22552193,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 877
+    },
+    {
+      "id": 143,
+      "a": 5641,
+      "b": 4129,
+      "target": 23291689,
+      "predicted": 23300089,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 853
+    },
+    {
+      "id": 144,
+      "a": 2027,
+      "b": 7669,
+      "target": 15545063,
+      "predicted": 15537163,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 815
+    },
+    {
+      "id": 145,
+      "a": 7927,
+      "b": 8719,
+      "target": 69115513,
+      "predicted": 69162513,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 950
+    },
+    {
+      "id": 146,
+      "a": 2713,
+      "b": 1907,
+      "target": 5173691,
+      "predicted": 5175991,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 567
+    },
+    {
+      "id": 147,
+      "a": 8431,
+      "b": 8513,
+      "target": 71773103,
+      "predicted": 71792503,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 580
+    },
+    {
+      "id": 148,
+      "a": 9967,
+      "b": 6991,
+      "target": 69679297,
+      "predicted": 69532197,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 1235
+    },
+    {
+      "id": 149,
+      "a": 3461,
+      "b": 9521,
+      "target": 32952181,
+      "predicted": 32943081,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 825
+    },
+    {
+      "id": 150,
+      "a": 3119,
+      "b": 4127,
+      "target": 12872113,
+      "predicted": 12865113,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 840
+    },
+    {
+      "id": 151,
+      "a": 4423,
+      "b": 4957,
+      "target": 21924811,
+      "predicted": 21923611,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 830
+    },
+    {
+      "id": 152,
+      "a": 1553,
+      "b": 4999,
+      "target": 7763447,
+      "predicted": 7763947,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 322
+    },
+    {
+      "id": 153,
+      "a": 4357,
+      "b": 2113,
+      "target": 9206341,
+      "predicted": 9210841,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 818
+    },
+    {
+      "id": 154,
+      "a": 7877,
+      "b": 1381,
+      "target": 10878137,
+      "predicted": 10883037,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 869
+    },
+    {
+      "id": 155,
+      "a": 1153,
+      "b": 8059,
+      "target": 9292027,
+      "predicted": 9293227,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 571
+    },
+    {
+      "id": 156,
+      "a": 6359,
+      "b": 1451,
+      "target": 9226909,
+      "predicted": 9226309,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 675
+    },
+    {
+      "id": 157,
+      "a": 1609,
+      "b": 5021,
+      "target": 8078789,
+      "predicted": 8076589,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 512
+    },
+    {
+      "id": 158,
+      "a": 8513,
+      "b": 5827,
+      "target": 49605251,
+      "predicted": 49601451,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 833
+    },
+    {
+      "id": 159,
+      "a": 3967,
+      "b": 6067,
+      "target": 24067789,
+      "predicted": 24072089,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 659
+    },
+    {
+      "id": 160,
+      "a": 2731,
+      "b": 5669,
+      "target": 15482039,
+      "predicted": 15452239,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 848
+    },
+    {
+      "id": 161,
+      "a": 6397,
+      "b": 4441,
+      "target": 28409077,
+      "predicted": 28437177,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 925
+    },
+    {
+      "id": 162,
+      "a": 9929,
+      "b": 1399,
+      "target": 13890671,
+      "predicted": 13873671,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 956
+    },
+    {
+      "id": 163,
+      "a": 7079,
+      "b": 3449,
+      "target": 24415471,
+      "predicted": 24397171,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 953
+    },
+    {
+      "id": 164,
+      "a": 9041,
+      "b": 4651,
+      "target": 42049691,
+      "predicted": 42000091,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 837
+    },
+    {
+      "id": 165,
+      "a": 8089,
+      "b": 4603,
+      "target": 37233667,
+      "predicted": 37223367,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 620
+    },
+    {
+      "id": 166,
+      "a": 9839,
+      "b": 8467,
+      "target": 83306813,
+      "predicted": 83271213,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 905
+    },
+    {
+      "id": 167,
+      "a": 7639,
+      "b": 4019,
+      "target": 30701141,
+      "predicted": 30713041,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 421
+    },
+    {
+      "id": 168,
+      "a": 7607,
+      "b": 2161,
+      "target": 16438727,
+      "predicted": 16463027,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 836
+    },
+    {
+      "id": 169,
+      "a": 9613,
+      "b": 1619,
+      "target": 15563447,
+      "predicted": 15567647,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 979
+    },
+    {
+      "id": 170,
+      "a": 5743,
+      "b": 3209,
+      "target": 18429287,
+      "predicted": 18433087,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 592
+    },
+    {
+      "id": 171,
+      "a": 9221,
+      "b": 2671,
+      "target": 24629291,
+      "predicted": 24597191,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 679
+    },
+    {
+      "id": 172,
+      "a": 2963,
+      "b": 2887,
+      "target": 8554181,
+      "predicted": 8560181,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 671
+    },
+    {
+      "id": 173,
+      "a": 8933,
+      "b": 6947,
+      "target": 62057551,
+      "predicted": 62030951,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 959
+    },
+    {
+      "id": 174,
+      "a": 1249,
+      "b": 8677,
+      "target": 10837573,
+      "predicted": 10836173,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 794
+    },
+    {
+      "id": 175,
+      "a": 6947,
+      "b": 5791,
+      "target": 40230077,
+      "predicted": 40250177,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 897
+    },
+    {
+      "id": 176,
+      "a": 7109,
+      "b": 4451,
+      "target": 31642159,
+      "predicted": 31663159,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 923
+    },
+    {
+      "id": 177,
+      "a": 7621,
+      "b": 1697,
+      "target": 12932837,
+      "predicted": 12943137,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 795
+    },
+    {
+      "id": 178,
+      "a": 2659,
+      "b": 9811,
+      "target": 26087449,
+      "predicted": 26076949,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 938
+    },
+    {
+      "id": 179,
+      "a": 2447,
+      "b": 6397,
+      "target": 15653459,
+      "predicted": 15643459,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 871
+    },
+    {
+      "id": 180,
+      "a": 2273,
+      "b": 4297,
+      "target": 9767081,
+      "predicted": 9766381,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 802
+    },
+    {
+      "id": 181,
+      "a": 7541,
+      "b": 3877,
+      "target": 29236457,
+      "predicted": 29210057,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 833
+    },
+    {
+      "id": 182,
+      "a": 8171,
+      "b": 2963,
+      "target": 24210673,
+      "predicted": 24233173,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 823
+    },
+    {
+      "id": 183,
+      "a": 9209,
+      "b": 3221,
+      "target": 29662189,
+      "predicted": 29647189,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 905
+    },
+    {
+      "id": 184,
+      "a": 1063,
+      "b": 3581,
+      "target": 3806603,
+      "predicted": 3806003,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 762
+    },
+    {
+      "id": 185,
+      "a": 2333,
+      "b": 6551,
+      "target": 15283483,
+      "predicted": 15276183,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 832
+    },
+    {
+      "id": 186,
+      "a": 1483,
+      "b": 2531,
+      "target": 3753473,
+      "predicted": 3751273,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 721
+    },
+    {
+      "id": 187,
+      "a": 3323,
+      "b": 4549,
+      "target": 15116327,
+      "predicted": 15123127,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 871
+    },
+    {
+      "id": 188,
+      "a": 8867,
+      "b": 8387,
+      "target": 74367529,
+      "predicted": 74432129,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 870
+    },
+    {
+      "id": 189,
+      "a": 4231,
+      "b": 7883,
+      "target": 33352973,
+      "predicted": 33331173,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 787
+    },
+    {
+      "id": 190,
+      "a": 1901,
+      "b": 1861,
+      "target": 3537761,
+      "predicted": 3536561,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 876
+    },
+    {
+      "id": 191,
+      "a": 3407,
+      "b": 2767,
+      "target": 9427169,
+      "predicted": 9426069,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 888
+    },
+    {
+      "id": 192,
+      "a": 8951,
+      "b": 2381,
+      "target": 21312331,
+      "predicted": 21306031,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 847
+    },
+    {
+      "id": 193,
+      "a": 3119,
+      "b": 1607,
+      "target": 5012233,
+      "predicted": 5011833,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 575
+    },
+    {
+      "id": 194,
+      "a": 7027,
+      "b": 8581,
+      "target": 60298687,
+      "predicted": 60231187,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 905
+    },
+    {
+      "id": 195,
+      "a": 4327,
+      "b": 4931,
+      "target": 21336437,
+      "predicted": 21313137,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 844
+    },
+    {
+      "id": 196,
+      "a": 4831,
+      "b": 8419,
+      "target": 40672189,
+      "predicted": 40667189,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 582
+    },
+    {
+      "id": 197,
+      "a": 6733,
+      "b": 3259,
+      "target": 21942847,
+      "predicted": 21952147,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 912
+    },
+    {
+      "id": 198,
+      "a": 2377,
+      "b": 1123,
+      "target": 2669371,
+      "predicted": 2667671,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 861
+    },
+    {
+      "id": 199,
+      "a": 5839,
+      "b": 6469,
+      "target": 37772491,
+      "predicted": 37777291,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 852
+    },
+    {
+      "id": 200,
+      "a": 7823,
+      "b": 6803,
+      "target": 53219869,
+      "predicted": 53171269,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 648
+    },
+    {
+      "id": 201,
+      "a": 4723,
+      "b": 1913,
+      "target": 9035099,
+      "predicted": 9043299,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 874
+    },
+    {
+      "id": 202,
+      "a": 1873,
+      "b": 1993,
+      "target": 3732889,
+      "predicted": 3736989,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 929
+    },
+    {
+      "id": 203,
+      "a": 2707,
+      "b": 5087,
+      "target": 13770509,
+      "predicted": 13773409,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 584
+    },
+    {
+      "id": 204,
+      "a": 5779,
+      "b": 4817,
+      "target": 27837443,
+      "predicted": 27855043,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 669
+    },
+    {
+      "id": 205,
+      "a": 2953,
+      "b": 1013,
+      "target": 2991389,
+      "predicted": 3000039,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 614
+    },
+    {
+      "id": 206,
+      "a": 5351,
+      "b": 8219,
+      "target": 43979869,
+      "predicted": 43969869,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 619
+    },
+    {
+      "id": 207,
+      "a": 7213,
+      "b": 7253,
+      "target": 52315889,
+      "predicted": 52302989,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 918
+    },
+    {
+      "id": 208,
+      "a": 3037,
+      "b": 8123,
+      "target": 24669551,
+      "predicted": 24653151,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 817
+    },
+    {
+      "id": 209,
+      "a": 1489,
+      "b": 5801,
+      "target": 8637689,
+      "predicted": 8640089,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 562
+    },
+    {
+      "id": 210,
+      "a": 6871,
+      "b": 6221,
+      "target": 42744491,
+      "predicted": 42763391,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 795
+    },
+    {
+      "id": 211,
+      "a": 1039,
+      "b": 6883,
+      "target": 7151437,
+      "predicted": 7156037,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 876
+    },
+    {
+      "id": 212,
+      "a": 9781,
+      "b": 1033,
+      "target": 10103773,
+      "predicted": 10100473,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 583
+    },
+    {
+      "id": 213,
+      "a": 5861,
+      "b": 2237,
+      "target": 13111057,
+      "predicted": 13097157,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 792
+    },
+    {
+      "id": 214,
+      "a": 7457,
+      "b": 3929,
+      "target": 29298553,
+      "predicted": 29332153,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 984
+    },
+    {
+      "id": 215,
+      "a": 6421,
+      "b": 8669,
+      "target": 55663649,
+      "predicted": 55671049,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 817
+    },
+    {
+      "id": 216,
+      "a": 2647,
+      "b": 4201,
+      "target": 11120047,
+      "predicted": 11119647,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 583
+    },
+    {
+      "id": 217,
+      "a": 7789,
+      "b": 2081,
+      "target": 16208909,
+      "predicted": 16183109,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 578
+    },
+    {
+      "id": 218,
+      "a": 4073,
+      "b": 4289,
+      "target": 17469097,
+      "predicted": 17450197,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 840
+    },
+    {
+      "id": 219,
+      "a": 7013,
+      "b": 8317,
+      "target": 58327121,
+      "predicted": 58310021,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 648
+    },
+    {
+      "id": 220,
+      "a": 9319,
+      "b": 5689,
+      "target": 53015791,
+      "predicted": 53102191,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 894
+    },
+    {
+      "id": 221,
+      "a": 3593,
+      "b": 7577,
+      "target": 27224161,
+      "predicted": 27200561,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 957
+    },
+    {
+      "id": 222,
+      "a": 1409,
+      "b": 5297,
+      "target": 7463473,
+      "predicted": 7461273,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 826
+    },
+    {
+      "id": 223,
+      "a": 1459,
+      "b": 3559,
+      "target": 5192581,
+      "predicted": 5187081,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 797
+    },
+    {
+      "id": 224,
+      "a": 4091,
+      "b": 7177,
+      "target": 29361107,
+      "predicted": 29300007,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 918
+    },
+    {
+      "id": 225,
+      "a": 3929,
+      "b": 2557,
+      "target": 10046453,
+      "predicted": 10046053,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 723
+    },
+    {
+      "id": 226,
+      "a": 3167,
+      "b": 2579,
+      "target": 8167693,
+      "predicted": 8163293,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 659
+    },
+    {
+      "id": 227,
+      "a": 5471,
+      "b": 2879,
+      "target": 15751009,
+      "predicted": 15753409,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 680
+    },
+    {
+      "id": 228,
+      "a": 2113,
+      "b": 7069,
+      "target": 14936797,
+      "predicted": 14923497,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 592
+    },
+    {
+      "id": 229,
+      "a": 1867,
+      "b": 5179,
+      "target": 9669193,
+      "predicted": 9670093,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 785
+    },
+    {
+      "id": 230,
+      "a": 7069,
+      "b": 3037,
+      "target": 21468553,
+      "predicted": 21483153,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 990
+    },
+    {
+      "id": 231,
+      "a": 5119,
+      "b": 8017,
+      "target": 41039023,
+      "predicted": 41019623,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 401
+    },
+    {
+      "id": 232,
+      "a": 2411,
+      "b": 5281,
+      "target": 12732491,
+      "predicted": 12742191,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 739
+    },
+    {
+      "id": 233,
+      "a": 2843,
+      "b": 2861,
+      "target": 8133823,
+      "predicted": 8130223,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 668
+    },
+    {
+      "id": 234,
+      "a": 6529,
+      "b": 5743,
+      "target": 37496047,
+      "predicted": 37532147,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 975
+    },
+    {
+      "id": 235,
+      "a": 6133,
+      "b": 8581,
+      "target": 52627273,
+      "predicted": 52581073,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 829
+    },
+    {
+      "id": 236,
+      "a": 4831,
+      "b": 1063,
+      "target": 5135353,
+      "predicted": 5134553,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 507
+    },
+    {
+      "id": 237,
+      "a": 2423,
+      "b": 2741,
+      "target": 6641443,
+      "predicted": 6646243,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 833
+    },
+    {
+      "id": 238,
+      "a": 2557,
+      "b": 8609,
+      "target": 22013213,
+      "predicted": 21999113,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 622
+    },
+    {
+      "id": 239,
+      "a": 7589,
+      "b": 7019,
+      "target": 53267191,
+      "predicted": 53232091,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 631
+    },
+    {
+      "id": 240,
+      "a": 3881,
+      "b": 3067,
+      "target": 11903027,
+      "predicted": 11893627,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 593
+    },
+    {
+      "id": 241,
+      "a": 7577,
+      "b": 1009,
+      "target": 7645193,
+      "predicted": 7641893,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 603
+    },
+    {
+      "id": 242,
+      "a": 8101,
+      "b": 4391,
+      "target": 35571491,
+      "predicted": 35572291,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 868
+    },
+    {
+      "id": 243,
+      "a": 4937,
+      "b": 1051,
+      "target": 5188787,
+      "predicted": 5190387,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 584
+    },
+    {
+      "id": 244,
+      "a": 8147,
+      "b": 3023,
+      "target": 24628381,
+      "predicted": 24636181,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 522
+    },
+    {
+      "id": 245,
+      "a": 2287,
+      "b": 3779,
+      "target": 8642573,
+      "predicted": 8650273,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 924
+    },
+    {
+      "id": 246,
+      "a": 5417,
+      "b": 8221,
+      "target": 44533157,
+      "predicted": 44497157,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 798
+    },
+    {
+      "id": 247,
+      "a": 3673,
+      "b": 7607,
+      "target": 27940511,
+      "predicted": 27956811,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 599
+    },
+    {
+      "id": 248,
+      "a": 6089,
+      "b": 1993,
+      "target": 12135377,
+      "predicted": 12130377,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 838
+    },
+    {
+      "id": 249,
+      "a": 1327,
+      "b": 2887,
+      "target": 3831049,
+      "predicted": 3831149,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 819
+    },
+    {
+      "id": 250,
+      "a": 7687,
+      "b": 5413,
+      "target": 41609731,
+      "predicted": 41610131,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 620
+    },
+    {
+      "id": 251,
+      "a": 1789,
+      "b": 4013,
+      "target": 7179257,
+      "predicted": 7181157,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 395
+    },
+    {
+      "id": 252,
+      "a": 6173,
+      "b": 6199,
+      "target": 38266427,
+      "predicted": 38290627,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 886
+    },
+    {
+      "id": 253,
+      "a": 6679,
+      "b": 1319,
+      "target": 8809601,
+      "predicted": 8800001,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 912
+    },
+    {
+      "id": 254,
+      "a": 3313,
+      "b": 6133,
+      "target": 20318629,
+      "predicted": 20300229,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 891
+    },
+    {
+      "id": 255,
+      "a": 5711,
+      "b": 4219,
+      "target": 24094709,
+      "predicted": 24112109,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 896
+    },
+    {
+      "id": 256,
+      "a": 8311,
+      "b": 4441,
+      "target": 36909151,
+      "predicted": 36907151,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 783
+    },
+    {
+      "id": 257,
+      "a": 9619,
+      "b": 1663,
+      "target": 15996397,
+      "predicted": 16000000,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 884
+    },
+    {
+      "id": 258,
+      "a": 8237,
+      "b": 1999,
+      "target": 16465763,
+      "predicted": 16475763,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 626
+    },
+    {
+      "id": 259,
+      "a": 3461,
+      "b": 3701,
+      "target": 12809161,
+      "predicted": 12808861,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 559
+    },
+    {
+      "id": 260,
+      "a": 1697,
+      "b": 4621,
+      "target": 7841837,
+      "predicted": 7833137,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 844
+    },
+    {
+      "id": 261,
+      "a": 1951,
+      "b": 8731,
+      "target": 17034181,
+      "predicted": 17033281,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 827
+    },
+    {
+      "id": 262,
+      "a": 4027,
+      "b": 7823,
+      "target": 31503221,
+      "predicted": 31500021,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 859
+    },
+    {
+      "id": 263,
+      "a": 8447,
+      "b": 7159,
+      "target": 60472073,
+      "predicted": 60501473,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 831
+    },
+    {
+      "id": 264,
+      "a": 2131,
+      "b": 4507,
+      "target": 9604417,
+      "predicted": 9603017,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 557
+    },
+    {
+      "id": 265,
+      "a": 2377,
+      "b": 8573,
+      "target": 20378021,
+      "predicted": 20372221,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 825
+    },
+    {
+      "id": 266,
+      "a": 1619,
+      "b": 6199,
+      "target": 10036181,
+      "predicted": 9999681,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 589
+    },
+    {
+      "id": 267,
+      "a": 1459,
+      "b": 4357,
+      "target": 6356863,
+      "predicted": 6363263,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 833
+    },
+    {
+      "id": 268,
+      "a": 1523,
+      "b": 3491,
+      "target": 5316793,
+      "predicted": 5307193,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 604
+    },
+    {
+      "id": 269,
+      "a": 2531,
+      "b": 1747,
+      "target": 4421657,
+      "predicted": 4426957,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 825
+    },
+    {
+      "id": 270,
+      "a": 8053,
+      "b": 9161,
+      "target": 73773533,
+      "predicted": 73751433,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 823
+    },
+    {
+      "id": 271,
+      "a": 7541,
+      "b": 6581,
+      "target": 49627321,
+      "predicted": 49561421,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 837
+    },
+    {
+      "id": 272,
+      "a": 3917,
+      "b": 7883,
+      "target": 30877711,
+      "predicted": 30857111,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 899
+    },
+    {
+      "id": 273,
+      "a": 8353,
+      "b": 2621,
+      "target": 21893213,
+      "predicted": 21892113,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 803
+    },
+    {
+      "id": 274,
+      "a": 2341,
+      "b": 1627,
+      "target": 3808807,
+      "predicted": 3809107,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 801
+    },
+    {
+      "id": 275,
+      "a": 4507,
+      "b": 3413,
+      "target": 15382391,
+      "predicted": 15376991,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 837
+    },
+    {
+      "id": 276,
+      "a": 3163,
+      "b": 6037,
+      "target": 19095031,
+      "predicted": 19082531,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 582
+    },
+    {
+      "id": 277,
+      "a": 7159,
+      "b": 9833,
+      "target": 70394447,
+      "predicted": 70392147,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 940
+    },
+    {
+      "id": 278,
+      "a": 8219,
+      "b": 5351,
+      "target": 43979869,
+      "predicted": 43992169,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 901
+    },
+    {
+      "id": 279,
+      "a": 5689,
+      "b": 8017,
+      "target": 45608713,
+      "predicted": 45603513,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 406
+    },
+    {
+      "id": 280,
+      "a": 3929,
+      "b": 2393,
+      "target": 9402097,
+      "predicted": 9393297,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 859
+    },
+    {
+      "id": 281,
+      "a": 1031,
+      "b": 3299,
+      "target": 3401269,
+      "predicted": 3390069,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 618
+    },
+    {
+      "id": 282,
+      "a": 2579,
+      "b": 8819,
+      "target": 22744201,
+      "predicted": 22723101,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 641
+    },
+    {
+      "id": 283,
+      "a": 5021,
+      "b": 9283,
+      "target": 46609943,
+      "predicted": 46571043,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 843
+    },
+    {
+      "id": 284,
+      "a": 1447,
+      "b": 7297,
+      "target": 10558759,
+      "predicted": 10550159,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 822
+    },
+    {
+      "id": 285,
+      "a": 5881,
+      "b": 9029,
+      "target": 53099549,
+      "predicted": 53090049,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 554
+    },
+    {
+      "id": 286,
+      "a": 7321,
+      "b": 5701,
+      "target": 41737021,
+      "predicted": 41736321,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 614
+    },
+    {
+      "id": 287,
+      "a": 6689,
+      "b": 4201,
+      "target": 28100489,
+      "predicted": 28099689,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 592
+    },
+    {
+      "id": 288,
+      "a": 3691,
+      "b": 1583,
+      "target": 5842853,
+      "predicted": 5850353,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 790
+    },
+    {
+      "id": 289,
+      "a": 7349,
+      "b": 1783,
+      "target": 13103267,
+      "predicted": 13097267,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 911
+    },
+    {
+      "id": 290,
+      "a": 2477,
+      "b": 9473,
+      "target": 23464621,
+      "predicted": 23466121,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 853
+    },
+    {
+      "id": 291,
+      "a": 7307,
+      "b": 8221,
+      "target": 60070847,
+      "predicted": 59999847,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 931
+    },
+    {
+      "id": 292,
+      "a": 3823,
+      "b": 2647,
+      "target": 10119481,
+      "predicted": 10116081,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 597
+    },
+    {
+      "id": 293,
+      "a": 2111,
+      "b": 4787,
+      "target": 10105357,
+      "predicted": 10100557,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 804
+    },
+    {
+      "id": 294,
+      "a": 7529,
+      "b": 3163,
+      "target": 23814227,
+      "predicted": 23807227,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 957
+    },
+    {
+      "id": 295,
+      "a": 9781,
+      "b": 2543,
+      "target": 24873083,
+      "predicted": 24883183,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 913
+    },
+    {
+      "id": 296,
+      "a": 9433,
+      "b": 4787,
+      "target": 45155771,
+      "predicted": 45110571,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 913
+    },
+    {
+      "id": 297,
+      "a": 9619,
+      "b": 6619,
+      "target": 63668161,
+      "predicted": 63617261,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 653
+    },
+    {
+      "id": 298,
+      "a": 6263,
+      "b": 8117,
+      "target": 50836771,
+      "predicted": 50832971,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 574
+    },
+    {
+      "id": 299,
+      "a": 5419,
+      "b": 6673,
+      "target": 36160987,
+      "predicted": 36183187,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 940
+    },
+    {
+      "id": 300,
+      "a": 9319,
+      "b": 3821,
+      "target": 35607899,
+      "predicted": 35583199,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 927
+    },
+    {
+      "id": 301,
+      "a": 4831,
+      "b": 2593,
+      "target": 12526783,
+      "predicted": 12533183,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 810
+    },
+    {
+      "id": 302,
+      "a": 1787,
+      "b": 9931,
+      "target": 17746697,
+      "predicted": 17756597,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 828
+    },
+    {
+      "id": 303,
+      "a": 3299,
+      "b": 7229,
+      "target": 23848471,
+      "predicted": 23813271,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 946
+    },
+    {
+      "id": 304,
+      "a": 1597,
+      "b": 3221,
+      "target": 5143937,
+      "predicted": 5141037,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 847
+    },
+    {
+      "id": 305,
+      "a": 3331,
+      "b": 3659,
+      "target": 12188129,
+      "predicted": 12177129,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 902
+    },
+    {
+      "id": 306,
+      "a": 7789,
+      "b": 3853,
+      "target": 30011017,
+      "predicted": 29977117,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 961
+    },
+    {
+      "id": 307,
+      "a": 5081,
+      "b": 9811,
+      "target": 49849691,
+      "predicted": 49843991,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 812
+    },
+    {
+      "id": 308,
+      "a": 3919,
+      "b": 9413,
+      "target": 36889547,
+      "predicted": 36881147,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 661
+    },
+    {
+      "id": 309,
+      "a": 9661,
+      "b": 1063,
+      "target": 10269643,
+      "predicted": 10256643,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 564
+    },
+    {
+      "id": 310,
+      "a": 9133,
+      "b": 3491,
+      "target": 31883303,
+      "predicted": 31861103,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 925
+    },
+    {
+      "id": 311,
+      "a": 5569,
+      "b": 6883,
+      "target": 38331427,
+      "predicted": 38332127,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 899
+    },
+    {
+      "id": 312,
+      "a": 9749,
+      "b": 8563,
+      "target": 83480687,
+      "predicted": 83430187,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 944
+    },
+    {
+      "id": 313,
+      "a": 4651,
+      "b": 2011,
+      "target": 9353161,
+      "predicted": 9351761,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 506
+    },
+    {
+      "id": 314,
+      "a": 8311,
+      "b": 9161,
+      "target": 76137071,
+      "predicted": 76111071,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 827
+    },
+    {
+      "id": 315,
+      "a": 7723,
+      "b": 6311,
+      "target": 48739853,
+      "predicted": 48734153,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 908
+    },
+    {
+      "id": 316,
+      "a": 1697,
+      "b": 8369,
+      "target": 14202193,
+      "predicted": 14160093,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 840
+    },
+    {
+      "id": 317,
+      "a": 8117,
+      "b": 2351,
+      "target": 19083067,
+      "predicted": 19073167,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 771
+    },
+    {
+      "id": 318,
+      "a": 6469,
+      "b": 8647,
+      "target": 55937443,
+      "predicted": 55917143,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 930
+    },
+    {
+      "id": 319,
+      "a": 9001,
+      "b": 1213,
+      "target": 10918213,
+      "predicted": 10918213,
+      "correct": true,
+      "digit_ratio": 0.0,
+      "think_length": 892
+    },
+    {
+      "id": 320,
+      "a": 2719,
+      "b": 1559,
+      "target": 4238921,
+      "predicted": 4230221,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 838
+    },
+    {
+      "id": 321,
+      "a": 6947,
+      "b": 7159,
+      "target": 49733573,
+      "predicted": 49732073,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 916
+    },
+    {
+      "id": 322,
+      "a": 6337,
+      "b": 4919,
+      "target": 31171703,
+      "predicted": 31173103,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 681
+    },
+    {
+      "id": 323,
+      "a": 9227,
+      "b": 6719,
+      "target": 61996213,
+      "predicted": 61989213,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 962
+    },
+    {
+      "id": 324,
+      "a": 4801,
+      "b": 1483,
+      "target": 7119883,
+      "predicted": 7127383,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 786
+    },
+    {
+      "id": 325,
+      "a": 3943,
+      "b": 2969,
+      "target": 11706767,
+      "predicted": 11699267,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 702
+    },
+    {
+      "id": 326,
+      "a": 8731,
+      "b": 4253,
+      "target": 37132943,
+      "predicted": 37160143,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 849
+    },
+    {
+      "id": 327,
+      "a": 9103,
+      "b": 8353,
+      "target": 76037359,
+      "predicted": 76030059,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 940
+    },
+    {
+      "id": 328,
+      "a": 1213,
+      "b": 6857,
+      "target": 8317541,
+      "predicted": 8320241,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 735
+    },
+    {
+      "id": 329,
+      "a": 2953,
+      "b": 5443,
+      "target": 16073179,
+      "predicted": 16083279,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 930
+    },
+    {
+      "id": 330,
+      "a": 6991,
+      "b": 6197,
+      "target": 43323227,
+      "predicted": 43260427,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 989
+    },
+    {
+      "id": 331,
+      "a": 2087,
+      "b": 6823,
+      "target": 14239601,
+      "predicted": 14243101,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 809
+    },
+    {
+      "id": 332,
+      "a": 4297,
+      "b": 1697,
+      "target": 7292009,
+      "predicted": 7293009,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 924
+    },
+    {
+      "id": 333,
+      "a": 2819,
+      "b": 3011,
+      "target": 8488009,
+      "predicted": 8489709,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 518
+    },
+    {
+      "id": 334,
+      "a": 9967,
+      "b": 1129,
+      "target": 11252743,
+      "predicted": 11236143,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 975
+    },
+    {
+      "id": 335,
+      "a": 9413,
+      "b": 9929,
+      "target": 93461677,
+      "predicted": 93472177,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 961
+    },
+    {
+      "id": 336,
+      "a": 8219,
+      "b": 7793,
+      "target": 64050667,
+      "predicted": 64071167,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 911
+    },
+    {
+      "id": 337,
+      "a": 9649,
+      "b": 1987,
+      "target": 19172563,
+      "predicted": 19176163,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 915
+    },
+    {
+      "id": 338,
+      "a": 4013,
+      "b": 3923,
+      "target": 15742999,
+      "predicted": 15756099,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 923
+    },
+    {
+      "id": 339,
+      "a": 6863,
+      "b": 4723,
+      "target": 32413949,
+      "predicted": 32412149,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 843
+    },
+    {
+      "id": 340,
+      "a": 6491,
+      "b": 8093,
+      "target": 52531663,
+      "predicted": 52512663,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 580
+    },
+    {
+      "id": 341,
+      "a": 9437,
+      "b": 2801,
+      "target": 26433037,
+      "predicted": 26432437,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 550
+    },
+    {
+      "id": 342,
+      "a": 7717,
+      "b": 2113,
+      "target": 16306021,
+      "predicted": 16306121,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 834
+    },
+    {
+      "id": 343,
+      "a": 7027,
+      "b": 9829,
+      "target": 69068383,
+      "predicted": 69072183,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 914
+    },
+    {
+      "id": 344,
+      "a": 7369,
+      "b": 2593,
+      "target": 19107817,
+      "predicted": 19112117,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 869
+    },
+    {
+      "id": 345,
+      "a": 4139,
+      "b": 5231,
+      "target": 21651109,
+      "predicted": 21655109,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 871
+    },
+    {
+      "id": 346,
+      "a": 2377,
+      "b": 2861,
+      "target": 6800597,
+      "predicted": 6795097,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 830
+    },
+    {
+      "id": 347,
+      "a": 7219,
+      "b": 3793,
+      "target": 27381667,
+      "predicted": 27311167,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 940
+    },
+    {
+      "id": 348,
+      "a": 4049,
+      "b": 2269,
+      "target": 9187181,
+      "predicted": 9185181,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 849
+    },
+    {
+      "id": 349,
+      "a": 1997,
+      "b": 8233,
+      "target": 16441301,
+      "predicted": 16443301,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 885
+    },
+    {
+      "id": 350,
+      "a": 8719,
+      "b": 8527,
+      "target": 74346913,
+      "predicted": 74301113,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 845
+    },
+    {
+      "id": 351,
+      "a": 8707,
+      "b": 1597,
+      "target": 13905079,
+      "predicted": 13896979,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 894
+    },
+    {
+      "id": 352,
+      "a": 8093,
+      "b": 1759,
+      "target": 14235587,
+      "predicted": 14230087,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 929
+    },
+    {
+      "id": 353,
+      "a": 2437,
+      "b": 5953,
+      "target": 14507461,
+      "predicted": 14500161,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 837
+    },
+    {
+      "id": 354,
+      "a": 9791,
+      "b": 7673,
+      "target": 75126343,
+      "predicted": 75071243,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 1001
+    },
+    {
+      "id": 355,
+      "a": 7393,
+      "b": 6569,
+      "target": 48564617,
+      "predicted": 48550117,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 967
+    },
+    {
+      "id": 356,
+      "a": 7213,
+      "b": 6869,
+      "target": 49546097,
+      "predicted": 49532197,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 902
+    },
+    {
+      "id": 357,
+      "a": 1973,
+      "b": 6577,
+      "target": 12976421,
+      "predicted": 12977121,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 821
+    },
+    {
+      "id": 358,
+      "a": 3947,
+      "b": 2861,
+      "target": 11292367,
+      "predicted": 11286067,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 794
+    },
+    {
+      "id": 359,
+      "a": 1423,
+      "b": 8669,
+      "target": 12335987,
+      "predicted": 12343187,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 765
+    },
+    {
+      "id": 360,
+      "a": 7649,
+      "b": 9661,
+      "target": 73896989,
+      "predicted": 73862189,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 973
+    },
+    {
+      "id": 361,
+      "a": 6353,
+      "b": 1487,
+      "target": 9446911,
+      "predicted": 9451211,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 636
+    },
+    {
+      "id": 362,
+      "a": 4283,
+      "b": 5743,
+      "target": 24597269,
+      "predicted": 24583169,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 809
+    },
+    {
+      "id": 363,
+      "a": 6271,
+      "b": 5743,
+      "target": 36014353,
+      "predicted": 36061053,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 835
+    },
+    {
+      "id": 364,
+      "a": 3407,
+      "b": 6323,
+      "target": 21542461,
+      "predicted": 21550161,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 809
+    },
+    {
+      "id": 365,
+      "a": 9157,
+      "b": 7057,
+      "target": 64620949,
+      "predicted": 64561049,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 613
+    },
+    {
+      "id": 366,
+      "a": 4673,
+      "b": 1499,
+      "target": 7004827,
+      "predicted": 7005827,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 807
+    },
+    {
+      "id": 367,
+      "a": 9137,
+      "b": 3469,
+      "target": 31696253,
+      "predicted": 31680153,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 871
+    },
+    {
+      "id": 368,
+      "a": 4349,
+      "b": 6547,
+      "target": 28472903,
+      "predicted": 28437103,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 953
+    },
+    {
+      "id": 369,
+      "a": 4951,
+      "b": 9221,
+      "target": 45653171,
+      "predicted": 45633171,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 876
+    },
+    {
+      "id": 370,
+      "a": 4597,
+      "b": 6211,
+      "target": 28551967,
+      "predicted": 28532167,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 915
+    },
+    {
+      "id": 371,
+      "a": 3583,
+      "b": 4157,
+      "target": 14894531,
+      "predicted": 14900531,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 804
+    },
+    {
+      "id": 372,
+      "a": 9001,
+      "b": 9341,
+      "target": 84078341,
+      "predicted": 84079341,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 895
+    },
+    {
+      "id": 373,
+      "a": 6551,
+      "b": 9221,
+      "target": 60406771,
+      "predicted": 60360771,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 870
+    },
+    {
+      "id": 374,
+      "a": 8699,
+      "b": 8999,
+      "target": 78282301,
+      "predicted": 78281301,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 680
+    },
+    {
+      "id": 375,
+      "a": 5449,
+      "b": 8521,
+      "target": 46430929,
+      "predicted": 46440129,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 891
+    },
+    {
+      "id": 376,
+      "a": 5851,
+      "b": 2221,
+      "target": 12995071,
+      "predicted": 12980071,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 752
+    },
+    {
+      "id": 377,
+      "a": 7687,
+      "b": 9041,
+      "target": 69498167,
+      "predicted": 69502167,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 594
+    },
+    {
+      "id": 378,
+      "a": 2531,
+      "b": 6359,
+      "target": 16094629,
+      "predicted": 16102029,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 809
+    },
+    {
+      "id": 379,
+      "a": 7517,
+      "b": 3019,
+      "target": 22693823,
+      "predicted": 22713823,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 409
+    },
+    {
+      "id": 380,
+      "a": 4799,
+      "b": 1871,
+      "target": 8978929,
+      "predicted": 8976329,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 994
+    },
+    {
+      "id": 381,
+      "a": 3557,
+      "b": 8117,
+      "target": 28872169,
+      "predicted": 28816269,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 686
+    },
+    {
+      "id": 382,
+      "a": 9817,
+      "b": 8663,
+      "target": 85044671,
+      "predicted": 84972171,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 889
+    },
+    {
+      "id": 383,
+      "a": 5503,
+      "b": 4831,
+      "target": 26584993,
+      "predicted": 26559093,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 913
+    },
+    {
+      "id": 384,
+      "a": 5821,
+      "b": 3793,
+      "target": 22079053,
+      "predicted": 22069153,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 849
+    },
+    {
+      "id": 385,
+      "a": 4903,
+      "b": 8147,
+      "target": 39944741,
+      "predicted": 40000041,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 872
+    },
+    {
+      "id": 386,
+      "a": 2273,
+      "b": 7549,
+      "target": 17158877,
+      "predicted": 17153177,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 865
+    },
+    {
+      "id": 387,
+      "a": 1973,
+      "b": 7219,
+      "target": 14243087,
+      "predicted": 14243287,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 635
+    },
+    {
+      "id": 388,
+      "a": 9029,
+      "b": 3121,
+      "target": 28179509,
+      "predicted": 28173109,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 912
+    },
+    {
+      "id": 389,
+      "a": 3673,
+      "b": 6791,
+      "target": 24943343,
+      "predicted": 24961043,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 895
+    },
+    {
+      "id": 390,
+      "a": 3001,
+      "b": 3217,
+      "target": 9654217,
+      "predicted": 9654217,
+      "correct": true,
+      "digit_ratio": 0.0,
+      "think_length": 642
+    },
+    {
+      "id": 391,
+      "a": 6073,
+      "b": 8111,
+      "target": 49258103,
+      "predicted": 49231103,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 865
+    },
+    {
+      "id": 392,
+      "a": 3463,
+      "b": 3547,
+      "target": 12283261,
+      "predicted": 12280961,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 816
+    },
+    {
+      "id": 393,
+      "a": 8821,
+      "b": 5437,
+      "target": 47959777,
+      "predicted": 47932377,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 830
+    },
+    {
+      "id": 394,
+      "a": 4789,
+      "b": 4139,
+      "target": 19821671,
+      "predicted": 19813171,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 889
+    },
+    {
+      "id": 395,
+      "a": 5897,
+      "b": 4057,
+      "target": 23924129,
+      "predicted": 23902129,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 605
+    },
+    {
+      "id": 396,
+      "a": 1723,
+      "b": 6151,
+      "target": 10598173,
+      "predicted": 10606073,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 785
+    },
+    {
+      "id": 397,
+      "a": 4073,
+      "b": 8707,
+      "target": 35463611,
+      "predicted": 35463911,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 587
+    },
+    {
+      "id": 398,
+      "a": 1381,
+      "b": 3889,
+      "target": 5370709,
+      "predicted": 5370209,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 569
+    },
+    {
+      "id": 399,
+      "a": 3529,
+      "b": 6577,
+      "target": 23210233,
+      "predicted": 23279933,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 919
+    },
+    {
+      "id": 400,
+      "a": 3559,
+      "b": 6427,
+      "target": 22873693,
+      "predicted": 22873293,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 898
+    },
+    {
+      "id": 401,
+      "a": 1579,
+      "b": 2551,
+      "target": 4028029,
+      "predicted": 4026429,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 788
+    },
+    {
+      "id": 402,
+      "a": 4987,
+      "b": 1607,
+      "target": 8014109,
+      "predicted": 8016709,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 647
+    },
+    {
+      "id": 403,
+      "a": 6833,
+      "b": 4493,
+      "target": 30700669,
+      "predicted": 30663169,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 880
+    },
+    {
+      "id": 404,
+      "a": 2287,
+      "b": 3779,
+      "target": 8642573,
+      "predicted": 8650273,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 924
+    },
+    {
+      "id": 405,
+      "a": 8963,
+      "b": 8501,
+      "target": 76194463,
+      "predicted": 76200963,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 603
+    },
+    {
+      "id": 406,
+      "a": 3733,
+      "b": 2441,
+      "target": 9112253,
+      "predicted": 9113153,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 746
+    },
+    {
+      "id": 407,
+      "a": 1747,
+      "b": 4889,
+      "target": 8541083,
+      "predicted": 8527183,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 841
+    },
+    {
+      "id": 408,
+      "a": 2591,
+      "b": 8089,
+      "target": 20958599,
+      "predicted": 20943399,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 611
+    },
+    {
+      "id": 409,
+      "a": 3491,
+      "b": 4903,
+      "target": 17116373,
+      "predicted": 17112473,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 609
+    },
+    {
+      "id": 410,
+      "a": 6113,
+      "b": 3709,
+      "target": 22673117,
+      "predicted": 22666317,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 597
+    },
+    {
+      "id": 411,
+      "a": 8747,
+      "b": 2999,
+      "target": 26232253,
+      "predicted": 26232253,
+      "correct": true,
+      "digit_ratio": 0.0,
+      "think_length": 767
+    },
+    {
+      "id": 412,
+      "a": 7229,
+      "b": 7793,
+      "target": 56335597,
+      "predicted": 56302197,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 918
+    },
+    {
+      "id": 413,
+      "a": 1319,
+      "b": 9431,
+      "target": 12439489,
+      "predicted": 12437189,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 825
+    },
+    {
+      "id": 414,
+      "a": 6197,
+      "b": 8443,
+      "target": 52321271,
+      "predicted": 52360171,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 882
+    },
+    {
+      "id": 415,
+      "a": 8423,
+      "b": 3541,
+      "target": 29825843,
+      "predicted": 29787243,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 838
+    },
+    {
+      "id": 416,
+      "a": 3299,
+      "b": 4091,
+      "target": 13496209,
+      "predicted": 13510409,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 607
+    },
+    {
+      "id": 417,
+      "a": 4723,
+      "b": 5981,
+      "target": 28248263,
+      "predicted": 28263563,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 873
+    },
+    {
+      "id": 418,
+      "a": 8609,
+      "b": 9767,
+      "target": 84084103,
+      "predicted": 84132103,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 866
+    },
+    {
+      "id": 419,
+      "a": 3323,
+      "b": 4159,
+      "target": 13820357,
+      "predicted": 13803057,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 849
+    },
+    {
+      "id": 420,
+      "a": 3533,
+      "b": 3677,
+      "target": 12990841,
+      "predicted": 13000041,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 908
+    },
+    {
+      "id": 421,
+      "a": 4789,
+      "b": 9631,
+      "target": 46122859,
+      "predicted": 46091159,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 870
+    },
+    {
+      "id": 422,
+      "a": 2837,
+      "b": 2441,
+      "target": 6925117,
+      "predicted": 6926317,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 787
+    },
+    {
+      "id": 423,
+      "a": 6043,
+      "b": 3823,
+      "target": 23102389,
+      "predicted": 23091189,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 832
+    },
+    {
+      "id": 424,
+      "a": 1231,
+      "b": 9631,
+      "target": 11855761,
+      "predicted": 11856461,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 775
+    },
+    {
+      "id": 425,
+      "a": 7901,
+      "b": 4783,
+      "target": 37790483,
+      "predicted": 37791683,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 904
+    },
+    {
+      "id": 426,
+      "a": 4787,
+      "b": 8423,
+      "target": 40320901,
+      "predicted": 40297101,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 846
+    },
+    {
+      "id": 427,
+      "a": 2203,
+      "b": 5437,
+      "target": 11977711,
+      "predicted": 11976111,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 813
+    },
+    {
+      "id": 428,
+      "a": 5113,
+      "b": 5903,
+      "target": 30182039,
+      "predicted": 30176639,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 625
+    },
+    {
+      "id": 429,
+      "a": 5407,
+      "b": 4871,
+      "target": 26337497,
+      "predicted": 26333197,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 918
+    },
+    {
+      "id": 430,
+      "a": 3407,
+      "b": 4273,
+      "target": 14558111,
+      "predicted": 14543111,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 846
+    },
+    {
+      "id": 431,
+      "a": 4049,
+      "b": 1117,
+      "target": 4522733,
+      "predicted": 4523033,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 874
+    },
+    {
+      "id": 432,
+      "a": 2383,
+      "b": 8009,
+      "target": 19085447,
+      "predicted": 19090447,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 553
+    },
+    {
+      "id": 433,
+      "a": 9883,
+      "b": 6043,
+      "target": 59722969,
+      "predicted": 59680969,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 617
+    },
+    {
+      "id": 434,
+      "a": 9433,
+      "b": 2083,
+      "target": 19648939,
+      "predicted": 19663139,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 597
+    },
+    {
+      "id": 435,
+      "a": 3947,
+      "b": 9013,
+      "target": 35574311,
+      "predicted": 35571511,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 415
+    },
+    {
+      "id": 436,
+      "a": 6367,
+      "b": 9743,
+      "target": 62033681,
+      "predicted": 62032181,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 908
+    },
+    {
+      "id": 437,
+      "a": 2089,
+      "b": 8521,
+      "target": 17800369,
+      "predicted": 17793569,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 853
+    },
+    {
+      "id": 438,
+      "a": 6173,
+      "b": 2467,
+      "target": 15228791,
+      "predicted": 15223291,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 774
+    },
+    {
+      "id": 439,
+      "a": 8753,
+      "b": 1361,
+      "target": 11912833,
+      "predicted": 11913733,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 808
+    },
+    {
+      "id": 440,
+      "a": 3251,
+      "b": 5393,
+      "target": 17532643,
+      "predicted": 17532243,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 864
+    },
+    {
+      "id": 441,
+      "a": 6599,
+      "b": 2971,
+      "target": 19605629,
+      "predicted": 19609429,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 941
+    },
+    {
+      "id": 442,
+      "a": 8609,
+      "b": 9059,
+      "target": 77988931,
+      "predicted": 77962031,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 592
+    },
+    {
+      "id": 443,
+      "a": 6043,
+      "b": 2797,
+      "target": 16902271,
+      "predicted": 16930071,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 843
+    },
+    {
+      "id": 444,
+      "a": 9547,
+      "b": 9293,
+      "target": 88720271,
+      "predicted": 88862171,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 929
+    },
+    {
+      "id": 445,
+      "a": 6899,
+      "b": 7309,
+      "target": 50424791,
+      "predicted": 50439091,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 659
+    },
+    {
+      "id": 446,
+      "a": 2927,
+      "b": 4759,
+      "target": 13929593,
+      "predicted": 13927493,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 869
+    },
+    {
+      "id": 447,
+      "a": 7019,
+      "b": 5179,
+      "target": 36351401,
+      "predicted": 36307101,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 851
+    },
+    {
+      "id": 448,
+      "a": 5419,
+      "b": 2399,
+      "target": 13000181,
+      "predicted": 12993281,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 820
+    },
+    {
+      "id": 449,
+      "a": 2617,
+      "b": 1117,
+      "target": 2923189,
+      "predicted": 2923489,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 841
+    },
+    {
+      "id": 450,
+      "a": 6829,
+      "b": 7333,
+      "target": 50077057,
+      "predicted": 50030057,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 930
+    },
+    {
+      "id": 451,
+      "a": 8747,
+      "b": 8707,
+      "target": 76160129,
+      "predicted": 76163929,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 675
+    },
+    {
+      "id": 452,
+      "a": 7577,
+      "b": 3389,
+      "target": 25678453,
+      "predicted": 25651153,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 968
+    },
+    {
+      "id": 453,
+      "a": 3851,
+      "b": 4943,
+      "target": 19035493,
+      "predicted": 19057093,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 840
+    },
+    {
+      "id": 454,
+      "a": 3863,
+      "b": 6569,
+      "target": 25376047,
+      "predicted": 25372147,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 887
+    },
+    {
+      "id": 455,
+      "a": 4337,
+      "b": 8803,
+      "target": 38178611,
+      "predicted": 38183011,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 621
+    },
+    {
+      "id": 456,
+      "a": 3299,
+      "b": 4993,
+      "target": 16471907,
+      "predicted": 16483607,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 917
+    },
+    {
+      "id": 457,
+      "a": 8353,
+      "b": 7297,
+      "target": 60951841,
+      "predicted": 60972141,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 847
+    },
+    {
+      "id": 458,
+      "a": 7433,
+      "b": 3557,
+      "target": 26439181,
+      "predicted": 26430581,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 932
+    },
+    {
+      "id": 459,
+      "a": 5261,
+      "b": 7193,
+      "target": 37842373,
+      "predicted": 37850173,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 845
+    },
+    {
+      "id": 460,
+      "a": 7703,
+      "b": 8431,
+      "target": 64943993,
+      "predicted": 64879293,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 930
+    },
+    {
+      "id": 461,
+      "a": 1069,
+      "b": 4783,
+      "target": 5113027,
+      "predicted": 5113027,
+      "correct": true,
+      "digit_ratio": 0.0,
+      "think_length": 811
+    },
+    {
+      "id": 462,
+      "a": 9203,
+      "b": 4657,
+      "target": 42858371,
+      "predicted": 42833571,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 856
+    },
+    {
+      "id": 463,
+      "a": 4733,
+      "b": 3463,
+      "target": 16390379,
+      "predicted": 16391279,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 897
+    },
+    {
+      "id": 464,
+      "a": 6781,
+      "b": 8669,
+      "target": 58784489,
+      "predicted": 58771089,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 889
+    },
+    {
+      "id": 465,
+      "a": 6337,
+      "b": 1049,
+      "target": 6647513,
+      "predicted": 6646413,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 590
+    },
+    {
+      "id": 466,
+      "a": 9041,
+      "b": 6659,
+      "target": 60204019,
+      "predicted": 60172119,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 913
+    },
+    {
+      "id": 467,
+      "a": 8821,
+      "b": 1801,
+      "target": 15886621,
+      "predicted": 15886621,
+      "correct": true,
+      "digit_ratio": 0.0,
+      "think_length": 478
+    },
+    {
+      "id": 468,
+      "a": 4903,
+      "b": 1319,
+      "target": 6467057,
+      "predicted": 6461157,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 922
+    },
+    {
+      "id": 469,
+      "a": 5279,
+      "b": 3083,
+      "target": 16275157,
+      "predicted": 16273157,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 590
+    },
+    {
+      "id": 470,
+      "a": 5477,
+      "b": 3917,
+      "target": 21453409,
+      "predicted": 21443409,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 647
+    },
+    {
+      "id": 471,
+      "a": 9479,
+      "b": 3917,
+      "target": 37129243,
+      "predicted": 37153143,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 639
+    },
+    {
+      "id": 472,
+      "a": 3539,
+      "b": 4967,
+      "target": 17578213,
+      "predicted": 17577213,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 883
+    },
+    {
+      "id": 473,
+      "a": 2953,
+      "b": 3761,
+      "target": 11106233,
+      "predicted": 11100033,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 891
+    },
+    {
+      "id": 474,
+      "a": 5569,
+      "b": 7829,
+      "target": 43599701,
+      "predicted": 43572151,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 849
+    },
+    {
+      "id": 475,
+      "a": 9199,
+      "b": 1861,
+      "target": 17119339,
+      "predicted": 17133139,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 929
+    },
+    {
+      "id": 476,
+      "a": 7499,
+      "b": 8179,
+      "target": 61334321,
+      "predicted": 61260321,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 983
+    },
+    {
+      "id": 477,
+      "a": 5279,
+      "b": 6397,
+      "target": 33769763,
+      "predicted": 33772163,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 902
+    },
+    {
+      "id": 478,
+      "a": 3121,
+      "b": 2137,
+      "target": 6669577,
+      "predicted": 6673277,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 754
+    },
+    {
+      "id": 479,
+      "a": 4789,
+      "b": 8543,
+      "target": 40912427,
+      "predicted": 41000027,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 886
+    },
+    {
+      "id": 480,
+      "a": 6037,
+      "b": 2399,
+      "target": 14482763,
+      "predicted": 14473763,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 756
+    },
+    {
+      "id": 481,
+      "a": 7193,
+      "b": 3671,
+      "target": 26405503,
+      "predicted": 26371003,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 881
+    },
+    {
+      "id": 482,
+      "a": 8147,
+      "b": 5581,
+      "target": 45468407,
+      "predicted": 45419107,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 777
+    },
+    {
+      "id": 483,
+      "a": 8863,
+      "b": 9323,
+      "target": 82629749,
+      "predicted": 82639149,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 917
+    },
+    {
+      "id": 484,
+      "a": 1597,
+      "b": 1831,
+      "target": 2924107,
+      "predicted": 2925107,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 854
+    },
+    {
+      "id": 485,
+      "a": 4931,
+      "b": 3347,
+      "target": 16504057,
+      "predicted": 16502057,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 893
+    },
+    {
+      "id": 486,
+      "a": 9007,
+      "b": 8329,
+      "target": 75019303,
+      "predicted": 74999603,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 910
+    },
+    {
+      "id": 487,
+      "a": 4729,
+      "b": 2609,
+      "target": 12337961,
+      "predicted": 12332361,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 575
+    },
+    {
+      "id": 488,
+      "a": 9973,
+      "b": 9539,
+      "target": 95132447,
+      "predicted": 95212147,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 1039
+    },
+    {
+      "id": 489,
+      "a": 1601,
+      "b": 7321,
+      "target": 11720921,
+      "predicted": 11716321,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 830
+    },
+    {
+      "id": 490,
+      "a": 3049,
+      "b": 4093,
+      "target": 12479557,
+      "predicted": 12480657,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 593
+    },
+    {
+      "id": 491,
+      "a": 4603,
+      "b": 1289,
+      "target": 5933267,
+      "predicted": 5933167,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 863
+    },
+    {
+      "id": 492,
+      "a": 2003,
+      "b": 2099,
+      "target": 4204297,
+      "predicted": 4199097,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 838
+    },
+    {
+      "id": 493,
+      "a": 9839,
+      "b": 9739,
+      "target": 95822021,
+      "predicted": 95871121,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 930
+    },
+    {
+      "id": 494,
+      "a": 9311,
+      "b": 9601,
+      "target": 89394911,
+      "predicted": null,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 576
+    },
+    {
+      "id": 495,
+      "a": 5827,
+      "b": 4073,
+      "target": 23733371,
+      "predicted": 23730171,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 562
+    },
+    {
+      "id": 496,
+      "a": 6389,
+      "b": 7669,
+      "target": 48997241,
+      "predicted": 48999941,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 869
+    },
+    {
+      "id": 497,
+      "a": 4211,
+      "b": 9941,
+      "target": 41861551,
+      "predicted": 41862651,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 832
+    },
+    {
+      "id": 498,
+      "a": 4457,
+      "b": 4091,
+      "target": 18233587,
+      "predicted": 18273187,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 581
+    },
+    {
+      "id": 499,
+      "a": 1511,
+      "b": 9949,
+      "target": 15032939,
+      "predicted": 14999939,
+      "correct": false,
+      "digit_ratio": 0.0,
+      "think_length": 873
+    }
+  ]
+}

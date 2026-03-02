@@ -1,0 +1,9011 @@
+{
+  "summary": {
+    "model_id": "vg10101/qwen3-4b-prime-mult-k5-step50",
+    "accuracy": 0.064,
+    "n_problems": 1000,
+    "n_correct": 64,
+    "prefill": "<think>\n\n</think>\n\n$$\n\\boxed{"
+  },
+  "results": [
+    {
+      "id": 0,
+      "a": 863,
+      "b": 827,
+      "target": "713701",
+      "predicted": "711",
+      "correct": false,
+      "response": "711,  863 \\times 800 = 690"
+    },
+    {
+      "id": 1,
+      "a": 607,
+      "b": 569,
+      "target": "345383",
+      "predicted": "344",
+      "correct": false,
+      "response": "344,  607 \\times 569 = 344"
+    },
+    {
+      "id": 2,
+      "a": 709,
+      "b": 853,
+      "target": "604777",
+      "predicted": "605",
+      "correct": false,
+      "response": "605, 057}\n$$"
+    },
+    {
+      "id": 3,
+      "a": 821,
+      "b": 431,
+      "target": "353851",
+      "predicted": "353631",
+      "correct": false,
+      "response": "353631}\n$$"
+    },
+    {
+      "id": 4,
+      "a": 113,
+      "b": 887,
+      "target": "100231",
+      "predicted": "100001",
+      "correct": false,
+      "response": "100001}\n$$"
+    },
+    {
+      "id": 5,
+      "a": 769,
+      "b": 643,
+      "target": "494467",
+      "predicted": "500000",
+      "correct": false,
+      "response": "500000 + 48000 + 6000 +"
+    },
+    {
+      "id": 6,
+      "a": 769,
+      "b": 467,
+      "target": "359123",
+      "predicted": "359",
+      "correct": false,
+      "response": "359,  769 \\times 400 = 307"
+    },
+    {
+      "id": 7,
+      "a": 787,
+      "b": 463,
+      "target": "364381",
+      "predicted": "363",
+      "correct": false,
+      "response": "363,  787 \\times 463 = 363"
+    },
+    {
+      "id": 8,
+      "a": 811,
+      "b": 421,
+      "target": "341431",
+      "predicted": "341631",
+      "correct": false,
+      "response": "341631}\n$$"
+    },
+    {
+      "id": 9,
+      "a": 761,
+      "b": 419,
+      "target": "318859",
+      "predicted": "318",
+      "correct": false,
+      "response": "318,  159}\n$$\n\n$$\n\\boxed{318"
+    },
+    {
+      "id": 10,
+      "a": 607,
+      "b": 863,
+      "target": "523841",
+      "predicted": "521",
+      "correct": false,
+      "response": "521,  607 \\times 800 = 485"
+    },
+    {
+      "id": 11,
+      "a": 821,
+      "b": 433,
+      "target": "355493",
+      "predicted": "355",
+      "correct": false,
+      "response": "355,  821 \\times 400 = 328"
+    },
+    {
+      "id": 12,
+      "a": 491,
+      "b": 599,
+      "target": "294109",
+      "predicted": "293009",
+      "correct": false,
+      "response": "293009}\n$$"
+    },
+    {
+      "id": 13,
+      "a": 733,
+      "b": 587,
+      "target": "430271",
+      "predicted": "430",
+      "correct": false,
+      "response": "430,  733 \\times 500 = 366"
+    },
+    {
+      "id": 14,
+      "a": 229,
+      "b": 193,
+      "target": "44197",
+      "predicted": "44097",
+      "correct": false,
+      "response": "44097}\n$$"
+    },
+    {
+      "id": 15,
+      "a": 811,
+      "b": 421,
+      "target": "341431",
+      "predicted": "341631",
+      "correct": false,
+      "response": "341631}\n$$"
+    },
+    {
+      "id": 16,
+      "a": 719,
+      "b": 773,
+      "target": "555787",
+      "predicted": "554647",
+      "correct": false,
+      "response": "554647}\n$$"
+    },
+    {
+      "id": 17,
+      "a": 769,
+      "b": 541,
+      "target": "416029",
+      "predicted": "416129",
+      "correct": false,
+      "response": "416129}\n$$"
+    },
+    {
+      "id": 18,
+      "a": 739,
+      "b": 883,
+      "target": "652537",
+      "predicted": "649",
+      "correct": false,
+      "response": "649,  337}\n$$"
+    },
+    {
+      "id": 19,
+      "a": 859,
+      "b": 479,
+      "target": "411461",
+      "predicted": "410",
+      "correct": false,
+      "response": "410,  859 \\times 479 = 410"
+    },
+    {
+      "id": 20,
+      "a": 769,
+      "b": 641,
+      "target": "492929",
+      "predicted": "492",
+      "correct": false,
+      "response": "492,  769 \\times 600 = 461"
+    },
+    {
+      "id": 21,
+      "a": 761,
+      "b": 643,
+      "target": "489323",
+      "predicted": "489023",
+      "correct": false,
+      "response": "489023}\n$$"
+    },
+    {
+      "id": 22,
+      "a": 739,
+      "b": 233,
+      "target": "172187",
+      "predicted": "171987",
+      "correct": false,
+      "response": "171987}\n$$"
+    },
+    {
+      "id": 23,
+      "a": 733,
+      "b": 859,
+      "target": "629647",
+      "predicted": "628",
+      "correct": false,
+      "response": "628,  33}\n$$\n\n$$\n\\boxed{628,"
+    },
+    {
+      "id": 24,
+      "a": 733,
+      "b": 631,
+      "target": "462523",
+      "predicted": "462",
+      "correct": false,
+      "response": "462,  733 \\times 631 = 462"
+    },
+    {
+      "id": 25,
+      "a": 863,
+      "b": 827,
+      "target": "713701",
+      "predicted": "711",
+      "correct": false,
+      "response": "711,  863 \\times 800 = 690"
+    },
+    {
+      "id": 26,
+      "a": 887,
+      "b": 479,
+      "target": "424873",
+      "predicted": "422113",
+      "correct": false,
+      "response": "422113}\n$$"
+    },
+    {
+      "id": 27,
+      "a": 401,
+      "b": 787,
+      "target": "315587",
+      "predicted": "316577",
+      "correct": false,
+      "response": "316577}\n$$"
+    },
+    {
+      "id": 28,
+      "a": 499,
+      "b": 569,
+      "target": "283931",
+      "predicted": "280841",
+      "correct": false,
+      "response": "280841}\n$$"
+    },
+    {
+      "id": 29,
+      "a": 811,
+      "b": 463,
+      "target": "375493",
+      "predicted": "375",
+      "correct": false,
+      "response": "375,  103}\n$$\n\n$$\n\\boxed{375"
+    },
+    {
+      "id": 30,
+      "a": 367,
+      "b": 863,
+      "target": "316721",
+      "predicted": "315811",
+      "correct": false,
+      "response": "315811}\n$$"
+    },
+    {
+      "id": 31,
+      "a": 911,
+      "b": 787,
+      "target": "716957",
+      "predicted": "716543",
+      "correct": false,
+      "response": "716543}\n$$"
+    },
+    {
+      "id": 32,
+      "a": 911,
+      "b": 211,
+      "target": "192221",
+      "predicted": "192112",
+      "correct": false,
+      "response": "192112}\n$$"
+    },
+    {
+      "id": 33,
+      "a": 809,
+      "b": 587,
+      "target": "474883",
+      "predicted": "474",
+      "correct": false,
+      "response": "474,  0  0  0  0  0 "
+    },
+    {
+      "id": 34,
+      "a": 821,
+      "b": 367,
+      "target": "301307",
+      "predicted": "299",
+      "correct": false,
+      "response": "299,  821 \\times 300 = 246"
+    },
+    {
+      "id": 35,
+      "a": 499,
+      "b": 599,
+      "target": "298901",
+      "predicted": "294501",
+      "correct": false,
+      "response": "294501}\n$$"
+    },
+    {
+      "id": 36,
+      "a": 773,
+      "b": 347,
+      "target": "268231",
+      "predicted": "268",
+      "correct": false,
+      "response": "268,  773 \\times 347 = 268"
+    },
+    {
+      "id": 37,
+      "a": 281,
+      "b": 499,
+      "target": "140219",
+      "predicted": "139969",
+      "correct": false,
+      "response": "139969}\n$$"
+    },
+    {
+      "id": 38,
+      "a": 743,
+      "b": 673,
+      "target": "500039",
+      "predicted": "500",
+      "correct": false,
+      "response": "500,  743 \\times 600 = 445"
+    },
+    {
+      "id": 39,
+      "a": 769,
+      "b": 541,
+      "target": "416029",
+      "predicted": "416129",
+      "correct": false,
+      "response": "416129}\n$$"
+    },
+    {
+      "id": 40,
+      "a": 787,
+      "b": 421,
+      "target": "331327",
+      "predicted": "331127",
+      "correct": false,
+      "response": "331127}\n$$"
+    },
+    {
+      "id": 41,
+      "a": 881,
+      "b": 773,
+      "target": "681013",
+      "predicted": "680113",
+      "correct": false,
+      "response": "680113}\n$$"
+    },
+    {
+      "id": 42,
+      "a": 733,
+      "b": 367,
+      "target": "269011",
+      "predicted": "269111",
+      "correct": false,
+      "response": "269111}\n$$"
+    },
+    {
+      "id": 43,
+      "a": 811,
+      "b": 439,
+      "target": "356029",
+      "predicted": "355321",
+      "correct": false,
+      "response": "355321}\n$$"
+    },
+    {
+      "id": 44,
+      "a": 113,
+      "b": 193,
+      "target": "21809",
+      "predicted": "21809",
+      "correct": true,
+      "response": "21809}\n$$"
+    },
+    {
+      "id": 45,
+      "a": 859,
+      "b": 397,
+      "target": "341023",
+      "predicted": "340",
+      "correct": false,
+      "response": "340,  859 \\times 397 = 340"
+    },
+    {
+      "id": 46,
+      "a": 401,
+      "b": 787,
+      "target": "315587",
+      "predicted": "316577",
+      "correct": false,
+      "response": "316577}\n$$"
+    },
+    {
+      "id": 47,
+      "a": 809,
+      "b": 727,
+      "target": "588143",
+      "predicted": "586",
+      "correct": false,
+      "response": "586,  809 \\times 700 = 566"
+    },
+    {
+      "id": 48,
+      "a": 787,
+      "b": 347,
+      "target": "273089",
+      "predicted": "273689",
+      "correct": false,
+      "response": "273689}\n$$"
+    },
+    {
+      "id": 49,
+      "a": 761,
+      "b": 701,
+      "target": "533461",
+      "predicted": "533461",
+      "correct": true,
+      "response": "533461}\n$$"
+    },
+    {
+      "id": 50,
+      "a": 113,
+      "b": 829,
+      "target": "93677",
+      "predicted": "93617",
+      "correct": false,
+      "response": "93617}\n$$"
+    },
+    {
+      "id": 51,
+      "a": 809,
+      "b": 941,
+      "target": "761269",
+      "predicted": "761",
+      "correct": false,
+      "response": "761,  809 \\times 900 = 728"
+    },
+    {
+      "id": 52,
+      "a": 367,
+      "b": 823,
+      "target": "302041",
+      "predicted": "300000",
+      "correct": false,
+      "response": "300000 + 60000 + 7000 +"
+    },
+    {
+      "id": 53,
+      "a": 811,
+      "b": 463,
+      "target": "375493",
+      "predicted": "375",
+      "correct": false,
+      "response": "375,  103}\n$$\n\n$$\n\\boxed{375"
+    },
+    {
+      "id": 54,
+      "a": 367,
+      "b": 863,
+      "target": "316721",
+      "predicted": "315811",
+      "correct": false,
+      "response": "315811}\n$$"
+    },
+    {
+      "id": 55,
+      "a": 877,
+      "b": 883,
+      "target": "774391",
+      "predicted": "772",
+      "correct": false,
+      "response": "772,  877 \\times 883 = 772"
+    },
+    {
+      "id": 56,
+      "a": 811,
+      "b": 769,
+      "target": "623659",
+      "predicted": "624",
+      "correct": false,
+      "response": "624,  5  5  5  5  5 "
+    },
+    {
+      "id": 57,
+      "a": 709,
+      "b": 541,
+      "target": "383569",
+      "predicted": "383",
+      "correct": false,
+      "response": "383,  709 \\times 500 = 354"
+    },
+    {
+      "id": 58,
+      "a": 733,
+      "b": 859,
+      "target": "629647",
+      "predicted": "628",
+      "correct": false,
+      "response": "628,  33}\n$$\n\n$$\n\\boxed{628,"
+    },
+    {
+      "id": 59,
+      "a": 719,
+      "b": 587,
+      "target": "422053",
+      "predicted": "420",
+      "correct": false,
+      "response": "420,  420,  420,  42"
+    },
+    {
+      "id": 60,
+      "a": 709,
+      "b": 541,
+      "target": "383569",
+      "predicted": "383",
+      "correct": false,
+      "response": "383,  709 \\times 500 = 354"
+    },
+    {
+      "id": 61,
+      "a": 709,
+      "b": 643,
+      "target": "455887",
+      "predicted": "455",
+      "correct": false,
+      "response": "455,  787}\n$$"
+    },
+    {
+      "id": 62,
+      "a": 773,
+      "b": 643,
+      "target": "497039",
+      "predicted": "500000",
+      "correct": false,
+      "response": "500000 + 70000 + 7000 +"
+    },
+    {
+      "id": 63,
+      "a": 607,
+      "b": 743,
+      "target": "451001",
+      "predicted": "451101",
+      "correct": false,
+      "response": "451101}\n$$"
+    },
+    {
+      "id": 64,
+      "a": 367,
+      "b": 593,
+      "target": "217631",
+      "predicted": "217731",
+      "correct": false,
+      "response": "217731}\n$$"
+    },
+    {
+      "id": 65,
+      "a": 733,
+      "b": 233,
+      "target": "170789",
+      "predicted": "170889",
+      "correct": false,
+      "response": "170889}\n$$"
+    },
+    {
+      "id": 66,
+      "a": 911,
+      "b": 233,
+      "target": "212263",
+      "predicted": "212063",
+      "correct": false,
+      "response": "212063}\n$$"
+    },
+    {
+      "id": 67,
+      "a": 733,
+      "b": 659,
+      "target": "483047",
+      "predicted": "483657",
+      "correct": false,
+      "response": "483657}\n$$"
+    },
+    {
+      "id": 68,
+      "a": 859,
+      "b": 907,
+      "target": "779113",
+      "predicted": "778813",
+      "correct": false,
+      "response": "778813}\n$$"
+    },
+    {
+      "id": 69,
+      "a": 577,
+      "b": 313,
+      "target": "180601",
+      "predicted": "180",
+      "correct": false,
+      "response": "180,  001}\n$$\n\n**Correct answer: $\\boxed{1"
+    },
+    {
+      "id": 70,
+      "a": 367,
+      "b": 823,
+      "target": "302041",
+      "predicted": "300000",
+      "correct": false,
+      "response": "300000 + 60000 + 7000 +"
+    },
+    {
+      "id": 71,
+      "a": 907,
+      "b": 467,
+      "target": "423569",
+      "predicted": "420",
+      "correct": false,
+      "response": "420, 669}\n$$"
+    },
+    {
+      "id": 72,
+      "a": 491,
+      "b": 599,
+      "target": "294109",
+      "predicted": "293009",
+      "correct": false,
+      "response": "293009}\n$$"
+    },
+    {
+      "id": 73,
+      "a": 911,
+      "b": 233,
+      "target": "212263",
+      "predicted": "212063",
+      "correct": false,
+      "response": "212063}\n$$"
+    },
+    {
+      "id": 74,
+      "a": 787,
+      "b": 461,
+      "target": "362807",
+      "predicted": "362",
+      "correct": false,
+      "response": "362,  787 \\times 400 = 314"
+    },
+    {
+      "id": 75,
+      "a": 887,
+      "b": 673,
+      "target": "596951",
+      "predicted": "600000",
+      "correct": false,
+      "response": "600000 + 80000 + 7000 +"
+    },
+    {
+      "id": 76,
+      "a": 701,
+      "b": 439,
+      "target": "307739",
+      "predicted": "308",
+      "correct": false,
+      "response": "308,  439\n701\n×439\n="
+    },
+    {
+      "id": 77,
+      "a": 761,
+      "b": 701,
+      "target": "533461",
+      "predicted": "533461",
+      "correct": true,
+      "response": "533461}\n$$"
+    },
+    {
+      "id": 78,
+      "a": 821,
+      "b": 367,
+      "target": "301307",
+      "predicted": "299",
+      "correct": false,
+      "response": "299,  821 \\times 300 = 246"
+    },
+    {
+      "id": 79,
+      "a": 499,
+      "b": 691,
+      "target": "344809",
+      "predicted": "344",
+      "correct": false,
+      "response": "344,  809}\n$$"
+    },
+    {
+      "id": 80,
+      "a": 859,
+      "b": 107,
+      "target": "91913",
+      "predicted": "91813",
+      "correct": false,
+      "response": "91813}\n$$"
+    },
+    {
+      "id": 81,
+      "a": 739,
+      "b": 233,
+      "target": "172187",
+      "predicted": "171987",
+      "correct": false,
+      "response": "171987}\n$$"
+    },
+    {
+      "id": 82,
+      "a": 191,
+      "b": 193,
+      "target": "36863",
+      "predicted": "36863",
+      "correct": true,
+      "response": "36863}\n$$"
+    },
+    {
+      "id": 83,
+      "a": 743,
+      "b": 349,
+      "target": "259307",
+      "predicted": "259",
+      "correct": false,
+      "response": "259,  743 \\times 349 = 259"
+    },
+    {
+      "id": 84,
+      "a": 863,
+      "b": 683,
+      "target": "589429",
+      "predicted": "589",
+      "correct": false,
+      "response": "589,  863 \\times 683 = 589"
+    },
+    {
+      "id": 85,
+      "a": 607,
+      "b": 853,
+      "target": "517771",
+      "predicted": "518171",
+      "correct": false,
+      "response": "518171}\n$$"
+    },
+    {
+      "id": 86,
+      "a": 191,
+      "b": 193,
+      "target": "36863",
+      "predicted": "36863",
+      "correct": true,
+      "response": "36863}\n$$"
+    },
+    {
+      "id": 87,
+      "a": 743,
+      "b": 631,
+      "target": "468833",
+      "predicted": "468613",
+      "correct": false,
+      "response": "468613}\n$$"
+    },
+    {
+      "id": 88,
+      "a": 743,
+      "b": 641,
+      "target": "476263",
+      "predicted": "476663",
+      "correct": false,
+      "response": "476663}\n$$"
+    },
+    {
+      "id": 89,
+      "a": 229,
+      "b": 193,
+      "target": "44197",
+      "predicted": "44097",
+      "correct": false,
+      "response": "44097}\n$$"
+    },
+    {
+      "id": 90,
+      "a": 811,
+      "b": 769,
+      "target": "623659",
+      "predicted": "624",
+      "correct": false,
+      "response": "624,  5  5  5  5  5 "
+    },
+    {
+      "id": 91,
+      "a": 463,
+      "b": 431,
+      "target": "199553",
+      "predicted": "198043",
+      "correct": false,
+      "response": "198043}\n$$"
+    },
+    {
+      "id": 92,
+      "a": 877,
+      "b": 883,
+      "target": "774391",
+      "predicted": "772",
+      "correct": false,
+      "response": "772,  877 \\times 883 = 772"
+    },
+    {
+      "id": 93,
+      "a": 733,
+      "b": 331,
+      "target": "242623",
+      "predicted": "242563",
+      "correct": false,
+      "response": "242563}\n$$"
+    },
+    {
+      "id": 94,
+      "a": 113,
+      "b": 859,
+      "target": "97067",
+      "predicted": "97067",
+      "correct": true,
+      "response": "97067}\n$$"
+    },
+    {
+      "id": 95,
+      "a": 809,
+      "b": 727,
+      "target": "588143",
+      "predicted": "586",
+      "correct": false,
+      "response": "586,  809 \\times 700 = 566"
+    },
+    {
+      "id": 96,
+      "a": 859,
+      "b": 709,
+      "target": "609031",
+      "predicted": "609",
+      "correct": false,
+      "response": "609,  591}\n$$\n\n$$\n\\boxed{609"
+    },
+    {
+      "id": 97,
+      "a": 809,
+      "b": 521,
+      "target": "421489",
+      "predicted": "421",
+      "correct": false,
+      "response": "421, 689}\n$$"
+    },
+    {
+      "id": 98,
+      "a": 577,
+      "b": 313,
+      "target": "180601",
+      "predicted": "180",
+      "correct": false,
+      "response": "180,  001}\n$$\n\n**Correct answer: $\\boxed{1"
+    },
+    {
+      "id": 99,
+      "a": 701,
+      "b": 863,
+      "target": "604963",
+      "predicted": "603483",
+      "correct": false,
+      "response": "603483}\n$$"
+    },
+    {
+      "id": 100,
+      "a": 223,
+      "b": 911,
+      "target": "203153",
+      "predicted": "202853",
+      "correct": false,
+      "response": "202853}\n$$"
+    },
+    {
+      "id": 101,
+      "a": 499,
+      "b": 691,
+      "target": "344809",
+      "predicted": "344",
+      "correct": false,
+      "response": "344,  809}\n$$"
+    },
+    {
+      "id": 102,
+      "a": 769,
+      "b": 433,
+      "target": "332977",
+      "predicted": "331",
+      "correct": false,
+      "response": "331,  769 \\times 400 = 307"
+    },
+    {
+      "id": 103,
+      "a": 223,
+      "b": 911,
+      "target": "203153",
+      "predicted": "202853",
+      "correct": false,
+      "response": "202853}\n$$"
+    },
+    {
+      "id": 104,
+      "a": 367,
+      "b": 643,
+      "target": "235981",
+      "predicted": "235881",
+      "correct": false,
+      "response": "235881}\n$$"
+    },
+    {
+      "id": 105,
+      "a": 859,
+      "b": 733,
+      "target": "629647",
+      "predicted": "628",
+      "correct": false,
+      "response": "628, 887}\n$$"
+    },
+    {
+      "id": 106,
+      "a": 743,
+      "b": 433,
+      "target": "321719",
+      "predicted": "321",
+      "correct": false,
+      "response": "321,  743 \\times 433 = 321"
+    },
+    {
+      "id": 107,
+      "a": 229,
+      "b": 193,
+      "target": "44197",
+      "predicted": "44097",
+      "correct": false,
+      "response": "44097}\n$$"
+    },
+    {
+      "id": 108,
+      "a": 859,
+      "b": 701,
+      "target": "602159",
+      "predicted": "602159",
+      "correct": true,
+      "response": "602159}\n$$"
+    },
+    {
+      "id": 109,
+      "a": 787,
+      "b": 367,
+      "target": "288829",
+      "predicted": "289629",
+      "correct": false,
+      "response": "289629}\n$$"
+    },
+    {
+      "id": 110,
+      "a": 827,
+      "b": 673,
+      "target": "556571",
+      "predicted": "557",
+      "correct": false,
+      "response": "557,  827 \\times 673 = 557"
+    },
+    {
+      "id": 111,
+      "a": 773,
+      "b": 347,
+      "target": "268231",
+      "predicted": "268",
+      "correct": false,
+      "response": "268,  773 \\times 347 = 268"
+    },
+    {
+      "id": 112,
+      "a": 709,
+      "b": 541,
+      "target": "383569",
+      "predicted": "383",
+      "correct": false,
+      "response": "383,  709 \\times 500 = 354"
+    },
+    {
+      "id": 113,
+      "a": 733,
+      "b": 587,
+      "target": "430271",
+      "predicted": "430",
+      "correct": false,
+      "response": "430,  733 \\times 500 = 366"
+    },
+    {
+      "id": 114,
+      "a": 733,
+      "b": 853,
+      "target": "625249",
+      "predicted": "625649",
+      "correct": false,
+      "response": "625649}\n$$"
+    },
+    {
+      "id": 115,
+      "a": 907,
+      "b": 673,
+      "target": "610411",
+      "predicted": "610111",
+      "correct": false,
+      "response": "610111}\n$$"
+    },
+    {
+      "id": 116,
+      "a": 859,
+      "b": 751,
+      "target": "645109",
+      "predicted": "645009",
+      "correct": false,
+      "response": "645009}\n$$"
+    },
+    {
+      "id": 117,
+      "a": 367,
+      "b": 593,
+      "target": "217631",
+      "predicted": "217731",
+      "correct": false,
+      "response": "217731}\n$$"
+    },
+    {
+      "id": 118,
+      "a": 859,
+      "b": 701,
+      "target": "602159",
+      "predicted": "602159",
+      "correct": true,
+      "response": "602159}\n$$"
+    },
+    {
+      "id": 119,
+      "a": 773,
+      "b": 479,
+      "target": "370267",
+      "predicted": "369",
+      "correct": false,
+      "response": "369,  773 \\times 479 = 369"
+    },
+    {
+      "id": 120,
+      "a": 367,
+      "b": 823,
+      "target": "302041",
+      "predicted": "300000",
+      "correct": false,
+      "response": "300000 + 60000 + 7000 +"
+    },
+    {
+      "id": 121,
+      "a": 859,
+      "b": 971,
+      "target": "834089",
+      "predicted": "834",
+      "correct": false,
+      "response": "834,  859 \\times 971 = 834"
+    },
+    {
+      "id": 122,
+      "a": 607,
+      "b": 769,
+      "target": "466783",
+      "predicted": "466",
+      "correct": false,
+      "response": "466,  607 \\times 700 = 424"
+    },
+    {
+      "id": 123,
+      "a": 809,
+      "b": 733,
+      "target": "592997",
+      "predicted": "591",
+      "correct": false,
+      "response": "591, 027}\n$$"
+    },
+    {
+      "id": 124,
+      "a": 773,
+      "b": 709,
+      "target": "548057",
+      "predicted": "549",
+      "correct": false,
+      "response": "549,  773 \\times 700 = 541"
+    },
+    {
+      "id": 125,
+      "a": 881,
+      "b": 883,
+      "target": "777923",
+      "predicted": "778043",
+      "correct": false,
+      "response": "778043}\n$$"
+    },
+    {
+      "id": 126,
+      "a": 907,
+      "b": 863,
+      "target": "782741",
+      "predicted": "779",
+      "correct": false,
+      "response": "779,  921}\n$$\n\n$$\n\\boxed{779"
+    },
+    {
+      "id": 127,
+      "a": 811,
+      "b": 769,
+      "target": "623659",
+      "predicted": "624",
+      "correct": false,
+      "response": "624,  5  5  5  5  5 "
+    },
+    {
+      "id": 128,
+      "a": 811,
+      "b": 421,
+      "target": "341431",
+      "predicted": "341631",
+      "correct": false,
+      "response": "341631}\n$$"
+    },
+    {
+      "id": 129,
+      "a": 733,
+      "b": 433,
+      "target": "317389",
+      "predicted": "317089",
+      "correct": false,
+      "response": "317089}\n$$"
+    },
+    {
+      "id": 130,
+      "a": 773,
+      "b": 647,
+      "target": "500131",
+      "predicted": "500000",
+      "correct": false,
+      "response": "500000 + 70000 + 7000 +"
+    },
+    {
+      "id": 131,
+      "a": 761,
+      "b": 421,
+      "target": "320381",
+      "predicted": "320",
+      "correct": false,
+      "response": "320,  0  0  0  0  0 "
+    },
+    {
+      "id": 132,
+      "a": 223,
+      "b": 911,
+      "target": "203153",
+      "predicted": "202853",
+      "correct": false,
+      "response": "202853}\n$$"
+    },
+    {
+      "id": 133,
+      "a": 607,
+      "b": 577,
+      "target": "350239",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  0  0  0  0  0 "
+    },
+    {
+      "id": 134,
+      "a": 181,
+      "b": 499,
+      "target": "90319",
+      "predicted": "90119",
+      "correct": false,
+      "response": "90119}\n$$"
+    },
+    {
+      "id": 135,
+      "a": 607,
+      "b": 853,
+      "target": "517771",
+      "predicted": "518171",
+      "correct": false,
+      "response": "518171}\n$$"
+    },
+    {
+      "id": 136,
+      "a": 739,
+      "b": 883,
+      "target": "652537",
+      "predicted": "649",
+      "correct": false,
+      "response": "649,  337}\n$$"
+    },
+    {
+      "id": 137,
+      "a": 859,
+      "b": 373,
+      "target": "320407",
+      "predicted": "319",
+      "correct": false,
+      "response": "319,  859 \\times 373 = 319"
+    },
+    {
+      "id": 138,
+      "a": 163,
+      "b": 619,
+      "target": "100897",
+      "predicted": "100697",
+      "correct": false,
+      "response": "100697}\n$$"
+    },
+    {
+      "id": 139,
+      "a": 859,
+      "b": 587,
+      "target": "504233",
+      "predicted": "499",
+      "correct": false,
+      "response": "499,613}\n$$"
+    },
+    {
+      "id": 140,
+      "a": 773,
+      "b": 587,
+      "target": "453751",
+      "predicted": "454",
+      "correct": false,
+      "response": "454,  773 \\times 500 = 386"
+    },
+    {
+      "id": 141,
+      "a": 733,
+      "b": 461,
+      "target": "337913",
+      "predicted": "337613",
+      "correct": false,
+      "response": "337613}\n$$"
+    },
+    {
+      "id": 142,
+      "a": 431,
+      "b": 587,
+      "target": "252997",
+      "predicted": "253",
+      "correct": false,
+      "response": "253,  431 \\times 500 = 215"
+    },
+    {
+      "id": 143,
+      "a": 733,
+      "b": 191,
+      "target": "140003",
+      "predicted": "140043",
+      "correct": false,
+      "response": "140043}\n$$"
+    },
+    {
+      "id": 144,
+      "a": 367,
+      "b": 997,
+      "target": "365899",
+      "predicted": "366069",
+      "correct": false,
+      "response": "366069}\n$$"
+    },
+    {
+      "id": 145,
+      "a": 701,
+      "b": 439,
+      "target": "307739",
+      "predicted": "308",
+      "correct": false,
+      "response": "308,  439\n701\n×439\n="
+    },
+    {
+      "id": 146,
+      "a": 719,
+      "b": 313,
+      "target": "225047",
+      "predicted": "224747",
+      "correct": false,
+      "response": "224747}\n$$"
+    },
+    {
+      "id": 147,
+      "a": 719,
+      "b": 773,
+      "target": "555787",
+      "predicted": "554647",
+      "correct": false,
+      "response": "554647}\n$$"
+    },
+    {
+      "id": 148,
+      "a": 733,
+      "b": 853,
+      "target": "625249",
+      "predicted": "625649",
+      "correct": false,
+      "response": "625649}\n$$"
+    },
+    {
+      "id": 149,
+      "a": 743,
+      "b": 433,
+      "target": "321719",
+      "predicted": "321",
+      "correct": false,
+      "response": "321,  743 \\times 433 = 321"
+    },
+    {
+      "id": 150,
+      "a": 397,
+      "b": 397,
+      "target": "157609",
+      "predicted": "157609",
+      "correct": true,
+      "response": "157609}\n$$"
+    },
+    {
+      "id": 151,
+      "a": 773,
+      "b": 647,
+      "target": "500131",
+      "predicted": "500000",
+      "correct": false,
+      "response": "500000 + 70000 + 7000 +"
+    },
+    {
+      "id": 152,
+      "a": 709,
+      "b": 541,
+      "target": "383569",
+      "predicted": "383",
+      "correct": false,
+      "response": "383,  709 \\times 500 = 354"
+    },
+    {
+      "id": 153,
+      "a": 769,
+      "b": 467,
+      "target": "359123",
+      "predicted": "359",
+      "correct": false,
+      "response": "359,  769 \\times 400 = 307"
+    },
+    {
+      "id": 154,
+      "a": 907,
+      "b": 467,
+      "target": "423569",
+      "predicted": "420",
+      "correct": false,
+      "response": "420, 669}\n$$"
+    },
+    {
+      "id": 155,
+      "a": 911,
+      "b": 571,
+      "target": "520181",
+      "predicted": "519421",
+      "correct": false,
+      "response": "519421}\n$$"
+    },
+    {
+      "id": 156,
+      "a": 911,
+      "b": 211,
+      "target": "192221",
+      "predicted": "192112",
+      "correct": false,
+      "response": "192112}\n$$"
+    },
+    {
+      "id": 157,
+      "a": 769,
+      "b": 541,
+      "target": "416029",
+      "predicted": "416129",
+      "correct": false,
+      "response": "416129}\n$$"
+    },
+    {
+      "id": 158,
+      "a": 911,
+      "b": 787,
+      "target": "716957",
+      "predicted": "716543",
+      "correct": false,
+      "response": "716543}\n$$"
+    },
+    {
+      "id": 159,
+      "a": 733,
+      "b": 331,
+      "target": "242623",
+      "predicted": "242563",
+      "correct": false,
+      "response": "242563}\n$$"
+    },
+    {
+      "id": 160,
+      "a": 743,
+      "b": 631,
+      "target": "468833",
+      "predicted": "468613",
+      "correct": false,
+      "response": "468613}\n$$"
+    },
+    {
+      "id": 161,
+      "a": 401,
+      "b": 881,
+      "target": "353281",
+      "predicted": "353",
+      "correct": false,
+      "response": "353,  881}\n$$\n\n$$\n401 \\times "
+    },
+    {
+      "id": 162,
+      "a": 839,
+      "b": 883,
+      "target": "740837",
+      "predicted": "739",
+      "correct": false,
+      "response": "739,  000 +  39,  000"
+    },
+    {
+      "id": 163,
+      "a": 113,
+      "b": 877,
+      "target": "99101",
+      "predicted": "99101",
+      "correct": true,
+      "response": "99101}\n$$"
+    },
+    {
+      "id": 164,
+      "a": 577,
+      "b": 313,
+      "target": "180601",
+      "predicted": "180",
+      "correct": false,
+      "response": "180,  001}\n$$\n\n**Correct answer: $\\boxed{1"
+    },
+    {
+      "id": 165,
+      "a": 827,
+      "b": 673,
+      "target": "556571",
+      "predicted": "557",
+      "correct": false,
+      "response": "557,  827 \\times 673 = 557"
+    },
+    {
+      "id": 166,
+      "a": 719,
+      "b": 313,
+      "target": "225047",
+      "predicted": "224747",
+      "correct": false,
+      "response": "224747}\n$$"
+    },
+    {
+      "id": 167,
+      "a": 907,
+      "b": 863,
+      "target": "782741",
+      "predicted": "779",
+      "correct": false,
+      "response": "779,  921}\n$$\n\n$$\n\\boxed{779"
+    },
+    {
+      "id": 168,
+      "a": 113,
+      "b": 859,
+      "target": "97067",
+      "predicted": "97067",
+      "correct": true,
+      "response": "97067}\n$$"
+    },
+    {
+      "id": 169,
+      "a": 947,
+      "b": 743,
+      "target": "703621",
+      "predicted": "699921",
+      "correct": false,
+      "response": "699921}\n$$"
+    },
+    {
+      "id": 170,
+      "a": 761,
+      "b": 643,
+      "target": "489323",
+      "predicted": "489023",
+      "correct": false,
+      "response": "489023}\n$$"
+    },
+    {
+      "id": 171,
+      "a": 859,
+      "b": 701,
+      "target": "602159",
+      "predicted": "602159",
+      "correct": true,
+      "response": "602159}\n$$"
+    },
+    {
+      "id": 172,
+      "a": 811,
+      "b": 787,
+      "target": "638257",
+      "predicted": "637457",
+      "correct": false,
+      "response": "637457}\n$$"
+    },
+    {
+      "id": 173,
+      "a": 773,
+      "b": 643,
+      "target": "497039",
+      "predicted": "500000",
+      "correct": false,
+      "response": "500000 + 70000 + 7000 +"
+    },
+    {
+      "id": 174,
+      "a": 761,
+      "b": 349,
+      "target": "265589",
+      "predicted": "265681",
+      "correct": false,
+      "response": "265681}\n$$"
+    },
+    {
+      "id": 175,
+      "a": 113,
+      "b": 827,
+      "target": "93451",
+      "predicted": "93451",
+      "correct": true,
+      "response": "93451}\n$$"
+    },
+    {
+      "id": 176,
+      "a": 743,
+      "b": 863,
+      "target": "641209",
+      "predicted": "640",
+      "correct": false,
+      "response": "640,  009}\n$$\n\n**Correct answer: $\\boxed{6"
+    },
+    {
+      "id": 177,
+      "a": 761,
+      "b": 419,
+      "target": "318859",
+      "predicted": "318",
+      "correct": false,
+      "response": "318,  159}\n$$\n\n$$\n\\boxed{318"
+    },
+    {
+      "id": 178,
+      "a": 733,
+      "b": 659,
+      "target": "483047",
+      "predicted": "483657",
+      "correct": false,
+      "response": "483657}\n$$"
+    },
+    {
+      "id": 179,
+      "a": 859,
+      "b": 107,
+      "target": "91913",
+      "predicted": "91813",
+      "correct": false,
+      "response": "91813}\n$$"
+    },
+    {
+      "id": 180,
+      "a": 773,
+      "b": 479,
+      "target": "370267",
+      "predicted": "369",
+      "correct": false,
+      "response": "369,  773 \\times 479 = 369"
+    },
+    {
+      "id": 181,
+      "a": 397,
+      "b": 397,
+      "target": "157609",
+      "predicted": "157609",
+      "correct": true,
+      "response": "157609}\n$$"
+    },
+    {
+      "id": 182,
+      "a": 367,
+      "b": 983,
+      "target": "360761",
+      "predicted": "360",
+      "correct": false,
+      "response": "360,  367 \\times 983 = 360"
+    },
+    {
+      "id": 183,
+      "a": 769,
+      "b": 479,
+      "target": "368351",
+      "predicted": "367",
+      "correct": false,
+      "response": "367, 001}\n$$"
+    },
+    {
+      "id": 184,
+      "a": 743,
+      "b": 863,
+      "target": "641209",
+      "predicted": "640",
+      "correct": false,
+      "response": "640,  009}\n$$\n\n**Correct answer: $\\boxed{6"
+    },
+    {
+      "id": 185,
+      "a": 787,
+      "b": 421,
+      "target": "331327",
+      "predicted": "331127",
+      "correct": false,
+      "response": "331127}\n$$"
+    },
+    {
+      "id": 186,
+      "a": 743,
+      "b": 571,
+      "target": "424253",
+      "predicted": "424653",
+      "correct": false,
+      "response": "424653}\n$$"
+    },
+    {
+      "id": 187,
+      "a": 709,
+      "b": 409,
+      "target": "289981",
+      "predicted": "289",
+      "correct": false,
+      "response": "289,  709 \\times 400 = 283"
+    },
+    {
+      "id": 188,
+      "a": 743,
+      "b": 571,
+      "target": "424253",
+      "predicted": "424653",
+      "correct": false,
+      "response": "424653}\n$$"
+    },
+    {
+      "id": 189,
+      "a": 701,
+      "b": 863,
+      "target": "604963",
+      "predicted": "603483",
+      "correct": false,
+      "response": "603483}\n$$"
+    },
+    {
+      "id": 190,
+      "a": 773,
+      "b": 587,
+      "target": "453751",
+      "predicted": "454",
+      "correct": false,
+      "response": "454,  773 \\times 500 = 386"
+    },
+    {
+      "id": 191,
+      "a": 761,
+      "b": 421,
+      "target": "320381",
+      "predicted": "320",
+      "correct": false,
+      "response": "320,  0  0  0  0  0 "
+    },
+    {
+      "id": 192,
+      "a": 367,
+      "b": 823,
+      "target": "302041",
+      "predicted": "300000",
+      "correct": false,
+      "response": "300000 + 60000 + 7000 +"
+    },
+    {
+      "id": 193,
+      "a": 733,
+      "b": 461,
+      "target": "337913",
+      "predicted": "337613",
+      "correct": false,
+      "response": "337613}\n$$"
+    },
+    {
+      "id": 194,
+      "a": 463,
+      "b": 431,
+      "target": "199553",
+      "predicted": "198043",
+      "correct": false,
+      "response": "198043}\n$$"
+    },
+    {
+      "id": 195,
+      "a": 431,
+      "b": 587,
+      "target": "252997",
+      "predicted": "253",
+      "correct": false,
+      "response": "253,  431 \\times 500 = 215"
+    },
+    {
+      "id": 196,
+      "a": 719,
+      "b": 773,
+      "target": "555787",
+      "predicted": "554647",
+      "correct": false,
+      "response": "554647}\n$$"
+    },
+    {
+      "id": 197,
+      "a": 859,
+      "b": 479,
+      "target": "411461",
+      "predicted": "410",
+      "correct": false,
+      "response": "410,  859 \\times 479 = 410"
+    },
+    {
+      "id": 198,
+      "a": 911,
+      "b": 233,
+      "target": "212263",
+      "predicted": "212063",
+      "correct": false,
+      "response": "212063}\n$$"
+    },
+    {
+      "id": 199,
+      "a": 761,
+      "b": 239,
+      "target": "181879",
+      "predicted": "181879",
+      "correct": true,
+      "response": "181879}\n$$"
+    },
+    {
+      "id": 200,
+      "a": 887,
+      "b": 673,
+      "target": "596951",
+      "predicted": "600000",
+      "correct": false,
+      "response": "600000 + 80000 + 7000 +"
+    },
+    {
+      "id": 201,
+      "a": 887,
+      "b": 479,
+      "target": "424873",
+      "predicted": "422113",
+      "correct": false,
+      "response": "422113}\n$$"
+    },
+    {
+      "id": 202,
+      "a": 787,
+      "b": 461,
+      "target": "362807",
+      "predicted": "362",
+      "correct": false,
+      "response": "362,  787 \\times 400 = 314"
+    },
+    {
+      "id": 203,
+      "a": 367,
+      "b": 823,
+      "target": "302041",
+      "predicted": "300000",
+      "correct": false,
+      "response": "300000 + 60000 + 7000 +"
+    },
+    {
+      "id": 204,
+      "a": 811,
+      "b": 421,
+      "target": "341431",
+      "predicted": "341631",
+      "correct": false,
+      "response": "341631}\n$$"
+    },
+    {
+      "id": 205,
+      "a": 709,
+      "b": 877,
+      "target": "621793",
+      "predicted": "620",
+      "correct": false,
+      "response": "620,  709 \\times 800 = 567"
+    },
+    {
+      "id": 206,
+      "a": 709,
+      "b": 421,
+      "target": "298489",
+      "predicted": "300000",
+      "correct": false,
+      "response": "300000 - 709 \\times 421 = 3"
+    },
+    {
+      "id": 207,
+      "a": 887,
+      "b": 479,
+      "target": "424873",
+      "predicted": "422113",
+      "correct": false,
+      "response": "422113}\n$$"
+    },
+    {
+      "id": 208,
+      "a": 139,
+      "b": 727,
+      "target": "101053",
+      "predicted": "101143",
+      "correct": false,
+      "response": "101143}\n$$"
+    },
+    {
+      "id": 209,
+      "a": 809,
+      "b": 727,
+      "target": "588143",
+      "predicted": "586",
+      "correct": false,
+      "response": "586,  809 \\times 700 = 566"
+    },
+    {
+      "id": 210,
+      "a": 307,
+      "b": 787,
+      "target": "241609",
+      "predicted": "240",
+      "correct": false,
+      "response": "240,  307 \\times 700 = 214"
+    },
+    {
+      "id": 211,
+      "a": 733,
+      "b": 659,
+      "target": "483047",
+      "predicted": "483657",
+      "correct": false,
+      "response": "483657}\n$$"
+    },
+    {
+      "id": 212,
+      "a": 877,
+      "b": 887,
+      "target": "777899",
+      "predicted": "776",
+      "correct": false,
+      "response": "776,  877 \\times 887 = 776"
+    },
+    {
+      "id": 213,
+      "a": 739,
+      "b": 233,
+      "target": "172187",
+      "predicted": "171987",
+      "correct": false,
+      "response": "171987}\n$$"
+    },
+    {
+      "id": 214,
+      "a": 229,
+      "b": 193,
+      "target": "44197",
+      "predicted": "44097",
+      "correct": false,
+      "response": "44097}\n$$"
+    },
+    {
+      "id": 215,
+      "a": 709,
+      "b": 431,
+      "target": "305579",
+      "predicted": "305879",
+      "correct": false,
+      "response": "305879}\n$$"
+    },
+    {
+      "id": 216,
+      "a": 709,
+      "b": 701,
+      "target": "497009",
+      "predicted": "497009",
+      "correct": true,
+      "response": "497009}\n$$"
+    },
+    {
+      "id": 217,
+      "a": 947,
+      "b": 743,
+      "target": "703621",
+      "predicted": "699921",
+      "correct": false,
+      "response": "699921}\n$$"
+    },
+    {
+      "id": 218,
+      "a": 811,
+      "b": 463,
+      "target": "375493",
+      "predicted": "375",
+      "correct": false,
+      "response": "375,  103}\n$$\n\n$$\n\\boxed{375"
+    },
+    {
+      "id": 219,
+      "a": 911,
+      "b": 571,
+      "target": "520181",
+      "predicted": "519421",
+      "correct": false,
+      "response": "519421}\n$$"
+    },
+    {
+      "id": 220,
+      "a": 743,
+      "b": 853,
+      "target": "633779",
+      "predicted": "634659",
+      "correct": false,
+      "response": "634659}\n$$"
+    },
+    {
+      "id": 221,
+      "a": 809,
+      "b": 727,
+      "target": "588143",
+      "predicted": "586",
+      "correct": false,
+      "response": "586,  809 \\times 700 = 566"
+    },
+    {
+      "id": 222,
+      "a": 809,
+      "b": 733,
+      "target": "592997",
+      "predicted": "591",
+      "correct": false,
+      "response": "591, 027}\n$$"
+    },
+    {
+      "id": 223,
+      "a": 761,
+      "b": 239,
+      "target": "181879",
+      "predicted": "181879",
+      "correct": true,
+      "response": "181879}\n$$"
+    },
+    {
+      "id": 224,
+      "a": 607,
+      "b": 577,
+      "target": "350239",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  0  0  0  0  0 "
+    },
+    {
+      "id": 225,
+      "a": 821,
+      "b": 761,
+      "target": "624781",
+      "predicted": "625481",
+      "correct": false,
+      "response": "625481}\n$$"
+    },
+    {
+      "id": 226,
+      "a": 113,
+      "b": 829,
+      "target": "93677",
+      "predicted": "93617",
+      "correct": false,
+      "response": "93617}\n$$"
+    },
+    {
+      "id": 227,
+      "a": 577,
+      "b": 997,
+      "target": "575269",
+      "predicted": "575869",
+      "correct": false,
+      "response": "575869}\n$$"
+    },
+    {
+      "id": 228,
+      "a": 701,
+      "b": 877,
+      "target": "614777",
+      "predicted": "613673",
+      "correct": false,
+      "response": "613673}\n$$"
+    },
+    {
+      "id": 229,
+      "a": 863,
+      "b": 683,
+      "target": "589429",
+      "predicted": "589",
+      "correct": false,
+      "response": "589,  863 \\times 683 = 589"
+    },
+    {
+      "id": 230,
+      "a": 709,
+      "b": 877,
+      "target": "621793",
+      "predicted": "620",
+      "correct": false,
+      "response": "620,  709 \\times 800 = 567"
+    },
+    {
+      "id": 231,
+      "a": 761,
+      "b": 521,
+      "target": "396481",
+      "predicted": "396281",
+      "correct": false,
+      "response": "396281}\n$$"
+    },
+    {
+      "id": 232,
+      "a": 761,
+      "b": 239,
+      "target": "181879",
+      "predicted": "181879",
+      "correct": true,
+      "response": "181879}\n$$"
+    },
+    {
+      "id": 233,
+      "a": 367,
+      "b": 593,
+      "target": "217631",
+      "predicted": "217731",
+      "correct": false,
+      "response": "217731}\n$$"
+    },
+    {
+      "id": 234,
+      "a": 911,
+      "b": 211,
+      "target": "192221",
+      "predicted": "192112",
+      "correct": false,
+      "response": "192112}\n$$"
+    },
+    {
+      "id": 235,
+      "a": 761,
+      "b": 431,
+      "target": "327991",
+      "predicted": "327",
+      "correct": false,
+      "response": "327,  761 \\times 400 = 304"
+    },
+    {
+      "id": 236,
+      "a": 769,
+      "b": 631,
+      "target": "485239",
+      "predicted": "485639",
+      "correct": false,
+      "response": "485639}\n$$"
+    },
+    {
+      "id": 237,
+      "a": 811,
+      "b": 743,
+      "target": "602573",
+      "predicted": "603173",
+      "correct": false,
+      "response": "603173}\n$$"
+    },
+    {
+      "id": 238,
+      "a": 787,
+      "b": 463,
+      "target": "364381",
+      "predicted": "363",
+      "correct": false,
+      "response": "363,  787 \\times 463 = 363"
+    },
+    {
+      "id": 239,
+      "a": 773,
+      "b": 587,
+      "target": "453751",
+      "predicted": "454",
+      "correct": false,
+      "response": "454,  773 \\times 500 = 386"
+    },
+    {
+      "id": 240,
+      "a": 163,
+      "b": 619,
+      "target": "100897",
+      "predicted": "100697",
+      "correct": false,
+      "response": "100697}\n$$"
+    },
+    {
+      "id": 241,
+      "a": 859,
+      "b": 227,
+      "target": "194993",
+      "predicted": "194393",
+      "correct": false,
+      "response": "194393}\n$$"
+    },
+    {
+      "id": 242,
+      "a": 839,
+      "b": 787,
+      "target": "660293",
+      "predicted": "659",
+      "correct": false,
+      "response": "659,  839 \\times 700 = 587"
+    },
+    {
+      "id": 243,
+      "a": 701,
+      "b": 521,
+      "target": "365221",
+      "predicted": "364721",
+      "correct": false,
+      "response": "364721}\n$$"
+    },
+    {
+      "id": 244,
+      "a": 881,
+      "b": 883,
+      "target": "777923",
+      "predicted": "778043",
+      "correct": false,
+      "response": "778043}\n$$"
+    },
+    {
+      "id": 245,
+      "a": 463,
+      "b": 431,
+      "target": "199553",
+      "predicted": "198043",
+      "correct": false,
+      "response": "198043}\n$$"
+    },
+    {
+      "id": 246,
+      "a": 601,
+      "b": 599,
+      "target": "359999",
+      "predicted": "359",
+      "correct": false,
+      "response": "359,  899}\n$$"
+    },
+    {
+      "id": 247,
+      "a": 881,
+      "b": 773,
+      "target": "681013",
+      "predicted": "680113",
+      "correct": false,
+      "response": "680113}\n$$"
+    },
+    {
+      "id": 248,
+      "a": 787,
+      "b": 389,
+      "target": "306143",
+      "predicted": "305",
+      "correct": false,
+      "response": "305,  787 \\times 389 = 305"
+    },
+    {
+      "id": 249,
+      "a": 739,
+      "b": 233,
+      "target": "172187",
+      "predicted": "171987",
+      "correct": false,
+      "response": "171987}\n$$"
+    },
+    {
+      "id": 250,
+      "a": 761,
+      "b": 643,
+      "target": "489323",
+      "predicted": "489023",
+      "correct": false,
+      "response": "489023}\n$$"
+    },
+    {
+      "id": 251,
+      "a": 787,
+      "b": 677,
+      "target": "532799",
+      "predicted": "532",
+      "correct": false,
+      "response": "532,  787 \\times 677 = 532"
+    },
+    {
+      "id": 252,
+      "a": 739,
+      "b": 659,
+      "target": "487001",
+      "predicted": "486641",
+      "correct": false,
+      "response": "486641}\n$$"
+    },
+    {
+      "id": 253,
+      "a": 907,
+      "b": 673,
+      "target": "610411",
+      "predicted": "610111",
+      "correct": false,
+      "response": "610111}\n$$"
+    },
+    {
+      "id": 254,
+      "a": 859,
+      "b": 709,
+      "target": "609031",
+      "predicted": "609",
+      "correct": false,
+      "response": "609,  591}\n$$\n\n$$\n\\boxed{609"
+    },
+    {
+      "id": 255,
+      "a": 811,
+      "b": 317,
+      "target": "257087",
+      "predicted": "25787",
+      "correct": false,
+      "response": "25787}\n$$"
+    },
+    {
+      "id": 256,
+      "a": 601,
+      "b": 863,
+      "target": "518663",
+      "predicted": "515683",
+      "correct": false,
+      "response": "515683}\n$$"
+    },
+    {
+      "id": 257,
+      "a": 911,
+      "b": 787,
+      "target": "716957",
+      "predicted": "716543",
+      "correct": false,
+      "response": "716543}\n$$"
+    },
+    {
+      "id": 258,
+      "a": 811,
+      "b": 317,
+      "target": "257087",
+      "predicted": "25787",
+      "correct": false,
+      "response": "25787}\n$$"
+    },
+    {
+      "id": 259,
+      "a": 733,
+      "b": 331,
+      "target": "242623",
+      "predicted": "242563",
+      "correct": false,
+      "response": "242563}\n$$"
+    },
+    {
+      "id": 260,
+      "a": 911,
+      "b": 571,
+      "target": "520181",
+      "predicted": "519421",
+      "correct": false,
+      "response": "519421}\n$$"
+    },
+    {
+      "id": 261,
+      "a": 859,
+      "b": 757,
+      "target": "650263",
+      "predicted": "649623",
+      "correct": false,
+      "response": "649623}\n$$"
+    },
+    {
+      "id": 262,
+      "a": 761,
+      "b": 521,
+      "target": "396481",
+      "predicted": "396281",
+      "correct": false,
+      "response": "396281}\n$$"
+    },
+    {
+      "id": 263,
+      "a": 601,
+      "b": 863,
+      "target": "518663",
+      "predicted": "515683",
+      "correct": false,
+      "response": "515683}\n$$"
+    },
+    {
+      "id": 264,
+      "a": 787,
+      "b": 347,
+      "target": "273089",
+      "predicted": "273689",
+      "correct": false,
+      "response": "273689}\n$$"
+    },
+    {
+      "id": 265,
+      "a": 859,
+      "b": 587,
+      "target": "504233",
+      "predicted": "499",
+      "correct": false,
+      "response": "499,613}\n$$"
+    },
+    {
+      "id": 266,
+      "a": 743,
+      "b": 853,
+      "target": "633779",
+      "predicted": "634659",
+      "correct": false,
+      "response": "634659}\n$$"
+    },
+    {
+      "id": 267,
+      "a": 367,
+      "b": 853,
+      "target": "313051",
+      "predicted": "313351",
+      "correct": false,
+      "response": "313351}\n$$"
+    },
+    {
+      "id": 268,
+      "a": 367,
+      "b": 643,
+      "target": "235981",
+      "predicted": "235881",
+      "correct": false,
+      "response": "235881}\n$$"
+    },
+    {
+      "id": 269,
+      "a": 839,
+      "b": 787,
+      "target": "660293",
+      "predicted": "659",
+      "correct": false,
+      "response": "659,  839 \\times 700 = 587"
+    },
+    {
+      "id": 270,
+      "a": 743,
+      "b": 433,
+      "target": "321719",
+      "predicted": "321",
+      "correct": false,
+      "response": "321,  743 \\times 433 = 321"
+    },
+    {
+      "id": 271,
+      "a": 859,
+      "b": 907,
+      "target": "779113",
+      "predicted": "778813",
+      "correct": false,
+      "response": "778813}\n$$"
+    },
+    {
+      "id": 272,
+      "a": 607,
+      "b": 541,
+      "target": "328387",
+      "predicted": "327",
+      "correct": false,
+      "response": "327, 887}\n$$"
+    },
+    {
+      "id": 273,
+      "a": 499,
+      "b": 691,
+      "target": "344809",
+      "predicted": "344",
+      "correct": false,
+      "response": "344,  809}\n$$"
+    },
+    {
+      "id": 274,
+      "a": 113,
+      "b": 877,
+      "target": "99101",
+      "predicted": "99101",
+      "correct": true,
+      "response": "99101}\n$$"
+    },
+    {
+      "id": 275,
+      "a": 839,
+      "b": 433,
+      "target": "363287",
+      "predicted": "363187",
+      "correct": false,
+      "response": "363187}\n$$"
+    },
+    {
+      "id": 276,
+      "a": 821,
+      "b": 367,
+      "target": "301307",
+      "predicted": "299",
+      "correct": false,
+      "response": "299,  821 \\times 300 = 246"
+    },
+    {
+      "id": 277,
+      "a": 907,
+      "b": 593,
+      "target": "537851",
+      "predicted": "537",
+      "correct": false,
+      "response": "537,  051}\n$$"
+    },
+    {
+      "id": 278,
+      "a": 709,
+      "b": 421,
+      "target": "298489",
+      "predicted": "300000",
+      "correct": false,
+      "response": "300000 - 709 \\times 421 = 3"
+    },
+    {
+      "id": 279,
+      "a": 113,
+      "b": 811,
+      "target": "91643",
+      "predicted": "91663",
+      "correct": false,
+      "response": "91663}\n$$"
+    },
+    {
+      "id": 280,
+      "a": 811,
+      "b": 317,
+      "target": "257087",
+      "predicted": "25787",
+      "correct": false,
+      "response": "25787}\n$$"
+    },
+    {
+      "id": 281,
+      "a": 739,
+      "b": 541,
+      "target": "399799",
+      "predicted": "400139",
+      "correct": false,
+      "response": "400139}\n$$"
+    },
+    {
+      "id": 282,
+      "a": 773,
+      "b": 479,
+      "target": "370267",
+      "predicted": "369",
+      "correct": false,
+      "response": "369,  773 \\times 479 = 369"
+    },
+    {
+      "id": 283,
+      "a": 223,
+      "b": 911,
+      "target": "203153",
+      "predicted": "202853",
+      "correct": false,
+      "response": "202853}\n$$"
+    },
+    {
+      "id": 284,
+      "a": 739,
+      "b": 887,
+      "target": "655493",
+      "predicted": "652493",
+      "correct": false,
+      "response": "652493}\n$$"
+    },
+    {
+      "id": 285,
+      "a": 733,
+      "b": 577,
+      "target": "422941",
+      "predicted": "421",
+      "correct": false,
+      "response": "421,  733 \\times 577 = 421"
+    },
+    {
+      "id": 286,
+      "a": 761,
+      "b": 461,
+      "target": "350821",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  761 \\times 400 = 304"
+    },
+    {
+      "id": 287,
+      "a": 607,
+      "b": 569,
+      "target": "345383",
+      "predicted": "344",
+      "correct": false,
+      "response": "344,  607 \\times 569 = 344"
+    },
+    {
+      "id": 288,
+      "a": 787,
+      "b": 367,
+      "target": "288829",
+      "predicted": "289629",
+      "correct": false,
+      "response": "289629}\n$$"
+    },
+    {
+      "id": 289,
+      "a": 859,
+      "b": 397,
+      "target": "341023",
+      "predicted": "340",
+      "correct": false,
+      "response": "340,  859 \\times 397 = 340"
+    },
+    {
+      "id": 290,
+      "a": 769,
+      "b": 877,
+      "target": "674413",
+      "predicted": "673123",
+      "correct": false,
+      "response": "673123}\n$$"
+    },
+    {
+      "id": 291,
+      "a": 709,
+      "b": 643,
+      "target": "455887",
+      "predicted": "455",
+      "correct": false,
+      "response": "455,  787}\n$$"
+    },
+    {
+      "id": 292,
+      "a": 769,
+      "b": 479,
+      "target": "368351",
+      "predicted": "367",
+      "correct": false,
+      "response": "367, 001}\n$$"
+    },
+    {
+      "id": 293,
+      "a": 911,
+      "b": 233,
+      "target": "212263",
+      "predicted": "212063",
+      "correct": false,
+      "response": "212063}\n$$"
+    },
+    {
+      "id": 294,
+      "a": 607,
+      "b": 577,
+      "target": "350239",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  0  0  0  0  0 "
+    },
+    {
+      "id": 295,
+      "a": 761,
+      "b": 421,
+      "target": "320381",
+      "predicted": "320",
+      "correct": false,
+      "response": "320,  0  0  0  0  0 "
+    },
+    {
+      "id": 296,
+      "a": 859,
+      "b": 751,
+      "target": "645109",
+      "predicted": "645009",
+      "correct": false,
+      "response": "645009}\n$$"
+    },
+    {
+      "id": 297,
+      "a": 761,
+      "b": 421,
+      "target": "320381",
+      "predicted": "320",
+      "correct": false,
+      "response": "320,  0  0  0  0  0 "
+    },
+    {
+      "id": 298,
+      "a": 733,
+      "b": 907,
+      "target": "664831",
+      "predicted": "664",
+      "correct": false,
+      "response": "664, 131}\n$$"
+    },
+    {
+      "id": 299,
+      "a": 367,
+      "b": 853,
+      "target": "313051",
+      "predicted": "313351",
+      "correct": false,
+      "response": "313351}\n$$"
+    },
+    {
+      "id": 300,
+      "a": 859,
+      "b": 227,
+      "target": "194993",
+      "predicted": "194393",
+      "correct": false,
+      "response": "194393}\n$$"
+    },
+    {
+      "id": 301,
+      "a": 709,
+      "b": 643,
+      "target": "455887",
+      "predicted": "455",
+      "correct": false,
+      "response": "455,  787}\n$$"
+    },
+    {
+      "id": 302,
+      "a": 733,
+      "b": 907,
+      "target": "664831",
+      "predicted": "664",
+      "correct": false,
+      "response": "664, 131}\n$$"
+    },
+    {
+      "id": 303,
+      "a": 787,
+      "b": 463,
+      "target": "364381",
+      "predicted": "363",
+      "correct": false,
+      "response": "363,  787 \\times 463 = 363"
+    },
+    {
+      "id": 304,
+      "a": 811,
+      "b": 743,
+      "target": "602573",
+      "predicted": "603173",
+      "correct": false,
+      "response": "603173}\n$$"
+    },
+    {
+      "id": 305,
+      "a": 337,
+      "b": 997,
+      "target": "335989",
+      "predicted": "337",
+      "correct": false,
+      "response": "337 \\times 997 = 336, 000 -"
+    },
+    {
+      "id": 306,
+      "a": 769,
+      "b": 479,
+      "target": "368351",
+      "predicted": "367",
+      "correct": false,
+      "response": "367, 001}\n$$"
+    },
+    {
+      "id": 307,
+      "a": 701,
+      "b": 877,
+      "target": "614777",
+      "predicted": "613673",
+      "correct": false,
+      "response": "613673}\n$$"
+    },
+    {
+      "id": 308,
+      "a": 907,
+      "b": 593,
+      "target": "537851",
+      "predicted": "537",
+      "correct": false,
+      "response": "537,  051}\n$$"
+    },
+    {
+      "id": 309,
+      "a": 431,
+      "b": 587,
+      "target": "252997",
+      "predicted": "253",
+      "correct": false,
+      "response": "253,  431 \\times 500 = 215"
+    },
+    {
+      "id": 310,
+      "a": 859,
+      "b": 373,
+      "target": "320407",
+      "predicted": "319",
+      "correct": false,
+      "response": "319,  859 \\times 373 = 319"
+    },
+    {
+      "id": 311,
+      "a": 761,
+      "b": 701,
+      "target": "533461",
+      "predicted": "533461",
+      "correct": true,
+      "response": "533461}\n$$"
+    },
+    {
+      "id": 312,
+      "a": 733,
+      "b": 659,
+      "target": "483047",
+      "predicted": "483657",
+      "correct": false,
+      "response": "483657}\n$$"
+    },
+    {
+      "id": 313,
+      "a": 859,
+      "b": 971,
+      "target": "834089",
+      "predicted": "834",
+      "correct": false,
+      "response": "834,  859 \\times 971 = 834"
+    },
+    {
+      "id": 314,
+      "a": 401,
+      "b": 761,
+      "target": "305161",
+      "predicted": "305161",
+      "correct": true,
+      "response": "305161}\n$$"
+    },
+    {
+      "id": 315,
+      "a": 809,
+      "b": 433,
+      "target": "350297",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  9  9  7}\n$$\n\n$$\n\\boxed"
+    },
+    {
+      "id": 316,
+      "a": 859,
+      "b": 797,
+      "target": "684623",
+      "predicted": "687",
+      "correct": false,
+      "response": "687,  859 \\times 700 = 601"
+    },
+    {
+      "id": 317,
+      "a": 601,
+      "b": 863,
+      "target": "518663",
+      "predicted": "515683",
+      "correct": false,
+      "response": "515683}\n$$"
+    },
+    {
+      "id": 318,
+      "a": 113,
+      "b": 811,
+      "target": "91643",
+      "predicted": "91663",
+      "correct": false,
+      "response": "91663}\n$$"
+    },
+    {
+      "id": 319,
+      "a": 877,
+      "b": 811,
+      "target": "711247",
+      "predicted": "711347",
+      "correct": false,
+      "response": "711347}\n$$"
+    },
+    {
+      "id": 320,
+      "a": 907,
+      "b": 863,
+      "target": "782741",
+      "predicted": "779",
+      "correct": false,
+      "response": "779,  921}\n$$\n\n$$\n\\boxed{779"
+    },
+    {
+      "id": 321,
+      "a": 601,
+      "b": 599,
+      "target": "359999",
+      "predicted": "359",
+      "correct": false,
+      "response": "359,  899}\n$$"
+    },
+    {
+      "id": 322,
+      "a": 701,
+      "b": 431,
+      "target": "302131",
+      "predicted": "301",
+      "correct": false,
+      "response": "301,  431\n701 × 400 = "
+    },
+    {
+      "id": 323,
+      "a": 733,
+      "b": 631,
+      "target": "462523",
+      "predicted": "462",
+      "correct": false,
+      "response": "462,  733 \\times 631 = 462"
+    },
+    {
+      "id": 324,
+      "a": 787,
+      "b": 677,
+      "target": "532799",
+      "predicted": "532",
+      "correct": false,
+      "response": "532,  787 \\times 677 = 532"
+    },
+    {
+      "id": 325,
+      "a": 607,
+      "b": 853,
+      "target": "517771",
+      "predicted": "518171",
+      "correct": false,
+      "response": "518171}\n$$"
+    },
+    {
+      "id": 326,
+      "a": 773,
+      "b": 587,
+      "target": "453751",
+      "predicted": "454",
+      "correct": false,
+      "response": "454,  773 \\times 500 = 386"
+    },
+    {
+      "id": 327,
+      "a": 859,
+      "b": 479,
+      "target": "411461",
+      "predicted": "410",
+      "correct": false,
+      "response": "410,  859 \\times 479 = 410"
+    },
+    {
+      "id": 328,
+      "a": 307,
+      "b": 433,
+      "target": "132931",
+      "predicted": "132851",
+      "correct": false,
+      "response": "132851}\n$$"
+    },
+    {
+      "id": 329,
+      "a": 773,
+      "b": 647,
+      "target": "500131",
+      "predicted": "500000",
+      "correct": false,
+      "response": "500000 + 70000 + 7000 +"
+    },
+    {
+      "id": 330,
+      "a": 761,
+      "b": 701,
+      "target": "533461",
+      "predicted": "533461",
+      "correct": true,
+      "response": "533461}\n$$"
+    },
+    {
+      "id": 331,
+      "a": 911,
+      "b": 571,
+      "target": "520181",
+      "predicted": "519421",
+      "correct": false,
+      "response": "519421}\n$$"
+    },
+    {
+      "id": 332,
+      "a": 821,
+      "b": 367,
+      "target": "301307",
+      "predicted": "299",
+      "correct": false,
+      "response": "299,  821 \\times 300 = 246"
+    },
+    {
+      "id": 333,
+      "a": 827,
+      "b": 673,
+      "target": "556571",
+      "predicted": "557",
+      "correct": false,
+      "response": "557,  827 \\times 673 = 557"
+    },
+    {
+      "id": 334,
+      "a": 769,
+      "b": 541,
+      "target": "416029",
+      "predicted": "416129",
+      "correct": false,
+      "response": "416129}\n$$"
+    },
+    {
+      "id": 335,
+      "a": 769,
+      "b": 877,
+      "target": "674413",
+      "predicted": "673123",
+      "correct": false,
+      "response": "673123}\n$$"
+    },
+    {
+      "id": 336,
+      "a": 607,
+      "b": 769,
+      "target": "466783",
+      "predicted": "466",
+      "correct": false,
+      "response": "466,  607 \\times 700 = 424"
+    },
+    {
+      "id": 337,
+      "a": 907,
+      "b": 593,
+      "target": "537851",
+      "predicted": "537",
+      "correct": false,
+      "response": "537,  051}\n$$"
+    },
+    {
+      "id": 338,
+      "a": 761,
+      "b": 701,
+      "target": "533461",
+      "predicted": "533461",
+      "correct": true,
+      "response": "533461}\n$$"
+    },
+    {
+      "id": 339,
+      "a": 601,
+      "b": 863,
+      "target": "518663",
+      "predicted": "515683",
+      "correct": false,
+      "response": "515683}\n$$"
+    },
+    {
+      "id": 340,
+      "a": 859,
+      "b": 479,
+      "target": "411461",
+      "predicted": "410",
+      "correct": false,
+      "response": "410,  859 \\times 479 = 410"
+    },
+    {
+      "id": 341,
+      "a": 607,
+      "b": 569,
+      "target": "345383",
+      "predicted": "344",
+      "correct": false,
+      "response": "344,  607 \\times 569 = 344"
+    },
+    {
+      "id": 342,
+      "a": 839,
+      "b": 883,
+      "target": "740837",
+      "predicted": "739",
+      "correct": false,
+      "response": "739,  000 +  39,  000"
+    },
+    {
+      "id": 343,
+      "a": 859,
+      "b": 757,
+      "target": "650263",
+      "predicted": "649623",
+      "correct": false,
+      "response": "649623}\n$$"
+    },
+    {
+      "id": 344,
+      "a": 821,
+      "b": 761,
+      "target": "624781",
+      "predicted": "625481",
+      "correct": false,
+      "response": "625481}\n$$"
+    },
+    {
+      "id": 345,
+      "a": 811,
+      "b": 317,
+      "target": "257087",
+      "predicted": "25787",
+      "correct": false,
+      "response": "25787}\n$$"
+    },
+    {
+      "id": 346,
+      "a": 113,
+      "b": 853,
+      "target": "96389",
+      "predicted": "96389",
+      "correct": true,
+      "response": "96389}\n$$"
+    },
+    {
+      "id": 347,
+      "a": 709,
+      "b": 541,
+      "target": "383569",
+      "predicted": "383",
+      "correct": false,
+      "response": "383,  709 \\times 500 = 354"
+    },
+    {
+      "id": 348,
+      "a": 739,
+      "b": 541,
+      "target": "399799",
+      "predicted": "400139",
+      "correct": false,
+      "response": "400139}\n$$"
+    },
+    {
+      "id": 349,
+      "a": 769,
+      "b": 433,
+      "target": "332977",
+      "predicted": "331",
+      "correct": false,
+      "response": "331,  769 \\times 400 = 307"
+    },
+    {
+      "id": 350,
+      "a": 719,
+      "b": 587,
+      "target": "422053",
+      "predicted": "420",
+      "correct": false,
+      "response": "420,  420,  420,  42"
+    },
+    {
+      "id": 351,
+      "a": 811,
+      "b": 421,
+      "target": "341431",
+      "predicted": "341631",
+      "correct": false,
+      "response": "341631}\n$$"
+    },
+    {
+      "id": 352,
+      "a": 859,
+      "b": 347,
+      "target": "298073",
+      "predicted": "297023",
+      "correct": false,
+      "response": "297023}\n$$"
+    },
+    {
+      "id": 353,
+      "a": 739,
+      "b": 233,
+      "target": "172187",
+      "predicted": "171987",
+      "correct": false,
+      "response": "171987}\n$$"
+    },
+    {
+      "id": 354,
+      "a": 733,
+      "b": 883,
+      "target": "647239",
+      "predicted": "645",
+      "correct": false,
+      "response": "645,  331}\n$$\n\n$$\n\\boxed{645"
+    },
+    {
+      "id": 355,
+      "a": 761,
+      "b": 349,
+      "target": "265589",
+      "predicted": "265681",
+      "correct": false,
+      "response": "265681}\n$$"
+    },
+    {
+      "id": 356,
+      "a": 743,
+      "b": 577,
+      "target": "428711",
+      "predicted": "427011",
+      "correct": false,
+      "response": "427011}\n$$"
+    },
+    {
+      "id": 357,
+      "a": 139,
+      "b": 727,
+      "target": "101053",
+      "predicted": "101143",
+      "correct": false,
+      "response": "101143}\n$$"
+    },
+    {
+      "id": 358,
+      "a": 739,
+      "b": 541,
+      "target": "399799",
+      "predicted": "400139",
+      "correct": false,
+      "response": "400139}\n$$"
+    },
+    {
+      "id": 359,
+      "a": 557,
+      "b": 491,
+      "target": "273487",
+      "predicted": "273687",
+      "correct": false,
+      "response": "273687}\n$$"
+    },
+    {
+      "id": 360,
+      "a": 607,
+      "b": 863,
+      "target": "523841",
+      "predicted": "521",
+      "correct": false,
+      "response": "521,  607 \\times 800 = 485"
+    },
+    {
+      "id": 361,
+      "a": 139,
+      "b": 727,
+      "target": "101053",
+      "predicted": "101143",
+      "correct": false,
+      "response": "101143}\n$$"
+    },
+    {
+      "id": 362,
+      "a": 709,
+      "b": 421,
+      "target": "298489",
+      "predicted": "300000",
+      "correct": false,
+      "response": "300000 - 709 \\times 421 = 3"
+    },
+    {
+      "id": 363,
+      "a": 809,
+      "b": 941,
+      "target": "761269",
+      "predicted": "761",
+      "correct": false,
+      "response": "761,  809 \\times 900 = 728"
+    },
+    {
+      "id": 364,
+      "a": 739,
+      "b": 883,
+      "target": "652537",
+      "predicted": "649",
+      "correct": false,
+      "response": "649,  337}\n$$"
+    },
+    {
+      "id": 365,
+      "a": 113,
+      "b": 887,
+      "target": "100231",
+      "predicted": "100001",
+      "correct": false,
+      "response": "100001}\n$$"
+    },
+    {
+      "id": 366,
+      "a": 809,
+      "b": 521,
+      "target": "421489",
+      "predicted": "421",
+      "correct": false,
+      "response": "421, 689}\n$$"
+    },
+    {
+      "id": 367,
+      "a": 401,
+      "b": 787,
+      "target": "315587",
+      "predicted": "316577",
+      "correct": false,
+      "response": "316577}\n$$"
+    },
+    {
+      "id": 368,
+      "a": 787,
+      "b": 673,
+      "target": "529651",
+      "predicted": "529",
+      "correct": false,
+      "response": "529,  787 \\times 673 = 529"
+    },
+    {
+      "id": 369,
+      "a": 113,
+      "b": 853,
+      "target": "96389",
+      "predicted": "96389",
+      "correct": true,
+      "response": "96389}\n$$"
+    },
+    {
+      "id": 370,
+      "a": 761,
+      "b": 521,
+      "target": "396481",
+      "predicted": "396281",
+      "correct": false,
+      "response": "396281}\n$$"
+    },
+    {
+      "id": 371,
+      "a": 607,
+      "b": 787,
+      "target": "477709",
+      "predicted": "477",
+      "correct": false,
+      "response": "477,  607 \\times 700 = 424"
+    },
+    {
+      "id": 372,
+      "a": 739,
+      "b": 547,
+      "target": "404233",
+      "predicted": "402",
+      "correct": false,
+      "response": "402,  383}\n$$\n\n$$\n\\boxed{402"
+    },
+    {
+      "id": 373,
+      "a": 367,
+      "b": 823,
+      "target": "302041",
+      "predicted": "300000",
+      "correct": false,
+      "response": "300000 + 60000 + 7000 +"
+    },
+    {
+      "id": 374,
+      "a": 773,
+      "b": 587,
+      "target": "453751",
+      "predicted": "454",
+      "correct": false,
+      "response": "454,  773 \\times 500 = 386"
+    },
+    {
+      "id": 375,
+      "a": 733,
+      "b": 883,
+      "target": "647239",
+      "predicted": "645",
+      "correct": false,
+      "response": "645,  331}\n$$\n\n$$\n\\boxed{645"
+    },
+    {
+      "id": 376,
+      "a": 701,
+      "b": 521,
+      "target": "365221",
+      "predicted": "364721",
+      "correct": false,
+      "response": "364721}\n$$"
+    },
+    {
+      "id": 377,
+      "a": 743,
+      "b": 863,
+      "target": "641209",
+      "predicted": "640",
+      "correct": false,
+      "response": "640,  009}\n$$\n\n**Correct answer: $\\boxed{6"
+    },
+    {
+      "id": 378,
+      "a": 859,
+      "b": 647,
+      "target": "555773",
+      "predicted": "556",
+      "correct": false,
+      "response": "556,  859 \\times 600 = 515"
+    },
+    {
+      "id": 379,
+      "a": 811,
+      "b": 421,
+      "target": "341431",
+      "predicted": "341631",
+      "correct": false,
+      "response": "341631}\n$$"
+    },
+    {
+      "id": 380,
+      "a": 839,
+      "b": 331,
+      "target": "277709",
+      "predicted": "277",
+      "correct": false,
+      "response": "277,  107}\n$$\n\n$$\n\\boxed{277"
+    },
+    {
+      "id": 381,
+      "a": 733,
+      "b": 479,
+      "target": "351107",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  0  0  0  0  0 "
+    },
+    {
+      "id": 382,
+      "a": 859,
+      "b": 227,
+      "target": "194993",
+      "predicted": "194393",
+      "correct": false,
+      "response": "194393}\n$$"
+    },
+    {
+      "id": 383,
+      "a": 859,
+      "b": 733,
+      "target": "629647",
+      "predicted": "628",
+      "correct": false,
+      "response": "628, 887}\n$$"
+    },
+    {
+      "id": 384,
+      "a": 859,
+      "b": 971,
+      "target": "834089",
+      "predicted": "834",
+      "correct": false,
+      "response": "834,  859 \\times 971 = 834"
+    },
+    {
+      "id": 385,
+      "a": 601,
+      "b": 599,
+      "target": "359999",
+      "predicted": "359",
+      "correct": false,
+      "response": "359,  899}\n$$"
+    },
+    {
+      "id": 386,
+      "a": 367,
+      "b": 863,
+      "target": "316721",
+      "predicted": "315811",
+      "correct": false,
+      "response": "315811}\n$$"
+    },
+    {
+      "id": 387,
+      "a": 733,
+      "b": 853,
+      "target": "625249",
+      "predicted": "625649",
+      "correct": false,
+      "response": "625649}\n$$"
+    },
+    {
+      "id": 388,
+      "a": 709,
+      "b": 541,
+      "target": "383569",
+      "predicted": "383",
+      "correct": false,
+      "response": "383,  709 \\times 500 = 354"
+    },
+    {
+      "id": 389,
+      "a": 877,
+      "b": 887,
+      "target": "777899",
+      "predicted": "776",
+      "correct": false,
+      "response": "776,  877 \\times 887 = 776"
+    },
+    {
+      "id": 390,
+      "a": 787,
+      "b": 677,
+      "target": "532799",
+      "predicted": "532",
+      "correct": false,
+      "response": "532,  787 \\times 677 = 532"
+    },
+    {
+      "id": 391,
+      "a": 769,
+      "b": 433,
+      "target": "332977",
+      "predicted": "331",
+      "correct": false,
+      "response": "331,  769 \\times 400 = 307"
+    },
+    {
+      "id": 392,
+      "a": 743,
+      "b": 853,
+      "target": "633779",
+      "predicted": "634659",
+      "correct": false,
+      "response": "634659}\n$$"
+    },
+    {
+      "id": 393,
+      "a": 601,
+      "b": 599,
+      "target": "359999",
+      "predicted": "359",
+      "correct": false,
+      "response": "359,  899}\n$$"
+    },
+    {
+      "id": 394,
+      "a": 947,
+      "b": 743,
+      "target": "703621",
+      "predicted": "699921",
+      "correct": false,
+      "response": "699921}\n$$"
+    },
+    {
+      "id": 395,
+      "a": 607,
+      "b": 569,
+      "target": "345383",
+      "predicted": "344",
+      "correct": false,
+      "response": "344,  607 \\times 569 = 344"
+    },
+    {
+      "id": 396,
+      "a": 113,
+      "b": 887,
+      "target": "100231",
+      "predicted": "100001",
+      "correct": false,
+      "response": "100001}\n$$"
+    },
+    {
+      "id": 397,
+      "a": 881,
+      "b": 773,
+      "target": "681013",
+      "predicted": "680113",
+      "correct": false,
+      "response": "680113}\n$$"
+    },
+    {
+      "id": 398,
+      "a": 859,
+      "b": 173,
+      "target": "148607",
+      "predicted": "148767",
+      "correct": false,
+      "response": "148767}\n$$"
+    },
+    {
+      "id": 399,
+      "a": 859,
+      "b": 907,
+      "target": "779113",
+      "predicted": "778813",
+      "correct": false,
+      "response": "778813}\n$$"
+    },
+    {
+      "id": 400,
+      "a": 577,
+      "b": 577,
+      "target": "332929",
+      "predicted": "33289",
+      "correct": false,
+      "response": "33289}\n$$"
+    },
+    {
+      "id": 401,
+      "a": 787,
+      "b": 347,
+      "target": "273089",
+      "predicted": "273689",
+      "correct": false,
+      "response": "273689}\n$$"
+    },
+    {
+      "id": 402,
+      "a": 809,
+      "b": 733,
+      "target": "592997",
+      "predicted": "591",
+      "correct": false,
+      "response": "591, 027}\n$$"
+    },
+    {
+      "id": 403,
+      "a": 733,
+      "b": 659,
+      "target": "483047",
+      "predicted": "483657",
+      "correct": false,
+      "response": "483657}\n$$"
+    },
+    {
+      "id": 404,
+      "a": 769,
+      "b": 643,
+      "target": "494467",
+      "predicted": "500000",
+      "correct": false,
+      "response": "500000 + 48000 + 6000 +"
+    },
+    {
+      "id": 405,
+      "a": 397,
+      "b": 397,
+      "target": "157609",
+      "predicted": "157609",
+      "correct": true,
+      "response": "157609}\n$$"
+    },
+    {
+      "id": 406,
+      "a": 607,
+      "b": 863,
+      "target": "523841",
+      "predicted": "521",
+      "correct": false,
+      "response": "521,  607 \\times 800 = 485"
+    },
+    {
+      "id": 407,
+      "a": 709,
+      "b": 643,
+      "target": "455887",
+      "predicted": "455",
+      "correct": false,
+      "response": "455,  787}\n$$"
+    },
+    {
+      "id": 408,
+      "a": 397,
+      "b": 397,
+      "target": "157609",
+      "predicted": "157609",
+      "correct": true,
+      "response": "157609}\n$$"
+    },
+    {
+      "id": 409,
+      "a": 113,
+      "b": 193,
+      "target": "21809",
+      "predicted": "21809",
+      "correct": true,
+      "response": "21809}\n$$"
+    },
+    {
+      "id": 410,
+      "a": 739,
+      "b": 887,
+      "target": "655493",
+      "predicted": "652493",
+      "correct": false,
+      "response": "652493}\n$$"
+    },
+    {
+      "id": 411,
+      "a": 607,
+      "b": 433,
+      "target": "262831",
+      "predicted": "262",
+      "correct": false,
+      "response": "262,  607 \\times 400 = 242"
+    },
+    {
+      "id": 412,
+      "a": 859,
+      "b": 751,
+      "target": "645109",
+      "predicted": "645009",
+      "correct": false,
+      "response": "645009}\n$$"
+    },
+    {
+      "id": 413,
+      "a": 811,
+      "b": 787,
+      "target": "638257",
+      "predicted": "637457",
+      "correct": false,
+      "response": "637457}\n$$"
+    },
+    {
+      "id": 414,
+      "a": 811,
+      "b": 743,
+      "target": "602573",
+      "predicted": "603173",
+      "correct": false,
+      "response": "603173}\n$$"
+    },
+    {
+      "id": 415,
+      "a": 761,
+      "b": 643,
+      "target": "489323",
+      "predicted": "489023",
+      "correct": false,
+      "response": "489023}\n$$"
+    },
+    {
+      "id": 416,
+      "a": 859,
+      "b": 757,
+      "target": "650263",
+      "predicted": "649623",
+      "correct": false,
+      "response": "649623}\n$$"
+    },
+    {
+      "id": 417,
+      "a": 367,
+      "b": 853,
+      "target": "313051",
+      "predicted": "313351",
+      "correct": false,
+      "response": "313351}\n$$"
+    },
+    {
+      "id": 418,
+      "a": 701,
+      "b": 761,
+      "target": "533461",
+      "predicted": "533661",
+      "correct": false,
+      "response": "533661}\n$$"
+    },
+    {
+      "id": 419,
+      "a": 577,
+      "b": 313,
+      "target": "180601",
+      "predicted": "180",
+      "correct": false,
+      "response": "180,  001}\n$$\n\n**Correct answer: $\\boxed{1"
+    },
+    {
+      "id": 420,
+      "a": 769,
+      "b": 433,
+      "target": "332977",
+      "predicted": "331",
+      "correct": false,
+      "response": "331,  769 \\times 400 = 307"
+    },
+    {
+      "id": 421,
+      "a": 809,
+      "b": 733,
+      "target": "592997",
+      "predicted": "591",
+      "correct": false,
+      "response": "591, 027}\n$$"
+    },
+    {
+      "id": 422,
+      "a": 727,
+      "b": 347,
+      "target": "252269",
+      "predicted": "251909",
+      "correct": false,
+      "response": "251909}\n$$"
+    },
+    {
+      "id": 423,
+      "a": 743,
+      "b": 673,
+      "target": "500039",
+      "predicted": "500",
+      "correct": false,
+      "response": "500,  743 \\times 600 = 445"
+    },
+    {
+      "id": 424,
+      "a": 139,
+      "b": 727,
+      "target": "101053",
+      "predicted": "101143",
+      "correct": false,
+      "response": "101143}\n$$"
+    },
+    {
+      "id": 425,
+      "a": 769,
+      "b": 421,
+      "target": "323749",
+      "predicted": "323",
+      "correct": false,
+      "response": "323,  769 \\times 400 = 307"
+    },
+    {
+      "id": 426,
+      "a": 761,
+      "b": 937,
+      "target": "713057",
+      "predicted": "713",
+      "correct": false,
+      "response": "713,  761 \\times 900 = 684"
+    },
+    {
+      "id": 427,
+      "a": 733,
+      "b": 859,
+      "target": "629647",
+      "predicted": "628",
+      "correct": false,
+      "response": "628,  33}\n$$\n\n$$\n\\boxed{628,"
+    },
+    {
+      "id": 428,
+      "a": 733,
+      "b": 191,
+      "target": "140003",
+      "predicted": "140043",
+      "correct": false,
+      "response": "140043}\n$$"
+    },
+    {
+      "id": 429,
+      "a": 601,
+      "b": 863,
+      "target": "518663",
+      "predicted": "515683",
+      "correct": false,
+      "response": "515683}\n$$"
+    },
+    {
+      "id": 430,
+      "a": 191,
+      "b": 193,
+      "target": "36863",
+      "predicted": "36863",
+      "correct": true,
+      "response": "36863}\n$$"
+    },
+    {
+      "id": 431,
+      "a": 739,
+      "b": 883,
+      "target": "652537",
+      "predicted": "649",
+      "correct": false,
+      "response": "649,  337}\n$$"
+    },
+    {
+      "id": 432,
+      "a": 401,
+      "b": 787,
+      "target": "315587",
+      "predicted": "316577",
+      "correct": false,
+      "response": "316577}\n$$"
+    },
+    {
+      "id": 433,
+      "a": 821,
+      "b": 431,
+      "target": "353851",
+      "predicted": "353631",
+      "correct": false,
+      "response": "353631}\n$$"
+    },
+    {
+      "id": 434,
+      "a": 709,
+      "b": 431,
+      "target": "305579",
+      "predicted": "305879",
+      "correct": false,
+      "response": "305879}\n$$"
+    },
+    {
+      "id": 435,
+      "a": 113,
+      "b": 827,
+      "target": "93451",
+      "predicted": "93451",
+      "correct": true,
+      "response": "93451}\n$$"
+    },
+    {
+      "id": 436,
+      "a": 839,
+      "b": 883,
+      "target": "740837",
+      "predicted": "739",
+      "correct": false,
+      "response": "739,  000 +  39,  000"
+    },
+    {
+      "id": 437,
+      "a": 859,
+      "b": 373,
+      "target": "320407",
+      "predicted": "319",
+      "correct": false,
+      "response": "319,  859 \\times 373 = 319"
+    },
+    {
+      "id": 438,
+      "a": 733,
+      "b": 907,
+      "target": "664831",
+      "predicted": "664",
+      "correct": false,
+      "response": "664, 131}\n$$"
+    },
+    {
+      "id": 439,
+      "a": 761,
+      "b": 521,
+      "target": "396481",
+      "predicted": "396281",
+      "correct": false,
+      "response": "396281}\n$$"
+    },
+    {
+      "id": 440,
+      "a": 881,
+      "b": 773,
+      "target": "681013",
+      "predicted": "680113",
+      "correct": false,
+      "response": "680113}\n$$"
+    },
+    {
+      "id": 441,
+      "a": 761,
+      "b": 349,
+      "target": "265589",
+      "predicted": "265681",
+      "correct": false,
+      "response": "265681}\n$$"
+    },
+    {
+      "id": 442,
+      "a": 113,
+      "b": 811,
+      "target": "91643",
+      "predicted": "91663",
+      "correct": false,
+      "response": "91663}\n$$"
+    },
+    {
+      "id": 443,
+      "a": 911,
+      "b": 211,
+      "target": "192221",
+      "predicted": "192112",
+      "correct": false,
+      "response": "192112}\n$$"
+    },
+    {
+      "id": 444,
+      "a": 307,
+      "b": 433,
+      "target": "132931",
+      "predicted": "132851",
+      "correct": false,
+      "response": "132851}\n$$"
+    },
+    {
+      "id": 445,
+      "a": 701,
+      "b": 877,
+      "target": "614777",
+      "predicted": "613673",
+      "correct": false,
+      "response": "613673}\n$$"
+    },
+    {
+      "id": 446,
+      "a": 769,
+      "b": 541,
+      "target": "416029",
+      "predicted": "416129",
+      "correct": false,
+      "response": "416129}\n$$"
+    },
+    {
+      "id": 447,
+      "a": 911,
+      "b": 233,
+      "target": "212263",
+      "predicted": "212063",
+      "correct": false,
+      "response": "212063}\n$$"
+    },
+    {
+      "id": 448,
+      "a": 911,
+      "b": 211,
+      "target": "192221",
+      "predicted": "192112",
+      "correct": false,
+      "response": "192112}\n$$"
+    },
+    {
+      "id": 449,
+      "a": 761,
+      "b": 461,
+      "target": "350821",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  761 \\times 400 = 304"
+    },
+    {
+      "id": 450,
+      "a": 859,
+      "b": 751,
+      "target": "645109",
+      "predicted": "645009",
+      "correct": false,
+      "response": "645009}\n$$"
+    },
+    {
+      "id": 451,
+      "a": 821,
+      "b": 433,
+      "target": "355493",
+      "predicted": "355",
+      "correct": false,
+      "response": "355,  821 \\times 400 = 328"
+    },
+    {
+      "id": 452,
+      "a": 877,
+      "b": 181,
+      "target": "158737",
+      "predicted": "158537",
+      "correct": false,
+      "response": "158537}\n$$"
+    },
+    {
+      "id": 453,
+      "a": 743,
+      "b": 433,
+      "target": "321719",
+      "predicted": "321",
+      "correct": false,
+      "response": "321,  743 \\times 433 = 321"
+    },
+    {
+      "id": 454,
+      "a": 307,
+      "b": 787,
+      "target": "241609",
+      "predicted": "240",
+      "correct": false,
+      "response": "240,  307 \\times 700 = 214"
+    },
+    {
+      "id": 455,
+      "a": 821,
+      "b": 431,
+      "target": "353851",
+      "predicted": "353631",
+      "correct": false,
+      "response": "353631}\n$$"
+    },
+    {
+      "id": 456,
+      "a": 739,
+      "b": 541,
+      "target": "399799",
+      "predicted": "400139",
+      "correct": false,
+      "response": "400139}\n$$"
+    },
+    {
+      "id": 457,
+      "a": 859,
+      "b": 701,
+      "target": "602159",
+      "predicted": "602159",
+      "correct": true,
+      "response": "602159}\n$$"
+    },
+    {
+      "id": 458,
+      "a": 743,
+      "b": 349,
+      "target": "259307",
+      "predicted": "259",
+      "correct": false,
+      "response": "259,  743 \\times 349 = 259"
+    },
+    {
+      "id": 459,
+      "a": 499,
+      "b": 599,
+      "target": "298901",
+      "predicted": "294501",
+      "correct": false,
+      "response": "294501}\n$$"
+    },
+    {
+      "id": 460,
+      "a": 199,
+      "b": 191,
+      "target": "38009",
+      "predicted": "37909",
+      "correct": false,
+      "response": "37909}\n$$"
+    },
+    {
+      "id": 461,
+      "a": 727,
+      "b": 347,
+      "target": "252269",
+      "predicted": "251909",
+      "correct": false,
+      "response": "251909}\n$$"
+    },
+    {
+      "id": 462,
+      "a": 787,
+      "b": 461,
+      "target": "362807",
+      "predicted": "362",
+      "correct": false,
+      "response": "362,  787 \\times 400 = 314"
+    },
+    {
+      "id": 463,
+      "a": 823,
+      "b": 887,
+      "target": "730001",
+      "predicted": "728",
+      "correct": false,
+      "response": "728,  823 \\times 887 = 728"
+    },
+    {
+      "id": 464,
+      "a": 761,
+      "b": 643,
+      "target": "489323",
+      "predicted": "489023",
+      "correct": false,
+      "response": "489023}\n$$"
+    },
+    {
+      "id": 465,
+      "a": 907,
+      "b": 467,
+      "target": "423569",
+      "predicted": "420",
+      "correct": false,
+      "response": "420, 669}\n$$"
+    },
+    {
+      "id": 466,
+      "a": 199,
+      "b": 191,
+      "target": "38009",
+      "predicted": "37909",
+      "correct": false,
+      "response": "37909}\n$$"
+    },
+    {
+      "id": 467,
+      "a": 701,
+      "b": 877,
+      "target": "614777",
+      "predicted": "613673",
+      "correct": false,
+      "response": "613673}\n$$"
+    },
+    {
+      "id": 468,
+      "a": 859,
+      "b": 751,
+      "target": "645109",
+      "predicted": "645009",
+      "correct": false,
+      "response": "645009}\n$$"
+    },
+    {
+      "id": 469,
+      "a": 113,
+      "b": 887,
+      "target": "100231",
+      "predicted": "100001",
+      "correct": false,
+      "response": "100001}\n$$"
+    },
+    {
+      "id": 470,
+      "a": 811,
+      "b": 743,
+      "target": "602573",
+      "predicted": "603173",
+      "correct": false,
+      "response": "603173}\n$$"
+    },
+    {
+      "id": 471,
+      "a": 499,
+      "b": 691,
+      "target": "344809",
+      "predicted": "344",
+      "correct": false,
+      "response": "344,  809}\n$$"
+    },
+    {
+      "id": 472,
+      "a": 761,
+      "b": 701,
+      "target": "533461",
+      "predicted": "533461",
+      "correct": true,
+      "response": "533461}\n$$"
+    },
+    {
+      "id": 473,
+      "a": 877,
+      "b": 181,
+      "target": "158737",
+      "predicted": "158537",
+      "correct": false,
+      "response": "158537}\n$$"
+    },
+    {
+      "id": 474,
+      "a": 557,
+      "b": 491,
+      "target": "273487",
+      "predicted": "273687",
+      "correct": false,
+      "response": "273687}\n$$"
+    },
+    {
+      "id": 475,
+      "a": 577,
+      "b": 313,
+      "target": "180601",
+      "predicted": "180",
+      "correct": false,
+      "response": "180,  001}\n$$\n\n**Correct answer: $\\boxed{1"
+    },
+    {
+      "id": 476,
+      "a": 887,
+      "b": 673,
+      "target": "596951",
+      "predicted": "600000",
+      "correct": false,
+      "response": "600000 + 80000 + 7000 +"
+    },
+    {
+      "id": 477,
+      "a": 761,
+      "b": 541,
+      "target": "411701",
+      "predicted": "411601",
+      "correct": false,
+      "response": "411601}\n$$"
+    },
+    {
+      "id": 478,
+      "a": 761,
+      "b": 643,
+      "target": "489323",
+      "predicted": "489023",
+      "correct": false,
+      "response": "489023}\n$$"
+    },
+    {
+      "id": 479,
+      "a": 769,
+      "b": 541,
+      "target": "416029",
+      "predicted": "416129",
+      "correct": false,
+      "response": "416129}\n$$"
+    },
+    {
+      "id": 480,
+      "a": 709,
+      "b": 701,
+      "target": "497009",
+      "predicted": "497009",
+      "correct": true,
+      "response": "497009}\n$$"
+    },
+    {
+      "id": 481,
+      "a": 769,
+      "b": 571,
+      "target": "439099",
+      "predicted": "439139",
+      "correct": false,
+      "response": "439139}\n$$"
+    },
+    {
+      "id": 482,
+      "a": 761,
+      "b": 349,
+      "target": "265589",
+      "predicted": "265681",
+      "correct": false,
+      "response": "265681}\n$$"
+    },
+    {
+      "id": 483,
+      "a": 881,
+      "b": 883,
+      "target": "777923",
+      "predicted": "778043",
+      "correct": false,
+      "response": "778043}\n$$"
+    },
+    {
+      "id": 484,
+      "a": 787,
+      "b": 673,
+      "target": "529651",
+      "predicted": "529",
+      "correct": false,
+      "response": "529,  787 \\times 673 = 529"
+    },
+    {
+      "id": 485,
+      "a": 811,
+      "b": 317,
+      "target": "257087",
+      "predicted": "25787",
+      "correct": false,
+      "response": "25787}\n$$"
+    },
+    {
+      "id": 486,
+      "a": 761,
+      "b": 937,
+      "target": "713057",
+      "predicted": "713",
+      "correct": false,
+      "response": "713,  761 \\times 900 = 684"
+    },
+    {
+      "id": 487,
+      "a": 113,
+      "b": 193,
+      "target": "21809",
+      "predicted": "21809",
+      "correct": true,
+      "response": "21809}\n$$"
+    },
+    {
+      "id": 488,
+      "a": 367,
+      "b": 983,
+      "target": "360761",
+      "predicted": "360",
+      "correct": false,
+      "response": "360,  367 \\times 983 = 360"
+    },
+    {
+      "id": 489,
+      "a": 367,
+      "b": 643,
+      "target": "235981",
+      "predicted": "235881",
+      "correct": false,
+      "response": "235881}\n$$"
+    },
+    {
+      "id": 490,
+      "a": 709,
+      "b": 877,
+      "target": "621793",
+      "predicted": "620",
+      "correct": false,
+      "response": "620,  709 \\times 800 = 567"
+    },
+    {
+      "id": 491,
+      "a": 863,
+      "b": 683,
+      "target": "589429",
+      "predicted": "589",
+      "correct": false,
+      "response": "589,  863 \\times 683 = 589"
+    },
+    {
+      "id": 492,
+      "a": 787,
+      "b": 461,
+      "target": "362807",
+      "predicted": "362",
+      "correct": false,
+      "response": "362,  787 \\times 400 = 314"
+    },
+    {
+      "id": 493,
+      "a": 367,
+      "b": 593,
+      "target": "217631",
+      "predicted": "217731",
+      "correct": false,
+      "response": "217731}\n$$"
+    },
+    {
+      "id": 494,
+      "a": 773,
+      "b": 647,
+      "target": "500131",
+      "predicted": "500000",
+      "correct": false,
+      "response": "500000 + 70000 + 7000 +"
+    },
+    {
+      "id": 495,
+      "a": 401,
+      "b": 787,
+      "target": "315587",
+      "predicted": "316577",
+      "correct": false,
+      "response": "316577}\n$$"
+    },
+    {
+      "id": 496,
+      "a": 719,
+      "b": 587,
+      "target": "422053",
+      "predicted": "420",
+      "correct": false,
+      "response": "420,  420,  420,  42"
+    },
+    {
+      "id": 497,
+      "a": 743,
+      "b": 863,
+      "target": "641209",
+      "predicted": "640",
+      "correct": false,
+      "response": "640,  009}\n$$\n\n**Correct answer: $\\boxed{6"
+    },
+    {
+      "id": 498,
+      "a": 811,
+      "b": 421,
+      "target": "341431",
+      "predicted": "341631",
+      "correct": false,
+      "response": "341631}\n$$"
+    },
+    {
+      "id": 499,
+      "a": 607,
+      "b": 569,
+      "target": "345383",
+      "predicted": "344",
+      "correct": false,
+      "response": "344,  607 \\times 569 = 344"
+    },
+    {
+      "id": 500,
+      "a": 811,
+      "b": 743,
+      "target": "602573",
+      "predicted": "603173",
+      "correct": false,
+      "response": "603173}\n$$"
+    },
+    {
+      "id": 501,
+      "a": 821,
+      "b": 761,
+      "target": "624781",
+      "predicted": "625481",
+      "correct": false,
+      "response": "625481}\n$$"
+    },
+    {
+      "id": 502,
+      "a": 701,
+      "b": 439,
+      "target": "307739",
+      "predicted": "308",
+      "correct": false,
+      "response": "308,  439\n701\n×439\n="
+    },
+    {
+      "id": 503,
+      "a": 461,
+      "b": 499,
+      "target": "230039",
+      "predicted": "229939",
+      "correct": false,
+      "response": "229939}\n$$"
+    },
+    {
+      "id": 504,
+      "a": 761,
+      "b": 233,
+      "target": "177313",
+      "predicted": "177513",
+      "correct": false,
+      "response": "177513}\n$$"
+    },
+    {
+      "id": 505,
+      "a": 839,
+      "b": 331,
+      "target": "277709",
+      "predicted": "277",
+      "correct": false,
+      "response": "277,  107}\n$$\n\n$$\n\\boxed{277"
+    },
+    {
+      "id": 506,
+      "a": 719,
+      "b": 773,
+      "target": "555787",
+      "predicted": "554647",
+      "correct": false,
+      "response": "554647}\n$$"
+    },
+    {
+      "id": 507,
+      "a": 739,
+      "b": 883,
+      "target": "652537",
+      "predicted": "649",
+      "correct": false,
+      "response": "649,  337}\n$$"
+    },
+    {
+      "id": 508,
+      "a": 199,
+      "b": 191,
+      "target": "38009",
+      "predicted": "37909",
+      "correct": false,
+      "response": "37909}\n$$"
+    },
+    {
+      "id": 509,
+      "a": 863,
+      "b": 683,
+      "target": "589429",
+      "predicted": "589",
+      "correct": false,
+      "response": "589,  863 \\times 683 = 589"
+    },
+    {
+      "id": 510,
+      "a": 733,
+      "b": 479,
+      "target": "351107",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  0  0  0  0  0 "
+    },
+    {
+      "id": 511,
+      "a": 367,
+      "b": 823,
+      "target": "302041",
+      "predicted": "300000",
+      "correct": false,
+      "response": "300000 + 60000 + 7000 +"
+    },
+    {
+      "id": 512,
+      "a": 811,
+      "b": 421,
+      "target": "341431",
+      "predicted": "341631",
+      "correct": false,
+      "response": "341631}\n$$"
+    },
+    {
+      "id": 513,
+      "a": 431,
+      "b": 587,
+      "target": "252997",
+      "predicted": "253",
+      "correct": false,
+      "response": "253,  431 \\times 500 = 215"
+    },
+    {
+      "id": 514,
+      "a": 811,
+      "b": 743,
+      "target": "602573",
+      "predicted": "603173",
+      "correct": false,
+      "response": "603173}\n$$"
+    },
+    {
+      "id": 515,
+      "a": 823,
+      "b": 887,
+      "target": "730001",
+      "predicted": "728",
+      "correct": false,
+      "response": "728,  823 \\times 887 = 728"
+    },
+    {
+      "id": 516,
+      "a": 859,
+      "b": 647,
+      "target": "555773",
+      "predicted": "556",
+      "correct": false,
+      "response": "556,  859 \\times 600 = 515"
+    },
+    {
+      "id": 517,
+      "a": 701,
+      "b": 877,
+      "target": "614777",
+      "predicted": "613673",
+      "correct": false,
+      "response": "613673}\n$$"
+    },
+    {
+      "id": 518,
+      "a": 463,
+      "b": 431,
+      "target": "199553",
+      "predicted": "198043",
+      "correct": false,
+      "response": "198043}\n$$"
+    },
+    {
+      "id": 519,
+      "a": 887,
+      "b": 479,
+      "target": "424873",
+      "predicted": "422113",
+      "correct": false,
+      "response": "422113}\n$$"
+    },
+    {
+      "id": 520,
+      "a": 499,
+      "b": 599,
+      "target": "298901",
+      "predicted": "294501",
+      "correct": false,
+      "response": "294501}\n$$"
+    },
+    {
+      "id": 521,
+      "a": 709,
+      "b": 409,
+      "target": "289981",
+      "predicted": "289",
+      "correct": false,
+      "response": "289,  709 \\times 400 = 283"
+    },
+    {
+      "id": 522,
+      "a": 761,
+      "b": 421,
+      "target": "320381",
+      "predicted": "320",
+      "correct": false,
+      "response": "320,  0  0  0  0  0 "
+    },
+    {
+      "id": 523,
+      "a": 811,
+      "b": 769,
+      "target": "623659",
+      "predicted": "624",
+      "correct": false,
+      "response": "624,  5  5  5  5  5 "
+    },
+    {
+      "id": 524,
+      "a": 401,
+      "b": 761,
+      "target": "305161",
+      "predicted": "305161",
+      "correct": true,
+      "response": "305161}\n$$"
+    },
+    {
+      "id": 525,
+      "a": 809,
+      "b": 733,
+      "target": "592997",
+      "predicted": "591",
+      "correct": false,
+      "response": "591, 027}\n$$"
+    },
+    {
+      "id": 526,
+      "a": 163,
+      "b": 619,
+      "target": "100897",
+      "predicted": "100697",
+      "correct": false,
+      "response": "100697}\n$$"
+    },
+    {
+      "id": 527,
+      "a": 769,
+      "b": 467,
+      "target": "359123",
+      "predicted": "359",
+      "correct": false,
+      "response": "359,  769 \\times 400 = 307"
+    },
+    {
+      "id": 528,
+      "a": 787,
+      "b": 677,
+      "target": "532799",
+      "predicted": "532",
+      "correct": false,
+      "response": "532,  787 \\times 677 = 532"
+    },
+    {
+      "id": 529,
+      "a": 823,
+      "b": 887,
+      "target": "730001",
+      "predicted": "728",
+      "correct": false,
+      "response": "728,  823 \\times 887 = 728"
+    },
+    {
+      "id": 530,
+      "a": 733,
+      "b": 191,
+      "target": "140003",
+      "predicted": "140043",
+      "correct": false,
+      "response": "140043}\n$$"
+    },
+    {
+      "id": 531,
+      "a": 761,
+      "b": 937,
+      "target": "713057",
+      "predicted": "713",
+      "correct": false,
+      "response": "713,  761 \\times 900 = 684"
+    },
+    {
+      "id": 532,
+      "a": 607,
+      "b": 859,
+      "target": "521413",
+      "predicted": "520",
+      "correct": false,
+      "response": "520,  0  0  0  0  0 "
+    },
+    {
+      "id": 533,
+      "a": 811,
+      "b": 463,
+      "target": "375493",
+      "predicted": "375",
+      "correct": false,
+      "response": "375,  103}\n$$\n\n$$\n\\boxed{375"
+    },
+    {
+      "id": 534,
+      "a": 811,
+      "b": 769,
+      "target": "623659",
+      "predicted": "624",
+      "correct": false,
+      "response": "624,  5  5  5  5  5 "
+    },
+    {
+      "id": 535,
+      "a": 743,
+      "b": 673,
+      "target": "500039",
+      "predicted": "500",
+      "correct": false,
+      "response": "500,  743 \\times 600 = 445"
+    },
+    {
+      "id": 536,
+      "a": 811,
+      "b": 421,
+      "target": "341431",
+      "predicted": "341631",
+      "correct": false,
+      "response": "341631}\n$$"
+    },
+    {
+      "id": 537,
+      "a": 733,
+      "b": 587,
+      "target": "430271",
+      "predicted": "430",
+      "correct": false,
+      "response": "430,  733 \\times 500 = 366"
+    },
+    {
+      "id": 538,
+      "a": 607,
+      "b": 787,
+      "target": "477709",
+      "predicted": "477",
+      "correct": false,
+      "response": "477,  607 \\times 700 = 424"
+    },
+    {
+      "id": 539,
+      "a": 743,
+      "b": 673,
+      "target": "500039",
+      "predicted": "500",
+      "correct": false,
+      "response": "500,  743 \\times 600 = 445"
+    },
+    {
+      "id": 540,
+      "a": 761,
+      "b": 349,
+      "target": "265589",
+      "predicted": "265681",
+      "correct": false,
+      "response": "265681}\n$$"
+    },
+    {
+      "id": 541,
+      "a": 113,
+      "b": 859,
+      "target": "97067",
+      "predicted": "97067",
+      "correct": true,
+      "response": "97067}\n$$"
+    },
+    {
+      "id": 542,
+      "a": 761,
+      "b": 349,
+      "target": "265589",
+      "predicted": "265681",
+      "correct": false,
+      "response": "265681}\n$$"
+    },
+    {
+      "id": 543,
+      "a": 743,
+      "b": 853,
+      "target": "633779",
+      "predicted": "634659",
+      "correct": false,
+      "response": "634659}\n$$"
+    },
+    {
+      "id": 544,
+      "a": 809,
+      "b": 541,
+      "target": "437669",
+      "predicted": "437609",
+      "correct": false,
+      "response": "437609}\n$$"
+    },
+    {
+      "id": 545,
+      "a": 727,
+      "b": 347,
+      "target": "252269",
+      "predicted": "251909",
+      "correct": false,
+      "response": "251909}\n$$"
+    },
+    {
+      "id": 546,
+      "a": 601,
+      "b": 599,
+      "target": "359999",
+      "predicted": "359",
+      "correct": false,
+      "response": "359,  899}\n$$"
+    },
+    {
+      "id": 547,
+      "a": 821,
+      "b": 433,
+      "target": "355493",
+      "predicted": "355",
+      "correct": false,
+      "response": "355,  821 \\times 400 = 328"
+    },
+    {
+      "id": 548,
+      "a": 491,
+      "b": 599,
+      "target": "294109",
+      "predicted": "293009",
+      "correct": false,
+      "response": "293009}\n$$"
+    },
+    {
+      "id": 549,
+      "a": 827,
+      "b": 673,
+      "target": "556571",
+      "predicted": "557",
+      "correct": false,
+      "response": "557,  827 \\times 673 = 557"
+    },
+    {
+      "id": 550,
+      "a": 859,
+      "b": 647,
+      "target": "555773",
+      "predicted": "556",
+      "correct": false,
+      "response": "556,  859 \\times 600 = 515"
+    },
+    {
+      "id": 551,
+      "a": 733,
+      "b": 659,
+      "target": "483047",
+      "predicted": "483657",
+      "correct": false,
+      "response": "483657}\n$$"
+    },
+    {
+      "id": 552,
+      "a": 739,
+      "b": 883,
+      "target": "652537",
+      "predicted": "649",
+      "correct": false,
+      "response": "649,  337}\n$$"
+    },
+    {
+      "id": 553,
+      "a": 139,
+      "b": 727,
+      "target": "101053",
+      "predicted": "101143",
+      "correct": false,
+      "response": "101143}\n$$"
+    },
+    {
+      "id": 554,
+      "a": 113,
+      "b": 827,
+      "target": "93451",
+      "predicted": "93451",
+      "correct": true,
+      "response": "93451}\n$$"
+    },
+    {
+      "id": 555,
+      "a": 761,
+      "b": 643,
+      "target": "489323",
+      "predicted": "489023",
+      "correct": false,
+      "response": "489023}\n$$"
+    },
+    {
+      "id": 556,
+      "a": 743,
+      "b": 433,
+      "target": "321719",
+      "predicted": "321",
+      "correct": false,
+      "response": "321,  743 \\times 433 = 321"
+    },
+    {
+      "id": 557,
+      "a": 821,
+      "b": 433,
+      "target": "355493",
+      "predicted": "355",
+      "correct": false,
+      "response": "355,  821 \\times 400 = 328"
+    },
+    {
+      "id": 558,
+      "a": 307,
+      "b": 787,
+      "target": "241609",
+      "predicted": "240",
+      "correct": false,
+      "response": "240,  307 \\times 700 = 214"
+    },
+    {
+      "id": 559,
+      "a": 859,
+      "b": 173,
+      "target": "148607",
+      "predicted": "148767",
+      "correct": false,
+      "response": "148767}\n$$"
+    },
+    {
+      "id": 560,
+      "a": 881,
+      "b": 883,
+      "target": "777923",
+      "predicted": "778043",
+      "correct": false,
+      "response": "778043}\n$$"
+    },
+    {
+      "id": 561,
+      "a": 607,
+      "b": 541,
+      "target": "328387",
+      "predicted": "327",
+      "correct": false,
+      "response": "327, 887}\n$$"
+    },
+    {
+      "id": 562,
+      "a": 397,
+      "b": 397,
+      "target": "157609",
+      "predicted": "157609",
+      "correct": true,
+      "response": "157609}\n$$"
+    },
+    {
+      "id": 563,
+      "a": 907,
+      "b": 467,
+      "target": "423569",
+      "predicted": "420",
+      "correct": false,
+      "response": "420, 669}\n$$"
+    },
+    {
+      "id": 564,
+      "a": 787,
+      "b": 389,
+      "target": "306143",
+      "predicted": "305",
+      "correct": false,
+      "response": "305,  787 \\times 389 = 305"
+    },
+    {
+      "id": 565,
+      "a": 709,
+      "b": 541,
+      "target": "383569",
+      "predicted": "383",
+      "correct": false,
+      "response": "383,  709 \\times 500 = 354"
+    },
+    {
+      "id": 566,
+      "a": 743,
+      "b": 577,
+      "target": "428711",
+      "predicted": "427011",
+      "correct": false,
+      "response": "427011}\n$$"
+    },
+    {
+      "id": 567,
+      "a": 907,
+      "b": 593,
+      "target": "537851",
+      "predicted": "537",
+      "correct": false,
+      "response": "537,  051}\n$$"
+    },
+    {
+      "id": 568,
+      "a": 809,
+      "b": 809,
+      "target": "654481",
+      "predicted": "654481",
+      "correct": true,
+      "response": "654481}\n$$"
+    },
+    {
+      "id": 569,
+      "a": 733,
+      "b": 907,
+      "target": "664831",
+      "predicted": "664",
+      "correct": false,
+      "response": "664, 131}\n$$"
+    },
+    {
+      "id": 570,
+      "a": 577,
+      "b": 313,
+      "target": "180601",
+      "predicted": "180",
+      "correct": false,
+      "response": "180,  001}\n$$\n\n**Correct answer: $\\boxed{1"
+    },
+    {
+      "id": 571,
+      "a": 113,
+      "b": 811,
+      "target": "91643",
+      "predicted": "91663",
+      "correct": false,
+      "response": "91663}\n$$"
+    },
+    {
+      "id": 572,
+      "a": 809,
+      "b": 809,
+      "target": "654481",
+      "predicted": "654481",
+      "correct": true,
+      "response": "654481}\n$$"
+    },
+    {
+      "id": 573,
+      "a": 743,
+      "b": 467,
+      "target": "346981",
+      "predicted": "346",
+      "correct": false,
+      "response": "346,  743 \\times 400 = 297"
+    },
+    {
+      "id": 574,
+      "a": 769,
+      "b": 239,
+      "target": "183791",
+      "predicted": "183691",
+      "correct": false,
+      "response": "183691}\n$$"
+    },
+    {
+      "id": 575,
+      "a": 229,
+      "b": 193,
+      "target": "44197",
+      "predicted": "44097",
+      "correct": false,
+      "response": "44097}\n$$"
+    },
+    {
+      "id": 576,
+      "a": 739,
+      "b": 887,
+      "target": "655493",
+      "predicted": "652493",
+      "correct": false,
+      "response": "652493}\n$$"
+    },
+    {
+      "id": 577,
+      "a": 811,
+      "b": 787,
+      "target": "638257",
+      "predicted": "637457",
+      "correct": false,
+      "response": "637457}\n$$"
+    },
+    {
+      "id": 578,
+      "a": 701,
+      "b": 863,
+      "target": "604963",
+      "predicted": "603483",
+      "correct": false,
+      "response": "603483}\n$$"
+    },
+    {
+      "id": 579,
+      "a": 113,
+      "b": 829,
+      "target": "93677",
+      "predicted": "93617",
+      "correct": false,
+      "response": "93617}\n$$"
+    },
+    {
+      "id": 580,
+      "a": 199,
+      "b": 191,
+      "target": "38009",
+      "predicted": "37909",
+      "correct": false,
+      "response": "37909}\n$$"
+    },
+    {
+      "id": 581,
+      "a": 733,
+      "b": 433,
+      "target": "317389",
+      "predicted": "317089",
+      "correct": false,
+      "response": "317089}\n$$"
+    },
+    {
+      "id": 582,
+      "a": 577,
+      "b": 997,
+      "target": "575269",
+      "predicted": "575869",
+      "correct": false,
+      "response": "575869}\n$$"
+    },
+    {
+      "id": 583,
+      "a": 431,
+      "b": 587,
+      "target": "252997",
+      "predicted": "253",
+      "correct": false,
+      "response": "253,  431 \\times 500 = 215"
+    },
+    {
+      "id": 584,
+      "a": 881,
+      "b": 773,
+      "target": "681013",
+      "predicted": "680113",
+      "correct": false,
+      "response": "680113}\n$$"
+    },
+    {
+      "id": 585,
+      "a": 761,
+      "b": 461,
+      "target": "350821",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  761 \\times 400 = 304"
+    },
+    {
+      "id": 586,
+      "a": 709,
+      "b": 701,
+      "target": "497009",
+      "predicted": "497009",
+      "correct": true,
+      "response": "497009}\n$$"
+    },
+    {
+      "id": 587,
+      "a": 739,
+      "b": 547,
+      "target": "404233",
+      "predicted": "402",
+      "correct": false,
+      "response": "402,  383}\n$$\n\n$$\n\\boxed{402"
+    },
+    {
+      "id": 588,
+      "a": 911,
+      "b": 233,
+      "target": "212263",
+      "predicted": "212063",
+      "correct": false,
+      "response": "212063}\n$$"
+    },
+    {
+      "id": 589,
+      "a": 709,
+      "b": 643,
+      "target": "455887",
+      "predicted": "455",
+      "correct": false,
+      "response": "455,  787}\n$$"
+    },
+    {
+      "id": 590,
+      "a": 859,
+      "b": 347,
+      "target": "298073",
+      "predicted": "297023",
+      "correct": false,
+      "response": "297023}\n$$"
+    },
+    {
+      "id": 591,
+      "a": 113,
+      "b": 193,
+      "target": "21809",
+      "predicted": "21809",
+      "correct": true,
+      "response": "21809}\n$$"
+    },
+    {
+      "id": 592,
+      "a": 823,
+      "b": 887,
+      "target": "730001",
+      "predicted": "728",
+      "correct": false,
+      "response": "728,  823 \\times 887 = 728"
+    },
+    {
+      "id": 593,
+      "a": 761,
+      "b": 419,
+      "target": "318859",
+      "predicted": "318",
+      "correct": false,
+      "response": "318,  159}\n$$\n\n$$\n\\boxed{318"
+    },
+    {
+      "id": 594,
+      "a": 809,
+      "b": 541,
+      "target": "437669",
+      "predicted": "437609",
+      "correct": false,
+      "response": "437609}\n$$"
+    },
+    {
+      "id": 595,
+      "a": 461,
+      "b": 499,
+      "target": "230039",
+      "predicted": "229939",
+      "correct": false,
+      "response": "229939}\n$$"
+    },
+    {
+      "id": 596,
+      "a": 769,
+      "b": 479,
+      "target": "368351",
+      "predicted": "367",
+      "correct": false,
+      "response": "367, 001}\n$$"
+    },
+    {
+      "id": 597,
+      "a": 811,
+      "b": 317,
+      "target": "257087",
+      "predicted": "25787",
+      "correct": false,
+      "response": "25787}\n$$"
+    },
+    {
+      "id": 598,
+      "a": 809,
+      "b": 541,
+      "target": "437669",
+      "predicted": "437609",
+      "correct": false,
+      "response": "437609}\n$$"
+    },
+    {
+      "id": 599,
+      "a": 859,
+      "b": 347,
+      "target": "298073",
+      "predicted": "297023",
+      "correct": false,
+      "response": "297023}\n$$"
+    },
+    {
+      "id": 600,
+      "a": 809,
+      "b": 941,
+      "target": "761269",
+      "predicted": "761",
+      "correct": false,
+      "response": "761,  809 \\times 900 = 728"
+    },
+    {
+      "id": 601,
+      "a": 769,
+      "b": 421,
+      "target": "323749",
+      "predicted": "323",
+      "correct": false,
+      "response": "323,  769 \\times 400 = 307"
+    },
+    {
+      "id": 602,
+      "a": 701,
+      "b": 521,
+      "target": "365221",
+      "predicted": "364721",
+      "correct": false,
+      "response": "364721}\n$$"
+    },
+    {
+      "id": 603,
+      "a": 733,
+      "b": 587,
+      "target": "430271",
+      "predicted": "430",
+      "correct": false,
+      "response": "430,  733 \\times 500 = 366"
+    },
+    {
+      "id": 604,
+      "a": 911,
+      "b": 233,
+      "target": "212263",
+      "predicted": "212063",
+      "correct": false,
+      "response": "212063}\n$$"
+    },
+    {
+      "id": 605,
+      "a": 743,
+      "b": 349,
+      "target": "259307",
+      "predicted": "259",
+      "correct": false,
+      "response": "259,  743 \\times 349 = 259"
+    },
+    {
+      "id": 606,
+      "a": 701,
+      "b": 877,
+      "target": "614777",
+      "predicted": "613673",
+      "correct": false,
+      "response": "613673}\n$$"
+    },
+    {
+      "id": 607,
+      "a": 701,
+      "b": 863,
+      "target": "604963",
+      "predicted": "603483",
+      "correct": false,
+      "response": "603483}\n$$"
+    },
+    {
+      "id": 608,
+      "a": 733,
+      "b": 479,
+      "target": "351107",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  0  0  0  0  0 "
+    },
+    {
+      "id": 609,
+      "a": 859,
+      "b": 701,
+      "target": "602159",
+      "predicted": "602159",
+      "correct": true,
+      "response": "602159}\n$$"
+    },
+    {
+      "id": 610,
+      "a": 821,
+      "b": 431,
+      "target": "353851",
+      "predicted": "353631",
+      "correct": false,
+      "response": "353631}\n$$"
+    },
+    {
+      "id": 611,
+      "a": 761,
+      "b": 701,
+      "target": "533461",
+      "predicted": "533461",
+      "correct": true,
+      "response": "533461}\n$$"
+    },
+    {
+      "id": 612,
+      "a": 859,
+      "b": 709,
+      "target": "609031",
+      "predicted": "609",
+      "correct": false,
+      "response": "609,  591}\n$$\n\n$$\n\\boxed{609"
+    },
+    {
+      "id": 613,
+      "a": 761,
+      "b": 349,
+      "target": "265589",
+      "predicted": "265681",
+      "correct": false,
+      "response": "265681}\n$$"
+    },
+    {
+      "id": 614,
+      "a": 761,
+      "b": 233,
+      "target": "177313",
+      "predicted": "177513",
+      "correct": false,
+      "response": "177513}\n$$"
+    },
+    {
+      "id": 615,
+      "a": 733,
+      "b": 577,
+      "target": "422941",
+      "predicted": "421",
+      "correct": false,
+      "response": "421,  733 \\times 577 = 421"
+    },
+    {
+      "id": 616,
+      "a": 367,
+      "b": 997,
+      "target": "365899",
+      "predicted": "366069",
+      "correct": false,
+      "response": "366069}\n$$"
+    },
+    {
+      "id": 617,
+      "a": 773,
+      "b": 571,
+      "target": "441383",
+      "predicted": "439",
+      "correct": false,
+      "response": "439,  783}\n$$\n\n$$\n\\boxed{439"
+    },
+    {
+      "id": 618,
+      "a": 499,
+      "b": 599,
+      "target": "298901",
+      "predicted": "294501",
+      "correct": false,
+      "response": "294501}\n$$"
+    },
+    {
+      "id": 619,
+      "a": 787,
+      "b": 389,
+      "target": "306143",
+      "predicted": "305",
+      "correct": false,
+      "response": "305,  787 \\times 389 = 305"
+    },
+    {
+      "id": 620,
+      "a": 719,
+      "b": 773,
+      "target": "555787",
+      "predicted": "554647",
+      "correct": false,
+      "response": "554647}\n$$"
+    },
+    {
+      "id": 621,
+      "a": 787,
+      "b": 673,
+      "target": "529651",
+      "predicted": "529",
+      "correct": false,
+      "response": "529,  787 \\times 673 = 529"
+    },
+    {
+      "id": 622,
+      "a": 739,
+      "b": 643,
+      "target": "475177",
+      "predicted": "475177",
+      "correct": true,
+      "response": "475177}\n$$"
+    },
+    {
+      "id": 623,
+      "a": 809,
+      "b": 521,
+      "target": "421489",
+      "predicted": "421",
+      "correct": false,
+      "response": "421, 689}\n$$"
+    },
+    {
+      "id": 624,
+      "a": 607,
+      "b": 863,
+      "target": "523841",
+      "predicted": "521",
+      "correct": false,
+      "response": "521,  607 \\times 800 = 485"
+    },
+    {
+      "id": 625,
+      "a": 163,
+      "b": 619,
+      "target": "100897",
+      "predicted": "100697",
+      "correct": false,
+      "response": "100697}\n$$"
+    },
+    {
+      "id": 626,
+      "a": 733,
+      "b": 461,
+      "target": "337913",
+      "predicted": "337613",
+      "correct": false,
+      "response": "337613}\n$$"
+    },
+    {
+      "id": 627,
+      "a": 809,
+      "b": 587,
+      "target": "474883",
+      "predicted": "474",
+      "correct": false,
+      "response": "474,  0  0  0  0  0 "
+    },
+    {
+      "id": 628,
+      "a": 739,
+      "b": 659,
+      "target": "487001",
+      "predicted": "486641",
+      "correct": false,
+      "response": "486641}\n$$"
+    },
+    {
+      "id": 629,
+      "a": 809,
+      "b": 809,
+      "target": "654481",
+      "predicted": "654481",
+      "correct": true,
+      "response": "654481}\n$$"
+    },
+    {
+      "id": 630,
+      "a": 761,
+      "b": 521,
+      "target": "396481",
+      "predicted": "396281",
+      "correct": false,
+      "response": "396281}\n$$"
+    },
+    {
+      "id": 631,
+      "a": 701,
+      "b": 521,
+      "target": "365221",
+      "predicted": "364721",
+      "correct": false,
+      "response": "364721}\n$$"
+    },
+    {
+      "id": 632,
+      "a": 733,
+      "b": 883,
+      "target": "647239",
+      "predicted": "645",
+      "correct": false,
+      "response": "645,  331}\n$$\n\n$$\n\\boxed{645"
+    },
+    {
+      "id": 633,
+      "a": 859,
+      "b": 971,
+      "target": "834089",
+      "predicted": "834",
+      "correct": false,
+      "response": "834,  859 \\times 971 = 834"
+    },
+    {
+      "id": 634,
+      "a": 601,
+      "b": 863,
+      "target": "518663",
+      "predicted": "515683",
+      "correct": false,
+      "response": "515683}\n$$"
+    },
+    {
+      "id": 635,
+      "a": 709,
+      "b": 853,
+      "target": "604777",
+      "predicted": "605",
+      "correct": false,
+      "response": "605, 057}\n$$"
+    },
+    {
+      "id": 636,
+      "a": 739,
+      "b": 467,
+      "target": "345113",
+      "predicted": "344",
+      "correct": false,
+      "response": "344,  739 \\times 400 = 295"
+    },
+    {
+      "id": 637,
+      "a": 761,
+      "b": 233,
+      "target": "177313",
+      "predicted": "177513",
+      "correct": false,
+      "response": "177513}\n$$"
+    },
+    {
+      "id": 638,
+      "a": 401,
+      "b": 761,
+      "target": "305161",
+      "predicted": "305161",
+      "correct": true,
+      "response": "305161}\n$$"
+    },
+    {
+      "id": 639,
+      "a": 733,
+      "b": 367,
+      "target": "269011",
+      "predicted": "269111",
+      "correct": false,
+      "response": "269111}\n$$"
+    },
+    {
+      "id": 640,
+      "a": 113,
+      "b": 829,
+      "target": "93677",
+      "predicted": "93617",
+      "correct": false,
+      "response": "93617}\n$$"
+    },
+    {
+      "id": 641,
+      "a": 733,
+      "b": 433,
+      "target": "317389",
+      "predicted": "317089",
+      "correct": false,
+      "response": "317089}\n$$"
+    },
+    {
+      "id": 642,
+      "a": 337,
+      "b": 997,
+      "target": "335989",
+      "predicted": "337",
+      "correct": false,
+      "response": "337 \\times 997 = 336, 000 -"
+    },
+    {
+      "id": 643,
+      "a": 733,
+      "b": 631,
+      "target": "462523",
+      "predicted": "462",
+      "correct": false,
+      "response": "462,  733 \\times 631 = 462"
+    },
+    {
+      "id": 644,
+      "a": 769,
+      "b": 641,
+      "target": "492929",
+      "predicted": "492",
+      "correct": false,
+      "response": "492,  769 \\times 600 = 461"
+    },
+    {
+      "id": 645,
+      "a": 761,
+      "b": 701,
+      "target": "533461",
+      "predicted": "533461",
+      "correct": true,
+      "response": "533461}\n$$"
+    },
+    {
+      "id": 646,
+      "a": 491,
+      "b": 599,
+      "target": "294109",
+      "predicted": "293009",
+      "correct": false,
+      "response": "293009}\n$$"
+    },
+    {
+      "id": 647,
+      "a": 739,
+      "b": 541,
+      "target": "399799",
+      "predicted": "400139",
+      "correct": false,
+      "response": "400139}\n$$"
+    },
+    {
+      "id": 648,
+      "a": 733,
+      "b": 631,
+      "target": "462523",
+      "predicted": "462",
+      "correct": false,
+      "response": "462,  733 \\times 631 = 462"
+    },
+    {
+      "id": 649,
+      "a": 607,
+      "b": 863,
+      "target": "523841",
+      "predicted": "521",
+      "correct": false,
+      "response": "521,  607 \\times 800 = 485"
+    },
+    {
+      "id": 650,
+      "a": 733,
+      "b": 859,
+      "target": "629647",
+      "predicted": "628",
+      "correct": false,
+      "response": "628,  33}\n$$\n\n$$\n\\boxed{628,"
+    },
+    {
+      "id": 651,
+      "a": 761,
+      "b": 461,
+      "target": "350821",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  761 \\times 400 = 304"
+    },
+    {
+      "id": 652,
+      "a": 739,
+      "b": 547,
+      "target": "404233",
+      "predicted": "402",
+      "correct": false,
+      "response": "402,  383}\n$$\n\n$$\n\\boxed{402"
+    },
+    {
+      "id": 653,
+      "a": 769,
+      "b": 439,
+      "target": "337591",
+      "predicted": "336491",
+      "correct": false,
+      "response": "336491}\n$$"
+    },
+    {
+      "id": 654,
+      "a": 821,
+      "b": 433,
+      "target": "355493",
+      "predicted": "355",
+      "correct": false,
+      "response": "355,  821 \\times 400 = 328"
+    },
+    {
+      "id": 655,
+      "a": 733,
+      "b": 331,
+      "target": "242623",
+      "predicted": "242563",
+      "correct": false,
+      "response": "242563}\n$$"
+    },
+    {
+      "id": 656,
+      "a": 733,
+      "b": 191,
+      "target": "140003",
+      "predicted": "140043",
+      "correct": false,
+      "response": "140043}\n$$"
+    },
+    {
+      "id": 657,
+      "a": 773,
+      "b": 709,
+      "target": "548057",
+      "predicted": "549",
+      "correct": false,
+      "response": "549,  773 \\times 700 = 541"
+    },
+    {
+      "id": 658,
+      "a": 743,
+      "b": 467,
+      "target": "346981",
+      "predicted": "346",
+      "correct": false,
+      "response": "346,  743 \\times 400 = 297"
+    },
+    {
+      "id": 659,
+      "a": 839,
+      "b": 331,
+      "target": "277709",
+      "predicted": "277",
+      "correct": false,
+      "response": "277,  107}\n$$\n\n$$\n\\boxed{277"
+    },
+    {
+      "id": 660,
+      "a": 709,
+      "b": 643,
+      "target": "455887",
+      "predicted": "455",
+      "correct": false,
+      "response": "455,  787}\n$$"
+    },
+    {
+      "id": 661,
+      "a": 607,
+      "b": 853,
+      "target": "517771",
+      "predicted": "518171",
+      "correct": false,
+      "response": "518171}\n$$"
+    },
+    {
+      "id": 662,
+      "a": 911,
+      "b": 233,
+      "target": "212263",
+      "predicted": "212063",
+      "correct": false,
+      "response": "212063}\n$$"
+    },
+    {
+      "id": 663,
+      "a": 787,
+      "b": 673,
+      "target": "529651",
+      "predicted": "529",
+      "correct": false,
+      "response": "529,  787 \\times 673 = 529"
+    },
+    {
+      "id": 664,
+      "a": 733,
+      "b": 577,
+      "target": "422941",
+      "predicted": "421",
+      "correct": false,
+      "response": "421,  733 \\times 577 = 421"
+    },
+    {
+      "id": 665,
+      "a": 809,
+      "b": 733,
+      "target": "592997",
+      "predicted": "591",
+      "correct": false,
+      "response": "591, 027}\n$$"
+    },
+    {
+      "id": 666,
+      "a": 733,
+      "b": 433,
+      "target": "317389",
+      "predicted": "317089",
+      "correct": false,
+      "response": "317089}\n$$"
+    },
+    {
+      "id": 667,
+      "a": 733,
+      "b": 331,
+      "target": "242623",
+      "predicted": "242563",
+      "correct": false,
+      "response": "242563}\n$$"
+    },
+    {
+      "id": 668,
+      "a": 821,
+      "b": 761,
+      "target": "624781",
+      "predicted": "625481",
+      "correct": false,
+      "response": "625481}\n$$"
+    },
+    {
+      "id": 669,
+      "a": 431,
+      "b": 587,
+      "target": "252997",
+      "predicted": "253",
+      "correct": false,
+      "response": "253,  431 \\times 500 = 215"
+    },
+    {
+      "id": 670,
+      "a": 809,
+      "b": 733,
+      "target": "592997",
+      "predicted": "591",
+      "correct": false,
+      "response": "591, 027}\n$$"
+    },
+    {
+      "id": 671,
+      "a": 401,
+      "b": 787,
+      "target": "315587",
+      "predicted": "316577",
+      "correct": false,
+      "response": "316577}\n$$"
+    },
+    {
+      "id": 672,
+      "a": 863,
+      "b": 683,
+      "target": "589429",
+      "predicted": "589",
+      "correct": false,
+      "response": "589,  863 \\times 683 = 589"
+    },
+    {
+      "id": 673,
+      "a": 787,
+      "b": 571,
+      "target": "449377",
+      "predicted": "449877",
+      "correct": false,
+      "response": "449877}\n$$"
+    },
+    {
+      "id": 674,
+      "a": 607,
+      "b": 769,
+      "target": "466783",
+      "predicted": "466",
+      "correct": false,
+      "response": "466,  607 \\times 700 = 424"
+    },
+    {
+      "id": 675,
+      "a": 719,
+      "b": 313,
+      "target": "225047",
+      "predicted": "224747",
+      "correct": false,
+      "response": "224747}\n$$"
+    },
+    {
+      "id": 676,
+      "a": 607,
+      "b": 859,
+      "target": "521413",
+      "predicted": "520",
+      "correct": false,
+      "response": "520,  0  0  0  0  0 "
+    },
+    {
+      "id": 677,
+      "a": 811,
+      "b": 787,
+      "target": "638257",
+      "predicted": "637457",
+      "correct": false,
+      "response": "637457}\n$$"
+    },
+    {
+      "id": 678,
+      "a": 733,
+      "b": 433,
+      "target": "317389",
+      "predicted": "317089",
+      "correct": false,
+      "response": "317089}\n$$"
+    },
+    {
+      "id": 679,
+      "a": 761,
+      "b": 349,
+      "target": "265589",
+      "predicted": "265681",
+      "correct": false,
+      "response": "265681}\n$$"
+    },
+    {
+      "id": 680,
+      "a": 823,
+      "b": 887,
+      "target": "730001",
+      "predicted": "728",
+      "correct": false,
+      "response": "728,  823 \\times 887 = 728"
+    },
+    {
+      "id": 681,
+      "a": 113,
+      "b": 887,
+      "target": "100231",
+      "predicted": "100001",
+      "correct": false,
+      "response": "100001}\n$$"
+    },
+    {
+      "id": 682,
+      "a": 839,
+      "b": 883,
+      "target": "740837",
+      "predicted": "739",
+      "correct": false,
+      "response": "739,  000 +  39,  000"
+    },
+    {
+      "id": 683,
+      "a": 607,
+      "b": 853,
+      "target": "517771",
+      "predicted": "518171",
+      "correct": false,
+      "response": "518171}\n$$"
+    },
+    {
+      "id": 684,
+      "a": 761,
+      "b": 461,
+      "target": "350821",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  761 \\times 400 = 304"
+    },
+    {
+      "id": 685,
+      "a": 733,
+      "b": 859,
+      "target": "629647",
+      "predicted": "628",
+      "correct": false,
+      "response": "628,  33}\n$$\n\n$$\n\\boxed{628,"
+    },
+    {
+      "id": 686,
+      "a": 431,
+      "b": 587,
+      "target": "252997",
+      "predicted": "253",
+      "correct": false,
+      "response": "253,  431 \\times 500 = 215"
+    },
+    {
+      "id": 687,
+      "a": 769,
+      "b": 631,
+      "target": "485239",
+      "predicted": "485639",
+      "correct": false,
+      "response": "485639}\n$$"
+    },
+    {
+      "id": 688,
+      "a": 733,
+      "b": 587,
+      "target": "430271",
+      "predicted": "430",
+      "correct": false,
+      "response": "430,  733 \\times 500 = 366"
+    },
+    {
+      "id": 689,
+      "a": 881,
+      "b": 773,
+      "target": "681013",
+      "predicted": "680113",
+      "correct": false,
+      "response": "680113}\n$$"
+    },
+    {
+      "id": 690,
+      "a": 743,
+      "b": 433,
+      "target": "321719",
+      "predicted": "321",
+      "correct": false,
+      "response": "321,  743 \\times 433 = 321"
+    },
+    {
+      "id": 691,
+      "a": 877,
+      "b": 883,
+      "target": "774391",
+      "predicted": "772",
+      "correct": false,
+      "response": "772,  877 \\times 883 = 772"
+    },
+    {
+      "id": 692,
+      "a": 739,
+      "b": 467,
+      "target": "345113",
+      "predicted": "344",
+      "correct": false,
+      "response": "344,  739 \\times 400 = 295"
+    },
+    {
+      "id": 693,
+      "a": 113,
+      "b": 811,
+      "target": "91643",
+      "predicted": "91663",
+      "correct": false,
+      "response": "91663}\n$$"
+    },
+    {
+      "id": 694,
+      "a": 743,
+      "b": 433,
+      "target": "321719",
+      "predicted": "321",
+      "correct": false,
+      "response": "321,  743 \\times 433 = 321"
+    },
+    {
+      "id": 695,
+      "a": 607,
+      "b": 541,
+      "target": "328387",
+      "predicted": "327",
+      "correct": false,
+      "response": "327, 887}\n$$"
+    },
+    {
+      "id": 696,
+      "a": 181,
+      "b": 499,
+      "target": "90319",
+      "predicted": "90119",
+      "correct": false,
+      "response": "90119}\n$$"
+    },
+    {
+      "id": 697,
+      "a": 163,
+      "b": 619,
+      "target": "100897",
+      "predicted": "100697",
+      "correct": false,
+      "response": "100697}\n$$"
+    },
+    {
+      "id": 698,
+      "a": 761,
+      "b": 419,
+      "target": "318859",
+      "predicted": "318",
+      "correct": false,
+      "response": "318,  159}\n$$\n\n$$\n\\boxed{318"
+    },
+    {
+      "id": 699,
+      "a": 809,
+      "b": 433,
+      "target": "350297",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  9  9  7}\n$$\n\n$$\n\\boxed"
+    },
+    {
+      "id": 700,
+      "a": 367,
+      "b": 643,
+      "target": "235981",
+      "predicted": "235881",
+      "correct": false,
+      "response": "235881}\n$$"
+    },
+    {
+      "id": 701,
+      "a": 761,
+      "b": 643,
+      "target": "489323",
+      "predicted": "489023",
+      "correct": false,
+      "response": "489023}\n$$"
+    },
+    {
+      "id": 702,
+      "a": 761,
+      "b": 349,
+      "target": "265589",
+      "predicted": "265681",
+      "correct": false,
+      "response": "265681}\n$$"
+    },
+    {
+      "id": 703,
+      "a": 431,
+      "b": 587,
+      "target": "252997",
+      "predicted": "253",
+      "correct": false,
+      "response": "253,  431 \\times 500 = 215"
+    },
+    {
+      "id": 704,
+      "a": 743,
+      "b": 863,
+      "target": "641209",
+      "predicted": "640",
+      "correct": false,
+      "response": "640,  009}\n$$\n\n**Correct answer: $\\boxed{6"
+    },
+    {
+      "id": 705,
+      "a": 701,
+      "b": 521,
+      "target": "365221",
+      "predicted": "364721",
+      "correct": false,
+      "response": "364721}\n$$"
+    },
+    {
+      "id": 706,
+      "a": 113,
+      "b": 887,
+      "target": "100231",
+      "predicted": "100001",
+      "correct": false,
+      "response": "100001}\n$$"
+    },
+    {
+      "id": 707,
+      "a": 743,
+      "b": 577,
+      "target": "428711",
+      "predicted": "427011",
+      "correct": false,
+      "response": "427011}\n$$"
+    },
+    {
+      "id": 708,
+      "a": 733,
+      "b": 631,
+      "target": "462523",
+      "predicted": "462",
+      "correct": false,
+      "response": "462,  733 \\times 631 = 462"
+    },
+    {
+      "id": 709,
+      "a": 113,
+      "b": 827,
+      "target": "93451",
+      "predicted": "93451",
+      "correct": true,
+      "response": "93451}\n$$"
+    },
+    {
+      "id": 710,
+      "a": 907,
+      "b": 593,
+      "target": "537851",
+      "predicted": "537",
+      "correct": false,
+      "response": "537,  051}\n$$"
+    },
+    {
+      "id": 711,
+      "a": 811,
+      "b": 769,
+      "target": "623659",
+      "predicted": "624",
+      "correct": false,
+      "response": "624,  5  5  5  5  5 "
+    },
+    {
+      "id": 712,
+      "a": 307,
+      "b": 433,
+      "target": "132931",
+      "predicted": "132851",
+      "correct": false,
+      "response": "132851}\n$$"
+    },
+    {
+      "id": 713,
+      "a": 811,
+      "b": 439,
+      "target": "356029",
+      "predicted": "355321",
+      "correct": false,
+      "response": "355321}\n$$"
+    },
+    {
+      "id": 714,
+      "a": 821,
+      "b": 761,
+      "target": "624781",
+      "predicted": "625481",
+      "correct": false,
+      "response": "625481}\n$$"
+    },
+    {
+      "id": 715,
+      "a": 401,
+      "b": 787,
+      "target": "315587",
+      "predicted": "316577",
+      "correct": false,
+      "response": "316577}\n$$"
+    },
+    {
+      "id": 716,
+      "a": 811,
+      "b": 743,
+      "target": "602573",
+      "predicted": "603173",
+      "correct": false,
+      "response": "603173}\n$$"
+    },
+    {
+      "id": 717,
+      "a": 839,
+      "b": 433,
+      "target": "363287",
+      "predicted": "363187",
+      "correct": false,
+      "response": "363187}\n$$"
+    },
+    {
+      "id": 718,
+      "a": 113,
+      "b": 193,
+      "target": "21809",
+      "predicted": "21809",
+      "correct": true,
+      "response": "21809}\n$$"
+    },
+    {
+      "id": 719,
+      "a": 719,
+      "b": 313,
+      "target": "225047",
+      "predicted": "224747",
+      "correct": false,
+      "response": "224747}\n$$"
+    },
+    {
+      "id": 720,
+      "a": 739,
+      "b": 541,
+      "target": "399799",
+      "predicted": "400139",
+      "correct": false,
+      "response": "400139}\n$$"
+    },
+    {
+      "id": 721,
+      "a": 787,
+      "b": 461,
+      "target": "362807",
+      "predicted": "362",
+      "correct": false,
+      "response": "362,  787 \\times 400 = 314"
+    },
+    {
+      "id": 722,
+      "a": 769,
+      "b": 433,
+      "target": "332977",
+      "predicted": "331",
+      "correct": false,
+      "response": "331,  769 \\times 400 = 307"
+    },
+    {
+      "id": 723,
+      "a": 113,
+      "b": 887,
+      "target": "100231",
+      "predicted": "100001",
+      "correct": false,
+      "response": "100001}\n$$"
+    },
+    {
+      "id": 724,
+      "a": 733,
+      "b": 577,
+      "target": "422941",
+      "predicted": "421",
+      "correct": false,
+      "response": "421,  733 \\times 577 = 421"
+    },
+    {
+      "id": 725,
+      "a": 769,
+      "b": 643,
+      "target": "494467",
+      "predicted": "500000",
+      "correct": false,
+      "response": "500000 + 48000 + 6000 +"
+    },
+    {
+      "id": 726,
+      "a": 367,
+      "b": 823,
+      "target": "302041",
+      "predicted": "300000",
+      "correct": false,
+      "response": "300000 + 60000 + 7000 +"
+    },
+    {
+      "id": 727,
+      "a": 733,
+      "b": 859,
+      "target": "629647",
+      "predicted": "628",
+      "correct": false,
+      "response": "628,  33}\n$$\n\n$$\n\\boxed{628,"
+    },
+    {
+      "id": 728,
+      "a": 733,
+      "b": 479,
+      "target": "351107",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  0  0  0  0  0 "
+    },
+    {
+      "id": 729,
+      "a": 761,
+      "b": 419,
+      "target": "318859",
+      "predicted": "318",
+      "correct": false,
+      "response": "318,  159}\n$$\n\n$$\n\\boxed{318"
+    },
+    {
+      "id": 730,
+      "a": 733,
+      "b": 367,
+      "target": "269011",
+      "predicted": "269111",
+      "correct": false,
+      "response": "269111}\n$$"
+    },
+    {
+      "id": 731,
+      "a": 761,
+      "b": 419,
+      "target": "318859",
+      "predicted": "318",
+      "correct": false,
+      "response": "318,  159}\n$$\n\n$$\n\\boxed{318"
+    },
+    {
+      "id": 732,
+      "a": 859,
+      "b": 347,
+      "target": "298073",
+      "predicted": "297023",
+      "correct": false,
+      "response": "297023}\n$$"
+    },
+    {
+      "id": 733,
+      "a": 887,
+      "b": 673,
+      "target": "596951",
+      "predicted": "600000",
+      "correct": false,
+      "response": "600000 + 80000 + 7000 +"
+    },
+    {
+      "id": 734,
+      "a": 809,
+      "b": 587,
+      "target": "474883",
+      "predicted": "474",
+      "correct": false,
+      "response": "474,  0  0  0  0  0 "
+    },
+    {
+      "id": 735,
+      "a": 809,
+      "b": 941,
+      "target": "761269",
+      "predicted": "761",
+      "correct": false,
+      "response": "761,  809 \\times 900 = 728"
+    },
+    {
+      "id": 736,
+      "a": 367,
+      "b": 983,
+      "target": "360761",
+      "predicted": "360",
+      "correct": false,
+      "response": "360,  367 \\times 983 = 360"
+    },
+    {
+      "id": 737,
+      "a": 811,
+      "b": 863,
+      "target": "699893",
+      "predicted": "698133",
+      "correct": false,
+      "response": "698133}\n$$"
+    },
+    {
+      "id": 738,
+      "a": 307,
+      "b": 787,
+      "target": "241609",
+      "predicted": "240",
+      "correct": false,
+      "response": "240,  307 \\times 700 = 214"
+    },
+    {
+      "id": 739,
+      "a": 181,
+      "b": 499,
+      "target": "90319",
+      "predicted": "90119",
+      "correct": false,
+      "response": "90119}\n$$"
+    },
+    {
+      "id": 740,
+      "a": 607,
+      "b": 853,
+      "target": "517771",
+      "predicted": "518171",
+      "correct": false,
+      "response": "518171}\n$$"
+    },
+    {
+      "id": 741,
+      "a": 113,
+      "b": 887,
+      "target": "100231",
+      "predicted": "100001",
+      "correct": false,
+      "response": "100001}\n$$"
+    },
+    {
+      "id": 742,
+      "a": 743,
+      "b": 863,
+      "target": "641209",
+      "predicted": "640",
+      "correct": false,
+      "response": "640,  009}\n$$\n\n**Correct answer: $\\boxed{6"
+    },
+    {
+      "id": 743,
+      "a": 743,
+      "b": 631,
+      "target": "468833",
+      "predicted": "468613",
+      "correct": false,
+      "response": "468613}\n$$"
+    },
+    {
+      "id": 744,
+      "a": 701,
+      "b": 521,
+      "target": "365221",
+      "predicted": "364721",
+      "correct": false,
+      "response": "364721}\n$$"
+    },
+    {
+      "id": 745,
+      "a": 911,
+      "b": 211,
+      "target": "192221",
+      "predicted": "192112",
+      "correct": false,
+      "response": "192112}\n$$"
+    },
+    {
+      "id": 746,
+      "a": 367,
+      "b": 853,
+      "target": "313051",
+      "predicted": "313351",
+      "correct": false,
+      "response": "313351}\n$$"
+    },
+    {
+      "id": 747,
+      "a": 577,
+      "b": 577,
+      "target": "332929",
+      "predicted": "33289",
+      "correct": false,
+      "response": "33289}\n$$"
+    },
+    {
+      "id": 748,
+      "a": 769,
+      "b": 571,
+      "target": "439099",
+      "predicted": "439139",
+      "correct": false,
+      "response": "439139}\n$$"
+    },
+    {
+      "id": 749,
+      "a": 863,
+      "b": 683,
+      "target": "589429",
+      "predicted": "589",
+      "correct": false,
+      "response": "589,  863 \\times 683 = 589"
+    },
+    {
+      "id": 750,
+      "a": 761,
+      "b": 421,
+      "target": "320381",
+      "predicted": "320",
+      "correct": false,
+      "response": "320,  0  0  0  0  0 "
+    },
+    {
+      "id": 751,
+      "a": 769,
+      "b": 439,
+      "target": "337591",
+      "predicted": "336491",
+      "correct": false,
+      "response": "336491}\n$$"
+    },
+    {
+      "id": 752,
+      "a": 397,
+      "b": 397,
+      "target": "157609",
+      "predicted": "157609",
+      "correct": true,
+      "response": "157609}\n$$"
+    },
+    {
+      "id": 753,
+      "a": 499,
+      "b": 599,
+      "target": "298901",
+      "predicted": "294501",
+      "correct": false,
+      "response": "294501}\n$$"
+    },
+    {
+      "id": 754,
+      "a": 733,
+      "b": 367,
+      "target": "269011",
+      "predicted": "269111",
+      "correct": false,
+      "response": "269111}\n$$"
+    },
+    {
+      "id": 755,
+      "a": 733,
+      "b": 587,
+      "target": "430271",
+      "predicted": "430",
+      "correct": false,
+      "response": "430,  733 \\times 500 = 366"
+    },
+    {
+      "id": 756,
+      "a": 769,
+      "b": 631,
+      "target": "485239",
+      "predicted": "485639",
+      "correct": false,
+      "response": "485639}\n$$"
+    },
+    {
+      "id": 757,
+      "a": 337,
+      "b": 997,
+      "target": "335989",
+      "predicted": "337",
+      "correct": false,
+      "response": "337 \\times 997 = 336, 000 -"
+    },
+    {
+      "id": 758,
+      "a": 607,
+      "b": 787,
+      "target": "477709",
+      "predicted": "477",
+      "correct": false,
+      "response": "477,  607 \\times 700 = 424"
+    },
+    {
+      "id": 759,
+      "a": 709,
+      "b": 853,
+      "target": "604777",
+      "predicted": "605",
+      "correct": false,
+      "response": "605, 057}\n$$"
+    },
+    {
+      "id": 760,
+      "a": 907,
+      "b": 593,
+      "target": "537851",
+      "predicted": "537",
+      "correct": false,
+      "response": "537,  051}\n$$"
+    },
+    {
+      "id": 761,
+      "a": 607,
+      "b": 853,
+      "target": "517771",
+      "predicted": "518171",
+      "correct": false,
+      "response": "518171}\n$$"
+    },
+    {
+      "id": 762,
+      "a": 733,
+      "b": 853,
+      "target": "625249",
+      "predicted": "625649",
+      "correct": false,
+      "response": "625649}\n$$"
+    },
+    {
+      "id": 763,
+      "a": 769,
+      "b": 643,
+      "target": "494467",
+      "predicted": "500000",
+      "correct": false,
+      "response": "500000 + 48000 + 6000 +"
+    },
+    {
+      "id": 764,
+      "a": 719,
+      "b": 587,
+      "target": "422053",
+      "predicted": "420",
+      "correct": false,
+      "response": "420,  420,  420,  42"
+    },
+    {
+      "id": 765,
+      "a": 137,
+      "b": 619,
+      "target": "84803",
+      "predicted": "84603",
+      "correct": false,
+      "response": "84603}\n$$"
+    },
+    {
+      "id": 766,
+      "a": 859,
+      "b": 587,
+      "target": "504233",
+      "predicted": "499",
+      "correct": false,
+      "response": "499,613}\n$$"
+    },
+    {
+      "id": 767,
+      "a": 607,
+      "b": 859,
+      "target": "521413",
+      "predicted": "520",
+      "correct": false,
+      "response": "520,  0  0  0  0  0 "
+    },
+    {
+      "id": 768,
+      "a": 877,
+      "b": 883,
+      "target": "774391",
+      "predicted": "772",
+      "correct": false,
+      "response": "772,  877 \\times 883 = 772"
+    },
+    {
+      "id": 769,
+      "a": 307,
+      "b": 863,
+      "target": "264941",
+      "predicted": "264",
+      "correct": false,
+      "response": "264,  307 \\times 800 = 245"
+    },
+    {
+      "id": 770,
+      "a": 761,
+      "b": 541,
+      "target": "411701",
+      "predicted": "411601",
+      "correct": false,
+      "response": "411601}\n$$"
+    },
+    {
+      "id": 771,
+      "a": 743,
+      "b": 467,
+      "target": "346981",
+      "predicted": "346",
+      "correct": false,
+      "response": "346,  743 \\times 400 = 297"
+    },
+    {
+      "id": 772,
+      "a": 733,
+      "b": 853,
+      "target": "625249",
+      "predicted": "625649",
+      "correct": false,
+      "response": "625649}\n$$"
+    },
+    {
+      "id": 773,
+      "a": 821,
+      "b": 431,
+      "target": "353851",
+      "predicted": "353631",
+      "correct": false,
+      "response": "353631}\n$$"
+    },
+    {
+      "id": 774,
+      "a": 769,
+      "b": 433,
+      "target": "332977",
+      "predicted": "331",
+      "correct": false,
+      "response": "331,  769 \\times 400 = 307"
+    },
+    {
+      "id": 775,
+      "a": 761,
+      "b": 349,
+      "target": "265589",
+      "predicted": "265681",
+      "correct": false,
+      "response": "265681}\n$$"
+    },
+    {
+      "id": 776,
+      "a": 367,
+      "b": 997,
+      "target": "365899",
+      "predicted": "366069",
+      "correct": false,
+      "response": "366069}\n$$"
+    },
+    {
+      "id": 777,
+      "a": 823,
+      "b": 887,
+      "target": "730001",
+      "predicted": "728",
+      "correct": false,
+      "response": "728,  823 \\times 887 = 728"
+    },
+    {
+      "id": 778,
+      "a": 769,
+      "b": 467,
+      "target": "359123",
+      "predicted": "359",
+      "correct": false,
+      "response": "359,  769 \\times 400 = 307"
+    },
+    {
+      "id": 779,
+      "a": 281,
+      "b": 499,
+      "target": "140219",
+      "predicted": "139969",
+      "correct": false,
+      "response": "139969}\n$$"
+    },
+    {
+      "id": 780,
+      "a": 811,
+      "b": 317,
+      "target": "257087",
+      "predicted": "25787",
+      "correct": false,
+      "response": "25787}\n$$"
+    },
+    {
+      "id": 781,
+      "a": 823,
+      "b": 887,
+      "target": "730001",
+      "predicted": "728",
+      "correct": false,
+      "response": "728,  823 \\times 887 = 728"
+    },
+    {
+      "id": 782,
+      "a": 733,
+      "b": 907,
+      "target": "664831",
+      "predicted": "664",
+      "correct": false,
+      "response": "664, 131}\n$$"
+    },
+    {
+      "id": 783,
+      "a": 499,
+      "b": 569,
+      "target": "283931",
+      "predicted": "280841",
+      "correct": false,
+      "response": "280841}\n$$"
+    },
+    {
+      "id": 784,
+      "a": 859,
+      "b": 709,
+      "target": "609031",
+      "predicted": "609",
+      "correct": false,
+      "response": "609,  591}\n$$\n\n$$\n\\boxed{609"
+    },
+    {
+      "id": 785,
+      "a": 181,
+      "b": 499,
+      "target": "90319",
+      "predicted": "90119",
+      "correct": false,
+      "response": "90119}\n$$"
+    },
+    {
+      "id": 786,
+      "a": 809,
+      "b": 521,
+      "target": "421489",
+      "predicted": "421",
+      "correct": false,
+      "response": "421, 689}\n$$"
+    },
+    {
+      "id": 787,
+      "a": 733,
+      "b": 433,
+      "target": "317389",
+      "predicted": "317089",
+      "correct": false,
+      "response": "317089}\n$$"
+    },
+    {
+      "id": 788,
+      "a": 761,
+      "b": 349,
+      "target": "265589",
+      "predicted": "265681",
+      "correct": false,
+      "response": "265681}\n$$"
+    },
+    {
+      "id": 789,
+      "a": 787,
+      "b": 571,
+      "target": "449377",
+      "predicted": "449877",
+      "correct": false,
+      "response": "449877}\n$$"
+    },
+    {
+      "id": 790,
+      "a": 733,
+      "b": 883,
+      "target": "647239",
+      "predicted": "645",
+      "correct": false,
+      "response": "645,  331}\n$$\n\n$$\n\\boxed{645"
+    },
+    {
+      "id": 791,
+      "a": 821,
+      "b": 367,
+      "target": "301307",
+      "predicted": "299",
+      "correct": false,
+      "response": "299,  821 \\times 300 = 246"
+    },
+    {
+      "id": 792,
+      "a": 907,
+      "b": 467,
+      "target": "423569",
+      "predicted": "420",
+      "correct": false,
+      "response": "420, 669}\n$$"
+    },
+    {
+      "id": 793,
+      "a": 859,
+      "b": 701,
+      "target": "602159",
+      "predicted": "602159",
+      "correct": true,
+      "response": "602159}\n$$"
+    },
+    {
+      "id": 794,
+      "a": 139,
+      "b": 727,
+      "target": "101053",
+      "predicted": "101143",
+      "correct": false,
+      "response": "101143}\n$$"
+    },
+    {
+      "id": 795,
+      "a": 743,
+      "b": 467,
+      "target": "346981",
+      "predicted": "346",
+      "correct": false,
+      "response": "346,  743 \\times 400 = 297"
+    },
+    {
+      "id": 796,
+      "a": 811,
+      "b": 463,
+      "target": "375493",
+      "predicted": "375",
+      "correct": false,
+      "response": "375,  103}\n$$\n\n$$\n\\boxed{375"
+    },
+    {
+      "id": 797,
+      "a": 701,
+      "b": 761,
+      "target": "533461",
+      "predicted": "533661",
+      "correct": false,
+      "response": "533661}\n$$"
+    },
+    {
+      "id": 798,
+      "a": 773,
+      "b": 571,
+      "target": "441383",
+      "predicted": "439",
+      "correct": false,
+      "response": "439,  783}\n$$\n\n$$\n\\boxed{439"
+    },
+    {
+      "id": 799,
+      "a": 401,
+      "b": 787,
+      "target": "315587",
+      "predicted": "316577",
+      "correct": false,
+      "response": "316577}\n$$"
+    },
+    {
+      "id": 800,
+      "a": 839,
+      "b": 883,
+      "target": "740837",
+      "predicted": "739",
+      "correct": false,
+      "response": "739,  000 +  39,  000"
+    },
+    {
+      "id": 801,
+      "a": 709,
+      "b": 409,
+      "target": "289981",
+      "predicted": "289",
+      "correct": false,
+      "response": "289,  709 \\times 400 = 283"
+    },
+    {
+      "id": 802,
+      "a": 859,
+      "b": 907,
+      "target": "779113",
+      "predicted": "778813",
+      "correct": false,
+      "response": "778813}\n$$"
+    },
+    {
+      "id": 803,
+      "a": 773,
+      "b": 571,
+      "target": "441383",
+      "predicted": "439",
+      "correct": false,
+      "response": "439,  783}\n$$\n\n$$\n\\boxed{439"
+    },
+    {
+      "id": 804,
+      "a": 773,
+      "b": 709,
+      "target": "548057",
+      "predicted": "549",
+      "correct": false,
+      "response": "549,  773 \\times 700 = 541"
+    },
+    {
+      "id": 805,
+      "a": 811,
+      "b": 463,
+      "target": "375493",
+      "predicted": "375",
+      "correct": false,
+      "response": "375,  103}\n$$\n\n$$\n\\boxed{375"
+    },
+    {
+      "id": 806,
+      "a": 701,
+      "b": 521,
+      "target": "365221",
+      "predicted": "364721",
+      "correct": false,
+      "response": "364721}\n$$"
+    },
+    {
+      "id": 807,
+      "a": 337,
+      "b": 997,
+      "target": "335989",
+      "predicted": "337",
+      "correct": false,
+      "response": "337 \\times 997 = 336, 000 -"
+    },
+    {
+      "id": 808,
+      "a": 701,
+      "b": 863,
+      "target": "604963",
+      "predicted": "603483",
+      "correct": false,
+      "response": "603483}\n$$"
+    },
+    {
+      "id": 809,
+      "a": 787,
+      "b": 461,
+      "target": "362807",
+      "predicted": "362",
+      "correct": false,
+      "response": "362,  787 \\times 400 = 314"
+    },
+    {
+      "id": 810,
+      "a": 811,
+      "b": 421,
+      "target": "341431",
+      "predicted": "341631",
+      "correct": false,
+      "response": "341631}\n$$"
+    },
+    {
+      "id": 811,
+      "a": 199,
+      "b": 191,
+      "target": "38009",
+      "predicted": "37909",
+      "correct": false,
+      "response": "37909}\n$$"
+    },
+    {
+      "id": 812,
+      "a": 739,
+      "b": 643,
+      "target": "475177",
+      "predicted": "475177",
+      "correct": true,
+      "response": "475177}\n$$"
+    },
+    {
+      "id": 813,
+      "a": 811,
+      "b": 421,
+      "target": "341431",
+      "predicted": "341631",
+      "correct": false,
+      "response": "341631}\n$$"
+    },
+    {
+      "id": 814,
+      "a": 809,
+      "b": 521,
+      "target": "421489",
+      "predicted": "421",
+      "correct": false,
+      "response": "421, 689}\n$$"
+    },
+    {
+      "id": 815,
+      "a": 607,
+      "b": 853,
+      "target": "517771",
+      "predicted": "518171",
+      "correct": false,
+      "response": "518171}\n$$"
+    },
+    {
+      "id": 816,
+      "a": 139,
+      "b": 727,
+      "target": "101053",
+      "predicted": "101143",
+      "correct": false,
+      "response": "101143}\n$$"
+    },
+    {
+      "id": 817,
+      "a": 577,
+      "b": 997,
+      "target": "575269",
+      "predicted": "575869",
+      "correct": false,
+      "response": "575869}\n$$"
+    },
+    {
+      "id": 818,
+      "a": 809,
+      "b": 733,
+      "target": "592997",
+      "predicted": "591",
+      "correct": false,
+      "response": "591, 027}\n$$"
+    },
+    {
+      "id": 819,
+      "a": 709,
+      "b": 877,
+      "target": "621793",
+      "predicted": "620",
+      "correct": false,
+      "response": "620,  709 \\times 800 = 567"
+    },
+    {
+      "id": 820,
+      "a": 733,
+      "b": 233,
+      "target": "170789",
+      "predicted": "170889",
+      "correct": false,
+      "response": "170889}\n$$"
+    },
+    {
+      "id": 821,
+      "a": 773,
+      "b": 647,
+      "target": "500131",
+      "predicted": "500000",
+      "correct": false,
+      "response": "500000 + 70000 + 7000 +"
+    },
+    {
+      "id": 822,
+      "a": 577,
+      "b": 577,
+      "target": "332929",
+      "predicted": "33289",
+      "correct": false,
+      "response": "33289}\n$$"
+    },
+    {
+      "id": 823,
+      "a": 907,
+      "b": 673,
+      "target": "610411",
+      "predicted": "610111",
+      "correct": false,
+      "response": "610111}\n$$"
+    },
+    {
+      "id": 824,
+      "a": 911,
+      "b": 233,
+      "target": "212263",
+      "predicted": "212063",
+      "correct": false,
+      "response": "212063}\n$$"
+    },
+    {
+      "id": 825,
+      "a": 601,
+      "b": 599,
+      "target": "359999",
+      "predicted": "359",
+      "correct": false,
+      "response": "359,  899}\n$$"
+    },
+    {
+      "id": 826,
+      "a": 701,
+      "b": 863,
+      "target": "604963",
+      "predicted": "603483",
+      "correct": false,
+      "response": "603483}\n$$"
+    },
+    {
+      "id": 827,
+      "a": 859,
+      "b": 397,
+      "target": "341023",
+      "predicted": "340",
+      "correct": false,
+      "response": "340,  859 \\times 397 = 340"
+    },
+    {
+      "id": 828,
+      "a": 773,
+      "b": 709,
+      "target": "548057",
+      "predicted": "549",
+      "correct": false,
+      "response": "549,  773 \\times 700 = 541"
+    },
+    {
+      "id": 829,
+      "a": 911,
+      "b": 211,
+      "target": "192221",
+      "predicted": "192112",
+      "correct": false,
+      "response": "192112}\n$$"
+    },
+    {
+      "id": 830,
+      "a": 761,
+      "b": 419,
+      "target": "318859",
+      "predicted": "318",
+      "correct": false,
+      "response": "318,  159}\n$$\n\n$$\n\\boxed{318"
+    },
+    {
+      "id": 831,
+      "a": 739,
+      "b": 467,
+      "target": "345113",
+      "predicted": "344",
+      "correct": false,
+      "response": "344,  739 \\times 400 = 295"
+    },
+    {
+      "id": 832,
+      "a": 733,
+      "b": 631,
+      "target": "462523",
+      "predicted": "462",
+      "correct": false,
+      "response": "462,  733 \\times 631 = 462"
+    },
+    {
+      "id": 833,
+      "a": 733,
+      "b": 461,
+      "target": "337913",
+      "predicted": "337613",
+      "correct": false,
+      "response": "337613}\n$$"
+    },
+    {
+      "id": 834,
+      "a": 769,
+      "b": 631,
+      "target": "485239",
+      "predicted": "485639",
+      "correct": false,
+      "response": "485639}\n$$"
+    },
+    {
+      "id": 835,
+      "a": 733,
+      "b": 587,
+      "target": "430271",
+      "predicted": "430",
+      "correct": false,
+      "response": "430,  733 \\times 500 = 366"
+    },
+    {
+      "id": 836,
+      "a": 787,
+      "b": 673,
+      "target": "529651",
+      "predicted": "529",
+      "correct": false,
+      "response": "529,  787 \\times 673 = 529"
+    },
+    {
+      "id": 837,
+      "a": 787,
+      "b": 367,
+      "target": "288829",
+      "predicted": "289629",
+      "correct": false,
+      "response": "289629}\n$$"
+    },
+    {
+      "id": 838,
+      "a": 367,
+      "b": 983,
+      "target": "360761",
+      "predicted": "360",
+      "correct": false,
+      "response": "360,  367 \\times 983 = 360"
+    },
+    {
+      "id": 839,
+      "a": 887,
+      "b": 673,
+      "target": "596951",
+      "predicted": "600000",
+      "correct": false,
+      "response": "600000 + 80000 + 7000 +"
+    },
+    {
+      "id": 840,
+      "a": 839,
+      "b": 883,
+      "target": "740837",
+      "predicted": "739",
+      "correct": false,
+      "response": "739,  000 +  39,  000"
+    },
+    {
+      "id": 841,
+      "a": 733,
+      "b": 853,
+      "target": "625249",
+      "predicted": "625649",
+      "correct": false,
+      "response": "625649}\n$$"
+    },
+    {
+      "id": 842,
+      "a": 733,
+      "b": 479,
+      "target": "351107",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  0  0  0  0  0 "
+    },
+    {
+      "id": 843,
+      "a": 911,
+      "b": 787,
+      "target": "716957",
+      "predicted": "716543",
+      "correct": false,
+      "response": "716543}\n$$"
+    },
+    {
+      "id": 844,
+      "a": 709,
+      "b": 643,
+      "target": "455887",
+      "predicted": "455",
+      "correct": false,
+      "response": "455,  787}\n$$"
+    },
+    {
+      "id": 845,
+      "a": 733,
+      "b": 577,
+      "target": "422941",
+      "predicted": "421",
+      "correct": false,
+      "response": "421,  733 \\times 577 = 421"
+    },
+    {
+      "id": 846,
+      "a": 739,
+      "b": 659,
+      "target": "487001",
+      "predicted": "486641",
+      "correct": false,
+      "response": "486641}\n$$"
+    },
+    {
+      "id": 847,
+      "a": 809,
+      "b": 433,
+      "target": "350297",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  9  9  7}\n$$\n\n$$\n\\boxed"
+    },
+    {
+      "id": 848,
+      "a": 811,
+      "b": 743,
+      "target": "602573",
+      "predicted": "603173",
+      "correct": false,
+      "response": "603173}\n$$"
+    },
+    {
+      "id": 849,
+      "a": 733,
+      "b": 631,
+      "target": "462523",
+      "predicted": "462",
+      "correct": false,
+      "response": "462,  733 \\times 631 = 462"
+    },
+    {
+      "id": 850,
+      "a": 461,
+      "b": 499,
+      "target": "230039",
+      "predicted": "229939",
+      "correct": false,
+      "response": "229939}\n$$"
+    },
+    {
+      "id": 851,
+      "a": 811,
+      "b": 317,
+      "target": "257087",
+      "predicted": "25787",
+      "correct": false,
+      "response": "25787}\n$$"
+    },
+    {
+      "id": 852,
+      "a": 863,
+      "b": 683,
+      "target": "589429",
+      "predicted": "589",
+      "correct": false,
+      "response": "589,  863 \\times 683 = 589"
+    },
+    {
+      "id": 853,
+      "a": 859,
+      "b": 757,
+      "target": "650263",
+      "predicted": "649623",
+      "correct": false,
+      "response": "649623}\n$$"
+    },
+    {
+      "id": 854,
+      "a": 743,
+      "b": 571,
+      "target": "424253",
+      "predicted": "424653",
+      "correct": false,
+      "response": "424653}\n$$"
+    },
+    {
+      "id": 855,
+      "a": 461,
+      "b": 499,
+      "target": "230039",
+      "predicted": "229939",
+      "correct": false,
+      "response": "229939}\n$$"
+    },
+    {
+      "id": 856,
+      "a": 397,
+      "b": 397,
+      "target": "157609",
+      "predicted": "157609",
+      "correct": true,
+      "response": "157609}\n$$"
+    },
+    {
+      "id": 857,
+      "a": 911,
+      "b": 211,
+      "target": "192221",
+      "predicted": "192112",
+      "correct": false,
+      "response": "192112}\n$$"
+    },
+    {
+      "id": 858,
+      "a": 601,
+      "b": 863,
+      "target": "518663",
+      "predicted": "515683",
+      "correct": false,
+      "response": "515683}\n$$"
+    },
+    {
+      "id": 859,
+      "a": 733,
+      "b": 331,
+      "target": "242623",
+      "predicted": "242563",
+      "correct": false,
+      "response": "242563}\n$$"
+    },
+    {
+      "id": 860,
+      "a": 787,
+      "b": 677,
+      "target": "532799",
+      "predicted": "532",
+      "correct": false,
+      "response": "532,  787 \\times 677 = 532"
+    },
+    {
+      "id": 861,
+      "a": 307,
+      "b": 863,
+      "target": "264941",
+      "predicted": "264",
+      "correct": false,
+      "response": "264,  307 \\times 800 = 245"
+    },
+    {
+      "id": 862,
+      "a": 499,
+      "b": 569,
+      "target": "283931",
+      "predicted": "280841",
+      "correct": false,
+      "response": "280841}\n$$"
+    },
+    {
+      "id": 863,
+      "a": 733,
+      "b": 659,
+      "target": "483047",
+      "predicted": "483657",
+      "correct": false,
+      "response": "483657}\n$$"
+    },
+    {
+      "id": 864,
+      "a": 199,
+      "b": 191,
+      "target": "38009",
+      "predicted": "37909",
+      "correct": false,
+      "response": "37909}\n$$"
+    },
+    {
+      "id": 865,
+      "a": 821,
+      "b": 431,
+      "target": "353851",
+      "predicted": "353631",
+      "correct": false,
+      "response": "353631}\n$$"
+    },
+    {
+      "id": 866,
+      "a": 839,
+      "b": 883,
+      "target": "740837",
+      "predicted": "739",
+      "correct": false,
+      "response": "739,  000 +  39,  000"
+    },
+    {
+      "id": 867,
+      "a": 911,
+      "b": 571,
+      "target": "520181",
+      "predicted": "519421",
+      "correct": false,
+      "response": "519421}\n$$"
+    },
+    {
+      "id": 868,
+      "a": 367,
+      "b": 863,
+      "target": "316721",
+      "predicted": "315811",
+      "correct": false,
+      "response": "315811}\n$$"
+    },
+    {
+      "id": 869,
+      "a": 743,
+      "b": 673,
+      "target": "500039",
+      "predicted": "500",
+      "correct": false,
+      "response": "500,  743 \\times 600 = 445"
+    },
+    {
+      "id": 870,
+      "a": 911,
+      "b": 787,
+      "target": "716957",
+      "predicted": "716543",
+      "correct": false,
+      "response": "716543}\n$$"
+    },
+    {
+      "id": 871,
+      "a": 701,
+      "b": 431,
+      "target": "302131",
+      "predicted": "301",
+      "correct": false,
+      "response": "301,  431\n701 × 400 = "
+    },
+    {
+      "id": 872,
+      "a": 743,
+      "b": 433,
+      "target": "321719",
+      "predicted": "321",
+      "correct": false,
+      "response": "321,  743 \\times 433 = 321"
+    },
+    {
+      "id": 873,
+      "a": 809,
+      "b": 433,
+      "target": "350297",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  9  9  7}\n$$\n\n$$\n\\boxed"
+    },
+    {
+      "id": 874,
+      "a": 787,
+      "b": 367,
+      "target": "288829",
+      "predicted": "289629",
+      "correct": false,
+      "response": "289629}\n$$"
+    },
+    {
+      "id": 875,
+      "a": 839,
+      "b": 433,
+      "target": "363287",
+      "predicted": "363187",
+      "correct": false,
+      "response": "363187}\n$$"
+    },
+    {
+      "id": 876,
+      "a": 877,
+      "b": 811,
+      "target": "711247",
+      "predicted": "711347",
+      "correct": false,
+      "response": "711347}\n$$"
+    },
+    {
+      "id": 877,
+      "a": 809,
+      "b": 727,
+      "target": "588143",
+      "predicted": "586",
+      "correct": false,
+      "response": "586,  809 \\times 700 = 566"
+    },
+    {
+      "id": 878,
+      "a": 431,
+      "b": 587,
+      "target": "252997",
+      "predicted": "253",
+      "correct": false,
+      "response": "253,  431 \\times 500 = 215"
+    },
+    {
+      "id": 879,
+      "a": 499,
+      "b": 691,
+      "target": "344809",
+      "predicted": "344",
+      "correct": false,
+      "response": "344,  809}\n$$"
+    },
+    {
+      "id": 880,
+      "a": 859,
+      "b": 757,
+      "target": "650263",
+      "predicted": "649623",
+      "correct": false,
+      "response": "649623}\n$$"
+    },
+    {
+      "id": 881,
+      "a": 431,
+      "b": 587,
+      "target": "252997",
+      "predicted": "253",
+      "correct": false,
+      "response": "253,  431 \\times 500 = 215"
+    },
+    {
+      "id": 882,
+      "a": 787,
+      "b": 677,
+      "target": "532799",
+      "predicted": "532",
+      "correct": false,
+      "response": "532,  787 \\times 677 = 532"
+    },
+    {
+      "id": 883,
+      "a": 739,
+      "b": 467,
+      "target": "345113",
+      "predicted": "344",
+      "correct": false,
+      "response": "344,  739 \\times 400 = 295"
+    },
+    {
+      "id": 884,
+      "a": 709,
+      "b": 701,
+      "target": "497009",
+      "predicted": "497009",
+      "correct": true,
+      "response": "497009}\n$$"
+    },
+    {
+      "id": 885,
+      "a": 839,
+      "b": 787,
+      "target": "660293",
+      "predicted": "659",
+      "correct": false,
+      "response": "659,  839 \\times 700 = 587"
+    },
+    {
+      "id": 886,
+      "a": 367,
+      "b": 983,
+      "target": "360761",
+      "predicted": "360",
+      "correct": false,
+      "response": "360,  367 \\times 983 = 360"
+    },
+    {
+      "id": 887,
+      "a": 787,
+      "b": 677,
+      "target": "532799",
+      "predicted": "532",
+      "correct": false,
+      "response": "532,  787 \\times 677 = 532"
+    },
+    {
+      "id": 888,
+      "a": 113,
+      "b": 829,
+      "target": "93677",
+      "predicted": "93617",
+      "correct": false,
+      "response": "93617}\n$$"
+    },
+    {
+      "id": 889,
+      "a": 601,
+      "b": 863,
+      "target": "518663",
+      "predicted": "515683",
+      "correct": false,
+      "response": "515683}\n$$"
+    },
+    {
+      "id": 890,
+      "a": 859,
+      "b": 709,
+      "target": "609031",
+      "predicted": "609",
+      "correct": false,
+      "response": "609,  591}\n$$\n\n$$\n\\boxed{609"
+    },
+    {
+      "id": 891,
+      "a": 607,
+      "b": 769,
+      "target": "466783",
+      "predicted": "466",
+      "correct": false,
+      "response": "466,  607 \\times 700 = 424"
+    },
+    {
+      "id": 892,
+      "a": 761,
+      "b": 643,
+      "target": "489323",
+      "predicted": "489023",
+      "correct": false,
+      "response": "489023}\n$$"
+    },
+    {
+      "id": 893,
+      "a": 397,
+      "b": 397,
+      "target": "157609",
+      "predicted": "157609",
+      "correct": true,
+      "response": "157609}\n$$"
+    },
+    {
+      "id": 894,
+      "a": 911,
+      "b": 233,
+      "target": "212263",
+      "predicted": "212063",
+      "correct": false,
+      "response": "212063}\n$$"
+    },
+    {
+      "id": 895,
+      "a": 701,
+      "b": 863,
+      "target": "604963",
+      "predicted": "603483",
+      "correct": false,
+      "response": "603483}\n$$"
+    },
+    {
+      "id": 896,
+      "a": 113,
+      "b": 827,
+      "target": "93451",
+      "predicted": "93451",
+      "correct": true,
+      "response": "93451}\n$$"
+    },
+    {
+      "id": 897,
+      "a": 907,
+      "b": 467,
+      "target": "423569",
+      "predicted": "420",
+      "correct": false,
+      "response": "420, 669}\n$$"
+    },
+    {
+      "id": 898,
+      "a": 811,
+      "b": 463,
+      "target": "375493",
+      "predicted": "375",
+      "correct": false,
+      "response": "375,  103}\n$$\n\n$$\n\\boxed{375"
+    },
+    {
+      "id": 899,
+      "a": 733,
+      "b": 331,
+      "target": "242623",
+      "predicted": "242563",
+      "correct": false,
+      "response": "242563}\n$$"
+    },
+    {
+      "id": 900,
+      "a": 557,
+      "b": 491,
+      "target": "273487",
+      "predicted": "273687",
+      "correct": false,
+      "response": "273687}\n$$"
+    },
+    {
+      "id": 901,
+      "a": 809,
+      "b": 727,
+      "target": "588143",
+      "predicted": "586",
+      "correct": false,
+      "response": "586,  809 \\times 700 = 566"
+    },
+    {
+      "id": 902,
+      "a": 113,
+      "b": 877,
+      "target": "99101",
+      "predicted": "99101",
+      "correct": true,
+      "response": "99101}\n$$"
+    },
+    {
+      "id": 903,
+      "a": 739,
+      "b": 547,
+      "target": "404233",
+      "predicted": "402",
+      "correct": false,
+      "response": "402,  383}\n$$\n\n$$\n\\boxed{402"
+    },
+    {
+      "id": 904,
+      "a": 727,
+      "b": 347,
+      "target": "252269",
+      "predicted": "251909",
+      "correct": false,
+      "response": "251909}\n$$"
+    },
+    {
+      "id": 905,
+      "a": 701,
+      "b": 761,
+      "target": "533461",
+      "predicted": "533661",
+      "correct": false,
+      "response": "533661}\n$$"
+    },
+    {
+      "id": 906,
+      "a": 761,
+      "b": 431,
+      "target": "327991",
+      "predicted": "327",
+      "correct": false,
+      "response": "327,  761 \\times 400 = 304"
+    },
+    {
+      "id": 907,
+      "a": 113,
+      "b": 829,
+      "target": "93677",
+      "predicted": "93617",
+      "correct": false,
+      "response": "93617}\n$$"
+    },
+    {
+      "id": 908,
+      "a": 821,
+      "b": 367,
+      "target": "301307",
+      "predicted": "299",
+      "correct": false,
+      "response": "299,  821 \\times 300 = 246"
+    },
+    {
+      "id": 909,
+      "a": 773,
+      "b": 347,
+      "target": "268231",
+      "predicted": "268",
+      "correct": false,
+      "response": "268,  773 \\times 347 = 268"
+    },
+    {
+      "id": 910,
+      "a": 367,
+      "b": 593,
+      "target": "217631",
+      "predicted": "217731",
+      "correct": false,
+      "response": "217731}\n$$"
+    },
+    {
+      "id": 911,
+      "a": 787,
+      "b": 367,
+      "target": "288829",
+      "predicted": "289629",
+      "correct": false,
+      "response": "289629}\n$$"
+    },
+    {
+      "id": 912,
+      "a": 761,
+      "b": 541,
+      "target": "411701",
+      "predicted": "411601",
+      "correct": false,
+      "response": "411601}\n$$"
+    },
+    {
+      "id": 913,
+      "a": 607,
+      "b": 863,
+      "target": "523841",
+      "predicted": "521",
+      "correct": false,
+      "response": "521,  607 \\times 800 = 485"
+    },
+    {
+      "id": 914,
+      "a": 859,
+      "b": 701,
+      "target": "602159",
+      "predicted": "602159",
+      "correct": true,
+      "response": "602159}\n$$"
+    },
+    {
+      "id": 915,
+      "a": 769,
+      "b": 433,
+      "target": "332977",
+      "predicted": "331",
+      "correct": false,
+      "response": "331,  769 \\times 400 = 307"
+    },
+    {
+      "id": 916,
+      "a": 733,
+      "b": 367,
+      "target": "269011",
+      "predicted": "269111",
+      "correct": false,
+      "response": "269111}\n$$"
+    },
+    {
+      "id": 917,
+      "a": 607,
+      "b": 433,
+      "target": "262831",
+      "predicted": "262",
+      "correct": false,
+      "response": "262,  607 \\times 400 = 242"
+    },
+    {
+      "id": 918,
+      "a": 839,
+      "b": 331,
+      "target": "277709",
+      "predicted": "277",
+      "correct": false,
+      "response": "277,  107}\n$$\n\n$$\n\\boxed{277"
+    },
+    {
+      "id": 919,
+      "a": 743,
+      "b": 641,
+      "target": "476263",
+      "predicted": "476663",
+      "correct": false,
+      "response": "476663}\n$$"
+    },
+    {
+      "id": 920,
+      "a": 701,
+      "b": 521,
+      "target": "365221",
+      "predicted": "364721",
+      "correct": false,
+      "response": "364721}\n$$"
+    },
+    {
+      "id": 921,
+      "a": 709,
+      "b": 421,
+      "target": "298489",
+      "predicted": "300000",
+      "correct": false,
+      "response": "300000 - 709 \\times 421 = 3"
+    },
+    {
+      "id": 922,
+      "a": 499,
+      "b": 569,
+      "target": "283931",
+      "predicted": "280841",
+      "correct": false,
+      "response": "280841}\n$$"
+    },
+    {
+      "id": 923,
+      "a": 739,
+      "b": 887,
+      "target": "655493",
+      "predicted": "652493",
+      "correct": false,
+      "response": "652493}\n$$"
+    },
+    {
+      "id": 924,
+      "a": 491,
+      "b": 599,
+      "target": "294109",
+      "predicted": "293009",
+      "correct": false,
+      "response": "293009}\n$$"
+    },
+    {
+      "id": 925,
+      "a": 607,
+      "b": 859,
+      "target": "521413",
+      "predicted": "520",
+      "correct": false,
+      "response": "520,  0  0  0  0  0 "
+    },
+    {
+      "id": 926,
+      "a": 887,
+      "b": 673,
+      "target": "596951",
+      "predicted": "600000",
+      "correct": false,
+      "response": "600000 + 80000 + 7000 +"
+    },
+    {
+      "id": 927,
+      "a": 743,
+      "b": 641,
+      "target": "476263",
+      "predicted": "476663",
+      "correct": false,
+      "response": "476663}\n$$"
+    },
+    {
+      "id": 928,
+      "a": 113,
+      "b": 811,
+      "target": "91643",
+      "predicted": "91663",
+      "correct": false,
+      "response": "91663}\n$$"
+    },
+    {
+      "id": 929,
+      "a": 733,
+      "b": 587,
+      "target": "430271",
+      "predicted": "430",
+      "correct": false,
+      "response": "430,  733 \\times 500 = 366"
+    },
+    {
+      "id": 930,
+      "a": 821,
+      "b": 367,
+      "target": "301307",
+      "predicted": "299",
+      "correct": false,
+      "response": "299,  821 \\times 300 = 246"
+    },
+    {
+      "id": 931,
+      "a": 911,
+      "b": 571,
+      "target": "520181",
+      "predicted": "519421",
+      "correct": false,
+      "response": "519421}\n$$"
+    },
+    {
+      "id": 932,
+      "a": 607,
+      "b": 863,
+      "target": "523841",
+      "predicted": "521",
+      "correct": false,
+      "response": "521,  607 \\times 800 = 485"
+    },
+    {
+      "id": 933,
+      "a": 761,
+      "b": 541,
+      "target": "411701",
+      "predicted": "411601",
+      "correct": false,
+      "response": "411601}\n$$"
+    },
+    {
+      "id": 934,
+      "a": 859,
+      "b": 479,
+      "target": "411461",
+      "predicted": "410",
+      "correct": false,
+      "response": "410,  859 \\times 479 = 410"
+    },
+    {
+      "id": 935,
+      "a": 787,
+      "b": 673,
+      "target": "529651",
+      "predicted": "529",
+      "correct": false,
+      "response": "529,  787 \\times 673 = 529"
+    },
+    {
+      "id": 936,
+      "a": 907,
+      "b": 673,
+      "target": "610411",
+      "predicted": "610111",
+      "correct": false,
+      "response": "610111}\n$$"
+    },
+    {
+      "id": 937,
+      "a": 859,
+      "b": 751,
+      "target": "645109",
+      "predicted": "645009",
+      "correct": false,
+      "response": "645009}\n$$"
+    },
+    {
+      "id": 938,
+      "a": 907,
+      "b": 673,
+      "target": "610411",
+      "predicted": "610111",
+      "correct": false,
+      "response": "610111}\n$$"
+    },
+    {
+      "id": 939,
+      "a": 811,
+      "b": 863,
+      "target": "699893",
+      "predicted": "698133",
+      "correct": false,
+      "response": "698133}\n$$"
+    },
+    {
+      "id": 940,
+      "a": 859,
+      "b": 347,
+      "target": "298073",
+      "predicted": "297023",
+      "correct": false,
+      "response": "297023}\n$$"
+    },
+    {
+      "id": 941,
+      "a": 607,
+      "b": 853,
+      "target": "517771",
+      "predicted": "518171",
+      "correct": false,
+      "response": "518171}\n$$"
+    },
+    {
+      "id": 942,
+      "a": 733,
+      "b": 461,
+      "target": "337913",
+      "predicted": "337613",
+      "correct": false,
+      "response": "337613}\n$$"
+    },
+    {
+      "id": 943,
+      "a": 113,
+      "b": 859,
+      "target": "97067",
+      "predicted": "97067",
+      "correct": true,
+      "response": "97067}\n$$"
+    },
+    {
+      "id": 944,
+      "a": 821,
+      "b": 761,
+      "target": "624781",
+      "predicted": "625481",
+      "correct": false,
+      "response": "625481}\n$$"
+    },
+    {
+      "id": 945,
+      "a": 773,
+      "b": 709,
+      "target": "548057",
+      "predicted": "549",
+      "correct": false,
+      "response": "549,  773 \\times 700 = 541"
+    },
+    {
+      "id": 946,
+      "a": 701,
+      "b": 877,
+      "target": "614777",
+      "predicted": "613673",
+      "correct": false,
+      "response": "613673}\n$$"
+    },
+    {
+      "id": 947,
+      "a": 709,
+      "b": 701,
+      "target": "497009",
+      "predicted": "497009",
+      "correct": true,
+      "response": "497009}\n$$"
+    },
+    {
+      "id": 948,
+      "a": 839,
+      "b": 331,
+      "target": "277709",
+      "predicted": "277",
+      "correct": false,
+      "response": "277,  107}\n$$\n\n$$\n\\boxed{277"
+    },
+    {
+      "id": 949,
+      "a": 701,
+      "b": 439,
+      "target": "307739",
+      "predicted": "308",
+      "correct": false,
+      "response": "308,  439\n701\n×439\n="
+    },
+    {
+      "id": 950,
+      "a": 719,
+      "b": 773,
+      "target": "555787",
+      "predicted": "554647",
+      "correct": false,
+      "response": "554647}\n$$"
+    },
+    {
+      "id": 951,
+      "a": 761,
+      "b": 431,
+      "target": "327991",
+      "predicted": "327",
+      "correct": false,
+      "response": "327,  761 \\times 400 = 304"
+    },
+    {
+      "id": 952,
+      "a": 733,
+      "b": 331,
+      "target": "242623",
+      "predicted": "242563",
+      "correct": false,
+      "response": "242563}\n$$"
+    },
+    {
+      "id": 953,
+      "a": 733,
+      "b": 433,
+      "target": "317389",
+      "predicted": "317089",
+      "correct": false,
+      "response": "317089}\n$$"
+    },
+    {
+      "id": 954,
+      "a": 577,
+      "b": 313,
+      "target": "180601",
+      "predicted": "180",
+      "correct": false,
+      "response": "180,  001}\n$$\n\n**Correct answer: $\\boxed{1"
+    },
+    {
+      "id": 955,
+      "a": 607,
+      "b": 541,
+      "target": "328387",
+      "predicted": "327",
+      "correct": false,
+      "response": "327, 887}\n$$"
+    },
+    {
+      "id": 956,
+      "a": 601,
+      "b": 863,
+      "target": "518663",
+      "predicted": "515683",
+      "correct": false,
+      "response": "515683}\n$$"
+    },
+    {
+      "id": 957,
+      "a": 733,
+      "b": 479,
+      "target": "351107",
+      "predicted": "350",
+      "correct": false,
+      "response": "350,  0  0  0  0  0 "
+    },
+    {
+      "id": 958,
+      "a": 733,
+      "b": 367,
+      "target": "269011",
+      "predicted": "269111",
+      "correct": false,
+      "response": "269111}\n$$"
+    },
+    {
+      "id": 959,
+      "a": 761,
+      "b": 419,
+      "target": "318859",
+      "predicted": "318",
+      "correct": false,
+      "response": "318,  159}\n$$\n\n$$\n\\boxed{318"
+    },
+    {
+      "id": 960,
+      "a": 499,
+      "b": 569,
+      "target": "283931",
+      "predicted": "281",
+      "correct": false,
+      "response": "281,  831}\n$$\n\n$$\n\\boxed{281"
+    },
+    {
+      "id": 961,
+      "a": 113,
+      "b": 887,
+      "target": "100231",
+      "predicted": "100001",
+      "correct": false,
+      "response": "100001}\n$$"
+    },
+    {
+      "id": 962,
+      "a": 769,
+      "b": 439,
+      "target": "337591",
+      "predicted": "336691",
+      "correct": false,
+      "response": "336691}\n$$"
+    },
+    {
+      "id": 963,
+      "a": 709,
+      "b": 853,
+      "target": "604777",
+      "predicted": "605",
+      "correct": false,
+      "response": "605,  000 + 709*800=5"
+    },
+    {
+      "id": 964,
+      "a": 769,
+      "b": 433,
+      "target": "332977",
+      "predicted": "331",
+      "correct": false,
+      "response": "331,  769 \\times 400 = 307"
+    },
+    {
+      "id": 965,
+      "a": 733,
+      "b": 631,
+      "target": "462523",
+      "predicted": "462",
+      "correct": false,
+      "response": "462,  733 \\times 631 = 462"
+    },
+    {
+      "id": 966,
+      "a": 859,
+      "b": 733,
+      "target": "629647",
+      "predicted": "628",
+      "correct": false,
+      "response": "628, 887}\n$$"
+    },
+    {
+      "id": 967,
+      "a": 911,
+      "b": 233,
+      "target": "212263",
+      "predicted": "212063",
+      "correct": false,
+      "response": "212063}\n$$"
+    },
+    {
+      "id": 968,
+      "a": 719,
+      "b": 587,
+      "target": "422053",
+      "predicted": "420",
+      "correct": false,
+      "response": "420,  420,  420,  42"
+    },
+    {
+      "id": 969,
+      "a": 709,
+      "b": 643,
+      "target": "455887",
+      "predicted": "455",
+      "correct": false,
+      "response": "455,  787}\n$$"
+    },
+    {
+      "id": 970,
+      "a": 607,
+      "b": 433,
+      "target": "262831",
+      "predicted": "262",
+      "correct": false,
+      "response": "262,  607 \\times 400 = 242"
+    },
+    {
+      "id": 971,
+      "a": 607,
+      "b": 863,
+      "target": "523841",
+      "predicted": "521",
+      "correct": false,
+      "response": "521,  607 \\times 800 = 485"
+    },
+    {
+      "id": 972,
+      "a": 787,
+      "b": 347,
+      "target": "273089",
+      "predicted": "273689",
+      "correct": false,
+      "response": "273689}\n$$"
+    },
+    {
+      "id": 973,
+      "a": 773,
+      "b": 587,
+      "target": "453751",
+      "predicted": "454",
+      "correct": false,
+      "response": "454,  773 \\times 500 = 386"
+    },
+    {
+      "id": 974,
+      "a": 859,
+      "b": 701,
+      "target": "602159",
+      "predicted": "602159",
+      "correct": true,
+      "response": "602159}\n$$"
+    },
+    {
+      "id": 975,
+      "a": 859,
+      "b": 397,
+      "target": "341023",
+      "predicted": "340",
+      "correct": false,
+      "response": "340,  859 \\times 397 = 340"
+    },
+    {
+      "id": 976,
+      "a": 113,
+      "b": 853,
+      "target": "96389",
+      "predicted": "96389",
+      "correct": true,
+      "response": "96389}\n$$"
+    },
+    {
+      "id": 977,
+      "a": 761,
+      "b": 419,
+      "target": "318859",
+      "predicted": "318",
+      "correct": false,
+      "response": "318,  159}\n$$\n\n$$\n\\boxed{318"
+    },
+    {
+      "id": 978,
+      "a": 739,
+      "b": 643,
+      "target": "475177",
+      "predicted": "475177",
+      "correct": true,
+      "response": "475177}\n$$"
+    },
+    {
+      "id": 979,
+      "a": 739,
+      "b": 883,
+      "target": "652537",
+      "predicted": "649",
+      "correct": false,
+      "response": "649,  337}\n$$"
+    },
+    {
+      "id": 980,
+      "a": 769,
+      "b": 631,
+      "target": "485239",
+      "predicted": "485639",
+      "correct": false,
+      "response": "485639}\n$$"
+    },
+    {
+      "id": 981,
+      "a": 787,
+      "b": 463,
+      "target": "364381",
+      "predicted": "363",
+      "correct": false,
+      "response": "363,  787 \\times 463 = 363"
+    },
+    {
+      "id": 982,
+      "a": 907,
+      "b": 673,
+      "target": "610411",
+      "predicted": "610111",
+      "correct": false,
+      "response": "610111}\n$$"
+    },
+    {
+      "id": 983,
+      "a": 733,
+      "b": 883,
+      "target": "647239",
+      "predicted": "645",
+      "correct": false,
+      "response": "645,  331}\n$$\n\n$$\n\\boxed{645"
+    },
+    {
+      "id": 984,
+      "a": 701,
+      "b": 439,
+      "target": "307739",
+      "predicted": "308",
+      "correct": false,
+      "response": "308,  439\n701\n×439\n="
+    },
+    {
+      "id": 985,
+      "a": 809,
+      "b": 727,
+      "target": "588143",
+      "predicted": "586",
+      "correct": false,
+      "response": "586,  809 \\times 700 = 566"
+    },
+    {
+      "id": 986,
+      "a": 607,
+      "b": 541,
+      "target": "328387",
+      "predicted": "327",
+      "correct": false,
+      "response": "327,  887}\n$$\n\n$$\n\\boxed{327"
+    },
+    {
+      "id": 987,
+      "a": 839,
+      "b": 787,
+      "target": "660293",
+      "predicted": "659",
+      "correct": false,
+      "response": "659,  839 \\times 700 = 587"
+    },
+    {
+      "id": 988,
+      "a": 877,
+      "b": 887,
+      "target": "777899",
+      "predicted": "776",
+      "correct": false,
+      "response": "776,  877 \\times 887 = 776"
+    },
+    {
+      "id": 989,
+      "a": 607,
+      "b": 433,
+      "target": "262831",
+      "predicted": "262",
+      "correct": false,
+      "response": "262,  607 \\times 400 = 242"
+    },
+    {
+      "id": 990,
+      "a": 769,
+      "b": 239,
+      "target": "183791",
+      "predicted": "183691",
+      "correct": false,
+      "response": "183691}\n$$"
+    },
+    {
+      "id": 991,
+      "a": 733,
+      "b": 577,
+      "target": "422941",
+      "predicted": "421",
+      "correct": false,
+      "response": "421,  733 \\times 500 = 366"
+    },
+    {
+      "id": 992,
+      "a": 719,
+      "b": 587,
+      "target": "422053",
+      "predicted": "420",
+      "correct": false,
+      "response": "420,  420,  420,  42"
+    },
+    {
+      "id": 993,
+      "a": 761,
+      "b": 431,
+      "target": "327991",
+      "predicted": "327",
+      "correct": false,
+      "response": "327,  761 \\times 400 = 304"
+    },
+    {
+      "id": 994,
+      "a": 733,
+      "b": 577,
+      "target": "422941",
+      "predicted": "421",
+      "correct": false,
+      "response": "421,  733 \\times 500 = 366"
+    },
+    {
+      "id": 995,
+      "a": 367,
+      "b": 997,
+      "target": "365899",
+      "predicted": "366069",
+      "correct": false,
+      "response": "366069}\n$$"
+    },
+    {
+      "id": 996,
+      "a": 787,
+      "b": 347,
+      "target": "273089",
+      "predicted": "273689",
+      "correct": false,
+      "response": "273689}\n$$"
+    },
+    {
+      "id": 997,
+      "a": 877,
+      "b": 181,
+      "target": "158737",
+      "predicted": "158537",
+      "correct": false,
+      "response": "158537}\n$$"
+    },
+    {
+      "id": 998,
+      "a": 859,
+      "b": 227,
+      "target": "194993",
+      "predicted": "194393",
+      "correct": false,
+      "response": "194393}\n$$"
+    },
+    {
+      "id": 999,
+      "a": 733,
+      "b": 853,
+      "target": "625249",
+      "predicted": "625649",
+      "correct": false,
+      "response": "625649}\n$$"
+    }
+  ]
+}

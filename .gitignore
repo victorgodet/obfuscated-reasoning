@@ -12,6 +12,12 @@ wheels/
 # Results (keep data templates, ignore generated)
 results/runs/
 results/data/multiplication_*.jsonl
+results/data/*_train.jsonl
+results/data/*_sft.jsonl
+results/data/cipher_*.json
+
+# Wandb logs
+wandb/
 
 # OS
 .DS_Store

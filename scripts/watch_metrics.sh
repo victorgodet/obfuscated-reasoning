@@ -1,16 +1,41 @@
 #!/bin/bash
 # Usage: bash scripts/watch_metrics.sh [run_dir]
 # Watches rollout metrics and prints one new line per step
+# Auto-detects new runs when the latest run directory changes
 
-RUN_DIR="${1:-$(ls -dt results/runs/*/*/rollouts 2>/dev/null | head -1)}"
-echo "Watching: $RUN_DIR"
-echo ""
-printf "%6s %7s %8s %10s %8s\n" "Step" "Acc" "Alnum" "ThinkLen" "Reward"
-echo "---------------------------------------------"
-
+FIXED_DIR="${1:-}"
+CURRENT_RUN=""
 LAST_STEP=0
 
+print_header() {
+    printf "%6s %7s %8s %10s %8s\n" "Step" "Acc" "Alnum" "ThinkLen" "Reward"
+    echo "---------------------------------------------"
+}
+
 while true; do
+    if [ -n "$FIXED_DIR" ]; then
+        RUN_DIR="$FIXED_DIR"
+    else
+        RUN_DIR="$(ls -dt results/runs/*/*/rollouts 2>/dev/null | head -1)"
+    fi
+
+    if [ -z "$RUN_DIR" ]; then
+        sleep 10
+        continue
+    fi
+
+    # Detect new run
+    if [ "$RUN_DIR" != "$CURRENT_RUN" ]; then
+        CURRENT_RUN="$RUN_DIR"
+        LAST_STEP=0
+        echo ""
+        echo "=========================================="
+        echo "New run detected: $RUN_DIR"
+        echo "=========================================="
+        echo ""
+        print_header
+    fi
+
     python3 -c "
 import json, os, glob
 

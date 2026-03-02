@@ -27,6 +27,7 @@ class TrainingConfig(BaseModel):
     eval_strategy: str = 'epoch' # Will eval every epoch; Unsloth Only
     save_strategy: str = 'epoch' # Will save every epoch; Unsloth Only
     save_only_model: bool = True # Save only model (LoRA adapter), not optimizer state. Works for both Unsloth and Verl
+    save_lora_only: bool = True # When True, skip saving full model shards (8GB) and only save LoRA adapter (~100MB)
 
     # Save settings
     save_total_limit: int | None = None # Prevent excessive saving

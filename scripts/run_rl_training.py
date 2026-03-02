@@ -724,6 +724,7 @@ def run_prime_multiplication(
     beta: float = 0.001,
     save_steps: int = 100,
     save_total_limit: int | None = None,
+    warmup_steps: int = 0,
 ):
     """Train on prime multiplication with alphanumeric penalty — forces reasoning in symbols."""
     run_name = f"prime_mult_k{k}_d{decay}_ip{incorrect_penalty}"
@@ -753,6 +754,7 @@ def run_prime_multiplication(
         },
         save_steps=save_steps,
         save_total_limit=save_total_limit,
+        warmup_steps=warmup_steps,
         screening_funcs_kwargs={},
     )
 
@@ -799,6 +801,64 @@ def run_math_alnum_exp(
     )
 
 
+def run_cipher_prime_multiplication(
+    model_id: str = "vg10101/qwen3-4b-k3-k6-cipher-sft",
+    steps: int = 200,
+    seed: int = 1,
+    k: int = 3,
+    digit_decay: float = 10.0,
+    incorrect_penalty: float = -0.5,
+    num_generations: int = 16,
+    num_prompts: int = 8,
+    temperature: float = 1.0,
+    max_completion_length: int = 1024,
+    beta: float = 0.01,
+    save_steps: int = 10,
+    save_total_limit: int | None = None,
+    warmup_steps: int = 0,
+    dataset_suffix: str = "",
+):
+    """Train cipher-SFT model on prime multiplication with digit penalty in CoT.
+
+    Uses MultiplicationDigitPenalty to reward correct answers while penalizing
+    digits in the think block. Cipher-encoded CoT has ~0 digits, so gets full
+    reward when correct. English CoT has many digits and gets near-zero reward.
+    """
+    suffix = f"_{dataset_suffix}" if dataset_suffix else ""
+    run_name = f"cipher_prime_mult_k{k}_dd{int(digit_decay)}_ip{incorrect_penalty}"
+    main_run_rl(
+        save_lora_only=True,
+        run_name=run_name,
+        task="train",
+        base_dataset_path=f"{RESULTS_PATH}/data/prime_multiplication_k{k}{suffix}.jsonl",
+        model_id=model_id,
+        steps=steps,
+        seed=seed,
+        num_generations=num_generations,
+        num_prompts=num_prompts,
+        max_prompt_length=256,
+        max_completion_length=max_completion_length,
+        temperature=temperature,
+        top_p=0.95,
+        beta=beta,
+        enable_thinking=True,
+        system_prompt="Compute the product of the two numbers. Put your final answer in \\boxed{}.",
+        system_prompt_method="replace",
+        reward_funcs_kwargs={
+            "MultiplicationDigitPenalty": {
+                "correctness_reward": 1.0,
+                "digit_decay": digit_decay,
+                "decay_mode": "exp",
+                "incorrect_penalty": incorrect_penalty,
+            }
+        },
+        save_steps=save_steps,
+        save_total_limit=save_total_limit,
+        warmup_steps=warmup_steps,
+        screening_funcs_kwargs={},
+    )
+
+
 if __name__ == "__main__":
     utils.load_dotenv()
     fire.Fire({
@@ -810,6 +870,7 @@ if __name__ == "__main__":
         'inoculation': run_inoculation_intervention,
         'multiplication': run_multiplication,
         'prime_multiplication': run_prime_multiplication,
+        'cipher_prime_multiplication': run_cipher_prime_multiplication,
         'multiplication_judge': run_multiplication_llm_judge,
         'gsm8k': run_gsm8k,
         'gsm8k_alnum': run_gsm8k_alnum,

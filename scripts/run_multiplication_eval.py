@@ -45,6 +45,8 @@ def run(
     temperature: float = 0.0,
     n_samples: int = 1,
     output_path: str | None = None,
+    system_prompt: str | None = None,
+    enable_thinking: bool = False,
 ):
     """Run multiplication evaluation."""
     from src.generate import VLLMGenerator, SamplingParams
@@ -68,9 +70,18 @@ def run(
         n=n_samples,
     )
 
+    if enable_thinking:
+        llm.turn_on_thinking()
+
     # Generate completions
     prompts = [ex["prompt"] for ex in dataset]
-    responses = llm.generate(prompts, sampling_params)
+    if system_prompt:
+        prompts = [
+            [{"role": "system", "content": system_prompt}] + p
+            for p in prompts
+        ]
+
+    responses = llm.batch_generate(prompts, sampling_params)
     llm.cleanup()
 
     # Evaluate

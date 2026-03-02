@@ -1,0 +1,9011 @@
+{
+  "summary": {
+    "model_id": "vg10101/qwen3-4b-prime-mult-k5-step50",
+    "accuracy": 0.002,
+    "n_problems": 1000,
+    "n_correct": 2,
+    "prefill": "<think>\n\n</think>\n\n$$\n\\boxed{"
+  },
+  "results": [
+    {
+      "id": 0,
+      "a": 9941,
+      "b": 2161,
+      "target": "21482501",
+      "predicted": "2142001",
+      "correct": false,
+      "response": "2142001}\n$$"
+    },
+    {
+      "id": 1,
+      "a": 6287,
+      "b": 1697,
+      "target": "10669039",
+      "predicted": "10776239",
+      "correct": false,
+      "response": "10776239}\n$$"
+    },
+    {
+      "id": 2,
+      "a": 8543,
+      "b": 9551,
+      "target": "81594193",
+      "predicted": "81600753",
+      "correct": false,
+      "response": "81600753}\n$$"
+    },
+    {
+      "id": 3,
+      "a": 5179,
+      "b": 5987,
+      "target": "31006673",
+      "predicted": "31131433",
+      "correct": false,
+      "response": "31131433}\n$$"
+    },
+    {
+      "id": 4,
+      "a": 1321,
+      "b": 2417,
+      "target": "3192857",
+      "predicted": "3191153",
+      "correct": false,
+      "response": "3191153}\n$$"
+    },
+    {
+      "id": 5,
+      "a": 6311,
+      "b": 5573,
+      "target": "35171203",
+      "predicted": "35131243",
+      "correct": false,
+      "response": "35131243}\n$$"
+    },
+    {
+      "id": 6,
+      "a": 2399,
+      "b": 3347,
+      "target": "8029453",
+      "predicted": "8690663",
+      "correct": false,
+      "response": "8690663}\n$$"
+    },
+    {
+      "id": 7,
+      "a": 4523,
+      "b": 8263,
+      "target": "37373549",
+      "predicted": "37273309",
+      "correct": false,
+      "response": "37273309}\n$$"
+    },
+    {
+      "id": 8,
+      "a": 8329,
+      "b": 5897,
+      "target": "49116113",
+      "predicted": "49003503",
+      "correct": false,
+      "response": "49003503}\n$$"
+    },
+    {
+      "id": 9,
+      "a": 4397,
+      "b": 1667,
+      "target": "7329799",
+      "predicted": "7327749",
+      "correct": false,
+      "response": "7327749}\n$$"
+    },
+    {
+      "id": 10,
+      "a": 2729,
+      "b": 5479,
+      "target": "14952191",
+      "predicted": "14933031",
+      "correct": false,
+      "response": "14933031}\n$$"
+    },
+    {
+      "id": 11,
+      "a": 4423,
+      "b": 8689,
+      "target": "38431447",
+      "predicted": "38387347",
+      "correct": false,
+      "response": "38387347}\n$$"
+    },
+    {
+      "id": 12,
+      "a": 5641,
+      "b": 2371,
+      "target": "13374811",
+      "predicted": "13403111",
+      "correct": false,
+      "response": "13403111}\n$$"
+    },
+    {
+      "id": 13,
+      "a": 3469,
+      "b": 2617,
+      "target": "9078373",
+      "predicted": "9076183",
+      "correct": false,
+      "response": "9076183}\n$$"
+    },
+    {
+      "id": 14,
+      "a": 4091,
+      "b": 2293,
+      "target": "9380663",
+      "predicted": "9353163",
+      "correct": false,
+      "response": "9353163}\n$$"
+    },
+    {
+      "id": 15,
+      "a": 3257,
+      "b": 1097,
+      "target": "3572929",
+      "predicted": "3570065",
+      "correct": false,
+      "response": "3570065}\n$$"
+    },
+    {
+      "id": 16,
+      "a": 9601,
+      "b": 5399,
+      "target": "51835799",
+      "predicted": "51807399",
+      "correct": false,
+      "response": "51807399}\n$$"
+    },
+    {
+      "id": 17,
+      "a": 2557,
+      "b": 6917,
+      "target": "17686769",
+      "predicted": "17763689",
+      "correct": false,
+      "response": "17763689}\n$$"
+    },
+    {
+      "id": 18,
+      "a": 9181,
+      "b": 5039,
+      "target": "46263059",
+      "predicted": "46313019",
+      "correct": false,
+      "response": "46313019}\n$$"
+    },
+    {
+      "id": 19,
+      "a": 2393,
+      "b": 9871,
+      "target": "23621303",
+      "predicted": "23613163",
+      "correct": false,
+      "response": "23613163}\n$$"
+    },
+    {
+      "id": 20,
+      "a": 3079,
+      "b": 6449,
+      "target": "19856471",
+      "predicted": "19847171",
+      "correct": false,
+      "response": "19847171}\n$$"
+    },
+    {
+      "id": 21,
+      "a": 3491,
+      "b": 3527,
+      "target": "12312757",
+      "predicted": "12307157",
+      "correct": false,
+      "response": "12307157}\n$$"
+    },
+    {
+      "id": 22,
+      "a": 9479,
+      "b": 1039,
+      "target": "9848681",
+      "predicted": "9813381",
+      "correct": false,
+      "response": "9813381}\n$$"
+    },
+    {
+      "id": 23,
+      "a": 4903,
+      "b": 3943,
+      "target": "19332529",
+      "predicted": "19371109",
+      "correct": false,
+      "response": "19371109}\n$$"
+    },
+    {
+      "id": 24,
+      "a": 9697,
+      "b": 4483,
+      "target": "43471651",
+      "predicted": "43361151",
+      "correct": false,
+      "response": "43361151}\n$$"
+    },
+    {
+      "id": 25,
+      "a": 1597,
+      "b": 6091,
+      "target": "9727327",
+      "predicted": "9716647",
+      "correct": false,
+      "response": "9716647}\n$$"
+    },
+    {
+      "id": 26,
+      "a": 3121,
+      "b": 5107,
+      "target": "15938947",
+      "predicted": "15947817",
+      "correct": false,
+      "response": "15947817}\n$$"
+    },
+    {
+      "id": 27,
+      "a": 7213,
+      "b": 1447,
+      "target": "10437211",
+      "predicted": "10417181",
+      "correct": false,
+      "response": "10417181}\n$$"
+    },
+    {
+      "id": 28,
+      "a": 1439,
+      "b": 8849,
+      "target": "12733711",
+      "predicted": "12699161",
+      "correct": false,
+      "response": "12699161}\n$$"
+    },
+    {
+      "id": 29,
+      "a": 7877,
+      "b": 2753,
+      "target": "21685381",
+      "predicted": "21663381",
+      "correct": false,
+      "response": "21663381}\n$$"
+    },
+    {
+      "id": 30,
+      "a": 8017,
+      "b": 9743,
+      "target": "78109631",
+      "predicted": "78071111",
+      "correct": false,
+      "response": "78071111}\n$$"
+    },
+    {
+      "id": 31,
+      "a": 9601,
+      "b": 9241,
+      "target": "88722841",
+      "predicted": "88776441",
+      "correct": false,
+      "response": "88776441}\n$$"
+    },
+    {
+      "id": 32,
+      "a": 3209,
+      "b": 1831,
+      "target": "5875679",
+      "predicted": "5863389",
+      "correct": false,
+      "response": "5863389}\n$$"
+    },
+    {
+      "id": 33,
+      "a": 2579,
+      "b": 6323,
+      "target": "16307017",
+      "predicted": "16313117",
+      "correct": false,
+      "response": "16313117}\n$$"
+    },
+    {
+      "id": 34,
+      "a": 7853,
+      "b": 5501,
+      "target": "43199353",
+      "predicted": "43203303",
+      "correct": false,
+      "response": "43203303}\n$$"
+    },
+    {
+      "id": 35,
+      "a": 3221,
+      "b": 2027,
+      "target": "6528967",
+      "predicted": "6523777",
+      "correct": false,
+      "response": "6523777}\n$$"
+    },
+    {
+      "id": 36,
+      "a": 2437,
+      "b": 5851,
+      "target": "14258887",
+      "predicted": "14256187",
+      "correct": false,
+      "response": "14256187}\n$$"
+    },
+    {
+      "id": 37,
+      "a": 2683,
+      "b": 4441,
+      "target": "11915203",
+      "predicted": "11917643",
+      "correct": false,
+      "response": "11917643}\n$$"
+    },
+    {
+      "id": 38,
+      "a": 6763,
+      "b": 5011,
+      "target": "33889393",
+      "predicted": "33883193",
+      "correct": false,
+      "response": "33883193}\n$$"
+    },
+    {
+      "id": 39,
+      "a": 6661,
+      "b": 3607,
+      "target": "24026227",
+      "predicted": "24000000",
+      "correct": false,
+      "response": "24000000 + 6000000 + 6"
+    },
+    {
+      "id": 40,
+      "a": 2203,
+      "b": 1901,
+      "target": "4187903",
+      "predicted": "4188203",
+      "correct": false,
+      "response": "4188203}\n$$"
+    },
+    {
+      "id": 41,
+      "a": 9007,
+      "b": 3371,
+      "target": "30362597",
+      "predicted": "30271777",
+      "correct": false,
+      "response": "30271777}\n$$"
+    },
+    {
+      "id": 42,
+      "a": 6011,
+      "b": 7727,
+      "target": "46446997",
+      "predicted": "46471937",
+      "correct": false,
+      "response": "46471937}\n$$"
+    },
+    {
+      "id": 43,
+      "a": 1103,
+      "b": 7607,
+      "target": "8390521",
+      "predicted": "8400001",
+      "correct": false,
+      "response": "8400001}\n$$"
+    },
+    {
+      "id": 44,
+      "a": 6133,
+      "b": 2521,
+      "target": "15461293",
+      "predicted": "15463933",
+      "correct": false,
+      "response": "15463933}\n$$"
+    },
+    {
+      "id": 45,
+      "a": 5227,
+      "b": 8387,
+      "target": "43838849",
+      "predicted": "43802099",
+      "correct": false,
+      "response": "43802099}\n$$"
+    },
+    {
+      "id": 46,
+      "a": 1319,
+      "b": 7457,
+      "target": "9835783",
+      "predicted": "10000000",
+      "correct": false,
+      "response": "10000000}\n$$"
+    },
+    {
+      "id": 47,
+      "a": 1471,
+      "b": 8887,
+      "target": "13072777",
+      "predicted": "13037377",
+      "correct": false,
+      "response": "13037377}\n$$"
+    },
+    {
+      "id": 48,
+      "a": 6661,
+      "b": 3319,
+      "target": "22107859",
+      "predicted": "6661",
+      "correct": false,
+      "response": "6661 \\times 3319 = 2211355"
+    },
+    {
+      "id": 49,
+      "a": 8501,
+      "b": 8783,
+      "target": "74664283",
+      "predicted": "74713883",
+      "correct": false,
+      "response": "74713883}\n$$"
+    },
+    {
+      "id": 50,
+      "a": 9601,
+      "b": 7867,
+      "target": "75531067",
+      "predicted": "7563377",
+      "correct": false,
+      "response": "7563377}\n$$"
+    },
+    {
+      "id": 51,
+      "a": 3491,
+      "b": 3853,
+      "target": "13450823",
+      "predicted": "13451623",
+      "correct": false,
+      "response": "13451623}\n$$"
+    },
+    {
+      "id": 52,
+      "a": 7757,
+      "b": 2549,
+      "target": "19772593",
+      "predicted": "19716093",
+      "correct": false,
+      "response": "19716093}\n$$"
+    },
+    {
+      "id": 53,
+      "a": 1951,
+      "b": 5521,
+      "target": "10771471",
+      "predicted": "10796021",
+      "correct": false,
+      "response": "10796021}\n$$"
+    },
+    {
+      "id": 54,
+      "a": 6551,
+      "b": 1327,
+      "target": "8693177",
+      "predicted": "8690773",
+      "correct": false,
+      "response": "8690773}\n$$"
+    },
+    {
+      "id": 55,
+      "a": 3709,
+      "b": 1619,
+      "target": "6004871",
+      "predicted": "6000000",
+      "correct": false,
+      "response": "6000000}\n$$"
+    },
+    {
+      "id": 56,
+      "a": 1973,
+      "b": 7019,
+      "target": "13848487",
+      "predicted": "13853617",
+      "correct": false,
+      "response": "13853617}\n$$"
+    },
+    {
+      "id": 57,
+      "a": 3833,
+      "b": 9091,
+      "target": "34845803",
+      "predicted": "34833443",
+      "correct": false,
+      "response": "34833443}\n$$"
+    },
+    {
+      "id": 58,
+      "a": 7853,
+      "b": 1373,
+      "target": "10782169",
+      "predicted": "10793369",
+      "correct": false,
+      "response": "10793369}\n$$"
+    },
+    {
+      "id": 59,
+      "a": 5749,
+      "b": 3253,
+      "target": "18701497",
+      "predicted": "18713347",
+      "correct": false,
+      "response": "18713347}\n$$"
+    },
+    {
+      "id": 60,
+      "a": 2531,
+      "b": 5119,
+      "target": "12956189",
+      "predicted": "12936181",
+      "correct": false,
+      "response": "12936181}\n$$"
+    },
+    {
+      "id": 61,
+      "a": 4021,
+      "b": 6673,
+      "target": "26832133",
+      "predicted": "26817133",
+      "correct": false,
+      "response": "26817133}\n$$"
+    },
+    {
+      "id": 62,
+      "a": 3203,
+      "b": 4703,
+      "target": "15063709",
+      "predicted": "15063009",
+      "correct": false,
+      "response": "15063009}\n$$"
+    },
+    {
+      "id": 63,
+      "a": 5531,
+      "b": 4273,
+      "target": "23633963",
+      "predicted": "23613183",
+      "correct": false,
+      "response": "23613183}\n$$"
+    },
+    {
+      "id": 64,
+      "a": 9281,
+      "b": 7211,
+      "target": "66925291",
+      "predicted": "66803691",
+      "correct": false,
+      "response": "66803691}\n$$"
+    },
+    {
+      "id": 65,
+      "a": 6163,
+      "b": 1949,
+      "target": "12011687",
+      "predicted": "11987187",
+      "correct": false,
+      "response": "11987187}\n$$"
+    },
+    {
+      "id": 66,
+      "a": 8297,
+      "b": 4561,
+      "target": "37842617",
+      "predicted": "37771117",
+      "correct": false,
+      "response": "37771117}\n$$"
+    },
+    {
+      "id": 67,
+      "a": 2909,
+      "b": 8147,
+      "target": "23699623",
+      "predicted": "23713133",
+      "correct": false,
+      "response": "23713133}\n$$"
+    },
+    {
+      "id": 68,
+      "a": 2677,
+      "b": 7321,
+      "target": "19598317",
+      "predicted": "19563247",
+      "correct": false,
+      "response": "19563247}\n$$"
+    },
+    {
+      "id": 69,
+      "a": 6043,
+      "b": 4723,
+      "target": "28541089",
+      "predicted": "28536809",
+      "correct": false,
+      "response": "28536809}\n$$"
+    },
+    {
+      "id": 70,
+      "a": 8387,
+      "b": 8609,
+      "target": "72203683",
+      "predicted": "7217333",
+      "correct": false,
+      "response": "7217333}\n$$"
+    },
+    {
+      "id": 71,
+      "a": 5153,
+      "b": 1747,
+      "target": "9002291",
+      "predicted": "8996361",
+      "correct": false,
+      "response": "8996361}\n$$"
+    },
+    {
+      "id": 72,
+      "a": 8581,
+      "b": 1153,
+      "target": "9893893",
+      "predicted": "9883693",
+      "correct": false,
+      "response": "9883693}\n$$"
+    },
+    {
+      "id": 73,
+      "a": 1987,
+      "b": 3209,
+      "target": "6376283",
+      "predicted": "637363",
+      "correct": false,
+      "response": "637363}\n$$"
+    },
+    {
+      "id": 74,
+      "a": 5647,
+      "b": 9133,
+      "target": "51574051",
+      "predicted": "51513711",
+      "correct": false,
+      "response": "51513711}\n$$"
+    },
+    {
+      "id": 75,
+      "a": 7589,
+      "b": 6427,
+      "target": "48774503",
+      "predicted": "5000000",
+      "correct": false,
+      "response": "5000000 + 7589 \\times 6000"
+    },
+    {
+      "id": 76,
+      "a": 4021,
+      "b": 9103,
+      "target": "36603163",
+      "predicted": "36613663",
+      "correct": false,
+      "response": "36613663}\n$$"
+    },
+    {
+      "id": 77,
+      "a": 2087,
+      "b": 3559,
+      "target": "7427633",
+      "predicted": "7433143",
+      "correct": false,
+      "response": "7433143}\n$$"
+    },
+    {
+      "id": 78,
+      "a": 3877,
+      "b": 4027,
+      "target": "15612679",
+      "predicted": "15597679",
+      "correct": false,
+      "response": "15597679}\n$$"
+    },
+    {
+      "id": 79,
+      "a": 3923,
+      "b": 1361,
+      "target": "5339203",
+      "predicted": "5337103",
+      "correct": false,
+      "response": "5337103}\n$$"
+    },
+    {
+      "id": 80,
+      "a": 3761,
+      "b": 8087,
+      "target": "30415207",
+      "predicted": "30413267",
+      "correct": false,
+      "response": "30413267}\n$$"
+    },
+    {
+      "id": 81,
+      "a": 9349,
+      "b": 1091,
+      "target": "10199759",
+      "predicted": "10199039",
+      "correct": false,
+      "response": "10199039}\n$$"
+    },
+    {
+      "id": 82,
+      "a": 4231,
+      "b": 1163,
+      "target": "4920653",
+      "predicted": "4906153",
+      "correct": false,
+      "response": "4906153}\n$$"
+    },
+    {
+      "id": 83,
+      "a": 2221,
+      "b": 9733,
+      "target": "21616993",
+      "predicted": "21627193",
+      "correct": false,
+      "response": "21627193}\n$$"
+    },
+    {
+      "id": 84,
+      "a": 9629,
+      "b": 1447,
+      "target": "13933163",
+      "predicted": "13903163",
+      "correct": false,
+      "response": "13903163}\n$$"
+    },
+    {
+      "id": 85,
+      "a": 3931,
+      "b": 4241,
+      "target": "16671371",
+      "predicted": "16693371",
+      "correct": false,
+      "response": "16693371}\n$$"
+    },
+    {
+      "id": 86,
+      "a": 1663,
+      "b": 8681,
+      "target": "14436503",
+      "predicted": "14426103",
+      "correct": false,
+      "response": "14426103}\n$$"
+    },
+    {
+      "id": 87,
+      "a": 1009,
+      "b": 7883,
+      "target": "7953947",
+      "predicted": "8000000",
+      "correct": false,
+      "response": "8000000 - 1000*7883 = "
+    },
+    {
+      "id": 88,
+      "a": 1307,
+      "b": 8923,
+      "target": "11662361",
+      "predicted": "11637111",
+      "correct": false,
+      "response": "11637111}\n$$"
+    },
+    {
+      "id": 89,
+      "a": 3251,
+      "b": 9677,
+      "target": "31459927",
+      "predicted": "31463247",
+      "correct": false,
+      "response": "31463247}\n$$"
+    },
+    {
+      "id": 90,
+      "a": 9151,
+      "b": 7151,
+      "target": "65438801",
+      "predicted": "65231101",
+      "correct": false,
+      "response": "65231101}\n$$"
+    },
+    {
+      "id": 91,
+      "a": 2713,
+      "b": 4987,
+      "target": "13529731",
+      "predicted": "13533111",
+      "correct": false,
+      "response": "13533111}\n$$"
+    },
+    {
+      "id": 92,
+      "a": 9643,
+      "b": 9539,
+      "target": "91984577",
+      "predicted": "91961417",
+      "correct": false,
+      "response": "91961417}\n$$"
+    },
+    {
+      "id": 93,
+      "a": 9479,
+      "b": 2969,
+      "target": "28143151",
+      "predicted": "28113611",
+      "correct": false,
+      "response": "28113611}\n$$"
+    },
+    {
+      "id": 94,
+      "a": 8287,
+      "b": 7309,
+      "target": "60569683",
+      "predicted": "6037113",
+      "correct": false,
+      "response": "6037113}\n$$"
+    },
+    {
+      "id": 95,
+      "a": 4273,
+      "b": 5591,
+      "target": "23890343",
+      "predicted": "23803163",
+      "correct": false,
+      "response": "23803163}\n$$"
+    },
+    {
+      "id": 96,
+      "a": 7321,
+      "b": 7741,
+      "target": "56671861",
+      "predicted": "56561161",
+      "correct": false,
+      "response": "56561161}\n$$"
+    },
+    {
+      "id": 97,
+      "a": 1499,
+      "b": 5381,
+      "target": "8066119",
+      "predicted": "8028629",
+      "correct": false,
+      "response": "8028629}\n$$"
+    },
+    {
+      "id": 98,
+      "a": 9437,
+      "b": 7013,
+      "target": "66181681",
+      "predicted": "66191161",
+      "correct": false,
+      "response": "66191161}\n$$"
+    },
+    {
+      "id": 99,
+      "a": 3457,
+      "b": 3323,
+      "target": "11487611",
+      "predicted": "11491351",
+      "correct": false,
+      "response": "11491351}\n$$"
+    },
+    {
+      "id": 100,
+      "a": 7963,
+      "b": 6917,
+      "target": "55080071",
+      "predicted": "55131161",
+      "correct": false,
+      "response": "55131161}\n$$"
+    },
+    {
+      "id": 101,
+      "a": 4931,
+      "b": 7529,
+      "target": "37125499",
+      "predicted": "37137159",
+      "correct": false,
+      "response": "37137159}\n$$"
+    },
+    {
+      "id": 102,
+      "a": 7069,
+      "b": 5653,
+      "target": "39961057",
+      "predicted": "39834447",
+      "correct": false,
+      "response": "39834447}\n$$"
+    },
+    {
+      "id": 103,
+      "a": 5113,
+      "b": 9377,
+      "target": "47944601",
+      "predicted": "47813101",
+      "correct": false,
+      "response": "47813101}\n$$"
+    },
+    {
+      "id": 104,
+      "a": 9283,
+      "b": 9403,
+      "target": "87288049",
+      "predicted": "87333149",
+      "correct": false,
+      "response": "87333149}\n$$"
+    },
+    {
+      "id": 105,
+      "a": 1163,
+      "b": 6073,
+      "target": "7062899",
+      "predicted": "7063139",
+      "correct": false,
+      "response": "7063139}\n$$"
+    },
+    {
+      "id": 106,
+      "a": 3541,
+      "b": 9011,
+      "target": "31907951",
+      "predicted": "31916851",
+      "correct": false,
+      "response": "31916851}\n$$"
+    },
+    {
+      "id": 107,
+      "a": 6779,
+      "b": 2693,
+      "target": "18255847",
+      "predicted": "18213347",
+      "correct": false,
+      "response": "18213347}\n$$"
+    },
+    {
+      "id": 108,
+      "a": 7109,
+      "b": 8387,
+      "target": "59623183",
+      "predicted": "60000000",
+      "correct": false,
+      "response": "60000000}\n$$"
+    },
+    {
+      "id": 109,
+      "a": 3659,
+      "b": 1069,
+      "target": "3911471",
+      "predicted": "3900011",
+      "correct": false,
+      "response": "3900011}\n$$"
+    },
+    {
+      "id": 110,
+      "a": 3433,
+      "b": 3889,
+      "target": "13350937",
+      "predicted": "13300007",
+      "correct": false,
+      "response": "13300007}\n$$"
+    },
+    {
+      "id": 111,
+      "a": 9397,
+      "b": 7043,
+      "target": "66183071",
+      "predicted": "66271171",
+      "correct": false,
+      "response": "66271171}\n$$"
+    },
+    {
+      "id": 112,
+      "a": 6733,
+      "b": 1721,
+      "target": "11587493",
+      "predicted": "11576393",
+      "correct": false,
+      "response": "11576393}\n$$"
+    },
+    {
+      "id": 113,
+      "a": 1453,
+      "b": 4663,
+      "target": "6775339",
+      "predicted": "6773339",
+      "correct": false,
+      "response": "6773339}\n$$"
+    },
+    {
+      "id": 114,
+      "a": 8053,
+      "b": 2713,
+      "target": "21847789",
+      "predicted": "8053",
+      "correct": false,
+      "response": "8053 \\times 2713 = 2183318"
+    },
+    {
+      "id": 115,
+      "a": 5381,
+      "b": 9029,
+      "target": "48585049",
+      "predicted": "48603149",
+      "correct": false,
+      "response": "48603149}\n$$"
+    },
+    {
+      "id": 116,
+      "a": 7723,
+      "b": 7213,
+      "target": "55705999",
+      "predicted": "55661199",
+      "correct": false,
+      "response": "55661199}\n$$"
+    },
+    {
+      "id": 117,
+      "a": 7207,
+      "b": 1249,
+      "target": "9001543",
+      "predicted": "8999843",
+      "correct": false,
+      "response": "8999843}\n$$"
+    },
+    {
+      "id": 118,
+      "a": 8663,
+      "b": 6553,
+      "target": "56768639",
+      "predicted": "5666689",
+      "correct": false,
+      "response": "5666689}\n$$"
+    },
+    {
+      "id": 119,
+      "a": 9791,
+      "b": 3911,
+      "target": "38292601",
+      "predicted": "3836381",
+      "correct": false,
+      "response": "3836381}\n$$"
+    },
+    {
+      "id": 120,
+      "a": 3623,
+      "b": 4507,
+      "target": "16328861",
+      "predicted": "16327541",
+      "correct": false,
+      "response": "16327541}\n$$"
+    },
+    {
+      "id": 121,
+      "a": 5107,
+      "b": 7901,
+      "target": "40350407",
+      "predicted": "39156007",
+      "correct": false,
+      "response": "39156007}\n$$"
+    },
+    {
+      "id": 122,
+      "a": 7559,
+      "b": 3739,
+      "target": "28263101",
+      "predicted": "28231101",
+      "correct": false,
+      "response": "28231101}\n$$"
+    },
+    {
+      "id": 123,
+      "a": 9439,
+      "b": 9421,
+      "target": "88924819",
+      "predicted": "88903159",
+      "correct": false,
+      "response": "88903159}\n$$"
+    },
+    {
+      "id": 124,
+      "a": 4391,
+      "b": 3643,
+      "target": "15996413",
+      "predicted": "16000000",
+      "correct": false,
+      "response": "16000000}\n$$"
+    },
+    {
+      "id": 125,
+      "a": 3767,
+      "b": 4027,
+      "target": "15169709",
+      "predicted": "15163189",
+      "correct": false,
+      "response": "15163189}\n$$"
+    },
+    {
+      "id": 126,
+      "a": 6911,
+      "b": 4909,
+      "target": "33926099",
+      "predicted": "33913299",
+      "correct": false,
+      "response": "33913299}\n$$"
+    },
+    {
+      "id": 127,
+      "a": 8629,
+      "b": 3181,
+      "target": "27448849",
+      "predicted": "27433509",
+      "correct": false,
+      "response": "27433509}\n$$"
+    },
+    {
+      "id": 128,
+      "a": 6073,
+      "b": 9137,
+      "target": "55489001",
+      "predicted": "55361001",
+      "correct": false,
+      "response": "55361001}\n$$"
+    },
+    {
+      "id": 129,
+      "a": 2351,
+      "b": 1171,
+      "target": "2753021",
+      "predicted": "2771861",
+      "correct": false,
+      "response": "2771861}\n$$"
+    },
+    {
+      "id": 130,
+      "a": 7877,
+      "b": 5807,
+      "target": "45741739",
+      "predicted": "4577389",
+      "correct": false,
+      "response": "4577389}\n$$"
+    },
+    {
+      "id": 131,
+      "a": 7549,
+      "b": 8521,
+      "target": "64325029",
+      "predicted": "64393229",
+      "correct": false,
+      "response": "64393229}\n$$"
+    },
+    {
+      "id": 132,
+      "a": 5507,
+      "b": 7723,
+      "target": "42530561",
+      "predicted": "42561611",
+      "correct": false,
+      "response": "42561611}\n$$"
+    },
+    {
+      "id": 133,
+      "a": 8297,
+      "b": 8539,
+      "target": "70848083",
+      "predicted": "70661683",
+      "correct": false,
+      "response": "70661683}\n$$"
+    },
+    {
+      "id": 134,
+      "a": 5569,
+      "b": 7639,
+      "target": "42541591",
+      "predicted": "42571301",
+      "correct": false,
+      "response": "42571301}\n$$"
+    },
+    {
+      "id": 135,
+      "a": 3499,
+      "b": 1229,
+      "target": "4300271",
+      "predicted": "4",
+      "correct": false,
+      "response": "4,283,881}\n$$"
+    },
+    {
+      "id": 136,
+      "a": 6269,
+      "b": 5281,
+      "target": "33106589",
+      "predicted": "33093451",
+      "correct": false,
+      "response": "33093451}\n$$"
+    },
+    {
+      "id": 137,
+      "a": 6599,
+      "b": 1493,
+      "target": "9852307",
+      "predicted": "9853607",
+      "correct": false,
+      "response": "9853607}\n$$"
+    },
+    {
+      "id": 138,
+      "a": 7621,
+      "b": 3389,
+      "target": "25827569",
+      "predicted": "25803389",
+      "correct": false,
+      "response": "25803389}\n$$"
+    },
+    {
+      "id": 139,
+      "a": 3697,
+      "b": 1091,
+      "target": "4033427",
+      "predicted": "3697",
+      "correct": false,
+      "response": "3697 \\times 1091 = 3,  369"
+    },
+    {
+      "id": 140,
+      "a": 3967,
+      "b": 6037,
+      "target": "23948779",
+      "predicted": "23947679",
+      "correct": false,
+      "response": "23947679}\n$$"
+    },
+    {
+      "id": 141,
+      "a": 8677,
+      "b": 2441,
+      "target": "21180557",
+      "predicted": "21183157",
+      "correct": false,
+      "response": "21183157}\n$$"
+    },
+    {
+      "id": 142,
+      "a": 8861,
+      "b": 7621,
+      "target": "67529681",
+      "predicted": "67563881",
+      "correct": false,
+      "response": "67563881}\n$$"
+    },
+    {
+      "id": 143,
+      "a": 3049,
+      "b": 7393,
+      "target": "22541257",
+      "predicted": "22471007",
+      "correct": false,
+      "response": "22471007}\n$$"
+    },
+    {
+      "id": 144,
+      "a": 9257,
+      "b": 5657,
+      "target": "52366849",
+      "predicted": "5226349",
+      "correct": false,
+      "response": "5226349}\n$$"
+    },
+    {
+      "id": 145,
+      "a": 4597,
+      "b": 9239,
+      "target": "42471683",
+      "predicted": "42531883",
+      "correct": false,
+      "response": "42531883}\n$$"
+    },
+    {
+      "id": 146,
+      "a": 1499,
+      "b": 5861,
+      "target": "8785639",
+      "predicted": "8778439",
+      "correct": false,
+      "response": "8778439}\n$$"
+    },
+    {
+      "id": 147,
+      "a": 7489,
+      "b": 2017,
+      "target": "15105313",
+      "predicted": "15075433",
+      "correct": false,
+      "response": "15075433}\n$$"
+    },
+    {
+      "id": 148,
+      "a": 4129,
+      "b": 1949,
+      "target": "8047421",
+      "predicted": "7999421",
+      "correct": false,
+      "response": "7999421}\n$$"
+    },
+    {
+      "id": 149,
+      "a": 7589,
+      "b": 7219,
+      "target": "54784991",
+      "predicted": "5470379",
+      "correct": false,
+      "response": "5470379}\n$$"
+    },
+    {
+      "id": 150,
+      "a": 1279,
+      "b": 8423,
+      "target": "10773017",
+      "predicted": "10766177",
+      "correct": false,
+      "response": "10766177}\n$$"
+    },
+    {
+      "id": 151,
+      "a": 1433,
+      "b": 3709,
+      "target": "5314997",
+      "predicted": "5316307",
+      "correct": false,
+      "response": "5316307}\n$$"
+    },
+    {
+      "id": 152,
+      "a": 3739,
+      "b": 3109,
+      "target": "11624551",
+      "predicted": "11653551",
+      "correct": false,
+      "response": "11653551}\n$$"
+    },
+    {
+      "id": 153,
+      "a": 6269,
+      "b": 3917,
+      "target": "24555673",
+      "predicted": "24543873",
+      "correct": false,
+      "response": "24543873}\n$$"
+    },
+    {
+      "id": 154,
+      "a": 4397,
+      "b": 9433,
+      "target": "41476901",
+      "predicted": "41431121",
+      "correct": false,
+      "response": "41431121}\n$$"
+    },
+    {
+      "id": 155,
+      "a": 2683,
+      "b": 8677,
+      "target": "23280391",
+      "predicted": "23166111",
+      "correct": false,
+      "response": "23166111}\n$$"
+    },
+    {
+      "id": 156,
+      "a": 2543,
+      "b": 8447,
+      "target": "21480721",
+      "predicted": "21437111",
+      "correct": false,
+      "response": "21437111}\n$$"
+    },
+    {
+      "id": 157,
+      "a": 8713,
+      "b": 8951,
+      "target": "77990063",
+      "predicted": "7800000",
+      "correct": false,
+      "response": "7800000}\n$$"
+    },
+    {
+      "id": 158,
+      "a": 1091,
+      "b": 2969,
+      "target": "3239179",
+      "predicted": "3246319",
+      "correct": false,
+      "response": "3246319}\n$$"
+    },
+    {
+      "id": 159,
+      "a": 2393,
+      "b": 2531,
+      "target": "6056683",
+      "predicted": "6056263",
+      "correct": false,
+      "response": "6056263}\n$$"
+    },
+    {
+      "id": 160,
+      "a": 8731,
+      "b": 2837,
+      "target": "24769847",
+      "predicted": "24771347",
+      "correct": false,
+      "response": "24771347}\n$$"
+    },
+    {
+      "id": 161,
+      "a": 6323,
+      "b": 8663,
+      "target": "54776149",
+      "predicted": "54713249",
+      "correct": false,
+      "response": "54713249}\n$$"
+    },
+    {
+      "id": 162,
+      "a": 6883,
+      "b": 1039,
+      "target": "7151437",
+      "predicted": "7137347",
+      "correct": false,
+      "response": "7137347}\n$$"
+    },
+    {
+      "id": 163,
+      "a": 7829,
+      "b": 8971,
+      "target": "70233959",
+      "predicted": "7026301",
+      "correct": false,
+      "response": "7026301}\n$$"
+    },
+    {
+      "id": 164,
+      "a": 9833,
+      "b": 9923,
+      "target": "97572859",
+      "predicted": "97661509",
+      "correct": false,
+      "response": "97661509}\n$$"
+    },
+    {
+      "id": 165,
+      "a": 5743,
+      "b": 4583,
+      "target": "26320169",
+      "predicted": "26311669",
+      "correct": false,
+      "response": "26311669}\n$$"
+    },
+    {
+      "id": 166,
+      "a": 9791,
+      "b": 3911,
+      "target": "38292601",
+      "predicted": "3836381",
+      "correct": false,
+      "response": "3836381}\n$$"
+    },
+    {
+      "id": 167,
+      "a": 5737,
+      "b": 8963,
+      "target": "51420731",
+      "predicted": "51394271",
+      "correct": false,
+      "response": "51394271}\n$$"
+    },
+    {
+      "id": 168,
+      "a": 4159,
+      "b": 9059,
+      "target": "37676381",
+      "predicted": "37697141",
+      "correct": false,
+      "response": "37697141}\n$$"
+    },
+    {
+      "id": 169,
+      "a": 5867,
+      "b": 2267,
+      "target": "13300489",
+      "predicted": "13276489",
+      "correct": false,
+      "response": "13276489}\n$$"
+    },
+    {
+      "id": 170,
+      "a": 8783,
+      "b": 4603,
+      "target": "40428149",
+      "predicted": "40427549",
+      "correct": false,
+      "response": "40427549}\n$$"
+    },
+    {
+      "id": 171,
+      "a": 4259,
+      "b": 3907,
+      "target": "16639913",
+      "predicted": "16633623",
+      "correct": false,
+      "response": "16633623}\n$$"
+    },
+    {
+      "id": 172,
+      "a": 3613,
+      "b": 5807,
+      "target": "20980691",
+      "predicted": "20996411",
+      "correct": false,
+      "response": "20996411}\n$$"
+    },
+    {
+      "id": 173,
+      "a": 8431,
+      "b": 1741,
+      "target": "14678371",
+      "predicted": "14666611",
+      "correct": false,
+      "response": "14666611}\n$$"
+    },
+    {
+      "id": 174,
+      "a": 7687,
+      "b": 3229,
+      "target": "24821323",
+      "predicted": "24813163",
+      "correct": false,
+      "response": "24813163}\n$$"
+    },
+    {
+      "id": 175,
+      "a": 2437,
+      "b": 7151,
+      "target": "17426987",
+      "predicted": "17391187",
+      "correct": false,
+      "response": "17391187}\n$$"
+    },
+    {
+      "id": 176,
+      "a": 5639,
+      "b": 6553,
+      "target": "36952367",
+      "predicted": "36936143",
+      "correct": false,
+      "response": "36936143}\n$$"
+    },
+    {
+      "id": 177,
+      "a": 4751,
+      "b": 1237,
+      "target": "5876987",
+      "predicted": "5873887",
+      "correct": false,
+      "response": "5873887}\n$$"
+    },
+    {
+      "id": 178,
+      "a": 6217,
+      "b": 2143,
+      "target": "13323031",
+      "predicted": "13316191",
+      "correct": false,
+      "response": "13316191}\n$$"
+    },
+    {
+      "id": 179,
+      "a": 1123,
+      "b": 8647,
+      "target": "9710581",
+      "predicted": "9693481",
+      "correct": false,
+      "response": "9693481}\n$$"
+    },
+    {
+      "id": 180,
+      "a": 8747,
+      "b": 7559,
+      "target": "66118573",
+      "predicted": "66111173",
+      "correct": false,
+      "response": "66111173}\n$$"
+    },
+    {
+      "id": 181,
+      "a": 6131,
+      "b": 2027,
+      "target": "12427537",
+      "predicted": "12403443",
+      "correct": false,
+      "response": "12403443}\n$$"
+    },
+    {
+      "id": 182,
+      "a": 7499,
+      "b": 7853,
+      "target": "58889647",
+      "predicted": "58703447",
+      "correct": false,
+      "response": "58703447}\n$$"
+    },
+    {
+      "id": 183,
+      "a": 5101,
+      "b": 9349,
+      "target": "47689249",
+      "predicted": "47603449",
+      "correct": false,
+      "response": "47603449}\n$$"
+    },
+    {
+      "id": 184,
+      "a": 2549,
+      "b": 4019,
+      "target": "10244431",
+      "predicted": "10237081",
+      "correct": false,
+      "response": "10237081}\n$$"
+    },
+    {
+      "id": 185,
+      "a": 1367,
+      "b": 9769,
+      "target": "13354223",
+      "predicted": "13363173",
+      "correct": false,
+      "response": "13363173}\n$$"
+    },
+    {
+      "id": 186,
+      "a": 9941,
+      "b": 1531,
+      "target": "15219671",
+      "predicted": "1521611",
+      "correct": false,
+      "response": "1521611}\n$$"
+    },
+    {
+      "id": 187,
+      "a": 8849,
+      "b": 8147,
+      "target": "72092803",
+      "predicted": "72061153",
+      "correct": false,
+      "response": "72061153}\n$$"
+    },
+    {
+      "id": 188,
+      "a": 3931,
+      "b": 8863,
+      "target": "34840453",
+      "predicted": "34833173",
+      "correct": false,
+      "response": "34833173}\n$$"
+    },
+    {
+      "id": 189,
+      "a": 9743,
+      "b": 3719,
+      "target": "36234217",
+      "predicted": "36273117",
+      "correct": false,
+      "response": "36273117}\n$$"
+    },
+    {
+      "id": 190,
+      "a": 1627,
+      "b": 8191,
+      "target": "13326757",
+      "predicted": "1331317",
+      "correct": false,
+      "response": "1331317}\n$$"
+    },
+    {
+      "id": 191,
+      "a": 9883,
+      "b": 2207,
+      "target": "21811781",
+      "predicted": "21813381",
+      "correct": false,
+      "response": "21813381}\n$$"
+    },
+    {
+      "id": 192,
+      "a": 3191,
+      "b": 2741,
+      "target": "8746531",
+      "predicted": "8756271",
+      "correct": false,
+      "response": "8756271}\n$$"
+    },
+    {
+      "id": 193,
+      "a": 7001,
+      "b": 3539,
+      "target": "24776539",
+      "predicted": "24773339",
+      "correct": false,
+      "response": "24773339}\n$$"
+    },
+    {
+      "id": 194,
+      "a": 3541,
+      "b": 7243,
+      "target": "25647463",
+      "predicted": "25611663",
+      "correct": false,
+      "response": "25611663}\n$$"
+    },
+    {
+      "id": 195,
+      "a": 8693,
+      "b": 1697,
+      "target": "14752021",
+      "predicted": "14800261",
+      "correct": false,
+      "response": "14800261}\n$$"
+    },
+    {
+      "id": 196,
+      "a": 3251,
+      "b": 2383,
+      "target": "7747133",
+      "predicted": "7763433",
+      "correct": false,
+      "response": "7763433}\n$$"
+    },
+    {
+      "id": 197,
+      "a": 8867,
+      "b": 3347,
+      "target": "29677849",
+      "predicted": "8867",
+      "correct": false,
+      "response": "8867 \\times 3347 = 2967389"
+    },
+    {
+      "id": 198,
+      "a": 2879,
+      "b": 1249,
+      "target": "3595871",
+      "predicted": "3594123",
+      "correct": false,
+      "response": "3594123}\n$$"
+    },
+    {
+      "id": 199,
+      "a": 3697,
+      "b": 7211,
+      "target": "26659067",
+      "predicted": "26636267",
+      "correct": false,
+      "response": "26636267}\n$$"
+    },
+    {
+      "id": 200,
+      "a": 6263,
+      "b": 9623,
+      "target": "60268849",
+      "predicted": "5999989",
+      "correct": false,
+      "response": "5999989}\n$$"
+    },
+    {
+      "id": 201,
+      "a": 4751,
+      "b": 4259,
+      "target": "20234509",
+      "predicted": "20283101",
+      "correct": false,
+      "response": "20283101}\n$$"
+    },
+    {
+      "id": 202,
+      "a": 9623,
+      "b": 7591,
+      "target": "73048193",
+      "predicted": "7293113",
+      "correct": false,
+      "response": "7293113}\n$$"
+    },
+    {
+      "id": 203,
+      "a": 5857,
+      "b": 8237,
+      "target": "48244109",
+      "predicted": "48131069",
+      "correct": false,
+      "response": "48131069}\n$$"
+    },
+    {
+      "id": 204,
+      "a": 2521,
+      "b": 7213,
+      "target": "18183973",
+      "predicted": "18183653",
+      "correct": false,
+      "response": "18183653}\n$$"
+    },
+    {
+      "id": 205,
+      "a": 9323,
+      "b": 9871,
+      "target": "92027333",
+      "predicted": "91976113",
+      "correct": false,
+      "response": "91976113}\n$$"
+    },
+    {
+      "id": 206,
+      "a": 6733,
+      "b": 9851,
+      "target": "66326783",
+      "predicted": "66461183",
+      "correct": false,
+      "response": "66461183}\n$$"
+    },
+    {
+      "id": 207,
+      "a": 8009,
+      "b": 2003,
+      "target": "16042027",
+      "predicted": "16044027",
+      "correct": false,
+      "response": "16044027}\n$$"
+    },
+    {
+      "id": 208,
+      "a": 4229,
+      "b": 6173,
+      "target": "26105617",
+      "predicted": "26073343",
+      "correct": false,
+      "response": "26073343}\n$$"
+    },
+    {
+      "id": 209,
+      "a": 1193,
+      "b": 9439,
+      "target": "11260727",
+      "predicted": "11291047",
+      "correct": false,
+      "response": "11291047}\n$$"
+    },
+    {
+      "id": 210,
+      "a": 2551,
+      "b": 3547,
+      "target": "9048397",
+      "predicted": "9016077",
+      "correct": false,
+      "response": "9016077}\n$$"
+    },
+    {
+      "id": 211,
+      "a": 4231,
+      "b": 2791,
+      "target": "11808721",
+      "predicted": "11833081",
+      "correct": false,
+      "response": "11833081}\n$$"
+    },
+    {
+      "id": 212,
+      "a": 4523,
+      "b": 8663,
+      "target": "39182749",
+      "predicted": "39273309",
+      "correct": false,
+      "response": "39273309}\n$$"
+    },
+    {
+      "id": 213,
+      "a": 2111,
+      "b": 4759,
+      "target": "10046249",
+      "predicted": "10043361",
+      "correct": false,
+      "response": "10043361}\n$$"
+    },
+    {
+      "id": 214,
+      "a": 9349,
+      "b": 6163,
+      "target": "57617887",
+      "predicted": "57561287",
+      "correct": false,
+      "response": "57561287}\n$$"
+    },
+    {
+      "id": 215,
+      "a": 8623,
+      "b": 7411,
+      "target": "63905053",
+      "predicted": "6383263",
+      "correct": false,
+      "response": "6383263}\n$$"
+    },
+    {
+      "id": 216,
+      "a": 8089,
+      "b": 9133,
+      "target": "73876837",
+      "predicted": "73771337",
+      "correct": false,
+      "response": "73771337}\n$$"
+    },
+    {
+      "id": 217,
+      "a": 3271,
+      "b": 1871,
+      "target": "6120041",
+      "predicted": "6113141",
+      "correct": false,
+      "response": "6113141}\n$$"
+    },
+    {
+      "id": 218,
+      "a": 1399,
+      "b": 5827,
+      "target": "8151973",
+      "predicted": "8143123",
+      "correct": false,
+      "response": "8143123}\n$$"
+    },
+    {
+      "id": 219,
+      "a": 8563,
+      "b": 6299,
+      "target": "53938337",
+      "predicted": "53999487",
+      "correct": false,
+      "response": "53999487}\n$$"
+    },
+    {
+      "id": 220,
+      "a": 2089,
+      "b": 9479,
+      "target": "19801631",
+      "predicted": "19797431",
+      "correct": false,
+      "response": "19797431}\n$$"
+    },
+    {
+      "id": 221,
+      "a": 1487,
+      "b": 8641,
+      "target": "12849167",
+      "predicted": "12837407",
+      "correct": false,
+      "response": "12837407}\n$$"
+    },
+    {
+      "id": 222,
+      "a": 8867,
+      "b": 9551,
+      "target": "84688717",
+      "predicted": "84613117",
+      "correct": false,
+      "response": "84613117}\n$$"
+    },
+    {
+      "id": 223,
+      "a": 6637,
+      "b": 2939,
+      "target": "19506143",
+      "predicted": "19453043",
+      "correct": false,
+      "response": "19453043}\n$$"
+    },
+    {
+      "id": 224,
+      "a": 1583,
+      "b": 9739,
+      "target": "15416837",
+      "predicted": "15463117",
+      "correct": false,
+      "response": "15463117}\n$$"
+    },
+    {
+      "id": 225,
+      "a": 2129,
+      "b": 3541,
+      "target": "7538789",
+      "predicted": "7553189",
+      "correct": false,
+      "response": "7553189}\n$$"
+    },
+    {
+      "id": 226,
+      "a": 3709,
+      "b": 6473,
+      "target": "24008357",
+      "predicted": "24000173",
+      "correct": false,
+      "response": "24000173}\n$$"
+    },
+    {
+      "id": 227,
+      "a": 3929,
+      "b": 7307,
+      "target": "28709203",
+      "predicted": "28673533",
+      "correct": false,
+      "response": "28673533}\n$$"
+    },
+    {
+      "id": 228,
+      "a": 9007,
+      "b": 2851,
+      "target": "25678957",
+      "predicted": "2567357",
+      "correct": false,
+      "response": "2567357}\n$$"
+    },
+    {
+      "id": 229,
+      "a": 3023,
+      "b": 7349,
+      "target": "22216027",
+      "predicted": "22161177",
+      "correct": false,
+      "response": "22161177}\n$$"
+    },
+    {
+      "id": 230,
+      "a": 5431,
+      "b": 5801,
+      "target": "31505231",
+      "predicted": "31496141",
+      "correct": false,
+      "response": "31496141}\n$$"
+    },
+    {
+      "id": 231,
+      "a": 1567,
+      "b": 4789,
+      "target": "7504363",
+      "predicted": "7496363",
+      "correct": false,
+      "response": "7496363}\n$$"
+    },
+    {
+      "id": 232,
+      "a": 8297,
+      "b": 4483,
+      "target": "37195451",
+      "predicted": "37163111",
+      "correct": false,
+      "response": "37163111}\n$$"
+    },
+    {
+      "id": 233,
+      "a": 1307,
+      "b": 1063,
+      "target": "1389341",
+      "predicted": "1386241",
+      "correct": false,
+      "response": "1386241}\n$$"
+    },
+    {
+      "id": 234,
+      "a": 8581,
+      "b": 6827,
+      "target": "58582487",
+      "predicted": "58763387",
+      "correct": false,
+      "response": "58763387}\n$$"
+    },
+    {
+      "id": 235,
+      "a": 6563,
+      "b": 4261,
+      "target": "27964943",
+      "predicted": "28000000",
+      "correct": false,
+      "response": "28000000}\n$$"
+    },
+    {
+      "id": 236,
+      "a": 8821,
+      "b": 8353,
+      "target": "73681813",
+      "predicted": "73601313",
+      "correct": false,
+      "response": "73601313}\n$$"
+    },
+    {
+      "id": 237,
+      "a": 1693,
+      "b": 6287,
+      "target": "10643891",
+      "predicted": "10636111",
+      "correct": false,
+      "response": "10636111}\n$$"
+    },
+    {
+      "id": 238,
+      "a": 9041,
+      "b": 3011,
+      "target": "27222451",
+      "predicted": "27213851",
+      "correct": false,
+      "response": "27213851}\n$$"
+    },
+    {
+      "id": 239,
+      "a": 3307,
+      "b": 3823,
+      "target": "12642661",
+      "predicted": "12663161",
+      "correct": false,
+      "response": "12663161}\n$$"
+    },
+    {
+      "id": 240,
+      "a": 8209,
+      "b": 6581,
+      "target": "54023429",
+      "predicted": "54061281",
+      "correct": false,
+      "response": "54061281}\n$$"
+    },
+    {
+      "id": 241,
+      "a": 9371,
+      "b": 9629,
+      "target": "90233359",
+      "predicted": "90131509",
+      "correct": false,
+      "response": "90131509}\n$$"
+    },
+    {
+      "id": 242,
+      "a": 9697,
+      "b": 8783,
+      "target": "85168751",
+      "predicted": "8497611",
+      "correct": false,
+      "response": "8497611}\n$$"
+    },
+    {
+      "id": 243,
+      "a": 6133,
+      "b": 8623,
+      "target": "52884859",
+      "predicted": "52833599",
+      "correct": false,
+      "response": "52833599}\n$$"
+    },
+    {
+      "id": 244,
+      "a": 1543,
+      "b": 5927,
+      "target": "9145361",
+      "predicted": "8557111",
+      "correct": false,
+      "response": "8557111}\n$$"
+    },
+    {
+      "id": 245,
+      "a": 2971,
+      "b": 6793,
+      "target": "20182003",
+      "predicted": "20210647",
+      "correct": false,
+      "response": "20210647}\n$$"
+    },
+    {
+      "id": 246,
+      "a": 7283,
+      "b": 5653,
+      "target": "41170799",
+      "predicted": "40934359",
+      "correct": false,
+      "response": "40934359}\n$$"
+    },
+    {
+      "id": 247,
+      "a": 2777,
+      "b": 4493,
+      "target": "12477061",
+      "predicted": "12490661",
+      "correct": false,
+      "response": "12490661}\n$$"
+    },
+    {
+      "id": 248,
+      "a": 1801,
+      "b": 6551,
+      "target": "11798351",
+      "predicted": "11818551",
+      "correct": false,
+      "response": "11818551}\n$$"
+    },
+    {
+      "id": 249,
+      "a": 2957,
+      "b": 1291,
+      "target": "3817487",
+      "predicted": "3817127",
+      "correct": false,
+      "response": "3817127}\n$$"
+    },
+    {
+      "id": 250,
+      "a": 3659,
+      "b": 2591,
+      "target": "9480469",
+      "predicted": "9473149",
+      "correct": false,
+      "response": "9473149}\n$$"
+    },
+    {
+      "id": 251,
+      "a": 8527,
+      "b": 4363,
+      "target": "37203301",
+      "predicted": "37191351",
+      "correct": false,
+      "response": "37191351}\n$$"
+    },
+    {
+      "id": 252,
+      "a": 1151,
+      "b": 9283,
+      "target": "10684733",
+      "predicted": "10696433",
+      "correct": false,
+      "response": "10696433}\n$$"
+    },
+    {
+      "id": 253,
+      "a": 6199,
+      "b": 9883,
+      "target": "61264717",
+      "predicted": "61271237",
+      "correct": false,
+      "response": "61271237}\n$$"
+    },
+    {
+      "id": 254,
+      "a": 9871,
+      "b": 4349,
+      "target": "42928979",
+      "predicted": "4281373",
+      "correct": false,
+      "response": "4281373}\n$$"
+    },
+    {
+      "id": 255,
+      "a": 3163,
+      "b": 1237,
+      "target": "3912631",
+      "predicted": "3916021",
+      "correct": false,
+      "response": "3916021}\n$$"
+    },
+    {
+      "id": 256,
+      "a": 2459,
+      "b": 6581,
+      "target": "16182679",
+      "predicted": "16153169",
+      "correct": false,
+      "response": "16153169}\n$$"
+    },
+    {
+      "id": 257,
+      "a": 9391,
+      "b": 5869,
+      "target": "55115779",
+      "predicted": "5511391",
+      "correct": false,
+      "response": "5511391}\n$$"
+    },
+    {
+      "id": 258,
+      "a": 3023,
+      "b": 5227,
+      "target": "15801221",
+      "predicted": "15791181",
+      "correct": false,
+      "response": "15791181}\n$$"
+    },
+    {
+      "id": 259,
+      "a": 6029,
+      "b": 6121,
+      "target": "36903509",
+      "predicted": "36876309",
+      "correct": false,
+      "response": "36876309}\n$$"
+    },
+    {
+      "id": 260,
+      "a": 5443,
+      "b": 3089,
+      "target": "16813427",
+      "predicted": "16773687",
+      "correct": false,
+      "response": "16773687}\n$$"
+    },
+    {
+      "id": 261,
+      "a": 2267,
+      "b": 2129,
+      "target": "4826443",
+      "predicted": "4823383",
+      "correct": false,
+      "response": "4823383}\n$$"
+    },
+    {
+      "id": 262,
+      "a": 4391,
+      "b": 9283,
+      "target": "40761653",
+      "predicted": "40713153",
+      "correct": false,
+      "response": "40713153}\n$$"
+    },
+    {
+      "id": 263,
+      "a": 4507,
+      "b": 2053,
+      "target": "9252871",
+      "predicted": "9246121",
+      "correct": false,
+      "response": "9246121}\n$$"
+    },
+    {
+      "id": 264,
+      "a": 2819,
+      "b": 6079,
+      "target": "17136701",
+      "predicted": "17113401",
+      "correct": false,
+      "response": "17113401}\n$$"
+    },
+    {
+      "id": 265,
+      "a": 3499,
+      "b": 4751,
+      "target": "16623749",
+      "predicted": "16603449",
+      "correct": false,
+      "response": "16603449}\n$$"
+    },
+    {
+      "id": 266,
+      "a": 2273,
+      "b": 8537,
+      "target": "19404601",
+      "predicted": "19407101",
+      "correct": false,
+      "response": "19407101}\n$$"
+    },
+    {
+      "id": 267,
+      "a": 3529,
+      "b": 8731,
+      "target": "30811699",
+      "predicted": "3073309",
+      "correct": false,
+      "response": "3073309}\n$$"
+    },
+    {
+      "id": 268,
+      "a": 1669,
+      "b": 5081,
+      "target": "8480189",
+      "predicted": "8463619",
+      "correct": false,
+      "response": "8463619}\n$$"
+    },
+    {
+      "id": 269,
+      "a": 1873,
+      "b": 7369,
+      "target": "13802137",
+      "predicted": "13710163",
+      "correct": false,
+      "response": "13710163}\n$$"
+    },
+    {
+      "id": 270,
+      "a": 6091,
+      "b": 7703,
+      "target": "46918973",
+      "predicted": "46917773",
+      "correct": false,
+      "response": "46917773}\n$$"
+    },
+    {
+      "id": 271,
+      "a": 8369,
+      "b": 9041,
+      "target": "75664129",
+      "predicted": "75663109",
+      "correct": false,
+      "response": "75663109}\n$$"
+    },
+    {
+      "id": 272,
+      "a": 5527,
+      "b": 8011,
+      "target": "44276797",
+      "predicted": "44276197",
+      "correct": false,
+      "response": "44276197}\n$$"
+    },
+    {
+      "id": 273,
+      "a": 1993,
+      "b": 5237,
+      "target": "10437341",
+      "predicted": "10436899",
+      "correct": false,
+      "response": "10436899}\n$$"
+    },
+    {
+      "id": 274,
+      "a": 4547,
+      "b": 7753,
+      "target": "35252891",
+      "predicted": "35213111",
+      "correct": false,
+      "response": "35213111}\n$$"
+    },
+    {
+      "id": 275,
+      "a": 9719,
+      "b": 1049,
+      "target": "10195231",
+      "predicted": "10180281",
+      "correct": false,
+      "response": "10180281}\n$$"
+    },
+    {
+      "id": 276,
+      "a": 2417,
+      "b": 1223,
+      "target": "2955991",
+      "predicted": "2957691",
+      "correct": false,
+      "response": "2957691}\n$$"
+    },
+    {
+      "id": 277,
+      "a": 9187,
+      "b": 4129,
+      "target": "37933123",
+      "predicted": "3793333",
+      "correct": false,
+      "response": "3793333}\n$$"
+    },
+    {
+      "id": 278,
+      "a": 5273,
+      "b": 4391,
+      "target": "23153743",
+      "predicted": "23110003",
+      "correct": false,
+      "response": "23110003}\n$$"
+    },
+    {
+      "id": 279,
+      "a": 7559,
+      "b": 1433,
+      "target": "10832047",
+      "predicted": "10820447",
+      "correct": false,
+      "response": "10820447}\n$$"
+    },
+    {
+      "id": 280,
+      "a": 8243,
+      "b": 4273,
+      "target": "35222339",
+      "predicted": "35213119",
+      "correct": false,
+      "response": "35213119}\n$$"
+    },
+    {
+      "id": 281,
+      "a": 9277,
+      "b": 9829,
+      "target": "91183633",
+      "predicted": "91161553",
+      "correct": false,
+      "response": "91161553}\n$$"
+    },
+    {
+      "id": 282,
+      "a": 7499,
+      "b": 2129,
+      "target": "15965371",
+      "predicted": "15910801",
+      "correct": false,
+      "response": "15910801}\n$$"
+    },
+    {
+      "id": 283,
+      "a": 3167,
+      "b": 9059,
+      "target": "28689853",
+      "predicted": "28697383",
+      "correct": false,
+      "response": "28697383}\n$$"
+    },
+    {
+      "id": 284,
+      "a": 8669,
+      "b": 1129,
+      "target": "9787301",
+      "predicted": "9766301",
+      "correct": false,
+      "response": "9766301}\n$$"
+    },
+    {
+      "id": 285,
+      "a": 9833,
+      "b": 9733,
+      "target": "95704589",
+      "predicted": "9583309",
+      "correct": false,
+      "response": "9583309}\n$$"
+    },
+    {
+      "id": 286,
+      "a": 8273,
+      "b": 9001,
+      "target": "74465273",
+      "predicted": "7448273",
+      "correct": false,
+      "response": "7448273}\n$$"
+    },
+    {
+      "id": 287,
+      "a": 6067,
+      "b": 6311,
+      "target": "38288837",
+      "predicted": "38273137",
+      "correct": false,
+      "response": "38273137}\n$$"
+    },
+    {
+      "id": 288,
+      "a": 1847,
+      "b": 9497,
+      "target": "17540959",
+      "predicted": "17513559",
+      "correct": false,
+      "response": "17513559}\n$$"
+    },
+    {
+      "id": 289,
+      "a": 3911,
+      "b": 2143,
+      "target": "8381273",
+      "predicted": "8371373",
+      "correct": false,
+      "response": "8371373}\n$$"
+    },
+    {
+      "id": 290,
+      "a": 8699,
+      "b": 1361,
+      "target": "11839339",
+      "predicted": "11836189",
+      "correct": false,
+      "response": "11836189}\n$$"
+    },
+    {
+      "id": 291,
+      "a": 8369,
+      "b": 5107,
+      "target": "42740483",
+      "predicted": "4269653",
+      "correct": false,
+      "response": "4269653}\n$$"
+    },
+    {
+      "id": 292,
+      "a": 5333,
+      "b": 1307,
+      "target": "6970231",
+      "predicted": "6973331",
+      "correct": false,
+      "response": "6973331}\n$$"
+    },
+    {
+      "id": 293,
+      "a": 9137,
+      "b": 1109,
+      "target": "10132933",
+      "predicted": "10116133",
+      "correct": false,
+      "response": "10116133}\n$$"
+    },
+    {
+      "id": 294,
+      "a": 5531,
+      "b": 3359,
+      "target": "18578629",
+      "predicted": "18583429",
+      "correct": false,
+      "response": "18583429}\n$$"
+    },
+    {
+      "id": 295,
+      "a": 6323,
+      "b": 1381,
+      "target": "8732063",
+      "predicted": "8766163",
+      "correct": false,
+      "response": "8766163}\n$$"
+    },
+    {
+      "id": 296,
+      "a": 1913,
+      "b": 1931,
+      "target": "3694003",
+      "predicted": "3696863",
+      "correct": false,
+      "response": "3696863}\n$$"
+    },
+    {
+      "id": 297,
+      "a": 5939,
+      "b": 5923,
+      "target": "35176697",
+      "predicted": "3526377",
+      "correct": false,
+      "response": "3526377}\n$$"
+    },
+    {
+      "id": 298,
+      "a": 5023,
+      "b": 8191,
+      "target": "41143393",
+      "predicted": "4107113",
+      "correct": false,
+      "response": "4107113}\n$$"
+    },
+    {
+      "id": 299,
+      "a": 7559,
+      "b": 6133,
+      "target": "46359347",
+      "predicted": "46431481",
+      "correct": false,
+      "response": "46431481}\n$$"
+    },
+    {
+      "id": 300,
+      "a": 9413,
+      "b": 4871,
+      "target": "45850723",
+      "predicted": "45813643",
+      "correct": false,
+      "response": "45813643}\n$$"
+    },
+    {
+      "id": 301,
+      "a": 2939,
+      "b": 8803,
+      "target": "25872017",
+      "predicted": "25846117",
+      "correct": false,
+      "response": "25846117}\n$$"
+    },
+    {
+      "id": 302,
+      "a": 7853,
+      "b": 3533,
+      "target": "27744649",
+      "predicted": "27763889",
+      "correct": false,
+      "response": "27763889}\n$$"
+    },
+    {
+      "id": 303,
+      "a": 7499,
+      "b": 1367,
+      "target": "10251133",
+      "predicted": "10243333",
+      "correct": false,
+      "response": "10243333}\n$$"
+    },
+    {
+      "id": 304,
+      "a": 9929,
+      "b": 1381,
+      "target": "13711949",
+      "predicted": "1376309",
+      "correct": false,
+      "response": "1376309}\n$$"
+    },
+    {
+      "id": 305,
+      "a": 5081,
+      "b": 6089,
+      "target": "30938209",
+      "predicted": "30917009",
+      "correct": false,
+      "response": "30917009}\n$$"
+    },
+    {
+      "id": 306,
+      "a": 1123,
+      "b": 5399,
+      "target": "6063077",
+      "predicted": "6047707",
+      "correct": false,
+      "response": "6047707}\n$$"
+    },
+    {
+      "id": 307,
+      "a": 3541,
+      "b": 2423,
+      "target": "8579843",
+      "predicted": "8573643",
+      "correct": false,
+      "response": "8573643}\n$$"
+    },
+    {
+      "id": 308,
+      "a": 7517,
+      "b": 6833,
+      "target": "51363661",
+      "predicted": "51471161",
+      "correct": false,
+      "response": "51471161}\n$$"
+    },
+    {
+      "id": 309,
+      "a": 3271,
+      "b": 1619,
+      "target": "5295749",
+      "predicted": "528013",
+      "correct": false,
+      "response": "528013}\n$$"
+    },
+    {
+      "id": 310,
+      "a": 7333,
+      "b": 7933,
+      "target": "58172689",
+      "predicted": "58133689",
+      "correct": false,
+      "response": "58133689}\n$$"
+    },
+    {
+      "id": 311,
+      "a": 6991,
+      "b": 1723,
+      "target": "12045493",
+      "predicted": "12013693",
+      "correct": false,
+      "response": "12013693}\n$$"
+    },
+    {
+      "id": 312,
+      "a": 5827,
+      "b": 4003,
+      "target": "23325481",
+      "predicted": "23333801",
+      "correct": false,
+      "response": "23333801}\n$$"
+    },
+    {
+      "id": 313,
+      "a": 5569,
+      "b": 1373,
+      "target": "7646237",
+      "predicted": "7647187",
+      "correct": false,
+      "response": "7647187}\n$$"
+    },
+    {
+      "id": 314,
+      "a": 4517,
+      "b": 6781,
+      "target": "30629777",
+      "predicted": "30612317",
+      "correct": false,
+      "response": "30612317}\n$$"
+    },
+    {
+      "id": 315,
+      "a": 4339,
+      "b": 6203,
+      "target": "26914817",
+      "predicted": "26923117",
+      "correct": false,
+      "response": "26923117}\n$$"
+    },
+    {
+      "id": 316,
+      "a": 8849,
+      "b": 4723,
+      "target": "41793827",
+      "predicted": "41736277",
+      "correct": false,
+      "response": "41736277}\n$$"
+    },
+    {
+      "id": 317,
+      "a": 1039,
+      "b": 2777,
+      "target": "2885303",
+      "predicted": "2877163",
+      "correct": false,
+      "response": "2877163}\n$$"
+    },
+    {
+      "id": 318,
+      "a": 8011,
+      "b": 4663,
+      "target": "37355293",
+      "predicted": "37391133",
+      "correct": false,
+      "response": "37391133}\n$$"
+    },
+    {
+      "id": 319,
+      "a": 6133,
+      "b": 4457,
+      "target": "27334781",
+      "predicted": "2733341",
+      "correct": false,
+      "response": "2733341}\n$$"
+    },
+    {
+      "id": 320,
+      "a": 1571,
+      "b": 7867,
+      "target": "12359057",
+      "predicted": "12345667",
+      "correct": false,
+      "response": "12345667}\n$$"
+    },
+    {
+      "id": 321,
+      "a": 4973,
+      "b": 6389,
+      "target": "31772497",
+      "predicted": "31713747",
+      "correct": false,
+      "response": "31713747}\n$$"
+    },
+    {
+      "id": 322,
+      "a": 5501,
+      "b": 6829,
+      "target": "37566329",
+      "predicted": "37766229",
+      "correct": false,
+      "response": "37766229}\n$$"
+    },
+    {
+      "id": 323,
+      "a": 1459,
+      "b": 5659,
+      "target": "8256481",
+      "predicted": "8233141",
+      "correct": false,
+      "response": "8233141}\n$$"
+    },
+    {
+      "id": 324,
+      "a": 6719,
+      "b": 7691,
+      "target": "51675829",
+      "predicted": "51613001",
+      "correct": false,
+      "response": "51613001}\n$$"
+    },
+    {
+      "id": 325,
+      "a": 4457,
+      "b": 3259,
+      "target": "14525363",
+      "predicted": "14513183",
+      "correct": false,
+      "response": "14513183}\n$$"
+    },
+    {
+      "id": 326,
+      "a": 1249,
+      "b": 7193,
+      "target": "8984057",
+      "predicted": "9000000",
+      "correct": false,
+      "response": "9000000}\n$$"
+    },
+    {
+      "id": 327,
+      "a": 6397,
+      "b": 8563,
+      "target": "54777511",
+      "predicted": "54771111",
+      "correct": false,
+      "response": "54771111}\n$$"
+    },
+    {
+      "id": 328,
+      "a": 5813,
+      "b": 2663,
+      "target": "15480019",
+      "predicted": "15490339",
+      "correct": false,
+      "response": "15490339}\n$$"
+    },
+    {
+      "id": 329,
+      "a": 8707,
+      "b": 1453,
+      "target": "12651271",
+      "predicted": "8707",
+      "correct": false,
+      "response": "8707 \\times 1453 = 1266337"
+    },
+    {
+      "id": 330,
+      "a": 6949,
+      "b": 7559,
+      "target": "52527491",
+      "predicted": "52513401",
+      "correct": false,
+      "response": "52513401}\n$$"
+    },
+    {
+      "id": 331,
+      "a": 5399,
+      "b": 1931,
+      "target": "10425469",
+      "predicted": "10413689",
+      "correct": false,
+      "response": "10413689}\n$$"
+    },
+    {
+      "id": 332,
+      "a": 6131,
+      "b": 1097,
+      "target": "6725707",
+      "predicted": "6729607",
+      "correct": false,
+      "response": "6729607}\n$$"
+    },
+    {
+      "id": 333,
+      "a": 9929,
+      "b": 2719,
+      "target": "26996951",
+      "predicted": "27100651",
+      "correct": false,
+      "response": "27100651}\n$$"
+    },
+    {
+      "id": 334,
+      "a": 5417,
+      "b": 3769,
+      "target": "20416673",
+      "predicted": "20437173",
+      "correct": false,
+      "response": "20437173}\n$$"
+    },
+    {
+      "id": 335,
+      "a": 5413,
+      "b": 6473,
+      "target": "35038349",
+      "predicted": "35071109",
+      "correct": false,
+      "response": "35071109}\n$$"
+    },
+    {
+      "id": 336,
+      "a": 2683,
+      "b": 3911,
+      "target": "10493213",
+      "predicted": "10503933",
+      "correct": false,
+      "response": "10503933}\n$$"
+    },
+    {
+      "id": 337,
+      "a": 1907,
+      "b": 3181,
+      "target": "6066167",
+      "predicted": "6056447",
+      "correct": false,
+      "response": "6056447}\n$$"
+    },
+    {
+      "id": 338,
+      "a": 5987,
+      "b": 4861,
+      "target": "29102807",
+      "predicted": "29073007",
+      "correct": false,
+      "response": "29073007}\n$$"
+    },
+    {
+      "id": 339,
+      "a": 4079,
+      "b": 3851,
+      "target": "15708229",
+      "predicted": "15700645",
+      "correct": false,
+      "response": "15700645}\n$$"
+    },
+    {
+      "id": 340,
+      "a": 1049,
+      "b": 1951,
+      "target": "2046599",
+      "predicted": "2045049",
+      "correct": false,
+      "response": "2045049}\n$$"
+    },
+    {
+      "id": 341,
+      "a": 3517,
+      "b": 8461,
+      "target": "29757337",
+      "predicted": "3517",
+      "correct": false,
+      "response": "3517 \\times 8461 = 2976613"
+    },
+    {
+      "id": 342,
+      "a": 9857,
+      "b": 5059,
+      "target": "49866563",
+      "predicted": "5000000",
+      "correct": false,
+      "response": "5000000}\n$$"
+    },
+    {
+      "id": 343,
+      "a": 5737,
+      "b": 3089,
+      "target": "17721593",
+      "predicted": "17683633",
+      "correct": false,
+      "response": "17683633}\n$$"
+    },
+    {
+      "id": 344,
+      "a": 7043,
+      "b": 8501,
+      "target": "59872543",
+      "predicted": "59893043",
+      "correct": false,
+      "response": "59893043}\n$$"
+    },
+    {
+      "id": 345,
+      "a": 2969,
+      "b": 8017,
+      "target": "23802473",
+      "predicted": "23791673",
+      "correct": false,
+      "response": "23791673}\n$$"
+    },
+    {
+      "id": 346,
+      "a": 5483,
+      "b": 6833,
+      "target": "37465339",
+      "predicted": "37533559",
+      "correct": false,
+      "response": "37533559}\n$$"
+    },
+    {
+      "id": 347,
+      "a": 8929,
+      "b": 2179,
+      "target": "19456291",
+      "predicted": "19413001",
+      "correct": false,
+      "response": "19413001}\n$$"
+    },
+    {
+      "id": 348,
+      "a": 5711,
+      "b": 1087,
+      "target": "6207857",
+      "predicted": "6190457",
+      "correct": false,
+      "response": "6190457}\n$$"
+    },
+    {
+      "id": 349,
+      "a": 4861,
+      "b": 5309,
+      "target": "25807049",
+      "predicted": "25816041",
+      "correct": false,
+      "response": "25816041}\n$$"
+    },
+    {
+      "id": 350,
+      "a": 9431,
+      "b": 7001,
+      "target": "66026431",
+      "predicted": "66023431",
+      "correct": false,
+      "response": "66023431}\n$$"
+    },
+    {
+      "id": 351,
+      "a": 6247,
+      "b": 6791,
+      "target": "42423377",
+      "predicted": "42531327",
+      "correct": false,
+      "response": "42531327}\n$$"
+    },
+    {
+      "id": 352,
+      "a": 7487,
+      "b": 1889,
+      "target": "14142943",
+      "predicted": "14033143",
+      "correct": false,
+      "response": "14033143}\n$$"
+    },
+    {
+      "id": 353,
+      "a": 4447,
+      "b": 3889,
+      "target": "17294383",
+      "predicted": "17253183",
+      "correct": false,
+      "response": "17253183}\n$$"
+    },
+    {
+      "id": 354,
+      "a": 7673,
+      "b": 1181,
+      "target": "9061813",
+      "predicted": "8999133",
+      "correct": false,
+      "response": "8999133}\n$$"
+    },
+    {
+      "id": 355,
+      "a": 8287,
+      "b": 1223,
+      "target": "10135001",
+      "predicted": "10133001",
+      "correct": false,
+      "response": "10133001}\n$$"
+    },
+    {
+      "id": 356,
+      "a": 1303,
+      "b": 7933,
+      "target": "10336699",
+      "predicted": "10370799",
+      "correct": false,
+      "response": "10370799}\n$$"
+    },
+    {
+      "id": 357,
+      "a": 4649,
+      "b": 7393,
+      "target": "34370057",
+      "predicted": "34371177",
+      "correct": false,
+      "response": "34371177}\n$$"
+    },
+    {
+      "id": 358,
+      "a": 3299,
+      "b": 6211,
+      "target": "20490089",
+      "predicted": "20463889",
+      "correct": false,
+      "response": "20463889}\n$$"
+    },
+    {
+      "id": 359,
+      "a": 2971,
+      "b": 8423,
+      "target": "25024733",
+      "predicted": "2971",
+      "correct": false,
+      "response": "2971 \\times 8423 = 2499943"
+    },
+    {
+      "id": 360,
+      "a": 2963,
+      "b": 1229,
+      "target": "3641527",
+      "predicted": "3637367",
+      "correct": false,
+      "response": "3637367}\n$$"
+    },
+    {
+      "id": 361,
+      "a": 1877,
+      "b": 8761,
+      "target": "16444397",
+      "predicted": "16427197",
+      "correct": false,
+      "response": "16427197}\n$$"
+    },
+    {
+      "id": 362,
+      "a": 2207,
+      "b": 2297,
+      "target": "5069479",
+      "predicted": "5073879",
+      "correct": false,
+      "response": "5073879}\n$$"
+    },
+    {
+      "id": 363,
+      "a": 1871,
+      "b": 1997,
+      "target": "3736387",
+      "predicted": "373559",
+      "correct": false,
+      "response": "373559}\n$$"
+    },
+    {
+      "id": 364,
+      "a": 6323,
+      "b": 8431,
+      "target": "53309213",
+      "predicted": "53371213",
+      "correct": false,
+      "response": "53371213}\n$$"
+    },
+    {
+      "id": 365,
+      "a": 7649,
+      "b": 9151,
+      "target": "69995999",
+      "predicted": "7000000",
+      "correct": false,
+      "response": "7000000 + 600000 + 400"
+    },
+    {
+      "id": 366,
+      "a": 5867,
+      "b": 7547,
+      "target": "44278249",
+      "predicted": "44377189",
+      "correct": false,
+      "response": "44377189}\n$$"
+    },
+    {
+      "id": 367,
+      "a": 8969,
+      "b": 1693,
+      "target": "15184517",
+      "predicted": "15193693",
+      "correct": false,
+      "response": "15193693}\n$$"
+    },
+    {
+      "id": 368,
+      "a": 7933,
+      "b": 5419,
+      "target": "42988927",
+      "predicted": "42903417",
+      "correct": false,
+      "response": "42903417}\n$$"
+    },
+    {
+      "id": 369,
+      "a": 5591,
+      "b": 9283,
+      "target": "51901253",
+      "predicted": "51837153",
+      "correct": false,
+      "response": "51837153}\n$$"
+    },
+    {
+      "id": 370,
+      "a": 3221,
+      "b": 8831,
+      "target": "28444651",
+      "predicted": "28363031",
+      "correct": false,
+      "response": "28363031}\n$$"
+    },
+    {
+      "id": 371,
+      "a": 4591,
+      "b": 4549,
+      "target": "20884459",
+      "predicted": "20893659",
+      "correct": false,
+      "response": "20893659}\n$$"
+    },
+    {
+      "id": 372,
+      "a": 5303,
+      "b": 8039,
+      "target": "42630817",
+      "predicted": "42667217",
+      "correct": false,
+      "response": "42667217}\n$$"
+    },
+    {
+      "id": 373,
+      "a": 9283,
+      "b": 6791,
+      "target": "63040853",
+      "predicted": "6307121",
+      "correct": false,
+      "response": "6307121}\n$$"
+    },
+    {
+      "id": 374,
+      "a": 1429,
+      "b": 3011,
+      "target": "4302719",
+      "predicted": "4299629",
+      "correct": false,
+      "response": "4299629}\n$$"
+    },
+    {
+      "id": 375,
+      "a": 4019,
+      "b": 7901,
+      "target": "31754119",
+      "predicted": "3178619",
+      "correct": false,
+      "response": "3178619}\n$$"
+    },
+    {
+      "id": 376,
+      "a": 2063,
+      "b": 9001,
+      "target": "18569063",
+      "predicted": "18569063",
+      "correct": true,
+      "response": "18569063}\n$$"
+    },
+    {
+      "id": 377,
+      "a": 2411,
+      "b": 1619,
+      "target": "3903409",
+      "predicted": "3897609",
+      "correct": false,
+      "response": "3897609}\n$$"
+    },
+    {
+      "id": 378,
+      "a": 7927,
+      "b": 3373,
+      "target": "26737771",
+      "predicted": "26693111",
+      "correct": false,
+      "response": "26693111}\n$$"
+    },
+    {
+      "id": 379,
+      "a": 3769,
+      "b": 1627,
+      "target": "6132163",
+      "predicted": "6116163",
+      "correct": false,
+      "response": "6116163}\n$$"
+    },
+    {
+      "id": 380,
+      "a": 1367,
+      "b": 2411,
+      "target": "3295837",
+      "predicted": "3297157",
+      "correct": false,
+      "response": "3297157}\n$$"
+    },
+    {
+      "id": 381,
+      "a": 1511,
+      "b": 2819,
+      "target": "4259509",
+      "predicted": "4263109",
+      "correct": false,
+      "response": "4263109}\n$$"
+    },
+    {
+      "id": 382,
+      "a": 3989,
+      "b": 1013,
+      "target": "4040857",
+      "predicted": "4038747",
+      "correct": false,
+      "response": "4038747}\n$$"
+    },
+    {
+      "id": 383,
+      "a": 8831,
+      "b": 4447,
+      "target": "39271457",
+      "predicted": "39373307",
+      "correct": false,
+      "response": "39373307}\n$$"
+    },
+    {
+      "id": 384,
+      "a": 8747,
+      "b": 2269,
+      "target": "19846943",
+      "predicted": "19813393",
+      "correct": false,
+      "response": "19813393}\n$$"
+    },
+    {
+      "id": 385,
+      "a": 5443,
+      "b": 6563,
+      "target": "35722409",
+      "predicted": "35713309",
+      "correct": false,
+      "response": "35713309}\n$$"
+    },
+    {
+      "id": 386,
+      "a": 5741,
+      "b": 8009,
+      "target": "45979669",
+      "predicted": "46013401",
+      "correct": false,
+      "response": "46013401}\n$$"
+    },
+    {
+      "id": 387,
+      "a": 2741,
+      "b": 2003,
+      "target": "5490223",
+      "predicted": "5489223",
+      "correct": false,
+      "response": "5489223}\n$$"
+    },
+    {
+      "id": 388,
+      "a": 9431,
+      "b": 8543,
+      "target": "80569033",
+      "predicted": "8057143",
+      "correct": false,
+      "response": "8057143}\n$$"
+    },
+    {
+      "id": 389,
+      "a": 4271,
+      "b": 4273,
+      "target": "18249983",
+      "predicted": "18283743",
+      "correct": false,
+      "response": "18283743}\n$$"
+    },
+    {
+      "id": 390,
+      "a": 2927,
+      "b": 5867,
+      "target": "17172709",
+      "predicted": "17167169",
+      "correct": false,
+      "response": "17167169}\n$$"
+    },
+    {
+      "id": 391,
+      "a": 2399,
+      "b": 8969,
+      "target": "21516631",
+      "predicted": "21476011",
+      "correct": false,
+      "response": "21476011}\n$$"
+    },
+    {
+      "id": 392,
+      "a": 8527,
+      "b": 5309,
+      "target": "45269843",
+      "predicted": "4528313",
+      "correct": false,
+      "response": "4528313}\n$$"
+    },
+    {
+      "id": 393,
+      "a": 7507,
+      "b": 8039,
+      "target": "60348773",
+      "predicted": "60393883",
+      "correct": false,
+      "response": "60393883}\n$$"
+    },
+    {
+      "id": 394,
+      "a": 4519,
+      "b": 9059,
+      "target": "40937621",
+      "predicted": "41000000",
+      "correct": false,
+      "response": "41000000 + 5000000 + 1"
+    },
+    {
+      "id": 395,
+      "a": 7187,
+      "b": 9439,
+      "target": "67838093",
+      "predicted": "67811103",
+      "correct": false,
+      "response": "67811103}\n$$"
+    },
+    {
+      "id": 396,
+      "a": 5273,
+      "b": 8081,
+      "target": "42611113",
+      "predicted": "42613113",
+      "correct": false,
+      "response": "42613113}\n$$"
+    },
+    {
+      "id": 397,
+      "a": 8863,
+      "b": 4397,
+      "target": "38970611",
+      "predicted": "40000000",
+      "correct": false,
+      "response": "40000000 + 8000000 + 6"
+    },
+    {
+      "id": 398,
+      "a": 9137,
+      "b": 6199,
+      "target": "56640263",
+      "predicted": "5657103",
+      "correct": false,
+      "response": "5657103}\n$$"
+    },
+    {
+      "id": 399,
+      "a": 1973,
+      "b": 2699,
+      "target": "5325127",
+      "predicted": "532363",
+      "correct": false,
+      "response": "532363}\n$$"
+    },
+    {
+      "id": 400,
+      "a": 1801,
+      "b": 2137,
+      "target": "3848737",
+      "predicted": "3846137",
+      "correct": false,
+      "response": "3846137}\n$$"
+    },
+    {
+      "id": 401,
+      "a": 7309,
+      "b": 4337,
+      "target": "31699133",
+      "predicted": "31713333",
+      "correct": false,
+      "response": "31713333}\n$$"
+    },
+    {
+      "id": 402,
+      "a": 2683,
+      "b": 5527,
+      "target": "14828941",
+      "predicted": "14827391",
+      "correct": false,
+      "response": "14827391}\n$$"
+    },
+    {
+      "id": 403,
+      "a": 7883,
+      "b": 3491,
+      "target": "27519553",
+      "predicted": "27531133",
+      "correct": false,
+      "response": "27531133}\n$$"
+    },
+    {
+      "id": 404,
+      "a": 3329,
+      "b": 2687,
+      "target": "8945023",
+      "predicted": "9000000",
+      "correct": false,
+      "response": "9000000}\n$$"
+    },
+    {
+      "id": 405,
+      "a": 9059,
+      "b": 6553,
+      "target": "59363627",
+      "predicted": "5927127",
+      "correct": false,
+      "response": "5927127}\n$$"
+    },
+    {
+      "id": 406,
+      "a": 9497,
+      "b": 5669,
+      "target": "53838493",
+      "predicted": "53671493",
+      "correct": false,
+      "response": "53671493}\n$$"
+    },
+    {
+      "id": 407,
+      "a": 5717,
+      "b": 4219,
+      "target": "24120023",
+      "predicted": "24133223",
+      "correct": false,
+      "response": "24133223}\n$$"
+    },
+    {
+      "id": 408,
+      "a": 9839,
+      "b": 3529,
+      "target": "34721831",
+      "predicted": "3469741",
+      "correct": false,
+      "response": "3469741}\n$$"
+    },
+    {
+      "id": 409,
+      "a": 5741,
+      "b": 1447,
+      "target": "8307227",
+      "predicted": "8273327",
+      "correct": false,
+      "response": "8273327}\n$$"
+    },
+    {
+      "id": 410,
+      "a": 8377,
+      "b": 8069,
+      "target": "67594013",
+      "predicted": "67533163",
+      "correct": false,
+      "response": "67533163}\n$$"
+    },
+    {
+      "id": 411,
+      "a": 4241,
+      "b": 6247,
+      "target": "26493527",
+      "predicted": "26497647",
+      "correct": false,
+      "response": "26497647}\n$$"
+    },
+    {
+      "id": 412,
+      "a": 1597,
+      "b": 3697,
+      "target": "5904109",
+      "predicted": "5923849",
+      "correct": false,
+      "response": "5923849}\n$$"
+    },
+    {
+      "id": 413,
+      "a": 1999,
+      "b": 7417,
+      "target": "14826583",
+      "predicted": "14816603",
+      "correct": false,
+      "response": "14816603}\n$$"
+    },
+    {
+      "id": 414,
+      "a": 3457,
+      "b": 4049,
+      "target": "13997393",
+      "predicted": "14000000",
+      "correct": false,
+      "response": "14000000}\n$$"
+    },
+    {
+      "id": 415,
+      "a": 8221,
+      "b": 7907,
+      "target": "65003447",
+      "predicted": "6499957",
+      "correct": false,
+      "response": "6499957}\n$$"
+    },
+    {
+      "id": 416,
+      "a": 5647,
+      "b": 5801,
+      "target": "32758247",
+      "predicted": "32766427",
+      "correct": false,
+      "response": "32766427}\n$$"
+    },
+    {
+      "id": 417,
+      "a": 3019,
+      "b": 4217,
+      "target": "12731123",
+      "predicted": "12743443",
+      "correct": false,
+      "response": "12743443}\n$$"
+    },
+    {
+      "id": 418,
+      "a": 7873,
+      "b": 7027,
+      "target": "55323571",
+      "predicted": "55310161",
+      "correct": false,
+      "response": "55310161}\n$$"
+    },
+    {
+      "id": 419,
+      "a": 6967,
+      "b": 6361,
+      "target": "44317087",
+      "predicted": "44371237",
+      "correct": false,
+      "response": "44371237}\n$$"
+    },
+    {
+      "id": 420,
+      "a": 8573,
+      "b": 9677,
+      "target": "82960921",
+      "predicted": "82911441",
+      "correct": false,
+      "response": "82911441}\n$$"
+    },
+    {
+      "id": 421,
+      "a": 7459,
+      "b": 2141,
+      "target": "15969719",
+      "predicted": "16000000",
+      "correct": false,
+      "response": "16000000}\n$$"
+    },
+    {
+      "id": 422,
+      "a": 6337,
+      "b": 3793,
+      "target": "24036241",
+      "predicted": "24000000",
+      "correct": false,
+      "response": "24000000}\n$$"
+    },
+    {
+      "id": 423,
+      "a": 1193,
+      "b": 6079,
+      "target": "7252247",
+      "predicted": "7251167",
+      "correct": false,
+      "response": "7251167}\n$$"
+    },
+    {
+      "id": 424,
+      "a": 2029,
+      "b": 1549,
+      "target": "3142921",
+      "predicted": "3140321",
+      "correct": false,
+      "response": "3140321}\n$$"
+    },
+    {
+      "id": 425,
+      "a": 3209,
+      "b": 1277,
+      "target": "4097893",
+      "predicted": "4107153",
+      "correct": false,
+      "response": "4107153}\n$$"
+    },
+    {
+      "id": 426,
+      "a": 1583,
+      "b": 3491,
+      "target": "5526253",
+      "predicted": "5506133",
+      "correct": false,
+      "response": "5506133}\n$$"
+    },
+    {
+      "id": 427,
+      "a": 3719,
+      "b": 6661,
+      "target": "24772259",
+      "predicted": "24777499",
+      "correct": false,
+      "response": "24777499}\n$$"
+    },
+    {
+      "id": 428,
+      "a": 2287,
+      "b": 7589,
+      "target": "17356043",
+      "predicted": "17317633",
+      "correct": false,
+      "response": "17317633}\n$$"
+    },
+    {
+      "id": 429,
+      "a": 5801,
+      "b": 1627,
+      "target": "9438227",
+      "predicted": "9443227",
+      "correct": false,
+      "response": "9443227}\n$$"
+    },
+    {
+      "id": 430,
+      "a": 2311,
+      "b": 4073,
+      "target": "9412703",
+      "predicted": "941183",
+      "correct": false,
+      "response": "941183}\n$$"
+    },
+    {
+      "id": 431,
+      "a": 7151,
+      "b": 3389,
+      "target": "24234739",
+      "predicted": "24271889",
+      "correct": false,
+      "response": "24271889}\n$$"
+    },
+    {
+      "id": 432,
+      "a": 2297,
+      "b": 1187,
+      "target": "2726539",
+      "predicted": "2719149",
+      "correct": false,
+      "response": "2719149}\n$$"
+    },
+    {
+      "id": 433,
+      "a": 2677,
+      "b": 7963,
+      "target": "21316951",
+      "predicted": "21311211",
+      "correct": false,
+      "response": "21311211}\n$$"
+    },
+    {
+      "id": 434,
+      "a": 6323,
+      "b": 8111,
+      "target": "51285853",
+      "predicted": "5131173",
+      "correct": false,
+      "response": "5131173}\n$$"
+    },
+    {
+      "id": 435,
+      "a": 7559,
+      "b": 1493,
+      "target": "11285587",
+      "predicted": "11286287",
+      "correct": false,
+      "response": "11286287}\n$$"
+    },
+    {
+      "id": 436,
+      "a": 9133,
+      "b": 6997,
+      "target": "63903601",
+      "predicted": "6433141",
+      "correct": false,
+      "response": "6433141}\n$$"
+    },
+    {
+      "id": 437,
+      "a": 6833,
+      "b": 3847,
+      "target": "26286551",
+      "predicted": "26331111",
+      "correct": false,
+      "response": "26331111}\n$$"
+    },
+    {
+      "id": 438,
+      "a": 5441,
+      "b": 4073,
+      "target": "22161193",
+      "predicted": "22176853",
+      "correct": false,
+      "response": "22176853}\n$$"
+    },
+    {
+      "id": 439,
+      "a": 7219,
+      "b": 5011,
+      "target": "36174409",
+      "predicted": "3617221",
+      "correct": false,
+      "response": "3617221}\n$$"
+    },
+    {
+      "id": 440,
+      "a": 1399,
+      "b": 3527,
+      "target": "4934273",
+      "predicted": "4937527",
+      "correct": false,
+      "response": "4937527}\n$$"
+    },
+    {
+      "id": 441,
+      "a": 1231,
+      "b": 4423,
+      "target": "5444713",
+      "predicted": "5456113",
+      "correct": false,
+      "response": "5456113}\n$$"
+    },
+    {
+      "id": 442,
+      "a": 6781,
+      "b": 6991,
+      "target": "47405971",
+      "predicted": "47471771",
+      "correct": false,
+      "response": "47471771}\n$$"
+    },
+    {
+      "id": 443,
+      "a": 3889,
+      "b": 3701,
+      "target": "14393189",
+      "predicted": "14400000",
+      "correct": false,
+      "response": "14400000 + 3889 \\times 300"
+    },
+    {
+      "id": 444,
+      "a": 1907,
+      "b": 5573,
+      "target": "10627711",
+      "predicted": "10613419",
+      "correct": false,
+      "response": "10613419}\n$$"
+    },
+    {
+      "id": 445,
+      "a": 9547,
+      "b": 5801,
+      "target": "55382147",
+      "predicted": "55386847",
+      "correct": false,
+      "response": "55386847}\n$$"
+    },
+    {
+      "id": 446,
+      "a": 5281,
+      "b": 8539,
+      "target": "45094459",
+      "predicted": "45123059",
+      "correct": false,
+      "response": "45123059}\n$$"
+    },
+    {
+      "id": 447,
+      "a": 4357,
+      "b": 9283,
+      "target": "40446031",
+      "predicted": "40471151",
+      "correct": false,
+      "response": "40471151}\n$$"
+    },
+    {
+      "id": 448,
+      "a": 3967,
+      "b": 1637,
+      "target": "6493979",
+      "predicted": "6500679",
+      "correct": false,
+      "response": "6500679}\n$$"
+    },
+    {
+      "id": 449,
+      "a": 1409,
+      "b": 5189,
+      "target": "7311301",
+      "predicted": "7293601",
+      "correct": false,
+      "response": "7293601}\n$$"
+    },
+    {
+      "id": 450,
+      "a": 3137,
+      "b": 5521,
+      "target": "17319377",
+      "predicted": "17327117",
+      "correct": false,
+      "response": "17327117}\n$$"
+    },
+    {
+      "id": 451,
+      "a": 6949,
+      "b": 1013,
+      "target": "7039337",
+      "predicted": "7036237",
+      "correct": false,
+      "response": "7036237}\n$$"
+    },
+    {
+      "id": 452,
+      "a": 7351,
+      "b": 6451,
+      "target": "47421301",
+      "predicted": "47463001",
+      "correct": false,
+      "response": "47463001}\n$$"
+    },
+    {
+      "id": 453,
+      "a": 6317,
+      "b": 8923,
+      "target": "56366591",
+      "predicted": "56371991",
+      "correct": false,
+      "response": "56371991}\n$$"
+    },
+    {
+      "id": 454,
+      "a": 1013,
+      "b": 6763,
+      "target": "6850919",
+      "predicted": "6857139",
+      "correct": false,
+      "response": "6857139}\n$$"
+    },
+    {
+      "id": 455,
+      "a": 9199,
+      "b": 4817,
+      "target": "44311583",
+      "predicted": "44313883",
+      "correct": false,
+      "response": "44313883}\n$$"
+    },
+    {
+      "id": 456,
+      "a": 2803,
+      "b": 2647,
+      "target": "7419541",
+      "predicted": "7416111",
+      "correct": false,
+      "response": "7416111}\n$$"
+    },
+    {
+      "id": 457,
+      "a": 6737,
+      "b": 1259,
+      "target": "8481883",
+      "predicted": "8483383",
+      "correct": false,
+      "response": "8483383}\n$$"
+    },
+    {
+      "id": 458,
+      "a": 1381,
+      "b": 4493,
+      "target": "6204833",
+      "predicted": "6197353",
+      "correct": false,
+      "response": "6197353}\n$$"
+    },
+    {
+      "id": 459,
+      "a": 6781,
+      "b": 5059,
+      "target": "34305079",
+      "predicted": "34296081",
+      "correct": false,
+      "response": "34296081}\n$$"
+    },
+    {
+      "id": 460,
+      "a": 1931,
+      "b": 7951,
+      "target": "15353381",
+      "predicted": "15371101",
+      "correct": false,
+      "response": "15371101}\n$$"
+    },
+    {
+      "id": 461,
+      "a": 8839,
+      "b": 7753,
+      "target": "68528767",
+      "predicted": "68561167",
+      "correct": false,
+      "response": "68561167}\n$$"
+    },
+    {
+      "id": 462,
+      "a": 4561,
+      "b": 8713,
+      "target": "39739993",
+      "predicted": "39776533",
+      "correct": false,
+      "response": "39776533}\n$$"
+    },
+    {
+      "id": 463,
+      "a": 2843,
+      "b": 2003,
+      "target": "5694529",
+      "predicted": "5693429",
+      "correct": false,
+      "response": "5693429}\n$$"
+    },
+    {
+      "id": 464,
+      "a": 3257,
+      "b": 1709,
+      "target": "5566213",
+      "predicted": "5603113",
+      "correct": false,
+      "response": "5603113}\n$$"
+    },
+    {
+      "id": 465,
+      "a": 4339,
+      "b": 5807,
+      "target": "25196573",
+      "predicted": "25183663",
+      "correct": false,
+      "response": "25183663}\n$$"
+    },
+    {
+      "id": 466,
+      "a": 2281,
+      "b": 8191,
+      "target": "18683671",
+      "predicted": "18672691",
+      "correct": false,
+      "response": "18672691}\n$$"
+    },
+    {
+      "id": 467,
+      "a": 8941,
+      "b": 9043,
+      "target": "80853463",
+      "predicted": "80863663",
+      "correct": false,
+      "response": "80863663}\n$$"
+    },
+    {
+      "id": 468,
+      "a": 8111,
+      "b": 6089,
+      "target": "49387879",
+      "predicted": "49313889",
+      "correct": false,
+      "response": "49313889}\n$$"
+    },
+    {
+      "id": 469,
+      "a": 2503,
+      "b": 2113,
+      "target": "5288839",
+      "predicted": "5291339",
+      "correct": false,
+      "response": "5291339}\n$$"
+    },
+    {
+      "id": 470,
+      "a": 1511,
+      "b": 2003,
+      "target": "3026533",
+      "predicted": "3027531",
+      "correct": false,
+      "response": "3027531}\n$$"
+    },
+    {
+      "id": 471,
+      "a": 3527,
+      "b": 1619,
+      "target": "5710213",
+      "predicted": "5699313",
+      "correct": false,
+      "response": "5699313}\n$$"
+    },
+    {
+      "id": 472,
+      "a": 6389,
+      "b": 7499,
+      "target": "47911111",
+      "predicted": "47891611",
+      "correct": false,
+      "response": "47891611}\n$$"
+    },
+    {
+      "id": 473,
+      "a": 4337,
+      "b": 8329,
+      "target": "36122873",
+      "predicted": "36013163",
+      "correct": false,
+      "response": "36013163}\n$$"
+    },
+    {
+      "id": 474,
+      "a": 7211,
+      "b": 3583,
+      "target": "25837013",
+      "predicted": "25913113",
+      "correct": false,
+      "response": "25913113}\n$$"
+    },
+    {
+      "id": 475,
+      "a": 2089,
+      "b": 5333,
+      "target": "11140637",
+      "predicted": "11111377",
+      "correct": false,
+      "response": "11111377}\n$$"
+    },
+    {
+      "id": 476,
+      "a": 3709,
+      "b": 8699,
+      "target": "32264591",
+      "predicted": "32163801",
+      "correct": false,
+      "response": "32163801}\n$$"
+    },
+    {
+      "id": 477,
+      "a": 9803,
+      "b": 2383,
+      "target": "23360549",
+      "predicted": "23361129",
+      "correct": false,
+      "response": "23361129}\n$$"
+    },
+    {
+      "id": 478,
+      "a": 5987,
+      "b": 1277,
+      "target": "7645399",
+      "predicted": "7643189",
+      "correct": false,
+      "response": "7643189}\n$$"
+    },
+    {
+      "id": 479,
+      "a": 6827,
+      "b": 8293,
+      "target": "56616311",
+      "predicted": "56471171",
+      "correct": false,
+      "response": "56471171}\n$$"
+    },
+    {
+      "id": 480,
+      "a": 8719,
+      "b": 9931,
+      "target": "86588389",
+      "predicted": "86666489",
+      "correct": false,
+      "response": "86666489}\n$$"
+    },
+    {
+      "id": 481,
+      "a": 1297,
+      "b": 6827,
+      "target": "8854619",
+      "predicted": "8857169",
+      "correct": false,
+      "response": "8857169}\n$$"
+    },
+    {
+      "id": 482,
+      "a": 6379,
+      "b": 8117,
+      "target": "51778343",
+      "predicted": "51771241",
+      "correct": false,
+      "response": "51771241}\n$$"
+    },
+    {
+      "id": 483,
+      "a": 5653,
+      "b": 5261,
+      "target": "29740433",
+      "predicted": "29763333",
+      "correct": false,
+      "response": "29763333}\n$$"
+    },
+    {
+      "id": 484,
+      "a": 3643,
+      "b": 8423,
+      "target": "30684989",
+      "predicted": "30613009",
+      "correct": false,
+      "response": "30613009}\n$$"
+    },
+    {
+      "id": 485,
+      "a": 5563,
+      "b": 1663,
+      "target": "9251269",
+      "predicted": "9236189",
+      "correct": false,
+      "response": "9236189}\n$$"
+    },
+    {
+      "id": 486,
+      "a": 3067,
+      "b": 9539,
+      "target": "29256113",
+      "predicted": "29263103",
+      "correct": false,
+      "response": "29263103}\n$$"
+    },
+    {
+      "id": 487,
+      "a": 5657,
+      "b": 8753,
+      "target": "49515721",
+      "predicted": "49503209",
+      "correct": false,
+      "response": "49503209}\n$$"
+    },
+    {
+      "id": 488,
+      "a": 6121,
+      "b": 8669,
+      "target": "53062949",
+      "predicted": "52931141",
+      "correct": false,
+      "response": "52931141}\n$$"
+    },
+    {
+      "id": 489,
+      "a": 6121,
+      "b": 4931,
+      "target": "30182651",
+      "predicted": "29999931",
+      "correct": false,
+      "response": "29999931}\n$$"
+    },
+    {
+      "id": 490,
+      "a": 6481,
+      "b": 2341,
+      "target": "15172021",
+      "predicted": "15173621",
+      "correct": false,
+      "response": "15173621}\n$$"
+    },
+    {
+      "id": 491,
+      "a": 9619,
+      "b": 5881,
+      "target": "56569339",
+      "predicted": "5663311",
+      "correct": false,
+      "response": "5663311}\n$$"
+    },
+    {
+      "id": 492,
+      "a": 3083,
+      "b": 5647,
+      "target": "17409701",
+      "predicted": "17366611",
+      "correct": false,
+      "response": "17366611}\n$$"
+    },
+    {
+      "id": 493,
+      "a": 1667,
+      "b": 7213,
+      "target": "12024071",
+      "predicted": "12013411",
+      "correct": false,
+      "response": "12013411}\n$$"
+    },
+    {
+      "id": 494,
+      "a": 1873,
+      "b": 5851,
+      "target": "10958923",
+      "predicted": "10956123",
+      "correct": false,
+      "response": "10956123}\n$$"
+    },
+    {
+      "id": 495,
+      "a": 6113,
+      "b": 5779,
+      "target": "35327027",
+      "predicted": "3533117",
+      "correct": false,
+      "response": "3533117}\n$$"
+    },
+    {
+      "id": 496,
+      "a": 2351,
+      "b": 1607,
+      "target": "3778057",
+      "predicted": "3782557",
+      "correct": false,
+      "response": "3782557}\n$$"
+    },
+    {
+      "id": 497,
+      "a": 4547,
+      "b": 6803,
+      "target": "30933241",
+      "predicted": "31000000",
+      "correct": false,
+      "response": "31000000}\n$$"
+    },
+    {
+      "id": 498,
+      "a": 9883,
+      "b": 6199,
+      "target": "61264717",
+      "predicted": "61113717",
+      "correct": false,
+      "response": "61113717}\n$$"
+    },
+    {
+      "id": 499,
+      "a": 2579,
+      "b": 6299,
+      "target": "16245121",
+      "predicted": "16243021",
+      "correct": false,
+      "response": "16243021}\n$$"
+    },
+    {
+      "id": 500,
+      "a": 9619,
+      "b": 5471,
+      "target": "52625549",
+      "predicted": "5253341",
+      "correct": false,
+      "response": "5253341}\n$$"
+    },
+    {
+      "id": 501,
+      "a": 3769,
+      "b": 7561,
+      "target": "28497409",
+      "predicted": "28497109",
+      "correct": false,
+      "response": "28497109}\n$$"
+    },
+    {
+      "id": 502,
+      "a": 3067,
+      "b": 6043,
+      "target": "18533881",
+      "predicted": "18516181",
+      "correct": false,
+      "response": "18516181}\n$$"
+    },
+    {
+      "id": 503,
+      "a": 7603,
+      "b": 6481,
+      "target": "49275043",
+      "predicted": "50000000000000000000",
+      "correct": false,
+      "response": "50000000000000000000"
+    },
+    {
+      "id": 504,
+      "a": 9203,
+      "b": 4673,
+      "target": "43005619",
+      "predicted": "4290311",
+      "correct": false,
+      "response": "4290311}\n$$"
+    },
+    {
+      "id": 505,
+      "a": 7867,
+      "b": 2887,
+      "target": "22712029",
+      "predicted": "22713129",
+      "correct": false,
+      "response": "22713129}\n$$"
+    },
+    {
+      "id": 506,
+      "a": 3643,
+      "b": 6829,
+      "target": "24878047",
+      "predicted": "24963107",
+      "correct": false,
+      "response": "24963107}\n$$"
+    },
+    {
+      "id": 507,
+      "a": 7993,
+      "b": 4993,
+      "target": "39909049",
+      "predicted": "3990089",
+      "correct": false,
+      "response": "3990089}\n$$"
+    },
+    {
+      "id": 508,
+      "a": 9511,
+      "b": 3019,
+      "target": "28713709",
+      "predicted": "28683019",
+      "correct": false,
+      "response": "28683019}\n$$"
+    },
+    {
+      "id": 509,
+      "a": 8539,
+      "b": 6997,
+      "target": "59747383",
+      "predicted": "59996483",
+      "correct": false,
+      "response": "59996483}\n$$"
+    },
+    {
+      "id": 510,
+      "a": 2311,
+      "b": 2129,
+      "target": "4920119",
+      "predicted": "5000000",
+      "correct": false,
+      "response": "5000000}\n$$"
+    },
+    {
+      "id": 511,
+      "a": 6353,
+      "b": 9157,
+      "target": "58174421",
+      "predicted": "5803361",
+      "correct": false,
+      "response": "5803361}\n$$"
+    },
+    {
+      "id": 512,
+      "a": 3797,
+      "b": 3767,
+      "target": "14303299",
+      "predicted": "14293499",
+      "correct": false,
+      "response": "14293499}\n$$"
+    },
+    {
+      "id": 513,
+      "a": 8123,
+      "b": 2741,
+      "target": "22265143",
+      "predicted": "8123",
+      "correct": false,
+      "response": "8123 \\times 2741 = 2227124"
+    },
+    {
+      "id": 514,
+      "a": 5309,
+      "b": 9413,
+      "target": "49973617",
+      "predicted": "50000000",
+      "correct": false,
+      "response": "50000000 + 30000000 + "
+    },
+    {
+      "id": 515,
+      "a": 5641,
+      "b": 2423,
+      "target": "13668143",
+      "predicted": "13663043",
+      "correct": false,
+      "response": "13663043}\n$$"
+    },
+    {
+      "id": 516,
+      "a": 4421,
+      "b": 3251,
+      "target": "14372671",
+      "predicted": "14396251",
+      "correct": false,
+      "response": "14396251}\n$$"
+    },
+    {
+      "id": 517,
+      "a": 2683,
+      "b": 4591,
+      "target": "12317653",
+      "predicted": "1230063",
+      "correct": false,
+      "response": "1230063}\n$$"
+    },
+    {
+      "id": 518,
+      "a": 5591,
+      "b": 3109,
+      "target": "17382419",
+      "predicted": "17501419",
+      "correct": false,
+      "response": "17501419}\n$$"
+    },
+    {
+      "id": 519,
+      "a": 3491,
+      "b": 1559,
+      "target": "5442469",
+      "predicted": "5436061",
+      "correct": false,
+      "response": "5436061}\n$$"
+    },
+    {
+      "id": 520,
+      "a": 1999,
+      "b": 8581,
+      "target": "17153419",
+      "predicted": "16963619",
+      "correct": false,
+      "response": "16963619}\n$$"
+    },
+    {
+      "id": 521,
+      "a": 4909,
+      "b": 8329,
+      "target": "40887061",
+      "predicted": "40937161",
+      "correct": false,
+      "response": "40937161}\n$$"
+    },
+    {
+      "id": 522,
+      "a": 8999,
+      "b": 5081,
+      "target": "45723919",
+      "predicted": "4567881",
+      "correct": false,
+      "response": "4567881}\n$$"
+    },
+    {
+      "id": 523,
+      "a": 3329,
+      "b": 3187,
+      "target": "10609523",
+      "predicted": "10613233",
+      "correct": false,
+      "response": "10613233}\n$$"
+    },
+    {
+      "id": 524,
+      "a": 5407,
+      "b": 3581,
+      "target": "19362467",
+      "predicted": "19313147",
+      "correct": false,
+      "response": "19313147}\n$$"
+    },
+    {
+      "id": 525,
+      "a": 9949,
+      "b": 7481,
+      "target": "74428469",
+      "predicted": "7447151",
+      "correct": false,
+      "response": "7447151}\n$$"
+    },
+    {
+      "id": 526,
+      "a": 2731,
+      "b": 1613,
+      "target": "4405103",
+      "predicted": "4406103",
+      "correct": false,
+      "response": "4406103}\n$$"
+    },
+    {
+      "id": 527,
+      "a": 3541,
+      "b": 5581,
+      "target": "19762321",
+      "predicted": "19734181",
+      "correct": false,
+      "response": "19734181}\n$$"
+    },
+    {
+      "id": 528,
+      "a": 5483,
+      "b": 4421,
+      "target": "24240343",
+      "predicted": "24233443",
+      "correct": false,
+      "response": "24233443}\n$$"
+    },
+    {
+      "id": 529,
+      "a": 8009,
+      "b": 2957,
+      "target": "23682613",
+      "predicted": "23682233",
+      "correct": false,
+      "response": "23682233}\n$$"
+    },
+    {
+      "id": 530,
+      "a": 8747,
+      "b": 4583,
+      "target": "40087501",
+      "predicted": "4013111",
+      "correct": false,
+      "response": "4013111}\n$$"
+    },
+    {
+      "id": 531,
+      "a": 1811,
+      "b": 1549,
+      "target": "2805239",
+      "predicted": "2793139",
+      "correct": false,
+      "response": "2793139}\n$$"
+    },
+    {
+      "id": 532,
+      "a": 1301,
+      "b": 6469,
+      "target": "8416169",
+      "predicted": "8413109",
+      "correct": false,
+      "response": "8413109}\n$$"
+    },
+    {
+      "id": 533,
+      "a": 6599,
+      "b": 5507,
+      "target": "36340693",
+      "predicted": "36433433",
+      "correct": false,
+      "response": "36433433}\n$$"
+    },
+    {
+      "id": 534,
+      "a": 9059,
+      "b": 5209,
+      "target": "47188331",
+      "predicted": "47212041",
+      "correct": false,
+      "response": "47212041}\n$$"
+    },
+    {
+      "id": 535,
+      "a": 9817,
+      "b": 1693,
+      "target": "16620181",
+      "predicted": "16673441",
+      "correct": false,
+      "response": "16673441}\n$$"
+    },
+    {
+      "id": 536,
+      "a": 4057,
+      "b": 6661,
+      "target": "27023677",
+      "predicted": "27040477",
+      "correct": false,
+      "response": "27040477}\n$$"
+    },
+    {
+      "id": 537,
+      "a": 7681,
+      "b": 2099,
+      "target": "16122419",
+      "predicted": "16081209",
+      "correct": false,
+      "response": "16081209}\n$$"
+    },
+    {
+      "id": 538,
+      "a": 4397,
+      "b": 1783,
+      "target": "7839851",
+      "predicted": "7833151",
+      "correct": false,
+      "response": "7833151}\n$$"
+    },
+    {
+      "id": 539,
+      "a": 4001,
+      "b": 5237,
+      "target": "20953237",
+      "predicted": "21000437",
+      "correct": false,
+      "response": "21000437}\n$$"
+    },
+    {
+      "id": 540,
+      "a": 6733,
+      "b": 3631,
+      "target": "24447523",
+      "predicted": "24463763",
+      "correct": false,
+      "response": "24463763}\n$$"
+    },
+    {
+      "id": 541,
+      "a": 9619,
+      "b": 5927,
+      "target": "57011813",
+      "predicted": "5707343",
+      "correct": false,
+      "response": "5707343}\n$$"
+    },
+    {
+      "id": 542,
+      "a": 8089,
+      "b": 8887,
+      "target": "71886943",
+      "predicted": "71631433",
+      "correct": false,
+      "response": "71631433}\n$$"
+    },
+    {
+      "id": 543,
+      "a": 2647,
+      "b": 8951,
+      "target": "23693297",
+      "predicted": "23683027",
+      "correct": false,
+      "response": "23683027}\n$$"
+    },
+    {
+      "id": 544,
+      "a": 3203,
+      "b": 4691,
+      "target": "15025273",
+      "predicted": "15000000",
+      "correct": false,
+      "response": "15000000}\n$$"
+    },
+    {
+      "id": 545,
+      "a": 7591,
+      "b": 3271,
+      "target": "24830161",
+      "predicted": "24837161",
+      "correct": false,
+      "response": "24837161}\n$$"
+    },
+    {
+      "id": 546,
+      "a": 4457,
+      "b": 5501,
+      "target": "24517957",
+      "predicted": "2451797",
+      "correct": false,
+      "response": "2451797}\n$$"
+    },
+    {
+      "id": 547,
+      "a": 4987,
+      "b": 4729,
+      "target": "23583523",
+      "predicted": "23586363",
+      "correct": false,
+      "response": "23586363}\n$$"
+    },
+    {
+      "id": 548,
+      "a": 1291,
+      "b": 5209,
+      "target": "6724819",
+      "predicted": "6721119",
+      "correct": false,
+      "response": "6721119}\n$$"
+    },
+    {
+      "id": 549,
+      "a": 9871,
+      "b": 8263,
+      "target": "81564073",
+      "predicted": "81331873",
+      "correct": false,
+      "response": "81331873}\n$$"
+    },
+    {
+      "id": 550,
+      "a": 8363,
+      "b": 2417,
+      "target": "20213371",
+      "predicted": "20197611",
+      "correct": false,
+      "response": "20197611}\n$$"
+    },
+    {
+      "id": 551,
+      "a": 5869,
+      "b": 2063,
+      "target": "12107747",
+      "predicted": "12097147",
+      "correct": false,
+      "response": "12097147}\n$$"
+    },
+    {
+      "id": 552,
+      "a": 1669,
+      "b": 1499,
+      "target": "2501831",
+      "predicted": "2497831",
+      "correct": false,
+      "response": "2497831}\n$$"
+    },
+    {
+      "id": 553,
+      "a": 2789,
+      "b": 9781,
+      "target": "27279209",
+      "predicted": "27261161",
+      "correct": false,
+      "response": "27261161}\n$$"
+    },
+    {
+      "id": 554,
+      "a": 2741,
+      "b": 2447,
+      "target": "6707227",
+      "predicted": "6706327",
+      "correct": false,
+      "response": "6706327}\n$$"
+    },
+    {
+      "id": 555,
+      "a": 2053,
+      "b": 6599,
+      "target": "13547747",
+      "predicted": "13523773",
+      "correct": false,
+      "response": "13523773}\n$$"
+    },
+    {
+      "id": 556,
+      "a": 7703,
+      "b": 2557,
+      "target": "19696571",
+      "predicted": "19673001",
+      "correct": false,
+      "response": "19673001}\n$$"
+    },
+    {
+      "id": 557,
+      "a": 2069,
+      "b": 2311,
+      "target": "4781459",
+      "predicted": "4781159",
+      "correct": false,
+      "response": "4781159}\n$$"
+    },
+    {
+      "id": 558,
+      "a": 7237,
+      "b": 2647,
+      "target": "19156339",
+      "predicted": "19173139",
+      "correct": false,
+      "response": "19173139}\n$$"
+    },
+    {
+      "id": 559,
+      "a": 7129,
+      "b": 4337,
+      "target": "30918473",
+      "predicted": "30903733",
+      "correct": false,
+      "response": "30903733}\n$$"
+    },
+    {
+      "id": 560,
+      "a": 7577,
+      "b": 8803,
+      "target": "66700331",
+      "predicted": "6667681",
+      "correct": false,
+      "response": "6667681}\n$$"
+    },
+    {
+      "id": 561,
+      "a": 8123,
+      "b": 1483,
+      "target": "12046409",
+      "predicted": "12037109",
+      "correct": false,
+      "response": "12037109}\n$$"
+    },
+    {
+      "id": 562,
+      "a": 7211,
+      "b": 1889,
+      "target": "13621579",
+      "predicted": "13613699",
+      "correct": false,
+      "response": "13613699}\n$$"
+    },
+    {
+      "id": 563,
+      "a": 8179,
+      "b": 2707,
+      "target": "22140553",
+      "predicted": "22261853",
+      "correct": false,
+      "response": "22261853}\n$$"
+    },
+    {
+      "id": 564,
+      "a": 9203,
+      "b": 9769,
+      "target": "89904107",
+      "predicted": "89997407",
+      "correct": false,
+      "response": "89997407}\n$$"
+    },
+    {
+      "id": 565,
+      "a": 6481,
+      "b": 1151,
+      "target": "7459631",
+      "predicted": "7463331",
+      "correct": false,
+      "response": "7463331}\n$$"
+    },
+    {
+      "id": 566,
+      "a": 5743,
+      "b": 1667,
+      "target": "9573581",
+      "predicted": "9563811",
+      "correct": false,
+      "response": "9563811}\n$$"
+    },
+    {
+      "id": 567,
+      "a": 2557,
+      "b": 6271,
+      "target": "16034947",
+      "predicted": "16063627",
+      "correct": false,
+      "response": "16063627}\n$$"
+    },
+    {
+      "id": 568,
+      "a": 2557,
+      "b": 6869,
+      "target": "17564033",
+      "predicted": "17600000",
+      "correct": false,
+      "response": "17600000}\n$$"
+    },
+    {
+      "id": 569,
+      "a": 3109,
+      "b": 5689,
+      "target": "17687101",
+      "predicted": "17647161",
+      "correct": false,
+      "response": "17647161}\n$$"
+    },
+    {
+      "id": 570,
+      "a": 9323,
+      "b": 8089,
+      "target": "75413747",
+      "predicted": "75361127",
+      "correct": false,
+      "response": "75361127}\n$$"
+    },
+    {
+      "id": 571,
+      "a": 3163,
+      "b": 9413,
+      "target": "29773319",
+      "predicted": "29813139",
+      "correct": false,
+      "response": "29813139}\n$$"
+    },
+    {
+      "id": 572,
+      "a": 6029,
+      "b": 6047,
+      "target": "36457363",
+      "predicted": "36483513",
+      "correct": false,
+      "response": "36483513}\n$$"
+    },
+    {
+      "id": 573,
+      "a": 9749,
+      "b": 9479,
+      "target": "92410771",
+      "predicted": "92271121",
+      "correct": false,
+      "response": "92271121}\n$$"
+    },
+    {
+      "id": 574,
+      "a": 4423,
+      "b": 5051,
+      "target": "22340573",
+      "predicted": "22327433",
+      "correct": false,
+      "response": "22327433}\n$$"
+    },
+    {
+      "id": 575,
+      "a": 4597,
+      "b": 4523,
+      "target": "20792231",
+      "predicted": "20813881",
+      "correct": false,
+      "response": "20813881}\n$$"
+    },
+    {
+      "id": 576,
+      "a": 1861,
+      "b": 8693,
+      "target": "16177673",
+      "predicted": "16163643",
+      "correct": false,
+      "response": "16163643}\n$$"
+    },
+    {
+      "id": 577,
+      "a": 5399,
+      "b": 1021,
+      "target": "5512379",
+      "predicted": "5512979",
+      "correct": false,
+      "response": "5512979}\n$$"
+    },
+    {
+      "id": 578,
+      "a": 5981,
+      "b": 3469,
+      "target": "20748089",
+      "predicted": "20737389",
+      "correct": false,
+      "response": "20737389}\n$$"
+    },
+    {
+      "id": 579,
+      "a": 8783,
+      "b": 8009,
+      "target": "70343047",
+      "predicted": "7039157",
+      "correct": false,
+      "response": "7039157}\n$$"
+    },
+    {
+      "id": 580,
+      "a": 5323,
+      "b": 6719,
+      "target": "35765237",
+      "predicted": "35761107",
+      "correct": false,
+      "response": "35761107}\n$$"
+    },
+    {
+      "id": 581,
+      "a": 3539,
+      "b": 4253,
+      "target": "15051367",
+      "predicted": "15003142",
+      "correct": false,
+      "response": "15003142}\n$$"
+    },
+    {
+      "id": 582,
+      "a": 9721,
+      "b": 3209,
+      "target": "31194689",
+      "predicted": "31331989",
+      "correct": false,
+      "response": "31331989}\n$$"
+    },
+    {
+      "id": 583,
+      "a": 6553,
+      "b": 4831,
+      "target": "31657543",
+      "predicted": "31661983",
+      "correct": false,
+      "response": "31661983}\n$$"
+    },
+    {
+      "id": 584,
+      "a": 3907,
+      "b": 7829,
+      "target": "30587903",
+      "predicted": "30613183",
+      "correct": false,
+      "response": "30613183}\n$$"
+    },
+    {
+      "id": 585,
+      "a": 8209,
+      "b": 9227,
+      "target": "75744443",
+      "predicted": "75713153",
+      "correct": false,
+      "response": "75713153}\n$$"
+    },
+    {
+      "id": 586,
+      "a": 6301,
+      "b": 8209,
+      "target": "51724909",
+      "predicted": "51713089",
+      "correct": false,
+      "response": "51713089}\n$$"
+    },
+    {
+      "id": 587,
+      "a": 2267,
+      "b": 6863,
+      "target": "15558421",
+      "predicted": "15583141",
+      "correct": false,
+      "response": "15583141}\n$$"
+    },
+    {
+      "id": 588,
+      "a": 2083,
+      "b": 9323,
+      "target": "19419809",
+      "predicted": "19413109",
+      "correct": false,
+      "response": "19413109}\n$$"
+    },
+    {
+      "id": 589,
+      "a": 6871,
+      "b": 2749,
+      "target": "18888379",
+      "predicted": "18843679",
+      "correct": false,
+      "response": "18843679}\n$$"
+    },
+    {
+      "id": 590,
+      "a": 9319,
+      "b": 9413,
+      "target": "87719747",
+      "predicted": "87761147",
+      "correct": false,
+      "response": "87761147}\n$$"
+    },
+    {
+      "id": 591,
+      "a": 6481,
+      "b": 9811,
+      "target": "63585091",
+      "predicted": "63591691",
+      "correct": false,
+      "response": "63591691}\n$$"
+    },
+    {
+      "id": 592,
+      "a": 9437,
+      "b": 7411,
+      "target": "69937607",
+      "predicted": "69972107",
+      "correct": false,
+      "response": "69972107}\n$$"
+    },
+    {
+      "id": 593,
+      "a": 6043,
+      "b": 4079,
+      "target": "24649397",
+      "predicted": "24663007",
+      "correct": false,
+      "response": "24663007}\n$$"
+    },
+    {
+      "id": 594,
+      "a": 2269,
+      "b": 3637,
+      "target": "8252353",
+      "predicted": "8253173",
+      "correct": false,
+      "response": "8253173}\n$$"
+    },
+    {
+      "id": 595,
+      "a": 2113,
+      "b": 3851,
+      "target": "8137163",
+      "predicted": "8143343",
+      "correct": false,
+      "response": "8143343}\n$$"
+    },
+    {
+      "id": 596,
+      "a": 1693,
+      "b": 9811,
+      "target": "16610023",
+      "predicted": "1666663",
+      "correct": false,
+      "response": "1666663}\n$$"
+    },
+    {
+      "id": 597,
+      "a": 7481,
+      "b": 7541,
+      "target": "56414221",
+      "predicted": "56431621",
+      "correct": false,
+      "response": "56431621}\n$$"
+    },
+    {
+      "id": 598,
+      "a": 1511,
+      "b": 9733,
+      "target": "14706563",
+      "predicted": "14707163",
+      "correct": false,
+      "response": "14707163}\n$$"
+    },
+    {
+      "id": 599,
+      "a": 5569,
+      "b": 4673,
+      "target": "26023937",
+      "predicted": "25937837",
+      "correct": false,
+      "response": "25937837}\n$$"
+    },
+    {
+      "id": 600,
+      "a": 2939,
+      "b": 1031,
+      "target": "3030109",
+      "predicted": "3027609",
+      "correct": false,
+      "response": "3027609}\n$$"
+    },
+    {
+      "id": 601,
+      "a": 4597,
+      "b": 2531,
+      "target": "11635007",
+      "predicted": "11625067",
+      "correct": false,
+      "response": "11625067}\n$$"
+    },
+    {
+      "id": 602,
+      "a": 3307,
+      "b": 1291,
+      "target": "4269337",
+      "predicted": "4269637",
+      "correct": false,
+      "response": "4269637}\n$$"
+    },
+    {
+      "id": 603,
+      "a": 3019,
+      "b": 8647,
+      "target": "26105293",
+      "predicted": "26067163",
+      "correct": false,
+      "response": "26067163}\n$$"
+    },
+    {
+      "id": 604,
+      "a": 6007,
+      "b": 3701,
+      "target": "22231907",
+      "predicted": "22224807",
+      "correct": false,
+      "response": "22224807}\n$$"
+    },
+    {
+      "id": 605,
+      "a": 1283,
+      "b": 7603,
+      "target": "9754649",
+      "predicted": "9757149",
+      "correct": false,
+      "response": "9757149}\n$$"
+    },
+    {
+      "id": 606,
+      "a": 2777,
+      "b": 2347,
+      "target": "6517619",
+      "predicted": "6526669",
+      "correct": false,
+      "response": "6526669}\n$$"
+    },
+    {
+      "id": 607,
+      "a": 9679,
+      "b": 7883,
+      "target": "76299557",
+      "predicted": "7623173",
+      "correct": false,
+      "response": "7623173}\n$$"
+    },
+    {
+      "id": 608,
+      "a": 3697,
+      "b": 6073,
+      "target": "22451881",
+      "predicted": "22437641",
+      "correct": false,
+      "response": "22437641}\n$$"
+    },
+    {
+      "id": 609,
+      "a": 5791,
+      "b": 3583,
+      "target": "20749153",
+      "predicted": "20717053",
+      "correct": false,
+      "response": "20717053}\n$$"
+    },
+    {
+      "id": 610,
+      "a": 3119,
+      "b": 2617,
+      "target": "8162423",
+      "predicted": "8163623",
+      "correct": false,
+      "response": "8163623}\n$$"
+    },
+    {
+      "id": 611,
+      "a": 6719,
+      "b": 7159,
+      "target": "48101321",
+      "predicted": "48000000",
+      "correct": false,
+      "response": "48000000}\n$$"
+    },
+    {
+      "id": 612,
+      "a": 9283,
+      "b": 3209,
+      "target": "29789147",
+      "predicted": "9283",
+      "correct": false,
+      "response": "9283 \\times 3209 = 2978234"
+    },
+    {
+      "id": 613,
+      "a": 7723,
+      "b": 2633,
+      "target": "20334659",
+      "predicted": "20361559",
+      "correct": false,
+      "response": "20361559}\n$$"
+    },
+    {
+      "id": 614,
+      "a": 3001,
+      "b": 6599,
+      "target": "19803599",
+      "predicted": "19799099",
+      "correct": false,
+      "response": "19799099}\n$$"
+    },
+    {
+      "id": 615,
+      "a": 9949,
+      "b": 6551,
+      "target": "65175899",
+      "predicted": "65231999",
+      "correct": false,
+      "response": "65231999}\n$$"
+    },
+    {
+      "id": 616,
+      "a": 5573,
+      "b": 5897,
+      "target": "32863981",
+      "predicted": "32773081",
+      "correct": false,
+      "response": "32773081}\n$$"
+    },
+    {
+      "id": 617,
+      "a": 1777,
+      "b": 1847,
+      "target": "3282119",
+      "predicted": "3281339",
+      "correct": false,
+      "response": "3281339}\n$$"
+    },
+    {
+      "id": 618,
+      "a": 1217,
+      "b": 7547,
+      "target": "9184699",
+      "predicted": "9197149",
+      "correct": false,
+      "response": "9197149}\n$$"
+    },
+    {
+      "id": 619,
+      "a": 8053,
+      "b": 1847,
+      "target": "14873891",
+      "predicted": "14883161",
+      "correct": false,
+      "response": "14883161}\n$$"
+    },
+    {
+      "id": 620,
+      "a": 5879,
+      "b": 7547,
+      "target": "44368813",
+      "predicted": "44396163",
+      "correct": false,
+      "response": "44396163}\n$$"
+    },
+    {
+      "id": 621,
+      "a": 2851,
+      "b": 4057,
+      "target": "11566507",
+      "predicted": "11573265",
+      "correct": false,
+      "response": "11573265}\n$$"
+    },
+    {
+      "id": 622,
+      "a": 9067,
+      "b": 4567,
+      "target": "41408989",
+      "predicted": "41413639",
+      "correct": false,
+      "response": "41413639}\n$$"
+    },
+    {
+      "id": 623,
+      "a": 7727,
+      "b": 4271,
+      "target": "33002017",
+      "predicted": "33061117",
+      "correct": false,
+      "response": "33061117}\n$$"
+    },
+    {
+      "id": 624,
+      "a": 1321,
+      "b": 5563,
+      "target": "7348723",
+      "predicted": "7343113",
+      "correct": false,
+      "response": "7343113}\n$$"
+    },
+    {
+      "id": 625,
+      "a": 8297,
+      "b": 7213,
+      "target": "59846261",
+      "predicted": "59633161",
+      "correct": false,
+      "response": "59633161}\n$$"
+    },
+    {
+      "id": 626,
+      "a": 4423,
+      "b": 3019,
+      "target": "13353037",
+      "predicted": "13326107",
+      "correct": false,
+      "response": "13326107}\n$$"
+    },
+    {
+      "id": 627,
+      "a": 5869,
+      "b": 7603,
+      "target": "44622007",
+      "predicted": "44677807",
+      "correct": false,
+      "response": "44677807}\n$$"
+    },
+    {
+      "id": 628,
+      "a": 4273,
+      "b": 4877,
+      "target": "20839421",
+      "predicted": "20813661",
+      "correct": false,
+      "response": "20813661}\n$$"
+    },
+    {
+      "id": 629,
+      "a": 4211,
+      "b": 4973,
+      "target": "20941303",
+      "predicted": "20947043",
+      "correct": false,
+      "response": "20947043}\n$$"
+    },
+    {
+      "id": 630,
+      "a": 8461,
+      "b": 1747,
+      "target": "14781367",
+      "predicted": "14766867",
+      "correct": false,
+      "response": "14766867}\n$$"
+    },
+    {
+      "id": 631,
+      "a": 3259,
+      "b": 6869,
+      "target": "22386071",
+      "predicted": "22463141",
+      "correct": false,
+      "response": "22463141}\n$$"
+    },
+    {
+      "id": 632,
+      "a": 5003,
+      "b": 9043,
+      "target": "45242129",
+      "predicted": "45216109",
+      "correct": false,
+      "response": "45216109}\n$$"
+    },
+    {
+      "id": 633,
+      "a": 2657,
+      "b": 6113,
+      "target": "16242241",
+      "predicted": "16250001",
+      "correct": false,
+      "response": "16250001}\n$$"
+    },
+    {
+      "id": 634,
+      "a": 8663,
+      "b": 5653,
+      "target": "48971939",
+      "predicted": "48807139",
+      "correct": false,
+      "response": "48807139}\n$$"
+    },
+    {
+      "id": 635,
+      "a": 1523,
+      "b": 7621,
+      "target": "11606783",
+      "predicted": "11616283",
+      "correct": false,
+      "response": "11616283}\n$$"
+    },
+    {
+      "id": 636,
+      "a": 6553,
+      "b": 9461,
+      "target": "61997933",
+      "predicted": "61999883",
+      "correct": false,
+      "response": "61999883}\n$$"
+    },
+    {
+      "id": 637,
+      "a": 1201,
+      "b": 2417,
+      "target": "2902817",
+      "predicted": "2900617",
+      "correct": false,
+      "response": "2900617}\n$$"
+    },
+    {
+      "id": 638,
+      "a": 1291,
+      "b": 6271,
+      "target": "8095861",
+      "predicted": "8093301",
+      "correct": false,
+      "response": "8093301}\n$$"
+    },
+    {
+      "id": 639,
+      "a": 6967,
+      "b": 8581,
+      "target": "59783827",
+      "predicted": "59831117",
+      "correct": false,
+      "response": "59831117}\n$$"
+    },
+    {
+      "id": 640,
+      "a": 7219,
+      "b": 8209,
+      "target": "59260771",
+      "predicted": "60000000",
+      "correct": false,
+      "response": "60000000}\n$$"
+    },
+    {
+      "id": 641,
+      "a": 8191,
+      "b": 9421,
+      "target": "77167411",
+      "predicted": "77263611",
+      "correct": false,
+      "response": "77263611}\n$$"
+    },
+    {
+      "id": 642,
+      "a": 7151,
+      "b": 8269,
+      "target": "59131619",
+      "predicted": "59000000",
+      "correct": false,
+      "response": "59000000}\n$$"
+    },
+    {
+      "id": 643,
+      "a": 3761,
+      "b": 1129,
+      "target": "4246169",
+      "predicted": "4236169",
+      "correct": false,
+      "response": "4236169}\n$$"
+    },
+    {
+      "id": 644,
+      "a": 2131,
+      "b": 7607,
+      "target": "16210517",
+      "predicted": "16256117",
+      "correct": false,
+      "response": "16256117}\n$$"
+    },
+    {
+      "id": 645,
+      "a": 1039,
+      "b": 3881,
+      "target": "4032359",
+      "predicted": "4016159",
+      "correct": false,
+      "response": "4016159}\n$$"
+    },
+    {
+      "id": 646,
+      "a": 8039,
+      "b": 7457,
+      "target": "59946823",
+      "predicted": "60000000",
+      "correct": false,
+      "response": "60000000}\n$$"
+    },
+    {
+      "id": 647,
+      "a": 5209,
+      "b": 2647,
+      "target": "13788223",
+      "predicted": "13803123",
+      "correct": false,
+      "response": "13803123}\n$$"
+    },
+    {
+      "id": 648,
+      "a": 2857,
+      "b": 2089,
+      "target": "5968273",
+      "predicted": "6000000",
+      "correct": false,
+      "response": "6000000}\n$$"
+    },
+    {
+      "id": 649,
+      "a": 2347,
+      "b": 6803,
+      "target": "15966641",
+      "predicted": "16000001",
+      "correct": false,
+      "response": "16000001}\n$$"
+    },
+    {
+      "id": 650,
+      "a": 1741,
+      "b": 2971,
+      "target": "5172511",
+      "predicted": "5170351",
+      "correct": false,
+      "response": "5170351}\n$$"
+    },
+    {
+      "id": 651,
+      "a": 7607,
+      "b": 4091,
+      "target": "31120237",
+      "predicted": "31171777",
+      "correct": false,
+      "response": "31171777}\n$$"
+    },
+    {
+      "id": 652,
+      "a": 3407,
+      "b": 1327,
+      "target": "4521089",
+      "predicted": "4497189",
+      "correct": false,
+      "response": "4497189}\n$$"
+    },
+    {
+      "id": 653,
+      "a": 2531,
+      "b": 3547,
+      "target": "8977457",
+      "predicted": "9000000",
+      "correct": false,
+      "response": "9000000}\n$$"
+    },
+    {
+      "id": 654,
+      "a": 1201,
+      "b": 1627,
+      "target": "1954027",
+      "predicted": "1954827",
+      "correct": false,
+      "response": "1954827}\n$$"
+    },
+    {
+      "id": 655,
+      "a": 3547,
+      "b": 2297,
+      "target": "8147459",
+      "predicted": "8173129",
+      "correct": false,
+      "response": "8173129}\n$$"
+    },
+    {
+      "id": 656,
+      "a": 8087,
+      "b": 8837,
+      "target": "71464819",
+      "predicted": "71361139",
+      "correct": false,
+      "response": "71361139}\n$$"
+    },
+    {
+      "id": 657,
+      "a": 6043,
+      "b": 9041,
+      "target": "54634763",
+      "predicted": "54643663",
+      "correct": false,
+      "response": "54643663}\n$$"
+    },
+    {
+      "id": 658,
+      "a": 6373,
+      "b": 9371,
+      "target": "59721383",
+      "predicted": "59531183",
+      "correct": false,
+      "response": "59531183}\n$$"
+    },
+    {
+      "id": 659,
+      "a": 2417,
+      "b": 9491,
+      "target": "22939747",
+      "predicted": "22906147",
+      "correct": false,
+      "response": "22906147}\n$$"
+    },
+    {
+      "id": 660,
+      "a": 5923,
+      "b": 3637,
+      "target": "21541951",
+      "predicted": "21573151",
+      "correct": false,
+      "response": "21573151}\n$$"
+    },
+    {
+      "id": 661,
+      "a": 7841,
+      "b": 6659,
+      "target": "52213219",
+      "predicted": "52173219",
+      "correct": false,
+      "response": "52173219}\n$$"
+    },
+    {
+      "id": 662,
+      "a": 3823,
+      "b": 4153,
+      "target": "15876919",
+      "predicted": "15883399",
+      "correct": false,
+      "response": "15883399}\n$$"
+    },
+    {
+      "id": 663,
+      "a": 6659,
+      "b": 6301,
+      "target": "41958359",
+      "predicted": "41973109",
+      "correct": false,
+      "response": "41973109}\n$$"
+    },
+    {
+      "id": 664,
+      "a": 2411,
+      "b": 4397,
+      "target": "10601167",
+      "predicted": "10583167",
+      "correct": false,
+      "response": "10583167}\n$$"
+    },
+    {
+      "id": 665,
+      "a": 6367,
+      "b": 4789,
+      "target": "30491563",
+      "predicted": "3046363",
+      "correct": false,
+      "response": "3046363}\n$$"
+    },
+    {
+      "id": 666,
+      "a": 8179,
+      "b": 9241,
+      "target": "75582139",
+      "predicted": "75471959",
+      "correct": false,
+      "response": "75471959}\n$$"
+    },
+    {
+      "id": 667,
+      "a": 8269,
+      "b": 7109,
+      "target": "58784321",
+      "predicted": "58833221",
+      "correct": false,
+      "response": "58833221}\n$$"
+    },
+    {
+      "id": 668,
+      "a": 2897,
+      "b": 3643,
+      "target": "10553771",
+      "predicted": "10533171",
+      "correct": false,
+      "response": "10533171}\n$$"
+    },
+    {
+      "id": 669,
+      "a": 4283,
+      "b": 8837,
+      "target": "37848871",
+      "predicted": "37833111",
+      "correct": false,
+      "response": "37833111}\n$$"
+    },
+    {
+      "id": 670,
+      "a": 7561,
+      "b": 8573,
+      "target": "64820453",
+      "predicted": "6476153",
+      "correct": false,
+      "response": "6476153}\n$$"
+    },
+    {
+      "id": 671,
+      "a": 6949,
+      "b": 9221,
+      "target": "64076729",
+      "predicted": "63999279",
+      "correct": false,
+      "response": "63999279}\n$$"
+    },
+    {
+      "id": 672,
+      "a": 7717,
+      "b": 4969,
+      "target": "38345773",
+      "predicted": "38373113",
+      "correct": false,
+      "response": "38373113}\n$$"
+    },
+    {
+      "id": 673,
+      "a": 2671,
+      "b": 9283,
+      "target": "24794893",
+      "predicted": "24834193",
+      "correct": false,
+      "response": "24834193}\n$$"
+    },
+    {
+      "id": 674,
+      "a": 3853,
+      "b": 8803,
+      "target": "33917959",
+      "predicted": "33933859",
+      "correct": false,
+      "response": "33933859}\n$$"
+    },
+    {
+      "id": 675,
+      "a": 4349,
+      "b": 6151,
+      "target": "26750699",
+      "predicted": "26763889",
+      "correct": false,
+      "response": "26763889}\n$$"
+    },
+    {
+      "id": 676,
+      "a": 8941,
+      "b": 1097,
+      "target": "9808277",
+      "predicted": "9806777",
+      "correct": false,
+      "response": "9806777}\n$$"
+    },
+    {
+      "id": 677,
+      "a": 5441,
+      "b": 2927,
+      "target": "15925807",
+      "predicted": "15891607",
+      "correct": false,
+      "response": "15891607}\n$$"
+    },
+    {
+      "id": 678,
+      "a": 4759,
+      "b": 2819,
+      "target": "13415621",
+      "predicted": "13406121",
+      "correct": false,
+      "response": "13406121}\n$$"
+    },
+    {
+      "id": 679,
+      "a": 7541,
+      "b": 1103,
+      "target": "8317723",
+      "predicted": "8317123",
+      "correct": false,
+      "response": "8317123}\n$$"
+    },
+    {
+      "id": 680,
+      "a": 1619,
+      "b": 5879,
+      "target": "9518101",
+      "predicted": "9513161",
+      "correct": false,
+      "response": "9513161}\n$$"
+    },
+    {
+      "id": 681,
+      "a": 5431,
+      "b": 3853,
+      "target": "20925643",
+      "predicted": "20963143",
+      "correct": false,
+      "response": "20963143}\n$$"
+    },
+    {
+      "id": 682,
+      "a": 6863,
+      "b": 8731,
+      "target": "59920853",
+      "predicted": "59736413",
+      "correct": false,
+      "response": "59736413}\n$$"
+    },
+    {
+      "id": 683,
+      "a": 8293,
+      "b": 1607,
+      "target": "13326851",
+      "predicted": "13313059",
+      "correct": false,
+      "response": "13313059}\n$$"
+    },
+    {
+      "id": 684,
+      "a": 2879,
+      "b": 1979,
+      "target": "5697541",
+      "predicted": "569603",
+      "correct": false,
+      "response": "569603}\n$$"
+    },
+    {
+      "id": 685,
+      "a": 2617,
+      "b": 6173,
+      "target": "16154741",
+      "predicted": "16111001",
+      "correct": false,
+      "response": "16111001}\n$$"
+    },
+    {
+      "id": 686,
+      "a": 5659,
+      "b": 1787,
+      "target": "10112633",
+      "predicted": "10131633",
+      "correct": false,
+      "response": "10131633}\n$$"
+    },
+    {
+      "id": 687,
+      "a": 1231,
+      "b": 3217,
+      "target": "3960127",
+      "predicted": "3957182",
+      "correct": false,
+      "response": "3957182}\n$$"
+    },
+    {
+      "id": 688,
+      "a": 2917,
+      "b": 2531,
+      "target": "7382927",
+      "predicted": "7381187",
+      "correct": false,
+      "response": "7381187}\n$$"
+    },
+    {
+      "id": 689,
+      "a": 9491,
+      "b": 9151,
+      "target": "86852141",
+      "predicted": "86663641",
+      "correct": false,
+      "response": "86663641}\n$$"
+    },
+    {
+      "id": 690,
+      "a": 1483,
+      "b": 1019,
+      "target": "1511177",
+      "predicted": "1507177",
+      "correct": false,
+      "response": "1507177}\n$$"
+    },
+    {
+      "id": 691,
+      "a": 4253,
+      "b": 7993,
+      "target": "33994229",
+      "predicted": "34030269",
+      "correct": false,
+      "response": "34030269}\n$$"
+    },
+    {
+      "id": 692,
+      "a": 2767,
+      "b": 1447,
+      "target": "4003849",
+      "predicted": "3996349",
+      "correct": false,
+      "response": "3996349}\n$$"
+    },
+    {
+      "id": 693,
+      "a": 6263,
+      "b": 4337,
+      "target": "27162631",
+      "predicted": "27163021",
+      "correct": false,
+      "response": "27163021}\n$$"
+    },
+    {
+      "id": 694,
+      "a": 8719,
+      "b": 6301,
+      "target": "54938419",
+      "predicted": "5495619",
+      "correct": false,
+      "response": "5495619}\n$$"
+    },
+    {
+      "id": 695,
+      "a": 7489,
+      "b": 7877,
+      "target": "58990853",
+      "predicted": "58813363",
+      "correct": false,
+      "response": "58813363}\n$$"
+    },
+    {
+      "id": 696,
+      "a": 7193,
+      "b": 6977,
+      "target": "50185561",
+      "predicted": "50431661",
+      "correct": false,
+      "response": "50431661}\n$$"
+    },
+    {
+      "id": 697,
+      "a": 1439,
+      "b": 5683,
+      "target": "8177837",
+      "predicted": "8173117",
+      "correct": false,
+      "response": "8173117}\n$$"
+    },
+    {
+      "id": 698,
+      "a": 2347,
+      "b": 1231,
+      "target": "2889157",
+      "predicted": "2897311",
+      "correct": false,
+      "response": "2897311}\n$$"
+    },
+    {
+      "id": 699,
+      "a": 7699,
+      "b": 9497,
+      "target": "73117403",
+      "predicted": "72991003",
+      "correct": false,
+      "response": "72991003}\n$$"
+    },
+    {
+      "id": 700,
+      "a": 3259,
+      "b": 1319,
+      "target": "4298621",
+      "predicted": "4283321",
+      "correct": false,
+      "response": "4283321}\n$$"
+    },
+    {
+      "id": 701,
+      "a": 6217,
+      "b": 6007,
+      "target": "37345519",
+      "predicted": "37363439",
+      "correct": false,
+      "response": "37363439}\n$$"
+    },
+    {
+      "id": 702,
+      "a": 7451,
+      "b": 9907,
+      "target": "73817057",
+      "predicted": "73991257",
+      "correct": false,
+      "response": "73991257}\n$$"
+    },
+    {
+      "id": 703,
+      "a": 2309,
+      "b": 5021,
+      "target": "11593489",
+      "predicted": "11596089",
+      "correct": false,
+      "response": "11596089}\n$$"
+    },
+    {
+      "id": 704,
+      "a": 4877,
+      "b": 7603,
+      "target": "37079831",
+      "predicted": "37136111",
+      "correct": false,
+      "response": "37136111}\n$$"
+    },
+    {
+      "id": 705,
+      "a": 7207,
+      "b": 4363,
+      "target": "31444141",
+      "predicted": "31491161",
+      "correct": false,
+      "response": "31491161}\n$$"
+    },
+    {
+      "id": 706,
+      "a": 1361,
+      "b": 2699,
+      "target": "3673339",
+      "predicted": "368000",
+      "correct": false,
+      "response": "368000 + 68000 + 1000 +"
+    },
+    {
+      "id": 707,
+      "a": 8101,
+      "b": 6143,
+      "target": "49764443",
+      "predicted": "49713143",
+      "correct": false,
+      "response": "49713143}\n$$"
+    },
+    {
+      "id": 708,
+      "a": 7177,
+      "b": 3187,
+      "target": "22873099",
+      "predicted": "22791099",
+      "correct": false,
+      "response": "22791099}\n$$"
+    },
+    {
+      "id": 709,
+      "a": 6781,
+      "b": 9403,
+      "target": "63761743",
+      "predicted": "63813443",
+      "correct": false,
+      "response": "63813443}\n$$"
+    },
+    {
+      "id": 710,
+      "a": 1609,
+      "b": 6911,
+      "target": "11119799",
+      "predicted": "1113709",
+      "correct": false,
+      "response": "1113709}\n$$"
+    },
+    {
+      "id": 711,
+      "a": 4583,
+      "b": 2549,
+      "target": "11682067",
+      "predicted": "11656067",
+      "correct": false,
+      "response": "11656067}\n$$"
+    },
+    {
+      "id": 712,
+      "a": 1289,
+      "b": 6133,
+      "target": "7905437",
+      "predicted": "7900337",
+      "correct": false,
+      "response": "7900337}\n$$"
+    },
+    {
+      "id": 713,
+      "a": 2999,
+      "b": 5801,
+      "target": "17397199",
+      "predicted": "17447499",
+      "correct": false,
+      "response": "17447499}\n$$"
+    },
+    {
+      "id": 714,
+      "a": 3461,
+      "b": 1307,
+      "target": "4523527",
+      "predicted": "4547287",
+      "correct": false,
+      "response": "4547287}\n$$"
+    },
+    {
+      "id": 715,
+      "a": 4111,
+      "b": 4903,
+      "target": "20156233",
+      "predicted": "20143833",
+      "correct": false,
+      "response": "20143833}\n$$"
+    },
+    {
+      "id": 716,
+      "a": 4231,
+      "b": 2383,
+      "target": "10082473",
+      "predicted": "10113393",
+      "correct": false,
+      "response": "10113393}\n$$"
+    },
+    {
+      "id": 717,
+      "a": 2371,
+      "b": 5569,
+      "target": "13204099",
+      "predicted": "13187689",
+      "correct": false,
+      "response": "13187689}\n$$"
+    },
+    {
+      "id": 718,
+      "a": 6469,
+      "b": 2971,
+      "target": "19219399",
+      "predicted": "1921641",
+      "correct": false,
+      "response": "1921641}\n$$"
+    },
+    {
+      "id": 719,
+      "a": 1367,
+      "b": 3389,
+      "target": "4632763",
+      "predicted": "4626103",
+      "correct": false,
+      "response": "4626103}\n$$"
+    },
+    {
+      "id": 720,
+      "a": 1669,
+      "b": 1399,
+      "target": "2334931",
+      "predicted": "2336931",
+      "correct": false,
+      "response": "2336931}\n$$"
+    },
+    {
+      "id": 721,
+      "a": 3511,
+      "b": 4759,
+      "target": "16708849",
+      "predicted": "16707141",
+      "correct": false,
+      "response": "16707141}\n$$"
+    },
+    {
+      "id": 722,
+      "a": 1459,
+      "b": 4519,
+      "target": "6593221",
+      "predicted": "6603041",
+      "correct": false,
+      "response": "6603041}\n$$"
+    },
+    {
+      "id": 723,
+      "a": 5477,
+      "b": 5101,
+      "target": "27938177",
+      "predicted": "2794077",
+      "correct": false,
+      "response": "2794077}\n$$"
+    },
+    {
+      "id": 724,
+      "a": 6661,
+      "b": 6841,
+      "target": "45567901",
+      "predicted": "45671401",
+      "correct": false,
+      "response": "45671401}\n$$"
+    },
+    {
+      "id": 725,
+      "a": 4583,
+      "b": 9371,
+      "target": "42947293",
+      "predicted": "4287141",
+      "correct": false,
+      "response": "4287141}\n$$"
+    },
+    {
+      "id": 726,
+      "a": 5651,
+      "b": 2029,
+      "target": "11465879",
+      "predicted": "11453879",
+      "correct": false,
+      "response": "11453879}\n$$"
+    },
+    {
+      "id": 727,
+      "a": 7159,
+      "b": 1453,
+      "target": "10402027",
+      "predicted": "10393277",
+      "correct": false,
+      "response": "10393277}\n$$"
+    },
+    {
+      "id": 728,
+      "a": 1259,
+      "b": 5779,
+      "target": "7275761",
+      "predicted": "7263161",
+      "correct": false,
+      "response": "7263161}\n$$"
+    },
+    {
+      "id": 729,
+      "a": 2557,
+      "b": 3557,
+      "target": "9095249",
+      "predicted": "9073189",
+      "correct": false,
+      "response": "9073189}\n$$"
+    },
+    {
+      "id": 730,
+      "a": 1697,
+      "b": 5807,
+      "target": "9854479",
+      "predicted": "9861229",
+      "correct": false,
+      "response": "9861229}\n$$"
+    },
+    {
+      "id": 731,
+      "a": 3191,
+      "b": 2083,
+      "target": "6646853",
+      "predicted": "6666983",
+      "correct": false,
+      "response": "6666983}\n$$"
+    },
+    {
+      "id": 732,
+      "a": 2341,
+      "b": 2621,
+      "target": "6135761",
+      "predicted": "6136661",
+      "correct": false,
+      "response": "6136661}\n$$"
+    },
+    {
+      "id": 733,
+      "a": 1163,
+      "b": 8111,
+      "target": "9433093",
+      "predicted": "943643",
+      "correct": false,
+      "response": "943643}\n$$"
+    },
+    {
+      "id": 734,
+      "a": 2377,
+      "b": 8647,
+      "target": "20553919",
+      "predicted": "20486399",
+      "correct": false,
+      "response": "20486399}\n$$"
+    },
+    {
+      "id": 735,
+      "a": 5987,
+      "b": 1289,
+      "target": "7717243",
+      "predicted": "7706343",
+      "correct": false,
+      "response": "7706343}\n$$"
+    },
+    {
+      "id": 736,
+      "a": 5861,
+      "b": 6869,
+      "target": "40259209",
+      "predicted": "40360309",
+      "correct": false,
+      "response": "40360309}\n$$"
+    },
+    {
+      "id": 737,
+      "a": 8669,
+      "b": 3163,
+      "target": "27420047",
+      "predicted": "27397897",
+      "correct": false,
+      "response": "27397897}\n$$"
+    },
+    {
+      "id": 738,
+      "a": 7853,
+      "b": 2777,
+      "target": "21807781",
+      "predicted": "21733181",
+      "correct": false,
+      "response": "21733181}\n$$"
+    },
+    {
+      "id": 739,
+      "a": 3559,
+      "b": 8081,
+      "target": "28760279",
+      "predicted": "28733479",
+      "correct": false,
+      "response": "28733479}\n$$"
+    },
+    {
+      "id": 740,
+      "a": 8423,
+      "b": 4547,
+      "target": "38299381",
+      "predicted": "38371181",
+      "correct": false,
+      "response": "38371181}\n$$"
+    },
+    {
+      "id": 741,
+      "a": 9497,
+      "b": 7879,
+      "target": "74826863",
+      "predicted": "74613643",
+      "correct": false,
+      "response": "74613643}\n$$"
+    },
+    {
+      "id": 742,
+      "a": 3449,
+      "b": 6343,
+      "target": "21877007",
+      "predicted": "21913007",
+      "correct": false,
+      "response": "21913007}\n$$"
+    },
+    {
+      "id": 743,
+      "a": 4813,
+      "b": 6131,
+      "target": "29508503",
+      "predicted": "29413663",
+      "correct": false,
+      "response": "29413663}\n$$"
+    },
+    {
+      "id": 744,
+      "a": 6079,
+      "b": 6911,
+      "target": "42011969",
+      "predicted": "42000000",
+      "correct": false,
+      "response": "42000000}\n$$"
+    },
+    {
+      "id": 745,
+      "a": 6197,
+      "b": 3709,
+      "target": "22984673",
+      "predicted": "22973473",
+      "correct": false,
+      "response": "22973473}\n$$"
+    },
+    {
+      "id": 746,
+      "a": 1619,
+      "b": 4663,
+      "target": "7549397",
+      "predicted": "7536173",
+      "correct": false,
+      "response": "7536173}\n$$"
+    },
+    {
+      "id": 747,
+      "a": 7187,
+      "b": 6829,
+      "target": "49080023",
+      "predicted": "50000000000000000000",
+      "correct": false,
+      "response": "50000000000000000000"
+    },
+    {
+      "id": 748,
+      "a": 8849,
+      "b": 7669,
+      "target": "67862981",
+      "predicted": "67913641",
+      "correct": false,
+      "response": "67913641}\n$$"
+    },
+    {
+      "id": 749,
+      "a": 9739,
+      "b": 5717,
+      "target": "55677863",
+      "predicted": "55633663",
+      "correct": false,
+      "response": "55633663}\n$$"
+    },
+    {
+      "id": 750,
+      "a": 4973,
+      "b": 9337,
+      "target": "46432901",
+      "predicted": "46471621",
+      "correct": false,
+      "response": "46471621}\n$$"
+    },
+    {
+      "id": 751,
+      "a": 7573,
+      "b": 3253,
+      "target": "24634969",
+      "predicted": "24617149",
+      "correct": false,
+      "response": "24617149}\n$$"
+    },
+    {
+      "id": 752,
+      "a": 1523,
+      "b": 5653,
+      "target": "8609519",
+      "predicted": "8596309",
+      "correct": false,
+      "response": "8596309}\n$$"
+    },
+    {
+      "id": 753,
+      "a": 8741,
+      "b": 5711,
+      "target": "49919851",
+      "predicted": "49936151",
+      "correct": false,
+      "response": "49936151}\n$$"
+    },
+    {
+      "id": 754,
+      "a": 1153,
+      "b": 8599,
+      "target": "9914647",
+      "predicted": "10000000",
+      "correct": false,
+      "response": "10000000}\n$$"
+    },
+    {
+      "id": 755,
+      "a": 8543,
+      "b": 4519,
+      "target": "38605817",
+      "predicted": "38633117",
+      "correct": false,
+      "response": "38633117}\n$$"
+    },
+    {
+      "id": 756,
+      "a": 9623,
+      "b": 6217,
+      "target": "59826191",
+      "predicted": "59833131",
+      "correct": false,
+      "response": "59833131}\n$$"
+    },
+    {
+      "id": 757,
+      "a": 1657,
+      "b": 3989,
+      "target": "6609773",
+      "predicted": "6613313",
+      "correct": false,
+      "response": "6613313}\n$$"
+    },
+    {
+      "id": 758,
+      "a": 9161,
+      "b": 9479,
+      "target": "86837119",
+      "predicted": "86733159",
+      "correct": false,
+      "response": "86733159}\n$$"
+    },
+    {
+      "id": 759,
+      "a": 4871,
+      "b": 7459,
+      "target": "36332789",
+      "predicted": "36297109",
+      "correct": false,
+      "response": "36297109}\n$$"
+    },
+    {
+      "id": 760,
+      "a": 6449,
+      "b": 3691,
+      "target": "23803259",
+      "predicted": "23713159",
+      "correct": false,
+      "response": "23713159}\n$$"
+    },
+    {
+      "id": 761,
+      "a": 7643,
+      "b": 7187,
+      "target": "54930241",
+      "predicted": "5481121",
+      "correct": false,
+      "response": "5481121}\n$$"
+    },
+    {
+      "id": 762,
+      "a": 3359,
+      "b": 5197,
+      "target": "17456723",
+      "predicted": "17473003",
+      "correct": false,
+      "response": "17473003}\n$$"
+    },
+    {
+      "id": 763,
+      "a": 3331,
+      "b": 7517,
+      "target": "25039127",
+      "predicted": "2503367",
+      "correct": false,
+      "response": "2503367}\n$$"
+    },
+    {
+      "id": 764,
+      "a": 7253,
+      "b": 2293,
+      "target": "16631129",
+      "predicted": "16647129",
+      "correct": false,
+      "response": "16647129}\n$$"
+    },
+    {
+      "id": 765,
+      "a": 2473,
+      "b": 8693,
+      "target": "21497789",
+      "predicted": "21436169",
+      "correct": false,
+      "response": "21436169}\n$$"
+    },
+    {
+      "id": 766,
+      "a": 2503,
+      "b": 2029,
+      "target": "5078587",
+      "predicted": "5067787",
+      "correct": false,
+      "response": "5067787}\n$$"
+    },
+    {
+      "id": 767,
+      "a": 5717,
+      "b": 9041,
+      "target": "51687397",
+      "predicted": "51703157",
+      "correct": false,
+      "response": "51703157}\n$$"
+    },
+    {
+      "id": 768,
+      "a": 7643,
+      "b": 2243,
+      "target": "17143249",
+      "predicted": "17113149",
+      "correct": false,
+      "response": "17113149}\n$$"
+    },
+    {
+      "id": 769,
+      "a": 6143,
+      "b": 6991,
+      "target": "42945713",
+      "predicted": "4306113",
+      "correct": false,
+      "response": "4306113}\n$$"
+    },
+    {
+      "id": 770,
+      "a": 4079,
+      "b": 5657,
+      "target": "23074903",
+      "predicted": "22933803",
+      "correct": false,
+      "response": "22933803}\n$$"
+    },
+    {
+      "id": 771,
+      "a": 3701,
+      "b": 4493,
+      "target": "16628593",
+      "predicted": "16617493",
+      "correct": false,
+      "response": "16617493}\n$$"
+    },
+    {
+      "id": 772,
+      "a": 6491,
+      "b": 5743,
+      "target": "37277813",
+      "predicted": "37271113",
+      "correct": false,
+      "response": "37271113}\n$$"
+    },
+    {
+      "id": 773,
+      "a": 1327,
+      "b": 9859,
+      "target": "13082893",
+      "predicted": "13097113",
+      "correct": false,
+      "response": "13097113}\n$$"
+    },
+    {
+      "id": 774,
+      "a": 6653,
+      "b": 4261,
+      "target": "28348433",
+      "predicted": "28361383",
+      "correct": false,
+      "response": "28361383}\n$$"
+    },
+    {
+      "id": 775,
+      "a": 5087,
+      "b": 7681,
+      "target": "39073247",
+      "predicted": "39033107",
+      "correct": false,
+      "response": "39033107}\n$$"
+    },
+    {
+      "id": 776,
+      "a": 8233,
+      "b": 9173,
+      "target": "75521309",
+      "predicted": "7543309",
+      "correct": false,
+      "response": "7543309}\n$$"
+    },
+    {
+      "id": 777,
+      "a": 3217,
+      "b": 9463,
+      "target": "30442471",
+      "predicted": "30486311",
+      "correct": false,
+      "response": "30486311}\n$$"
+    },
+    {
+      "id": 778,
+      "a": 9767,
+      "b": 8941,
+      "target": "87326747",
+      "predicted": "87261447",
+      "correct": false,
+      "response": "87261447}\n$$"
+    },
+    {
+      "id": 779,
+      "a": 9337,
+      "b": 6521,
+      "target": "60886577",
+      "predicted": "60913177",
+      "correct": false,
+      "response": "60913177}\n$$"
+    },
+    {
+      "id": 780,
+      "a": 7349,
+      "b": 9811,
+      "target": "72101039",
+      "predicted": "72103289",
+      "correct": false,
+      "response": "72103289}\n$$"
+    },
+    {
+      "id": 781,
+      "a": 4993,
+      "b": 4111,
+      "target": "20526223",
+      "predicted": "20533643",
+      "correct": false,
+      "response": "20533643}\n$$"
+    },
+    {
+      "id": 782,
+      "a": 6917,
+      "b": 5531,
+      "target": "38257927",
+      "predicted": "38311047",
+      "correct": false,
+      "response": "38311047}\n$$"
+    },
+    {
+      "id": 783,
+      "a": 8087,
+      "b": 7489,
+      "target": "60563543",
+      "predicted": "6047173",
+      "correct": false,
+      "response": "6047173}\n$$"
+    },
+    {
+      "id": 784,
+      "a": 8089,
+      "b": 1747,
+      "target": "14131483",
+      "predicted": "14107183",
+      "correct": false,
+      "response": "14107183}\n$$"
+    },
+    {
+      "id": 785,
+      "a": 6737,
+      "b": 5897,
+      "target": "39728089",
+      "predicted": "39663189",
+      "correct": false,
+      "response": "39663189}\n$$"
+    },
+    {
+      "id": 786,
+      "a": 3037,
+      "b": 7879,
+      "target": "23928523",
+      "predicted": "23873203",
+      "correct": false,
+      "response": "23873203}\n$$"
+    },
+    {
+      "id": 787,
+      "a": 3001,
+      "b": 4231,
+      "target": "12697231",
+      "predicted": "12706431",
+      "correct": false,
+      "response": "12706431}\n$$"
+    },
+    {
+      "id": 788,
+      "a": 5119,
+      "b": 7253,
+      "target": "37128107",
+      "predicted": "37131143",
+      "correct": false,
+      "response": "37131143}\n$$"
+    },
+    {
+      "id": 789,
+      "a": 3527,
+      "b": 7529,
+      "target": "26554783",
+      "predicted": "26563113",
+      "correct": false,
+      "response": "26563113}\n$$"
+    },
+    {
+      "id": 790,
+      "a": 1979,
+      "b": 3169,
+      "target": "6271451",
+      "predicted": "6263011",
+      "correct": false,
+      "response": "6263011}\n$$"
+    },
+    {
+      "id": 791,
+      "a": 3671,
+      "b": 1493,
+      "target": "5480803",
+      "predicted": "5483163",
+      "correct": false,
+      "response": "5483163}\n$$"
+    },
+    {
+      "id": 792,
+      "a": 5953,
+      "b": 1777,
+      "target": "10578481",
+      "predicted": "10571681",
+      "correct": false,
+      "response": "10571681}\n$$"
+    },
+    {
+      "id": 793,
+      "a": 7121,
+      "b": 1531,
+      "target": "10902251",
+      "predicted": "10916131",
+      "correct": false,
+      "response": "10916131}\n$$"
+    },
+    {
+      "id": 794,
+      "a": 7841,
+      "b": 8501,
+      "target": "66656341",
+      "predicted": "66665841",
+      "correct": false,
+      "response": "66665841}\n$$"
+    },
+    {
+      "id": 795,
+      "a": 4943,
+      "b": 3271,
+      "target": "16168553",
+      "predicted": "16171193",
+      "correct": false,
+      "response": "16171193}\n$$"
+    },
+    {
+      "id": 796,
+      "a": 3083,
+      "b": 5279,
+      "target": "16275157",
+      "predicted": "16263107",
+      "correct": false,
+      "response": "16263107}\n$$"
+    },
+    {
+      "id": 797,
+      "a": 2287,
+      "b": 2777,
+      "target": "6350999",
+      "predicted": "6360479",
+      "correct": false,
+      "response": "6360479}\n$$"
+    },
+    {
+      "id": 798,
+      "a": 3929,
+      "b": 9467,
+      "target": "37195843",
+      "predicted": "37197343",
+      "correct": false,
+      "response": "37197343}\n$$"
+    },
+    {
+      "id": 799,
+      "a": 9767,
+      "b": 1259,
+      "target": "12296653",
+      "predicted": "12287107",
+      "correct": false,
+      "response": "12287107}\n$$"
+    },
+    {
+      "id": 800,
+      "a": 7907,
+      "b": 4133,
+      "target": "32679631",
+      "predicted": "32683111",
+      "correct": false,
+      "response": "32683111}\n$$"
+    },
+    {
+      "id": 801,
+      "a": 4909,
+      "b": 1571,
+      "target": "7712039",
+      "predicted": "7716189",
+      "correct": false,
+      "response": "7716189}\n$$"
+    },
+    {
+      "id": 802,
+      "a": 2213,
+      "b": 4789,
+      "target": "10598057",
+      "predicted": "10586347",
+      "correct": false,
+      "response": "10586347}\n$$"
+    },
+    {
+      "id": 803,
+      "a": 1427,
+      "b": 3221,
+      "target": "4596367",
+      "predicted": "4593067",
+      "correct": false,
+      "response": "4593067}\n$$"
+    },
+    {
+      "id": 804,
+      "a": 5197,
+      "b": 6263,
+      "target": "32548811",
+      "predicted": "32473111",
+      "correct": false,
+      "response": "32473111}\n$$"
+    },
+    {
+      "id": 805,
+      "a": 2083,
+      "b": 3607,
+      "target": "7513381",
+      "predicted": "7510811",
+      "correct": false,
+      "response": "7510811}\n$$"
+    },
+    {
+      "id": 806,
+      "a": 2927,
+      "b": 4423,
+      "target": "12946121",
+      "predicted": "12937771",
+      "correct": false,
+      "response": "12937771}\n$$"
+    },
+    {
+      "id": 807,
+      "a": 1297,
+      "b": 9749,
+      "target": "12644453",
+      "predicted": "12666133",
+      "correct": false,
+      "response": "12666133}\n$$"
+    },
+    {
+      "id": 808,
+      "a": 9323,
+      "b": 7561,
+      "target": "70491203",
+      "predicted": "6999983",
+      "correct": false,
+      "response": "6999983}\n$$"
+    },
+    {
+      "id": 809,
+      "a": 5051,
+      "b": 5431,
+      "target": "27431981",
+      "predicted": "27436011",
+      "correct": false,
+      "response": "27436011}\n$$"
+    },
+    {
+      "id": 810,
+      "a": 9161,
+      "b": 2417,
+      "target": "22142137",
+      "predicted": "22113047",
+      "correct": false,
+      "response": "22113047}\n$$"
+    },
+    {
+      "id": 811,
+      "a": 8999,
+      "b": 7229,
+      "target": "65053771",
+      "predicted": "6499877",
+      "correct": false,
+      "response": "6499877}\n$$"
+    },
+    {
+      "id": 812,
+      "a": 8387,
+      "b": 1993,
+      "target": "16715291",
+      "predicted": "16706111",
+      "correct": false,
+      "response": "16706111}\n$$"
+    },
+    {
+      "id": 813,
+      "a": 9133,
+      "b": 9109,
+      "target": "83192497",
+      "predicted": "8317347",
+      "correct": false,
+      "response": "8317347}\n$$"
+    },
+    {
+      "id": 814,
+      "a": 4423,
+      "b": 3881,
+      "target": "17165663",
+      "predicted": "16716183",
+      "correct": false,
+      "response": "16716183}\n$$"
+    },
+    {
+      "id": 815,
+      "a": 2357,
+      "b": 3527,
+      "target": "8313139",
+      "predicted": "8327119",
+      "correct": false,
+      "response": "8327119}\n$$"
+    },
+    {
+      "id": 816,
+      "a": 3539,
+      "b": 2467,
+      "target": "8730713",
+      "predicted": "8706373",
+      "correct": false,
+      "response": "8706373}\n$$"
+    },
+    {
+      "id": 817,
+      "a": 4157,
+      "b": 9769,
+      "target": "40609733",
+      "predicted": "40633173",
+      "correct": false,
+      "response": "40633173}\n$$"
+    },
+    {
+      "id": 818,
+      "a": 4729,
+      "b": 1913,
+      "target": "9046577",
+      "predicted": "9056167",
+      "correct": false,
+      "response": "9056167}\n$$"
+    },
+    {
+      "id": 819,
+      "a": 7951,
+      "b": 4793,
+      "target": "38109143",
+      "predicted": "37963383",
+      "correct": false,
+      "response": "37963383}\n$$"
+    },
+    {
+      "id": 820,
+      "a": 3119,
+      "b": 3221,
+      "target": "10046299",
+      "predicted": "10037399",
+      "correct": false,
+      "response": "10037399}\n$$"
+    },
+    {
+      "id": 821,
+      "a": 6367,
+      "b": 9281,
+      "target": "59092127",
+      "predicted": "58913107",
+      "correct": false,
+      "response": "58913107}\n$$"
+    },
+    {
+      "id": 822,
+      "a": 8863,
+      "b": 8269,
+      "target": "73288147",
+      "predicted": "7310000",
+      "correct": false,
+      "response": "7310000}\n$$"
+    },
+    {
+      "id": 823,
+      "a": 5807,
+      "b": 5107,
+      "target": "29656349",
+      "predicted": "30000000",
+      "correct": false,
+      "response": "30000000 + 5000000 + 8"
+    },
+    {
+      "id": 824,
+      "a": 2557,
+      "b": 4637,
+      "target": "11856809",
+      "predicted": "11836009",
+      "correct": false,
+      "response": "11836009}\n$$"
+    },
+    {
+      "id": 825,
+      "a": 7937,
+      "b": 8819,
+      "target": "69996403",
+      "predicted": "7000000",
+      "correct": false,
+      "response": "7000000 + 900000 + 300"
+    },
+    {
+      "id": 826,
+      "a": 5081,
+      "b": 1087,
+      "target": "5523047",
+      "predicted": "5516067",
+      "correct": false,
+      "response": "5516067}\n$$"
+    },
+    {
+      "id": 827,
+      "a": 5881,
+      "b": 2753,
+      "target": "16190393",
+      "predicted": "16197113",
+      "correct": false,
+      "response": "16197113}\n$$"
+    },
+    {
+      "id": 828,
+      "a": 4523,
+      "b": 1301,
+      "target": "5884423",
+      "predicted": "5884163",
+      "correct": false,
+      "response": "5884163}\n$$"
+    },
+    {
+      "id": 829,
+      "a": 1637,
+      "b": 1747,
+      "target": "2859839",
+      "predicted": "2858189",
+      "correct": false,
+      "response": "2858189}\n$$"
+    },
+    {
+      "id": 830,
+      "a": 3511,
+      "b": 9439,
+      "target": "33140329",
+      "predicted": "33163129",
+      "correct": false,
+      "response": "33163129}\n$$"
+    },
+    {
+      "id": 831,
+      "a": 8353,
+      "b": 8741,
+      "target": "73013573",
+      "predicted": "72933773",
+      "correct": false,
+      "response": "72933773}\n$$"
+    },
+    {
+      "id": 832,
+      "a": 6679,
+      "b": 3329,
+      "target": "22234391",
+      "predicted": "22223491",
+      "correct": false,
+      "response": "22223491}\n$$"
+    },
+    {
+      "id": 833,
+      "a": 7307,
+      "b": 5099,
+      "target": "37258393",
+      "predicted": "3719163",
+      "correct": false,
+      "response": "3719163}\n$$"
+    },
+    {
+      "id": 834,
+      "a": 8563,
+      "b": 9787,
+      "target": "83806081",
+      "predicted": "83713111",
+      "correct": false,
+      "response": "83713111}\n$$"
+    },
+    {
+      "id": 835,
+      "a": 1373,
+      "b": 6203,
+      "target": "8516719",
+      "predicted": "8521319",
+      "correct": false,
+      "response": "8521319}\n$$"
+    },
+    {
+      "id": 836,
+      "a": 5861,
+      "b": 3911,
+      "target": "22922371",
+      "predicted": "22913371",
+      "correct": false,
+      "response": "22913371}\n$$"
+    },
+    {
+      "id": 837,
+      "a": 8273,
+      "b": 5669,
+      "target": "46899637",
+      "predicted": "46666613",
+      "correct": false,
+      "response": "46666613}\n$$"
+    },
+    {
+      "id": 838,
+      "a": 6829,
+      "b": 1289,
+      "target": "8802581",
+      "predicted": "8793351",
+      "correct": false,
+      "response": "8793351}\n$$"
+    },
+    {
+      "id": 839,
+      "a": 2273,
+      "b": 5857,
+      "target": "13312961",
+      "predicted": "13303111",
+      "correct": false,
+      "response": "13303111}\n$$"
+    },
+    {
+      "id": 840,
+      "a": 1171,
+      "b": 4463,
+      "target": "5226173",
+      "predicted": "5247163",
+      "correct": false,
+      "response": "5247163}\n$$"
+    },
+    {
+      "id": 841,
+      "a": 6091,
+      "b": 7057,
+      "target": "42984187",
+      "predicted": "42961287",
+      "correct": false,
+      "response": "42961287}\n$$"
+    },
+    {
+      "id": 842,
+      "a": 9643,
+      "b": 5531,
+      "target": "53335433",
+      "predicted": "53411733",
+      "correct": false,
+      "response": "53411733}\n$$"
+    },
+    {
+      "id": 843,
+      "a": 5839,
+      "b": 1427,
+      "target": "8332253",
+      "predicted": "8306153",
+      "correct": false,
+      "response": "8306153}\n$$"
+    },
+    {
+      "id": 844,
+      "a": 6997,
+      "b": 2767,
+      "target": "19360699",
+      "predicted": "19313299",
+      "correct": false,
+      "response": "19313299}\n$$"
+    },
+    {
+      "id": 845,
+      "a": 2251,
+      "b": 8933,
+      "target": "20108183",
+      "predicted": "19999283",
+      "correct": false,
+      "response": "19999283}\n$$"
+    },
+    {
+      "id": 846,
+      "a": 4129,
+      "b": 7247,
+      "target": "29922863",
+      "predicted": "30000000",
+      "correct": false,
+      "response": "30000000}\n$$"
+    },
+    {
+      "id": 847,
+      "a": 6689,
+      "b": 2971,
+      "target": "19873019",
+      "predicted": "19886639",
+      "correct": false,
+      "response": "19886639}\n$$"
+    },
+    {
+      "id": 848,
+      "a": 8837,
+      "b": 8501,
+      "target": "75123337",
+      "predicted": "75133887",
+      "correct": false,
+      "response": "75133887}\n$$"
+    },
+    {
+      "id": 849,
+      "a": 8761,
+      "b": 5689,
+      "target": "49841329",
+      "predicted": "49603369",
+      "correct": false,
+      "response": "49603369}\n$$"
+    },
+    {
+      "id": 850,
+      "a": 9127,
+      "b": 1999,
+      "target": "18244873",
+      "predicted": "18254873",
+      "correct": false,
+      "response": "18254873}\n$$"
+    },
+    {
+      "id": 851,
+      "a": 4079,
+      "b": 4391,
+      "target": "17910889",
+      "predicted": "17863089",
+      "correct": false,
+      "response": "17863089}\n$$"
+    },
+    {
+      "id": 852,
+      "a": 1609,
+      "b": 4799,
+      "target": "7721591",
+      "predicted": "7702301",
+      "correct": false,
+      "response": "7702301}\n$$"
+    },
+    {
+      "id": 853,
+      "a": 2221,
+      "b": 6869,
+      "target": "15256049",
+      "predicted": "15270189",
+      "correct": false,
+      "response": "15270189}\n$$"
+    },
+    {
+      "id": 854,
+      "a": 1279,
+      "b": 9829,
+      "target": "12571291",
+      "predicted": "12613303",
+      "correct": false,
+      "response": "12613303}\n$$"
+    },
+    {
+      "id": 855,
+      "a": 2789,
+      "b": 7193,
+      "target": "20061277",
+      "predicted": "20000000",
+      "correct": false,
+      "response": "20000000}\n$$"
+    },
+    {
+      "id": 856,
+      "a": 9587,
+      "b": 3313,
+      "target": "31761731",
+      "predicted": "31761111",
+      "correct": false,
+      "response": "31761111}\n$$"
+    },
+    {
+      "id": 857,
+      "a": 9643,
+      "b": 2917,
+      "target": "28128631",
+      "predicted": "28133331",
+      "correct": false,
+      "response": "28133331}\n$$"
+    },
+    {
+      "id": 858,
+      "a": 3539,
+      "b": 7297,
+      "target": "25824083",
+      "predicted": "25763463",
+      "correct": false,
+      "response": "25763463}\n$$"
+    },
+    {
+      "id": 859,
+      "a": 6673,
+      "b": 6781,
+      "target": "45249613",
+      "predicted": "45331113",
+      "correct": false,
+      "response": "45331113}\n$$"
+    },
+    {
+      "id": 860,
+      "a": 8273,
+      "b": 3461,
+      "target": "28632853",
+      "predicted": "28637153",
+      "correct": false,
+      "response": "28637153}\n$$"
+    },
+    {
+      "id": 861,
+      "a": 5309,
+      "b": 6947,
+      "target": "36881623",
+      "predicted": "36967133",
+      "correct": false,
+      "response": "36967133}\n$$"
+    },
+    {
+      "id": 862,
+      "a": 1031,
+      "b": 5009,
+      "target": "5164279",
+      "predicted": "5174289",
+      "correct": false,
+      "response": "5174289}\n$$"
+    },
+    {
+      "id": 863,
+      "a": 7789,
+      "b": 4657,
+      "target": "36273373",
+      "predicted": "36233833",
+      "correct": false,
+      "response": "36233833}\n$$"
+    },
+    {
+      "id": 864,
+      "a": 1787,
+      "b": 2837,
+      "target": "5069719",
+      "predicted": "507621",
+      "correct": false,
+      "response": "507621}\n$$"
+    },
+    {
+      "id": 865,
+      "a": 2383,
+      "b": 3359,
+      "target": "8004497",
+      "predicted": "8003143",
+      "correct": false,
+      "response": "8003143}\n$$"
+    },
+    {
+      "id": 866,
+      "a": 7963,
+      "b": 6367,
+      "target": "50700421",
+      "predicted": "50673111",
+      "correct": false,
+      "response": "50673111}\n$$"
+    },
+    {
+      "id": 867,
+      "a": 3221,
+      "b": 1009,
+      "target": "3249989",
+      "predicted": "3246981",
+      "correct": false,
+      "response": "3246981}\n$$"
+    },
+    {
+      "id": 868,
+      "a": 7829,
+      "b": 6367,
+      "target": "49847243",
+      "predicted": "5000000",
+      "correct": false,
+      "response": "5000000}\n$$"
+    },
+    {
+      "id": 869,
+      "a": 1307,
+      "b": 1117,
+      "target": "1459919",
+      "predicted": "1459119",
+      "correct": false,
+      "response": "1459119}\n$$"
+    },
+    {
+      "id": 870,
+      "a": 6553,
+      "b": 6653,
+      "target": "43597109",
+      "predicted": "43603565",
+      "correct": false,
+      "response": "43603565}\n$$"
+    },
+    {
+      "id": 871,
+      "a": 4651,
+      "b": 9829,
+      "target": "45714679",
+      "predicted": "45713129",
+      "correct": false,
+      "response": "45713129}\n$$"
+    },
+    {
+      "id": 872,
+      "a": 6521,
+      "b": 8867,
+      "target": "57821707",
+      "predicted": "57763137",
+      "correct": false,
+      "response": "57763137}\n$$"
+    },
+    {
+      "id": 873,
+      "a": 4909,
+      "b": 5857,
+      "target": "28752013",
+      "predicted": "28733113",
+      "correct": false,
+      "response": "28733113}\n$$"
+    },
+    {
+      "id": 874,
+      "a": 5657,
+      "b": 1171,
+      "target": "6624347",
+      "predicted": "6636107",
+      "correct": false,
+      "response": "6636107}\n$$"
+    },
+    {
+      "id": 875,
+      "a": 6359,
+      "b": 4391,
+      "target": "27922369",
+      "predicted": "27901269",
+      "correct": false,
+      "response": "27901269}\n$$"
+    },
+    {
+      "id": 876,
+      "a": 9043,
+      "b": 5351,
+      "target": "48389093",
+      "predicted": "48371133",
+      "correct": false,
+      "response": "48371133}\n$$"
+    },
+    {
+      "id": 877,
+      "a": 7307,
+      "b": 4517,
+      "target": "33005719",
+      "predicted": "32996119",
+      "correct": false,
+      "response": "32996119}\n$$"
+    },
+    {
+      "id": 878,
+      "a": 4931,
+      "b": 9479,
+      "target": "46740949",
+      "predicted": "46761149",
+      "correct": false,
+      "response": "46761149}\n$$"
+    },
+    {
+      "id": 879,
+      "a": 2963,
+      "b": 8429,
+      "target": "24975127",
+      "predicted": "24976307",
+      "correct": false,
+      "response": "24976307}\n$$"
+    },
+    {
+      "id": 880,
+      "a": 4871,
+      "b": 9013,
+      "target": "43902323",
+      "predicted": "43916181",
+      "correct": false,
+      "response": "43916181}\n$$"
+    },
+    {
+      "id": 881,
+      "a": 5783,
+      "b": 8389,
+      "target": "48513587",
+      "predicted": "48431117",
+      "correct": false,
+      "response": "48431117}\n$$"
+    },
+    {
+      "id": 882,
+      "a": 7643,
+      "b": 3851,
+      "target": "29433193",
+      "predicted": "29463133",
+      "correct": false,
+      "response": "29463133}\n$$"
+    },
+    {
+      "id": 883,
+      "a": 8263,
+      "b": 3259,
+      "target": "26929117",
+      "predicted": "26877143",
+      "correct": false,
+      "response": "26877143}\n$$"
+    },
+    {
+      "id": 884,
+      "a": 3011,
+      "b": 2767,
+      "target": "8331437",
+      "predicted": "8333337",
+      "correct": false,
+      "response": "8333337}\n$$"
+    },
+    {
+      "id": 885,
+      "a": 3299,
+      "b": 6637,
+      "target": "21895463",
+      "predicted": "21883663",
+      "correct": false,
+      "response": "21883663}\n$$"
+    },
+    {
+      "id": 886,
+      "a": 2833,
+      "b": 5881,
+      "target": "16660873",
+      "predicted": "16657113",
+      "correct": false,
+      "response": "16657113}\n$$"
+    },
+    {
+      "id": 887,
+      "a": 8311,
+      "b": 5827,
+      "target": "48428197",
+      "predicted": "48463187",
+      "correct": false,
+      "response": "48463187}\n$$"
+    },
+    {
+      "id": 888,
+      "a": 5903,
+      "b": 6317,
+      "target": "37289251",
+      "predicted": "37263511",
+      "correct": false,
+      "response": "37263511}\n$$"
+    },
+    {
+      "id": 889,
+      "a": 2477,
+      "b": 6143,
+      "target": "15216211",
+      "predicted": "15153251",
+      "correct": false,
+      "response": "15153251}\n$$"
+    },
+    {
+      "id": 890,
+      "a": 1289,
+      "b": 7411,
+      "target": "9552779",
+      "predicted": "9556069",
+      "correct": false,
+      "response": "9556069}\n$$"
+    },
+    {
+      "id": 891,
+      "a": 6397,
+      "b": 9419,
+      "target": "60253343",
+      "predicted": "60391843",
+      "correct": false,
+      "response": "60391843}\n$$"
+    },
+    {
+      "id": 892,
+      "a": 1187,
+      "b": 2441,
+      "target": "2897467",
+      "predicted": "2899647",
+      "correct": false,
+      "response": "2899647}\n$$"
+    },
+    {
+      "id": 893,
+      "a": 4373,
+      "b": 4157,
+      "target": "18178561",
+      "predicted": "1818301",
+      "correct": false,
+      "response": "1818301}\n$$"
+    },
+    {
+      "id": 894,
+      "a": 7253,
+      "b": 3823,
+      "target": "27728219",
+      "predicted": "27723169",
+      "correct": false,
+      "response": "27723169}\n$$"
+    },
+    {
+      "id": 895,
+      "a": 4831,
+      "b": 7901,
+      "target": "38169731",
+      "predicted": "38166131",
+      "correct": false,
+      "response": "38166131}\n$$"
+    },
+    {
+      "id": 896,
+      "a": 9539,
+      "b": 5147,
+      "target": "49097233",
+      "predicted": "49061433",
+      "correct": false,
+      "response": "49061433}\n$$"
+    },
+    {
+      "id": 897,
+      "a": 5569,
+      "b": 6823,
+      "target": "37997287",
+      "predicted": "38073187",
+      "correct": false,
+      "response": "38073187}\n$$"
+    },
+    {
+      "id": 898,
+      "a": 9767,
+      "b": 3851,
+      "target": "37612717",
+      "predicted": "3760067",
+      "correct": false,
+      "response": "3760067}\n$$"
+    },
+    {
+      "id": 899,
+      "a": 3671,
+      "b": 4159,
+      "target": "15267689",
+      "predicted": "15273131",
+      "correct": false,
+      "response": "15273131}\n$$"
+    },
+    {
+      "id": 900,
+      "a": 7537,
+      "b": 1913,
+      "target": "14418281",
+      "predicted": "14406161",
+      "correct": false,
+      "response": "14406161}\n$$"
+    },
+    {
+      "id": 901,
+      "a": 4027,
+      "b": 9371,
+      "target": "37737017",
+      "predicted": "37637117",
+      "correct": false,
+      "response": "37637117}\n$$"
+    },
+    {
+      "id": 902,
+      "a": 5189,
+      "b": 3373,
+      "target": "17502497",
+      "predicted": "17463137",
+      "correct": false,
+      "response": "17463137}\n$$"
+    },
+    {
+      "id": 903,
+      "a": 6709,
+      "b": 7109,
+      "target": "47694281",
+      "predicted": "47673781",
+      "correct": false,
+      "response": "47673781}\n$$"
+    },
+    {
+      "id": 904,
+      "a": 5303,
+      "b": 3701,
+      "target": "19626403",
+      "predicted": "19637003",
+      "correct": false,
+      "response": "19637003}\n$$"
+    },
+    {
+      "id": 905,
+      "a": 1877,
+      "b": 7517,
+      "target": "14109409",
+      "predicted": "14117289",
+      "correct": false,
+      "response": "14117289}\n$$"
+    },
+    {
+      "id": 906,
+      "a": 1049,
+      "b": 8737,
+      "target": "9165113",
+      "predicted": "9157133",
+      "correct": false,
+      "response": "9157133}\n$$"
+    },
+    {
+      "id": 907,
+      "a": 4457,
+      "b": 1597,
+      "target": "7117829",
+      "predicted": "7126129",
+      "correct": false,
+      "response": "7126129}\n$$"
+    },
+    {
+      "id": 908,
+      "a": 4561,
+      "b": 6449,
+      "target": "29413889",
+      "predicted": "29434129",
+      "correct": false,
+      "response": "29434129}\n$$"
+    },
+    {
+      "id": 909,
+      "a": 6053,
+      "b": 3499,
+      "target": "21179447",
+      "predicted": "6053",
+      "correct": false,
+      "response": "6053 \\times 3499 = 2113049"
+    },
+    {
+      "id": 910,
+      "a": 1181,
+      "b": 1109,
+      "target": "1309729",
+      "predicted": "1309029",
+      "correct": false,
+      "response": "1309029}\n$$"
+    },
+    {
+      "id": 911,
+      "a": 7129,
+      "b": 3407,
+      "target": "24288503",
+      "predicted": "24291853",
+      "correct": false,
+      "response": "24291853}\n$$"
+    },
+    {
+      "id": 912,
+      "a": 3191,
+      "b": 6047,
+      "target": "19295977",
+      "predicted": "19281227",
+      "correct": false,
+      "response": "19281227}\n$$"
+    },
+    {
+      "id": 913,
+      "a": 2729,
+      "b": 2683,
+      "target": "7321907",
+      "predicted": "7303167",
+      "correct": false,
+      "response": "7303167}\n$$"
+    },
+    {
+      "id": 914,
+      "a": 3929,
+      "b": 6637,
+      "target": "26076773",
+      "predicted": "26073943",
+      "correct": false,
+      "response": "26073943}\n$$"
+    },
+    {
+      "id": 915,
+      "a": 4423,
+      "b": 5441,
+      "target": "24065543",
+      "predicted": "24033643",
+      "correct": false,
+      "response": "24033643}\n$$"
+    },
+    {
+      "id": 916,
+      "a": 4649,
+      "b": 2273,
+      "target": "10567177",
+      "predicted": "10563377",
+      "correct": false,
+      "response": "10563377}\n$$"
+    },
+    {
+      "id": 917,
+      "a": 6229,
+      "b": 8807,
+      "target": "54858803",
+      "predicted": "54833203",
+      "correct": false,
+      "response": "54833203}\n$$"
+    },
+    {
+      "id": 918,
+      "a": 5113,
+      "b": 3347,
+      "target": "17113211",
+      "predicted": "17107171",
+      "correct": false,
+      "response": "17107171}\n$$"
+    },
+    {
+      "id": 919,
+      "a": 9377,
+      "b": 9397,
+      "target": "88115669",
+      "predicted": "88000000",
+      "correct": false,
+      "response": "88000000}\n$$"
+    },
+    {
+      "id": 920,
+      "a": 2029,
+      "b": 8923,
+      "target": "18104767",
+      "predicted": "17999477",
+      "correct": false,
+      "response": "17999477}\n$$"
+    },
+    {
+      "id": 921,
+      "a": 2741,
+      "b": 9539,
+      "target": "26146399",
+      "predicted": "26163259",
+      "correct": false,
+      "response": "26163259}\n$$"
+    },
+    {
+      "id": 922,
+      "a": 4663,
+      "b": 6763,
+      "target": "31535869",
+      "predicted": "31512189",
+      "correct": false,
+      "response": "31512189}\n$$"
+    },
+    {
+      "id": 923,
+      "a": 5851,
+      "b": 8179,
+      "target": "47855329",
+      "predicted": "47736659",
+      "correct": false,
+      "response": "47736659}\n$$"
+    },
+    {
+      "id": 924,
+      "a": 4919,
+      "b": 7297,
+      "target": "35893943",
+      "predicted": "35813643",
+      "correct": false,
+      "response": "35813643}\n$$"
+    },
+    {
+      "id": 925,
+      "a": 1693,
+      "b": 5827,
+      "target": "9865111",
+      "predicted": "9863111",
+      "correct": false,
+      "response": "9863111}\n$$"
+    },
+    {
+      "id": 926,
+      "a": 5861,
+      "b": 5717,
+      "target": "33507337",
+      "predicted": "33563317",
+      "correct": false,
+      "response": "33563317}\n$$"
+    },
+    {
+      "id": 927,
+      "a": 1657,
+      "b": 1327,
+      "target": "2198839",
+      "predicted": "2197389",
+      "correct": false,
+      "response": "2197389}\n$$"
+    },
+    {
+      "id": 928,
+      "a": 3121,
+      "b": 3989,
+      "target": "12449669",
+      "predicted": "12447569",
+      "correct": false,
+      "response": "12447569}\n$$"
+    },
+    {
+      "id": 929,
+      "a": 1279,
+      "b": 6203,
+      "target": "7933637",
+      "predicted": "7943117",
+      "correct": false,
+      "response": "7943117}\n$$"
+    },
+    {
+      "id": 930,
+      "a": 2273,
+      "b": 4831,
+      "target": "10980863",
+      "predicted": "10966503",
+      "correct": false,
+      "response": "10966503}\n$$"
+    },
+    {
+      "id": 931,
+      "a": 8933,
+      "b": 8293,
+      "target": "74081369",
+      "predicted": "74031169",
+      "correct": false,
+      "response": "74031169}\n$$"
+    },
+    {
+      "id": 932,
+      "a": 3779,
+      "b": 9187,
+      "target": "34717673",
+      "predicted": "34661243",
+      "correct": false,
+      "response": "34661243}\n$$"
+    },
+    {
+      "id": 933,
+      "a": 1279,
+      "b": 3917,
+      "target": "5009843",
+      "predicted": "5010643",
+      "correct": false,
+      "response": "5010643}\n$$"
+    },
+    {
+      "id": 934,
+      "a": 8443,
+      "b": 8693,
+      "target": "73394999",
+      "predicted": "73291159",
+      "correct": false,
+      "response": "73291159}\n$$"
+    },
+    {
+      "id": 935,
+      "a": 3491,
+      "b": 2557,
+      "target": "8926487",
+      "predicted": "9000000",
+      "correct": false,
+      "response": "9000000}\n$$"
+    },
+    {
+      "id": 936,
+      "a": 2551,
+      "b": 3463,
+      "target": "8834113",
+      "predicted": "8829063",
+      "correct": false,
+      "response": "8829063}\n$$"
+    },
+    {
+      "id": 937,
+      "a": 5233,
+      "b": 7589,
+      "target": "39713237",
+      "predicted": "39663447",
+      "correct": false,
+      "response": "39663447}\n$$"
+    },
+    {
+      "id": 938,
+      "a": 5981,
+      "b": 5521,
+      "target": "33021101",
+      "predicted": "32999481",
+      "correct": false,
+      "response": "32999481}\n$$"
+    },
+    {
+      "id": 939,
+      "a": 3389,
+      "b": 6311,
+      "target": "21387979",
+      "predicted": "21393679",
+      "correct": false,
+      "response": "21393679}\n$$"
+    },
+    {
+      "id": 940,
+      "a": 2663,
+      "b": 6449,
+      "target": "17173687",
+      "predicted": "17177187",
+      "correct": false,
+      "response": "17177187}\n$$"
+    },
+    {
+      "id": 941,
+      "a": 5639,
+      "b": 2221,
+      "target": "12524219",
+      "predicted": "12503039",
+      "correct": false,
+      "response": "12503039}\n$$"
+    },
+    {
+      "id": 942,
+      "a": 4591,
+      "b": 5503,
+      "target": "25264273",
+      "predicted": "25291773",
+      "correct": false,
+      "response": "25291773}\n$$"
+    },
+    {
+      "id": 943,
+      "a": 5179,
+      "b": 5519,
+      "target": "28582901",
+      "predicted": "28591301",
+      "correct": false,
+      "response": "28591301}\n$$"
+    },
+    {
+      "id": 944,
+      "a": 8209,
+      "b": 1693,
+      "target": "13897837",
+      "predicted": "14000000",
+      "correct": false,
+      "response": "14000000}\n$$"
+    },
+    {
+      "id": 945,
+      "a": 9941,
+      "b": 3701,
+      "target": "36791641",
+      "predicted": "36794241",
+      "correct": false,
+      "response": "36794241}\n$$"
+    },
+    {
+      "id": 946,
+      "a": 3583,
+      "b": 1531,
+      "target": "5485573",
+      "predicted": "5481113",
+      "correct": false,
+      "response": "5481113}\n$$"
+    },
+    {
+      "id": 947,
+      "a": 1327,
+      "b": 6949,
+      "target": "9221323",
+      "predicted": "9221153",
+      "correct": false,
+      "response": "9221153}\n$$"
+    },
+    {
+      "id": 948,
+      "a": 8599,
+      "b": 8677,
+      "target": "74613523",
+      "predicted": "74633603",
+      "correct": false,
+      "response": "74633603}\n$$"
+    },
+    {
+      "id": 949,
+      "a": 5717,
+      "b": 8581,
+      "target": "49057577",
+      "predicted": "49061317",
+      "correct": false,
+      "response": "49061317}\n$$"
+    },
+    {
+      "id": 950,
+      "a": 7039,
+      "b": 2689,
+      "target": "18927871",
+      "predicted": "18913461",
+      "correct": false,
+      "response": "18913461}\n$$"
+    },
+    {
+      "id": 951,
+      "a": 1999,
+      "b": 2803,
+      "target": "5603197",
+      "predicted": "5599677",
+      "correct": false,
+      "response": "5599677}\n$$"
+    },
+    {
+      "id": 952,
+      "a": 3371,
+      "b": 3259,
+      "target": "10986089",
+      "predicted": "11000000",
+      "correct": false,
+      "response": "11000000}\n$$"
+    },
+    {
+      "id": 953,
+      "a": 3581,
+      "b": 1321,
+      "target": "4730501",
+      "predicted": "4727101",
+      "correct": false,
+      "response": "4727101}\n$$"
+    },
+    {
+      "id": 954,
+      "a": 7159,
+      "b": 4789,
+      "target": "34284451",
+      "predicted": "34171411",
+      "correct": false,
+      "response": "34171411}\n$$"
+    },
+    {
+      "id": 955,
+      "a": 5281,
+      "b": 1949,
+      "target": "10292669",
+      "predicted": "10277369",
+      "correct": false,
+      "response": "10277369}\n$$"
+    },
+    {
+      "id": 956,
+      "a": 1319,
+      "b": 3461,
+      "target": "4565059",
+      "predicted": "456609",
+      "correct": false,
+      "response": "456609}\n$$"
+    },
+    {
+      "id": 957,
+      "a": 2447,
+      "b": 3407,
+      "target": "8336929",
+      "predicted": "8350449",
+      "correct": false,
+      "response": "8350449}\n$$"
+    },
+    {
+      "id": 958,
+      "a": 9187,
+      "b": 6323,
+      "target": "58089401",
+      "predicted": "51661101",
+      "correct": false,
+      "response": "51661101}\n$$"
+    },
+    {
+      "id": 959,
+      "a": 7351,
+      "b": 8329,
+      "target": "61226479",
+      "predicted": "61203127",
+      "correct": false,
+      "response": "61203127}\n$$"
+    },
+    {
+      "id": 960,
+      "a": 4481,
+      "b": 3947,
+      "target": "17686507",
+      "predicted": "17697107",
+      "correct": false,
+      "response": "17697107}\n$$"
+    },
+    {
+      "id": 961,
+      "a": 9787,
+      "b": 3889,
+      "target": "38061643",
+      "predicted": "37913143",
+      "correct": false,
+      "response": "37913143}\n$$"
+    },
+    {
+      "id": 962,
+      "a": 4517,
+      "b": 6571,
+      "target": "29681207",
+      "predicted": "30000000",
+      "correct": false,
+      "response": "30000000}\n$$"
+    },
+    {
+      "id": 963,
+      "a": 9521,
+      "b": 5563,
+      "target": "52965323",
+      "predicted": "53071113",
+      "correct": false,
+      "response": "53071113}\n$$"
+    },
+    {
+      "id": 964,
+      "a": 4801,
+      "b": 6211,
+      "target": "29819011",
+      "predicted": "29876211",
+      "correct": false,
+      "response": "29876211}\n$$"
+    },
+    {
+      "id": 965,
+      "a": 6691,
+      "b": 5281,
+      "target": "35335171",
+      "predicted": "35361911",
+      "correct": false,
+      "response": "35361911}\n$$"
+    },
+    {
+      "id": 966,
+      "a": 4507,
+      "b": 8009,
+      "target": "36096563",
+      "predicted": "36111603",
+      "correct": false,
+      "response": "36111603}\n$$"
+    },
+    {
+      "id": 967,
+      "a": 1291,
+      "b": 1559,
+      "target": "2012669",
+      "predicted": "2008061",
+      "correct": false,
+      "response": "2008061}\n$$"
+    },
+    {
+      "id": 968,
+      "a": 3631,
+      "b": 2749,
+      "target": "9981619",
+      "predicted": "10000000",
+      "correct": false,
+      "response": "10000000}\n$$"
+    },
+    {
+      "id": 969,
+      "a": 3511,
+      "b": 7669,
+      "target": "26925859",
+      "predicted": "26937169",
+      "correct": false,
+      "response": "26937169}\n$$"
+    },
+    {
+      "id": 970,
+      "a": 5003,
+      "b": 2539,
+      "target": "12702617",
+      "predicted": "12666117",
+      "correct": false,
+      "response": "12666117}\n$$"
+    },
+    {
+      "id": 971,
+      "a": 5519,
+      "b": 3907,
+      "target": "21562733",
+      "predicted": "21573443",
+      "correct": false,
+      "response": "21573443}\n$$"
+    },
+    {
+      "id": 972,
+      "a": 8521,
+      "b": 7841,
+      "target": "66813161",
+      "predicted": "66863061",
+      "correct": false,
+      "response": "66863061}\n$$"
+    },
+    {
+      "id": 973,
+      "a": 2239,
+      "b": 1069,
+      "target": "2393491",
+      "predicted": "2366151",
+      "correct": false,
+      "response": "2366151}\n$$"
+    },
+    {
+      "id": 974,
+      "a": 6581,
+      "b": 9221,
+      "target": "60683401",
+      "predicted": "60637481",
+      "correct": false,
+      "response": "60637481}\n$$"
+    },
+    {
+      "id": 975,
+      "a": 5167,
+      "b": 6709,
+      "target": "34665403",
+      "predicted": "34697133",
+      "correct": false,
+      "response": "34697133}\n$$"
+    },
+    {
+      "id": 976,
+      "a": 4049,
+      "b": 1051,
+      "target": "4255499",
+      "predicted": "4255049",
+      "correct": false,
+      "response": "4255049}\n$$"
+    },
+    {
+      "id": 977,
+      "a": 2939,
+      "b": 6301,
+      "target": "18518639",
+      "predicted": "18533889",
+      "correct": false,
+      "response": "18533889}\n$$"
+    },
+    {
+      "id": 978,
+      "a": 1583,
+      "b": 1217,
+      "target": "1926511",
+      "predicted": "1924111",
+      "correct": false,
+      "response": "1924111}\n$$"
+    },
+    {
+      "id": 979,
+      "a": 8093,
+      "b": 4111,
+      "target": "33270323",
+      "predicted": "3328323",
+      "correct": false,
+      "response": "3328323}\n$$"
+    },
+    {
+      "id": 980,
+      "a": 5641,
+      "b": 7951,
+      "target": "44851591",
+      "predicted": "44936651",
+      "correct": false,
+      "response": "44936651}\n$$"
+    },
+    {
+      "id": 981,
+      "a": 9473,
+      "b": 6277,
+      "target": "59462021",
+      "predicted": "59261161",
+      "correct": false,
+      "response": "59261161}\n$$"
+    },
+    {
+      "id": 982,
+      "a": 7309,
+      "b": 7549,
+      "target": "55175641",
+      "predicted": "55261141",
+      "correct": false,
+      "response": "55261141}\n$$"
+    },
+    {
+      "id": 983,
+      "a": 9791,
+      "b": 6871,
+      "target": "67273961",
+      "predicted": "67371461",
+      "correct": false,
+      "response": "67371461}\n$$"
+    },
+    {
+      "id": 984,
+      "a": 1123,
+      "b": 6163,
+      "target": "6921049",
+      "predicted": "7",
+      "correct": false,
+      "response": "7 \\, 000 \\, 000}\n$$"
+    },
+    {
+      "id": 985,
+      "a": 9533,
+      "b": 8741,
+      "target": "83327953",
+      "predicted": "83361113",
+      "correct": false,
+      "response": "83361113}\n$$"
+    },
+    {
+      "id": 986,
+      "a": 1531,
+      "b": 4567,
+      "target": "6992077",
+      "predicted": "7000001",
+      "correct": false,
+      "response": "7000001}\n$$"
+    },
+    {
+      "id": 987,
+      "a": 2851,
+      "b": 1583,
+      "target": "4513133",
+      "predicted": "4513133",
+      "correct": true,
+      "response": "4513133}\n$$"
+    },
+    {
+      "id": 988,
+      "a": 6733,
+      "b": 6359,
+      "target": "42815147",
+      "predicted": "42813447",
+      "correct": false,
+      "response": "42813447}\n$$"
+    },
+    {
+      "id": 989,
+      "a": 3119,
+      "b": 6691,
+      "target": "20869229",
+      "predicted": "20856281",
+      "correct": false,
+      "response": "20856281}\n$$"
+    },
+    {
+      "id": 990,
+      "a": 9859,
+      "b": 1487,
+      "target": "14660333",
+      "predicted": "14663333",
+      "correct": false,
+      "response": "14663333}\n$$"
+    },
+    {
+      "id": 991,
+      "a": 2857,
+      "b": 3677,
+      "target": "10505189",
+      "predicted": "1049669",
+      "correct": false,
+      "response": "1049669}\n$$"
+    },
+    {
+      "id": 992,
+      "a": 8191,
+      "b": 2621,
+      "target": "21468611",
+      "predicted": "2147401",
+      "correct": false,
+      "response": "2147401}\n$$"
+    },
+    {
+      "id": 993,
+      "a": 4229,
+      "b": 4217,
+      "target": "17833693",
+      "predicted": "17813993",
+      "correct": false,
+      "response": "17813993}\n$$"
+    },
+    {
+      "id": 994,
+      "a": 3359,
+      "b": 1237,
+      "target": "4155083",
+      "predicted": "4166183",
+      "correct": false,
+      "response": "4166183}\n$$"
+    },
+    {
+      "id": 995,
+      "a": 2003,
+      "b": 8263,
+      "target": "16550789",
+      "predicted": "16567699",
+      "correct": false,
+      "response": "16567699}\n$$"
+    },
+    {
+      "id": 996,
+      "a": 7487,
+      "b": 2063,
+      "target": "15445681",
+      "predicted": "15413121",
+      "correct": false,
+      "response": "15413121}\n$$"
+    },
+    {
+      "id": 997,
+      "a": 8269,
+      "b": 3643,
+      "target": "30123967",
+      "predicted": "30000000",
+      "correct": false,
+      "response": "30000000}\n$$"
+    },
+    {
+      "id": 998,
+      "a": 6473,
+      "b": 1109,
+      "target": "7178557",
+      "predicted": "7176157",
+      "correct": false,
+      "response": "7176157}\n$$"
+    },
+    {
+      "id": 999,
+      "a": 2579,
+      "b": 1777,
+      "target": "4582883",
+      "predicted": "458089",
+      "correct": false,
+      "response": "458089}\n$$"
+    }
+  ]
+}

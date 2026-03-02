@@ -712,6 +712,65 @@ class AlphanumericPenalty(RewardFunction):
         return rewards, dict(extra_infos)
 
 
+class CorrectnessWithLengthPenalty(RewardFunction):
+    """
+    Correctness reward with exponential length penalty on think block.
+
+    If correct:  reward = correctness_reward * exp(-f(think_length) / length_decay)
+    If incorrect: reward = incorrect_penalty
+
+    where f is sqrt (default) or identity.
+    """
+    return_extra_infos = True
+    require_activations = False
+    allow_logging = True
+
+    def __init__(self, correctness_reward: float = 1.0, length_decay: float = 500.0, incorrect_penalty: float = -0.5, use_sqrt: bool = True):
+        self.correctness_reward = correctness_reward
+        self.length_decay = length_decay
+        self.incorrect_penalty = incorrect_penalty
+        self.use_sqrt = use_sqrt
+
+    def compute_reward(self, examples, responses, activations=None, **kwargs):
+        rewards = []
+        extra_infos = defaultdict(list)
+
+        for example, response in zip(examples, responses):
+            target = int(example.get('answer', example.get('gt_answer', '0')))
+
+            # Parse <think>...</think> block
+            think_text = ""
+            if "<think>" in response and "</think>" in response:
+                think_start = response.index("<think>") + len("<think>")
+                think_end = response.index("</think>")
+                think_text = response[think_start:think_end]
+            think_length = len(think_text)
+
+            # Parse \boxed{} answer (supports comma-separated numbers like 1,234)
+            answer_value = None
+            boxed_match = re.search(r'\\boxed\{([^}]+)\}', response)
+            if boxed_match:
+                try:
+                    answer_value = int(boxed_match.group(1).replace(",", ""))
+                except (ValueError, OverflowError):
+                    pass
+
+            # Compute reward
+            correct = (answer_value is not None and answer_value == target)
+            if correct:
+                x = math.sqrt(think_length) if self.use_sqrt else think_length
+                reward = self.correctness_reward * math.exp(-x / self.length_decay)
+            else:
+                reward = self.incorrect_penalty
+
+            rewards.append(reward)
+            extra_infos['correctness'].append(float(correct))
+            extra_infos['think_length'].append(think_length)
+            extra_infos['answer_value'].append(answer_value if answer_value is not None else -1)
+
+        return rewards, dict(extra_infos)
+
+
 class MathAlphanumericPenalty(RewardFunction):
     """
     Reward for correct answers with penalty on alphanumeric characters in reasoning.
